@@ -1,0 +1,190 @@
+{
+    "type": "maven",
+    "namespace": "com.azure",
+    "name": "azure-identity",
+    "version": "1.8.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "7c134103-5333-41c1-bbbc-e2dcaebaf94e",
+            "packages": [
+                "pkg:maven/com.azure/azure-identity@1.8.0?uuid=a817d5c4-a176-410b-9490-08976f153aef",
+                "pkg:maven/com.azure/azure-identity@1.8.0?classifier=sources&uuid=c8310136-e113-4597-99ae-ba1042ec4c11",
+                "pkg:github/azure/azure-sdk-for-java@azure-identity_1.8.0?uuid=731f50cd-9b8e-4463-8c00-e0d8f8beb854"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Microsoft Azure client library for Identity\nThis module contains client library for Microsoft Azure Identity.",
+    "release_date": "2023-02-04T00:33:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Microsoft Corporation",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Microsoft Corporation",
+            "email": null,
+            "url": "http://microsoft.com"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/Azure/azure-sdk-for-java",
+    "download_url": "https://repo1.maven.org/maven2/com/azure/azure-identity/1.8.0/azure-identity-1.8.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "40dbf3b195f440539649ce36da2f17e5937399ba",
+    "sha256": "488e185b70b505badc716e050fd5749dea48327379767937b384861fb4332574",
+    "sha512": "dfaf30f9602f2fc834d561ad81d69df599a40700d6fa8a5e40e81ca6a5a75b2987527dda167a6c6c42d582487d8b6518886050d75d0b17d32b8dc13839111290",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "mit",
+    "declared_license_expression_spdx": "MIT",
+    "license_detections": [],
+    "other_license_expression": "mit AND apache-2.0",
+    "other_license_expression_spdx": "MIT AND Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.azure/azure-identity@1.8.0?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/com.azure/azure-sdk-parent@1.6.0",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/com.azure/azure-sdk-parent@1.6.0"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.azure/azure-core@1.36.0",
+            "extracted_requirement": "1.36.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.azure/azure-core-http-netty@1.13.0",
+            "extracted_requirement": "1.13.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.microsoft.azure/msal4j@1.13.4",
+            "extracted_requirement": "1.13.4",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.microsoft.azure/msal4j-persistence-extension@1.1.0",
+            "extracted_requirement": "1.1.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/net.java.dev.jna/jna-platform@5.6.0",
+            "extracted_requirement": "5.6.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit@4.13.2",
+            "extracted_requirement": "4.13.2",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.projectreactor/reactor-test@3.4.26",
+            "extracted_requirement": "3.4.26",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.google.code.gson/gson@2.9.1",
+            "extracted_requirement": "2.9.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/redis.clients/jedis@4.3.1",
+            "extracted_requirement": "4.3.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.lettuce/lettuce-core@6.2.0.RELEASE",
+            "extracted_requirement": "6.2.0.RELEASE",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.redisson/redisson@3.17.0",
+            "extracted_requirement": "3.17.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/net.bytebuddy/byte-buddy@1.12.22",
+            "extracted_requirement": "1.12.22",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.hamcrest/hamcrest@2.2",
+            "extracted_requirement": "2.2",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.mockito/mockito-inline@4.5.1",
+            "extracted_requirement": "4.5.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/com.azure/azure-identity@1.8.0?classifier=sources&uuid=c8310136-e113-4597-99ae-ba1042ec4c11",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/com.azure/azure-identity@1.8.0?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/azure/azure-identity/1.8.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/azure/azure-identity/1.8.0/azure-identity-1.8.0-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/azure/azure-identity/1.8.0/azure-identity-1.8.0.pom",
+    "file_references": []
+}

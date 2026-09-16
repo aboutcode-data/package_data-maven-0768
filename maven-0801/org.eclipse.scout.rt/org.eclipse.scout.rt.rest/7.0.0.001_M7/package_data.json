@@ -1,0 +1,72 @@
+{
+    "type": "maven",
+    "namespace": "org.eclipse.scout.rt",
+    "name": "org.eclipse.scout.rt.rest",
+    "version": "7.0.0.001_M7",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "org.eclipse.scout.rt:org.eclipse.scout.rt.rest",
+    "release_date": "2017-05-17T06:26:01Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/eclipse/scout/rt/org.eclipse.scout.rt.rest/7.0.0.001_M7/org.eclipse.scout.rt.rest-7.0.0.001_M7.jar",
+    "size": 16218,
+    "md5": null,
+    "sha1": "a934df5e9fd75257164d93b4e27f2ac5770f1717",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.eclipse.scout.rt/org.eclipse.scout.rt.rest@7.0.0.001_M7?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.eclipse.scout.rt/org.eclipse.scout.rt.platform",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.scout.rt/org.eclipse.scout.rt.jackson",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.ws.rs/javax.ws.rs-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.eclipse.scout.rt/org.eclipse.scout.rt.rest@7.0.0.001_M7?uuid=8a6d6dac-f4d0-42d1-ac93-27241e84dbda",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.eclipse.scout.rt/org.eclipse.scout.rt.rest@7.0.0.001_M7",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/eclipse/scout/rt/org.eclipse.scout.rt.rest/7.0.0.001_M7/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/eclipse/scout/rt/org.eclipse.scout.rt.rest/7.0.0.001_M7/org.eclipse.scout.rt.rest-7.0.0.001_M7.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/eclipse/scout/rt/org.eclipse.scout.rt.rest/7.0.0.001_M7/org.eclipse.scout.rt.rest-7.0.0.001_M7.pom",
+    "file_references": []
+}

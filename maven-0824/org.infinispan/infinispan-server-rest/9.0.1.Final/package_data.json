@@ -1,0 +1,104 @@
+{
+    "type": "maven",
+    "namespace": "org.infinispan",
+    "name": "infinispan-server-rest",
+    "version": "9.0.1.Final",
+    "qualifiers": "type=war",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Infinispan REST Server\nREST interface for Infinispan, packaged as a WAR file for deployment in a servlet container",
+    "release_date": "2017-05-23T10:24:37Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/infinispan/infinispan-server-rest/9.0.1.Final/infinispan-server-rest-9.0.1.Final.war",
+    "size": 14154541,
+    "md5": null,
+    "sha1": "eb31cd5ec0486552074de3e582006350601bb580",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.infinispan/infinispan-server-rest@9.0.1.Final?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.jboss.resteasy/resteasy-jaxrs",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.codehaus.jackson/jackson-mapper-asl",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.thoughtworks.xstream/xstream",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.infinispan/infinispan-server-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.servlet/servlet-api",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.testng/testng",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/commons-httpclient/commons-httpclient",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.infinispan/infinispan-server-rest@9.0.1.Final?type=war&uuid=c69b1d64-21aa-4242-a98c-ca6b1511f304",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.infinispan/infinispan-server-rest@9.0.1.Final?type=war",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/infinispan/infinispan-server-rest/9.0.1.Final/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/infinispan/infinispan-server-rest/9.0.1.Final/infinispan-server-rest-9.0.1.Final.war",
+    "api_data_url": "https://repo1.maven.org/maven2/org/infinispan/infinispan-server-rest/9.0.1.Final/infinispan-server-rest-9.0.1.Final.pom",
+    "file_references": []
+}

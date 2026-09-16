@@ -1,0 +1,72 @@
+{
+    "type": "maven",
+    "namespace": "io.quarkus",
+    "name": "quarkus-hibernate-validator-spi",
+    "version": "2.13.7.Final",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "1a060220-52a7-464f-835b-8e13db882e61",
+            "packages": [
+                "pkg:maven/io.quarkus/quarkus-hibernate-validator-spi@2.13.7.Final?uuid=a915a627-4ab9-4aa1-9597-a65c2ab948e0",
+                "pkg:maven/io.quarkus/quarkus-hibernate-validator-spi@2.13.7.Final?classifier=sources&uuid=ccf76ed5-82f8-45ee-a60c-8284ca7d15c9"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Quarkus - Hibernate Validator - SPI\nArtifact that provides BuildItems specific to Hibernate Validator",
+    "release_date": "2023-01-19T10:22:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Quarkus Community",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/quarkusio/quarkus",
+    "download_url": "https://repo1.maven.org/maven2/io/quarkus/quarkus-hibernate-validator-spi/2.13.7.Final/quarkus-hibernate-validator-spi-2.13.7.Final-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "b5098099660e48153667e85ee2fbc73dce66caaa",
+    "sha256": "d01c4668579fa7ac82e250b92fc470aca76714dfff339847667b1f847601f8a7",
+    "sha512": "1635f7ab5a2cf7b10d62f63c116dd0ca1173e3cb4856e5b3f1321ae53b0e346b9133225a5cec4ca0a21a8a94ffaf3e32e66de9b7610f9227948cea5beb235e6a",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.quarkus/quarkus-hibernate-validator-spi@2.13.7.Final?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/io.quarkus/quarkus-core-deployment",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/io.quarkus/quarkus-hibernate-validator-spi@2.13.7.Final?classifier=sources&uuid=ccf76ed5-82f8-45ee-a60c-8284ca7d15c9",
+    "datasource_id": null,
+    "purl": "pkg:maven/io.quarkus/quarkus-hibernate-validator-spi@2.13.7.Final?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

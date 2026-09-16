@@ -1,0 +1,95 @@
+{
+    "type": "maven",
+    "namespace": "com.beachape",
+    "name": "diesel-scalaz_2.12",
+    "version": "0.2.3",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "diesel-scalaz",
+    "release_date": "2017-05-18T19:27:42Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Lloyd Chan",
+            "email": null,
+            "url": "https://beachape.com"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "com.beachape",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/lloydmeta/freast",
+    "download_url": "https://repo1.maven.org/maven2/com/beachape/diesel-scalaz_2.12/0.2.3/diesel-scalaz_2.12-0.2.3.jar",
+    "size": 4147,
+    "md5": null,
+    "sha1": "e997ef8e63a66ac471666cbad2defafabd7f9e45",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "mit",
+    "declared_license_expression_spdx": "MIT",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "MIT\nhttp://opensource.org/licenses/MIT",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.beachape/diesel-scalaz_2.12@0.2.3?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.scala-lang/scala-library",
+            "extracted_requirement": "2.12.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.beachape/diesel-core_2.12",
+            "extracted_requirement": "0.2.3",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.scalaz/scalaz-core_2.12",
+            "extracted_requirement": "7.2.12",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.scalatest/scalatest_2.12",
+            "extracted_requirement": "3.2.0-SNAP4",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/com.beachape/diesel-scalaz_2.12@0.2.3?uuid=08777195-4d64-4f8a-95d4-1330d2d60ce7",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.beachape/diesel-scalaz_2.12@0.2.3",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/beachape/diesel-scalaz_2.12/0.2.3/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/beachape/diesel-scalaz_2.12/0.2.3/diesel-scalaz_2.12-0.2.3.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/beachape/diesel-scalaz_2.12/0.2.3/diesel-scalaz_2.12-0.2.3.pom",
+    "file_references": []
+}

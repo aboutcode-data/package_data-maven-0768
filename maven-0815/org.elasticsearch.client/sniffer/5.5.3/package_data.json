@@ -1,0 +1,134 @@
+{
+    "type": "maven",
+    "namespace": "org.elasticsearch.client",
+    "name": "sniffer",
+    "version": "5.5.3",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "4e86955a-e29e-473b-9717-34ee16aed239",
+            "packages": [
+                "pkg:maven/org.elasticsearch.client/sniffer@5.5.3?uuid=6b73c54e-5641-4a15-abd0-1ac0fb94a0f1",
+                "pkg:maven/org.elasticsearch.client/sniffer@5.5.3?classifier=sources&uuid=e3eb3c60-0e78-4841-b5f3-83d94bca1e13"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "sniffer\nElasticsearch subproject :client:sniffer",
+    "release_date": "2017-09-07T17:03:21Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Elastic",
+            "email": null,
+            "url": "http://www.elastic.co"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/elastic/elasticsearch",
+    "download_url": "https://repo1.maven.org/maven2/org/elasticsearch/client/sniffer/5.5.3/sniffer-5.5.3-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "101089bcaa9f52c6a7edf9f4c6786519cc5eb50f",
+    "sha256": "041cccd231bac56e48e482912d611cc3d861780b79996856640fbb370be972fd",
+    "sha512": "a15d3ece2a6936fc5c818839fc654f5748fe6fca803b12141ef2302a854644ec9248e7bb0e47b1df03552c3bbf024dff2af7d2bbd0f50d5bed57229fa1671b44",
+    "bug_tracking_url": null,
+    "code_view_url": "https://github.com/elastic/elasticsearch.git",
+    "vcs_url": "https://github.com/elastic/elasticsearch.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_40.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: The Apache Software License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 18,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_40.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-bfa9e97a-62d3-0076-c881-8443e5e95192",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: The Apache Software License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.elasticsearch.client/sniffer@5.5.3?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.elasticsearch.client/rest@5.5.3",
+            "extracted_requirement": "5.5.3",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.httpcomponents/httpclient@4.5.2",
+            "extracted_requirement": "4.5.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.httpcomponents/httpcore@4.4.5",
+            "extracted_requirement": "4.4.5",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/commons-codec/commons-codec@1.10",
+            "extracted_requirement": "1.10",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/commons-logging/commons-logging@1.1.3",
+            "extracted_requirement": "1.1.3",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.8.6",
+            "extracted_requirement": "2.8.6",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.elasticsearch.client/sniffer@5.5.3?classifier=sources&uuid=e3eb3c60-0e78-4841-b5f3-83d94bca1e13",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.elasticsearch.client/sniffer@5.5.3?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/elasticsearch/client/sniffer/5.5.3/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/elasticsearch/client/sniffer/5.5.3/sniffer-5.5.3-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/elasticsearch/client/sniffer/5.5.3/sniffer-5.5.3.pom",
+    "file_references": []
+}

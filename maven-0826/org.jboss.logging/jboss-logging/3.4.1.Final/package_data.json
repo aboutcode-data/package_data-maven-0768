@@ -1,0 +1,147 @@
+{
+    "type": "maven",
+    "namespace": "org.jboss.logging",
+    "name": "jboss-logging",
+    "version": "3.4.1.Final",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "6a9d1864-d78a-4bcd-be39-69c4c8106675",
+            "packages": [
+                "pkg:maven/org.jboss.logging/jboss-logging@3.4.1.Final?uuid=e7204db3-7ab0-4d03-8434-4d1646846e11",
+                "pkg:maven/org.jboss.logging/jboss-logging@3.4.1.Final?classifier=sources&uuid=818983f7-d952-4862-b256-c4872f333bd1"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "JBoss Logging 3\nThe JBoss Logging Framework",
+    "release_date": "2019-08-07T15:08:25Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "JBoss.org Community",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "JBoss by Red Hat",
+            "email": null,
+            "url": "http://www.jboss.org"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.jboss.org",
+    "download_url": "https://repo1.maven.org/maven2/org/jboss/logging/jboss-logging/3.4.1.Final/jboss-logging-3.4.1.Final-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "4d6248596305dc87ac99451b9c234dba37eac15d",
+    "sha256": "8606e31150aa5370ab2ed79e21d13a9c0ba029380abf273a6bce15c92c2bce23",
+    "sha512": "b24fc9e3e863676d7056883651d014a25fcc5ee7cfc5786fb03e299a22bc646495507570496efb9397975f19b63ab11aa42c2ee523676acdd1537e6cba21c0d5",
+    "bug_tracking_url": null,
+    "code_view_url": "https://github.com/jboss-logging/jboss-logging",
+    "vcs_url": "git://github.com/jboss-logging/jboss-logging.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_48.RULE",
+                    "start_line": 1,
+                    "matched_text": "Apache License, version 2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 5,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_48.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-428c1364-ecb5-f806-7a2e-77d10737a7ce",
+            "license_expression": "apache-2.0"
+        },
+        {
+            "matches": [
+                {
+                    "score": 80.0,
+                    "matcher": "1-hash",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_42.RULE",
+                    "start_line": 1,
+                    "matched_text": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 9,
+                    "rule_relevance": 80,
+                    "rule_identifier": "apache-2.0_42.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-e6b67d43-b657-21c0-8d8b-17f617aef8ce",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Apache License, version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt\n  comments:\n  distribution: repo\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.jboss.logging/jboss-logging@3.4.1.Final?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.jboss/jboss-parent@34"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.jboss.logmanager/jboss-logmanager@2.1.9.Final",
+            "extracted_requirement": "2.1.9.Final",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/log4j/log4j@1.2.16",
+            "extracted_requirement": "1.2.16",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.logging.log4j/log4j-api@2.11.2",
+            "extracted_requirement": "2.11.2",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-api@1.7.25",
+            "extracted_requirement": "1.7.25",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.jboss.logging/jboss-logging@3.4.1.Final?classifier=sources&uuid=818983f7-d952-4862-b256-c4872f333bd1",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.jboss.logging/jboss-logging@3.4.1.Final?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/jboss/logging/jboss-logging/3.4.1.Final/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/jboss/logging/jboss-logging/3.4.1.Final/jboss-logging-3.4.1.Final-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/jboss/logging/jboss-logging/3.4.1.Final/jboss-logging-3.4.1.Final.pom",
+    "file_references": []
+}

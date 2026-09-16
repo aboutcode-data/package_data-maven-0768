@@ -1,0 +1,97 @@
+{
+    "type": "maven",
+    "namespace": "org.checkerframework",
+    "name": "jdk8",
+    "version": "1.8.6",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Annotated JDK 8\nAnnotated JDK 8 consists of bytecode implementing the Open JDK Java 8 api\n        annotated with Checker Framework annotations.  Method implementations\n        in this file are empty.  This file should only be compiled\n        against and should never be placed on the runtime classpath of a\n        compiled program.",
+    "release_date": "2014-09-25T19:07:41Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Michael Ernst",
+            "email": "mernst@cs.washington.edu",
+            "url": "http://homes.cs.washington.edu/~mernst/"
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Werner M. Dietl",
+            "email": "wdietl@uwaterloo.ca",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Suzanne Millstein",
+            "email": "smillst@cs.washington.edu",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "David McArthur",
+            "email": "mcarthur@cs.washington.edu",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "David McArthur",
+            "email": "jthaine@cs.washington.edu",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Dan Brown",
+            "email": "dbro@cs.washington.edu",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Jonathan G. Burke",
+            "email": "jburke@cs.washington.edu",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://checkerframework.org",
+    "download_url": "https://repo1.maven.org/maven2/org/checkerframework/jdk8/1.8.6/jdk8-1.8.6.jar",
+    "size": 289942,
+    "md5": null,
+    "sha1": "326ad2f675c428058e93c269f91fd45f72d3bafd",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "gpl-2.0 WITH classpath-exception-2.0 AND classpath-exception-2.0 AND unknown",
+    "declared_license_expression_spdx": "GPL-2.0-only WITH Classpath-exception-2.0 AND Classpath-exception-2.0 AND LicenseRef-scancode-unknown",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "GNU General Public License, version 2 (GPL2), with the classpath exception\nhttp://www.gnu.org/software/classpath/license.html",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.checkerframework/jdk8@1.8.6?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [],
+    "package_uid": "pkg:maven/org.checkerframework/jdk8@1.8.6?uuid=fbf640f7-7f38-4e06-b813-d88935dba6ba",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.checkerframework/jdk8@1.8.6",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/checkerframework/jdk8/1.8.6/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/checkerframework/jdk8/1.8.6/jdk8-1.8.6.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/checkerframework/jdk8/1.8.6/jdk8-1.8.6.pom",
+    "file_references": []
+}

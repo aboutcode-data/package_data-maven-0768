@@ -1,0 +1,80 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.xmlgraphics",
+    "name": "batik-test",
+    "version": "1.10",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "48f739cc-a304-4862-b6ff-d83cde6f69e3",
+            "packages": [
+                "pkg:maven/org.apache.xmlgraphics/batik-test@1.10?uuid=113e2dbf-4af6-4746-ad22-6c95328dbda0",
+                "pkg:maven/org.apache.xmlgraphics/batik-test@1.10?classifier=sources&uuid=d532533e-46c6-4090-9df6-5da785efba38"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "org.apache.xmlgraphics:batik-test\nBatik Test Harness",
+    "release_date": "2018-05-11T14:02:22Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Apache Software Foundation",
+            "email": null,
+            "url": "http://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://xmlgraphics.apache.org/batik/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-test/1.10/batik-test-1.10-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "652ccf586ed37b637909f57dc195ac40775cd572",
+    "sha256": "90dc5f1159b23d9d4fce46a3f20eb7cdd93ea5100abb90aa07b1a7e2fce41e61",
+    "sha512": "7023e12414df65b6d7fa89f730c2b650c83f449173c5cf398ead9420077be6ef1973558ccaff37df656ea276a58edeed38b7446e93e2ac7844019da366e7cf53",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) The Apache Software Foundation",
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.xmlgraphics/batik-test@1.10?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.xmlgraphics/batik-constants@1.10",
+            "extracted_requirement": "1.10",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.xmlgraphics/batik-i18n@1.10",
+            "extracted_requirement": "1.10",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.xmlgraphics/batik-test@1.10?classifier=sources&uuid=d532533e-46c6-4090-9df6-5da785efba38",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.apache.xmlgraphics/batik-test@1.10?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-test/1.10/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-test/1.10/batik-test-1.10-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-test/1.10/batik-test-1.10.pom",
+    "file_references": []
+}

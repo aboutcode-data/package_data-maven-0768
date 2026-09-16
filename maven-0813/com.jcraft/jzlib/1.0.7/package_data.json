@@ -1,0 +1,88 @@
+{
+    "type": "maven",
+    "namespace": "com.jcraft",
+    "name": "jzlib",
+    "version": "1.0.7",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "a03240ea-785d-4597-999b-960644e92f79",
+            "packages": [
+                "pkg:maven/com.jcraft/jzlib@1.0.7?uuid=30e88ed3-a880-4bf3-9804-683c0bda72af",
+                "pkg:maven/com.jcraft/jzlib@1.0.7?classifier=sources&uuid=d31170f5-6437-404e-b857-9fb98af1823f"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "JZlib\nJZlib is a re-implementation of zlib in pure Java",
+    "release_date": "2006-04-21T20:55:50Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "jcraft",
+            "email": null,
+            "url": "http://www.jcraft.com/jsch"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.jcraft.com/jzlib/",
+    "download_url": "https://repo1.maven.org/maven2/com/jcraft/jzlib/1.0.7/jzlib-1.0.7-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "e7c2bb6f07e66a7cfb1112100464cc0cdd166ee0",
+    "sha256": "3ffa036c377e76370609ebdcfb25c13a764e4e1a16f109c87599f121aa5b85bf",
+    "sha512": "b133f3153c67796e3b82a03438fe0af234b345adf3f66b6505e56807e1094cc41d4d14263af78f7c21fc235a88901d7d92bc82b4309298ae0765babbe40b0b49",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "bsd-new",
+    "declared_license_expression_spdx": "BSD-3-Clause",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 55.0,
+                    "matcher": "1-hash",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/bsd-new_1301.RULE",
+                    "from_file": null,
+                    "start_line": 1,
+                    "matched_text": "- name: BSD\n  url: http://www.jcraft.com/jzlib/LICENSE.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 10,
+                    "rule_relevance": 55,
+                    "rule_identifier": "bsd-new_1301.RULE",
+                    "license_expression": "bsd-new",
+                    "spdx_license_expression": "BSD-3-Clause"
+                }
+            ],
+            "identifier": "bsd_new-7237f867-f58f-36ed-74cb-dd812acc76b3",
+            "license_expression": "bsd-new",
+            "license_expression_spdx": "BSD-3-Clause"
+        }
+    ],
+    "other_license_expression": "bsd-new AND zlib",
+    "other_license_expression_spdx": "BSD-3-Clause AND Zlib",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: BSD\n  url: http://www.jcraft.com/jzlib/LICENSE.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.jcraft/jzlib@1.0.7?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [],
+    "package_uid": "pkg:maven/com.jcraft/jzlib@1.0.7?classifier=sources&uuid=d31170f5-6437-404e-b857-9fb98af1823f",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/com.jcraft/jzlib@1.0.7?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/jcraft/jzlib/1.0.7/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/jcraft/jzlib/1.0.7/jzlib-1.0.7-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/jcraft/jzlib/1.0.7/jzlib-1.0.7.pom",
+    "file_references": []
+}

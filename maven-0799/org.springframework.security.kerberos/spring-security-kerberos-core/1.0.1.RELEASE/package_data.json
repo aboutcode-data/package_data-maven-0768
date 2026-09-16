@@ -1,0 +1,134 @@
+{
+    "type": "maven",
+    "namespace": "org.springframework.security.kerberos",
+    "name": "spring-security-kerberos-core",
+    "version": "1.0.1.RELEASE",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "833d6aea-bd05-4257-9304-c7d6949a18b2",
+            "packages": [
+                "pkg:maven/org.springframework.security.kerberos/spring-security-kerberos-core@1.0.1.RELEASE?uuid=f9863a7d-61f8-4717-8d2b-c00fb6a15ebf",
+                "pkg:maven/org.springframework.security.kerberos/spring-security-kerberos-core@1.0.1.RELEASE?classifier=sources&uuid=14351990-a89e-4010-99f3-b425b55332a8",
+                "pkg:github/spring-projects/spring-security-kerberos@1.0.1.RELEASE?uuid=e169da7c-05f9-4213-82cb-356b87ec163e"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Spring Security Kerberos Core",
+    "release_date": "2015-07-23T20:15:56Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Mike Wiesner",
+            "email": "mwiesner@vmware.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Janne Valkealahti",
+            "email": "jvalkealahti@pivotal.io",
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "SpringSource",
+            "email": null,
+            "url": "http://projects.spring.io/spring-security-kerberos/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://projects.spring.io/spring-security-kerberos",
+    "download_url": "https://repo1.maven.org/maven2/org/springframework/security/kerberos/spring-security-kerberos-core/1.0.1.RELEASE/spring-security-kerberos-core-1.0.1.RELEASE-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "33d534b57377fc3365fdab64930616ceba0b5746",
+    "sha256": "c006f313b8780464982ebd08fd222c9485eabd62d0fa14bdc08574789192753e",
+    "sha512": "6a5846b7970458f294c2cb6c85f3b7b0b9dc767e4ca22326bff2aab28c434551282d3d7f2feb618aef4124faaf0d1a712c9ed08d110985ce0d669deee6d7c232",
+    "bug_tracking_url": null,
+    "code_view_url": "https://github.com/SpringSource/spring-security-kerberos",
+    "vcs_url": "git://github.com/SpringSource/spring-security-kerberos",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_5.RULE",
+                    "start_line": 1,
+                    "matched_text": "The Apache Software License, Version 2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 7,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_5.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-daaaee76-1395-c8c8-e06a-3f3f76e079b1",
+            "license_expression": "apache-2.0"
+        },
+        {
+            "matches": [
+                {
+                    "score": 80.0,
+                    "matcher": "1-hash",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_42.RULE",
+                    "start_line": 1,
+                    "matched_text": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 9,
+                    "rule_relevance": 80,
+                    "rule_identifier": "apache-2.0_42.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-e6b67d43-b657-21c0-8d8b-17f617aef8ce",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: The Apache Software License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt\n  comments:\n  distribution: repo\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.springframework.security.kerberos/spring-security-kerberos-core@1.0.1.RELEASE?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.springframework/spring-core@4.1.6.RELEASE",
+            "extracted_requirement": "4.1.6.RELEASE",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.springframework.security/spring-security-core@3.2.7.RELEASE",
+            "extracted_requirement": "3.2.7.RELEASE",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.springframework.security.kerberos/spring-security-kerberos-core@1.0.1.RELEASE?classifier=sources&uuid=14351990-a89e-4010-99f3-b425b55332a8",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.springframework.security.kerberos/spring-security-kerberos-core@1.0.1.RELEASE?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/springframework/security/kerberos/spring-security-kerberos-core/1.0.1.RELEASE/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/springframework/security/kerberos/spring-security-kerberos-core/1.0.1.RELEASE/spring-security-kerberos-core-1.0.1.RELEASE-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/springframework/security/kerberos/spring-security-kerberos-core/1.0.1.RELEASE/spring-security-kerberos-core-1.0.1.RELEASE.pom",
+    "file_references": []
+}

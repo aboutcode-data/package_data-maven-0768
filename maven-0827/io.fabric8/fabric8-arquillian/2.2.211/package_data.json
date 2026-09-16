@@ -1,0 +1,232 @@
+{
+    "type": "maven",
+    "namespace": "io.fabric8",
+    "name": "fabric8-arquillian",
+    "version": "2.2.211",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Fabric8 :: Arquillian Extension",
+    "release_date": "2017-05-26T09:44:17Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/io/fabric8/fabric8-arquillian/2.2.211/fabric8-arquillian-2.2.211.jar",
+    "size": 93523,
+    "md5": null,
+    "sha1": "6e9b5c196da6908cbe61d135c17edd1791b38045",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.fabric8/fabric8-arquillian@2.2.211?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/io.fabric8/fabric8-annotations",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.fabric8/kubernetes-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.fabric8/openshift-client",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.fabric8/kubernetes-assertions",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.fabric8/jolokia-assertions",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.fabric8/kubernetes-jolokia",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.fabric8/fabric8-utils",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.fabric8/fabric8-devops",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.ops4j.pax.url/pax-url-aether",
+            "extracted_requirement": "${pax.url.version}",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.fusesource.jansi/jansi",
+            "extracted_requirement": "${jansi.version}",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.arquillian.junit/arquillian-junit-container",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.arquillian.container/arquillian-container-spi",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.arquillian.container/arquillian-container-test-spi",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.arquillian.test/arquillian-test-impl-base",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.shrinkwrap.resolver/shrinkwrap-resolver-depchain",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.codehaus.plexus/plexus-utils",
+            "extracted_requirement": "3.0.15",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/xml-apis/xml-apis",
+            "extracted_requirement": "1.4.01",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.enterprise/cdi-api",
+            "extracted_requirement": "1.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.fabric8/openshift-client",
+            "extracted_requirement": "${kubernetes-client.version}",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.fabric8/kubernetes-client",
+            "extracted_requirement": "${kubernetes-client.version}",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.fabric8/mockwebserver",
+            "extracted_requirement": "${mockwebserver.version}",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/io.fabric8/fabric8-arquillian@2.2.211?uuid=07a11408-92d3-407f-aa40-353140e1ba11",
+    "datasource_id": null,
+    "purl": "pkg:maven/io.fabric8/fabric8-arquillian@2.2.211",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/io/fabric8/fabric8-arquillian/2.2.211/",
+    "repository_download_url": "https://repo1.maven.org/maven2/io/fabric8/fabric8-arquillian/2.2.211/fabric8-arquillian-2.2.211.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/io/fabric8/fabric8-arquillian/2.2.211/fabric8-arquillian-2.2.211.pom",
+    "file_references": []
+}

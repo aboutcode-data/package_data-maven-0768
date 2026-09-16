@@ -1,0 +1,145 @@
+{
+    "type": "maven",
+    "namespace": "com.github.spullara.mustache.java",
+    "name": "compiler",
+    "version": "0.8.13",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "3256fd74-f5ac-48c8-bfa6-576bf8f951ce",
+            "packages": [
+                "pkg:maven/com.github.spullara.mustache.java/compiler@0.8.13?uuid=71c0c658-5df8-4ffc-a07e-3d1ff7f00db0",
+                "pkg:maven/com.github.spullara.mustache.java/compiler@0.8.13?classifier=sources&uuid=188616e6-05fc-4ef8-8dd1-82cebaff5b2b"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "compiler\nImplementation of mustache.js for Java",
+    "release_date": "2013-07-01T00:49:01Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Sam Pullara",
+            "email": "sam@sampullara.com",
+            "url": "http://www.javarants.com"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://github.com/spullara/mustache.java",
+    "download_url": "https://repo1.maven.org/maven2/com/github/spullara/mustache/java/compiler/0.8.13/compiler-0.8.13-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "55ed64b30924dd6ace195bd46137f909684d21f7",
+    "sha256": "ba6625bca86ef0fb461835d72b73b3c703be3d4dfef106bb5ec483348d6a3c21",
+    "sha512": "6bbe68d619a2889d0ec437ca787a52ace53e6ec2c61e08059d2f08a0d3f6b4247d1960959ccbd1797a02a768548e48d5412965041f143742bde22415ad61e85b",
+    "bug_tracking_url": null,
+    "code_view_url": "http://github.com/spullara/mustache.java",
+    "vcs_url": "git://github.com/spullara/mustache.java.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_1039.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: Apache License 2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 5,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_1039.RULE",
+                    "license_expression": "apache-2.0"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_25.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.apache.org/licenses/LICENSE-2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 8,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_25.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-c705c0f5-4af6-3fee-216e-e973c6cf11ed",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Apache License 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.github.spullara.mustache.java/compiler@0.8.13?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.google.guava/guava@13.0.1",
+            "extracted_requirement": "13.0.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.scala-lang/scala-library@2.8.1",
+            "extracted_requirement": "2.8.1",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.twitter/util-core@4.0.0",
+            "extracted_requirement": "4.0.0",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.jruby/jruby@1.6.7",
+            "extracted_requirement": "1.6.7",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit@4.8.2",
+            "extracted_requirement": "4.8.2",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.codehaus.jackson/jackson-mapper-asl@1.9.3",
+            "extracted_requirement": "1.9.3",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/com.github.spullara.mustache.java/compiler@0.8.13?classifier=sources&uuid=188616e6-05fc-4ef8-8dd1-82cebaff5b2b",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.github.spullara.mustache.java/compiler@0.8.13?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/github/spullara/mustache/java/compiler/0.8.13/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/github/spullara/mustache/java/compiler/0.8.13/compiler-0.8.13-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/github/spullara/mustache/java/compiler/0.8.13/compiler-0.8.13.pom",
+    "file_references": []
+}

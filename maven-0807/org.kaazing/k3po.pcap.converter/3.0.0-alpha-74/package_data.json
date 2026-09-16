@@ -1,0 +1,96 @@
+{
+    "type": "maven",
+    "namespace": "org.kaazing",
+    "name": "k3po.pcap.converter",
+    "version": "3.0.0-alpha-74",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "K3po TCP Dump Converter\nUtility for converting pcap into k3po scripts",
+    "release_date": "2017-05-26T18:46:22Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": "https://github.com/kaazing/k3po.pcap.converter",
+    "download_url": "https://repo1.maven.org/maven2/org/kaazing/k3po.pcap.converter/3.0.0-alpha-74/k3po.pcap.converter-3.0.0-alpha-74.jar",
+    "size": 73484,
+    "md5": null,
+    "sha1": "683aaecedd3284fe53aaa0ae2189b30634adc026",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.kaazing/k3po.pcap.converter@3.0.0-alpha-74?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/commons-io/commons-io",
+            "extracted_requirement": "2.1",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/commons-lang/commons-lang",
+            "extracted_requirement": "2.1",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jmock/jmock",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jmock/jmock-legacy",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/pull-parser/pull-parser",
+            "extracted_requirement": "2.1.10",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.kaazing/k3po.pcap.converter@3.0.0-alpha-74?uuid=412e5f63-6c1c-44c5-b106-e16f1d709856",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.kaazing/k3po.pcap.converter@3.0.0-alpha-74",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/kaazing/k3po.pcap.converter/3.0.0-alpha-74/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/kaazing/k3po.pcap.converter/3.0.0-alpha-74/k3po.pcap.converter-3.0.0-alpha-74.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/kaazing/k3po.pcap.converter/3.0.0-alpha-74/k3po.pcap.converter-3.0.0-alpha-74.pom",
+    "file_references": []
+}

@@ -1,0 +1,80 @@
+{
+    "type": "maven",
+    "namespace": "uk.gov.gchq.gaffer",
+    "name": "store",
+    "version": "0.7.2",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": null,
+    "release_date": "2017-05-22T16:22:52Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/uk/gov/gchq/gaffer/store/0.7.2/store-0.7.2.jar",
+    "size": 113725,
+    "md5": null,
+    "sha1": "eeb9a997c68edac4f8142b01085a38eaafa680d1",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/uk.gov.gchq.gaffer/store@0.7.2?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/uk.gov.gchq.gaffer/data",
+            "extracted_requirement": "0.7.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/uk.gov.gchq.gaffer/operation",
+            "extracted_requirement": "0.7.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/uk.gov.gchq.gaffer/common-util",
+            "extracted_requirement": "0.7.2",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/uk.gov.gchq.gaffer/data",
+            "extracted_requirement": "0.7.2",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/uk.gov.gchq.gaffer/store@0.7.2?uuid=8e7ba965-40b7-48e5-864e-83aba9ca0b69",
+    "datasource_id": null,
+    "purl": "pkg:maven/uk.gov.gchq.gaffer/store@0.7.2",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/uk/gov/gchq/gaffer/store/0.7.2/",
+    "repository_download_url": "https://repo1.maven.org/maven2/uk/gov/gchq/gaffer/store/0.7.2/store-0.7.2.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/uk/gov/gchq/gaffer/store/0.7.2/store-0.7.2.pom",
+    "file_references": []
+}

@@ -1,0 +1,244 @@
+{
+    "type": "maven",
+    "namespace": "com.github.java-json-tools",
+    "name": "json-schema-validator",
+    "version": "2.2.14",
+    "qualifiers": "classifier=sources&type=jar",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "c58c0b97-f5a5-4b0f-b34a-1f78531c5e6e",
+            "packages": [
+                "pkg:maven/com.github.java-json-tools/json-schema-validator@2.2.14?type=jar&uuid=19aebbac-11eb-4d2d-8d04-d53762669fb6",
+                "pkg:maven/com.github.java-json-tools/json-schema-validator@2.2.14?classifier=sources&type=jar&uuid=f678e893-d42e-4145-a987-d2aa45fdf9ca"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "json-schema-validator\nA Java implementation of the JSON Schema specification",
+    "release_date": "2020-05-27T16:31:40Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "John Huffaker",
+            "email": "jhuffaker+java-json-tools@gmail.com",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/java-json-tools/json-schema-validator",
+    "download_url": "https://repo1.maven.org/maven2/com/github/java-json-tools/json-schema-validator/2.2.14/json-schema-validator-2.2.14-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "6d85613975d15d37f8c23a11d82803548733a794",
+    "sha256": "f8b90da05f849f57636bf8be399eab4869985f4067d5baad92758a6e5c2c9078",
+    "sha512": "b21662cddb5cbbbbcf54bcef9e42edef4ac799de1c66b9f82737e33cb74a19bb57945f0270d8d87d8b30b77a5fd4503413a3636d15edd3967640e73767127977",
+    "bug_tracking_url": null,
+    "code_view_url": "https://github.com/java-json-tools/json-schema-validator.git",
+    "vcs_url": "git@github.com:java-json-tools/json-schema-validator.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "(lgpl-2.1-plus AND gpl-3.0 AND lgpl-2.0-plus) AND apache-2.0",
+    "declared_license_expression_spdx": "(LGPL-2.1-or-later AND GPL-3.0-only AND LGPL-2.0-or-later) AND Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1-plus_162.RULE",
+                    "from_file": null,
+                    "start_line": 1,
+                    "matched_text": "name: Lesser General Public License, version 3 or greater",
+                    "match_coverage": 100.0,
+                    "matched_length": 4,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1-plus_162.RULE",
+                    "license_expression": "lgpl-2.1-plus",
+                    "license_expression_spdx": "LGPL-2.1-or-later"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/gpl-3.0_88.RULE",
+                    "from_file": null,
+                    "start_line": 1,
+                    "matched_text": "name: Lesser General Public License, version 3 or greater",
+                    "match_coverage": 100.0,
+                    "matched_length": 5,
+                    "rule_relevance": 100,
+                    "rule_identifier": "gpl-3.0_88.RULE",
+                    "license_expression": "gpl-3.0",
+                    "license_expression_spdx": "GPL-3.0-only"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl_3.RULE",
+                    "from_file": null,
+                    "start_line": 2,
+                    "matched_text": "url: http://www.gnu.org/licenses/lgpl.html",
+                    "match_coverage": 100.0,
+                    "matched_length": 7,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl_3.RULE",
+                    "license_expression": "lgpl-2.0-plus",
+                    "license_expression_spdx": "LGPL-2.0-or-later"
+                }
+            ],
+            "identifier": "lgpl_2_1_plus_and_gpl_3_0_and_lgpl_2_0_plus-24074501-3a98-284b-ff5f-8530d4a66361",
+            "license_expression": "lgpl-2.1-plus AND gpl-3.0 AND lgpl-2.0-plus",
+            "license_expression_spdx": "LGPL-2.1-or-later AND GPL-3.0-only AND LGPL-2.0-or-later"
+        },
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_220.RULE",
+                    "from_file": null,
+                    "start_line": 1,
+                    "matched_text": "name: Apache Software License, version 2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 6,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_220.RULE",
+                    "license_expression": "apache-2.0",
+                    "license_expression_spdx": "Apache-2.0"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_25.RULE",
+                    "from_file": null,
+                    "start_line": 2,
+                    "matched_text": "url: http://www.apache.org/licenses/LICENSE-2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 8,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_25.RULE",
+                    "license_expression": "apache-2.0",
+                    "license_expression_spdx": "Apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-156e761f-c962-1080-1904-0826d4b8932f",
+            "license_expression": "apache-2.0",
+            "license_expression_spdx": "Apache-2.0"
+        }
+    ],
+    "other_license_expression": "(gpl-1.0-plus AND lgpl-3.0 AND apache-2.0) AND (lgpl-3.0 AND apache-2.0) AND (lgpl-2.1-plus AND lgpl-3.0 AND apache-2.0) AND apache-2.0 AND lgpl-3.0",
+    "other_license_expression_spdx": "(GPL-1.0-or-later AND LGPL-3.0-only AND Apache-2.0) AND (LGPL-3.0-only AND Apache-2.0) AND (LGPL-2.1-or-later AND LGPL-3.0-only AND Apache-2.0) AND Apache-2.0 AND LGPL-3.0-only",
+    "other_license_detections": [],
+    "extracted_license_statement": "- license:\n    name: Lesser General Public License, version 3 or greater\n    url: http://www.gnu.org/licenses/lgpl.html\n- license:\n    name: Apache Software License, version 2.0\n    url: http://www.apache.org/licenses/LICENSE-2.0\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.github.java-json-tools/json-schema-validator@2.2.14?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.google.guava/guava@28.2-android",
+            "extracted_requirement": "28.2-android",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.github.java-json-tools/jackson-coreutils-equivalence@1.0",
+            "extracted_requirement": "1.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.github.java-json-tools/json-schema-core@1.2.14",
+            "extracted_requirement": "1.2.14",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.sun.mail/mailapi@1.6.2",
+            "extracted_requirement": "1.6.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/joda-time/joda-time@2.10.5",
+            "extracted_requirement": "2.10.5",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.googlecode.libphonenumber/libphonenumber@8.11.1",
+            "extracted_requirement": "8.11.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.google.code.findbugs/jsr305@3.0.2",
+            "extracted_requirement": "3.0.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/net.sf.jopt-simple/jopt-simple@5.0.4",
+            "extracted_requirement": "5.0.4",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.testng/testng@7.1.0",
+            "extracted_requirement": "7.1.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.mockito/mockito-core@2.28.2",
+            "extracted_requirement": "2.28.2",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.assertj/assertj-core@2.9.1",
+            "extracted_requirement": "2.9.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/com.github.java-json-tools/json-schema-validator@2.2.14?classifier=sources&type=jar&uuid=f678e893-d42e-4145-a987-d2aa45fdf9ca",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/com.github.java-json-tools/json-schema-validator@2.2.14?classifier=sources&type=jar",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/github/java-json-tools/json-schema-validator/2.2.14/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/github/java-json-tools/json-schema-validator/2.2.14/json-schema-validator-2.2.14-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/github/java-json-tools/json-schema-validator/2.2.14/json-schema-validator-2.2.14.pom",
+    "file_references": []
+}

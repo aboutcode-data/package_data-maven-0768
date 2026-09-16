@@ -1,0 +1,72 @@
+{
+    "type": "maven",
+    "namespace": "com.amazonaws",
+    "name": "aws-java-sdk-directconnect",
+    "version": "1.11.131",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "AWS Java SDK for AWS Direct Connect\nThe AWS Java SDK for AWS Direct Connect module holds the client classes that are used for communicating with AWS Direct Connect Service",
+    "release_date": "2017-05-18T00:31:07Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": "https://aws.amazon.com/sdkforjava",
+    "download_url": "https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-directconnect/1.11.131/aws-java-sdk-directconnect-1.11.131.jar",
+    "size": 530586,
+    "md5": null,
+    "sha1": "9f11d4dfb3219ccd41f7efbcf4ff5e49ecbd9a52",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.amazonaws/aws-java-sdk-directconnect@1.11.131?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.amazonaws/aws-java-sdk-core",
+            "extracted_requirement": "${awsjavasdk.version}",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.amazonaws/jmespath-java",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.amazonaws/aws-java-sdk-test-utils",
+            "extracted_requirement": "${awsjavasdk.version}",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/com.amazonaws/aws-java-sdk-directconnect@1.11.131?uuid=3c46d6df-c2f5-41ee-831c-a3c29d842eb1",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.amazonaws/aws-java-sdk-directconnect@1.11.131",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-directconnect/1.11.131/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-directconnect/1.11.131/aws-java-sdk-directconnect-1.11.131.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-directconnect/1.11.131/aws-java-sdk-directconnect-1.11.131.pom",
+    "file_references": []
+}

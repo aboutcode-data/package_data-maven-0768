@@ -1,0 +1,88 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.maven.shared",
+    "name": "maven-invoker",
+    "version": "2.1.1",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "0123e5bc-3560-44a4-a608-bdd31eb5b9f3",
+            "packages": [
+                "pkg:maven/org.apache.maven.shared/maven-invoker@2.1.1?uuid=b7e2404b-d7a1-4af6-ae16-a595a3302bcf",
+                "pkg:maven/org.apache.maven.shared/maven-invoker@2.1.1?classifier=sources&uuid=3a49f443-1a7b-4553-882d-e048d7aa67df"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Maven Invoker\nA component to programmatically invoke Maven.",
+    "release_date": "2012-11-08T22:32:52Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Lucien Weller",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.apache.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/maven/shared/maven-invoker/2.1.1/maven-invoker-2.1.1-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "1fe55f8f3bef6fe130d996069b5a41293e06cd3c",
+    "sha256": "93dde351ea4384303ac30264657f05e6d590b4156e00a9c1538e55dfb6854296",
+    "sha512": "2736cc172cb43899d48803c638d4d017ebd336d64401633936bd9923615d355df774b289e6400022b78aacfdb52579e5a04f3425a04e51737aa789539124c752",
+    "bug_tracking_url": "http://jira.codehaus.org/browse/MSHARED/component/13271",
+    "code_view_url": "http://svn.apache.org/viewvc/maven/shared/tags/maven-invoker-2.1.1",
+    "vcs_url": "svn+http://svn.apache.org/repos/asf/maven/shared/tags/maven-invoker-2.1.1",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.maven.shared/maven-invoker@2.1.1?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.codehaus.plexus/plexus-utils@3.0.8",
+            "extracted_requirement": "3.0.8",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.codehaus.plexus/plexus-component-annotations@1.5.5",
+            "extracted_requirement": "1.5.5",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit@3.8.2",
+            "extracted_requirement": "3.8.2",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.maven.shared/maven-invoker@2.1.1?classifier=sources&uuid=3a49f443-1a7b-4553-882d-e048d7aa67df",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.apache.maven.shared/maven-invoker@2.1.1?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/maven/shared/maven-invoker/2.1.1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/maven/shared/maven-invoker/2.1.1/maven-invoker-2.1.1-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/maven/shared/maven-invoker/2.1.1/maven-invoker-2.1.1.pom",
+    "file_references": []
+}

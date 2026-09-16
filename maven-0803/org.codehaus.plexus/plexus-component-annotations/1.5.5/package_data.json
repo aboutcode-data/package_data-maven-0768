@@ -1,0 +1,217 @@
+{
+    "type": "maven",
+    "namespace": "org.codehaus.plexus",
+    "name": "plexus-component-annotations",
+    "version": "1.5.5",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "5b7b7bce-8840-45f5-a91b-47356c89317e",
+            "packages": [
+                "pkg:maven/org.codehaus.plexus/plexus-component-annotations@1.5.5?uuid=c0651d09-508a-4e01-a605-4e5d2694d078",
+                "pkg:maven/org.codehaus.plexus/plexus-component-annotations@1.5.5?classifier=sources&uuid=7809281a-3d15-49f5-849b-a1091e3d4ffa"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Plexus :: Component Annotations\nPlexus Component \"Java 5\" Annotations, to describe plexus components properties in java sources with\n    standard annotations instead of javadoc annotations.",
+    "release_date": "2010-09-30T20:15:02Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Jason van Zyl",
+            "email": "jason@maven.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Pete Kazmier",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "James Taylor",
+            "email": "james@jamestaylor.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Dan Diephouse",
+            "email": "dan@envoisolutions.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Kasper Nielsen",
+            "email": "apache@kav.dk",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Ben Walding",
+            "email": "bwalding@codehaus.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Mark Wilkinson",
+            "email": "mhw@kremvax.net",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Michal Maczka",
+            "email": "mmaczka@interia.pl",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Emmanuel Venisse",
+            "email": "evenisse@codehaus.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Trygve Laugst\u00c3\u00b8l",
+            "email": "trygvis@codehaus.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Kenney Westerhof",
+            "email": "kenney@codehaus.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Carlos Sanchez",
+            "email": "carlos@codehaus.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Brett Porter",
+            "email": "brett@codehaus.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "John Casey",
+            "email": "jdcasey@codehaus.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Andrew Williams",
+            "email": "andy@handyande.co.uk",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Rahul Thakur",
+            "email": "rahul.thakur.xdev@gmail.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Joakim Erdfelt",
+            "email": "joakim@erdfelt.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Olivier Lamy",
+            "email": "olamy@codehaus.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Herv\u00c3\u00a9 Boutemy",
+            "email": "hboutemy@codehaus.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Oleg Gusakov",
+            "email": "olegy@codehaus.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Vincent Siveton",
+            "email": "vsiveton@codehaus.org",
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Codehaus",
+            "email": null,
+            "url": "http://www.codehaus.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://plexus.codehaus.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "b10462efcf1ac1915797958d479c724d1bd5008d",
+    "sha256": "527768d357304e0ad56b74ca77f27ba28b4a456680450ef45a30bfaf613469e6",
+    "sha512": "3a64b4b849fc0d7c109d9b821997e8e2dee5132e17c1d30f37881aee33c05ea288062b7e18bbc029b2f70e30562e0b5c447ab2c976a06ad6d2eda16a0242bbe9",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.codehaus.plexus/plexus-component-annotations@1.5.5?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.codehaus.plexus/plexus@2.0.7",
+            "Field `homepage_url` has been updated using values obtained from the parent POM pkg:maven/org.codehaus.plexus/plexus@2.0.7",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.codehaus.plexus/plexus@2.0.7"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [],
+    "package_uid": "pkg:maven/org.codehaus.plexus/plexus-component-annotations@1.5.5?classifier=sources&uuid=7809281a-3d15-49f5-849b-a1091e3d4ffa",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.codehaus.plexus/plexus-component-annotations@1.5.5?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.5.5/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.pom",
+    "file_references": []
+}

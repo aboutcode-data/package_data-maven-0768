@@ -1,0 +1,135 @@
+{
+    "type": "maven",
+    "namespace": "org.atnos",
+    "name": "eff-fs2_2.11",
+    "version": "4.3.4-20170517061419-64c9feb",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "fs2",
+    "release_date": "2017-05-17T06:28:19Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Eric Torreborre",
+            "email": null,
+            "url": "https://github.com/etorreborre/"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "org.atnos",
+            "email": null,
+            "url": "https://github.com/atnos-org/eff"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/atnos-org/eff",
+    "download_url": "https://repo1.maven.org/maven2/org/atnos/eff-fs2_2.11/4.3.4-20170517061419-64c9feb/eff-fs2_2.11-4.3.4-20170517061419-64c9feb.jar",
+    "size": 109843,
+    "md5": null,
+    "sha1": "25062b3de5c48da8f80f805fda8a146cf225b02b",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "mit",
+    "declared_license_expression_spdx": "MIT",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "MIT\nhttp://opensource.org/licenses/MIT",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.atnos/eff-fs2_2.11@4.3.4-20170517061419-64c9feb?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.scala-lang/scala-library",
+            "extracted_requirement": "2.11.11",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.specs2/specs2-scalacheck_2.11",
+            "extracted_requirement": "3.8.9",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.atnos/eff_2.11",
+            "extracted_requirement": "4.3.4-20170517061419-64c9feb",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.typelevel/cats-core_2.11",
+            "extracted_requirement": "0.9.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/co.fs2/fs2-core_2.11",
+            "extracted_requirement": "0.9.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.specs2/specs2-core_2.11",
+            "extracted_requirement": "3.8.9",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.specs2/specs2-matcher-extra_2.11",
+            "extracted_requirement": "3.8.9",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.specs2/specs2-html_2.11",
+            "extracted_requirement": "3.8.9",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.specs2/specs2-junit_2.11",
+            "extracted_requirement": "3.8.9",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.atnos/eff-fs2_2.11@4.3.4-20170517061419-64c9feb?uuid=02184840-02c5-433d-8d09-e47786ace73e",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.atnos/eff-fs2_2.11@4.3.4-20170517061419-64c9feb",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/atnos/eff-fs2_2.11/4.3.4-20170517061419-64c9feb/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/atnos/eff-fs2_2.11/4.3.4-20170517061419-64c9feb/eff-fs2_2.11-4.3.4-20170517061419-64c9feb.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/atnos/eff-fs2_2.11/4.3.4-20170517061419-64c9feb/eff-fs2_2.11-4.3.4-20170517061419-64c9feb.pom",
+    "file_references": []
+}

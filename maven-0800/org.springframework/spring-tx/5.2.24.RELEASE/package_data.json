@@ -1,0 +1,122 @@
+{
+    "type": "maven",
+    "namespace": "org.springframework",
+    "name": "spring-tx",
+    "version": "5.2.24.RELEASE",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "395341e6-e77c-4351-a211-68238136d9aa",
+            "packages": [
+                "pkg:maven/org.springframework/spring-tx@5.2.24.RELEASE?uuid=0d818e2e-2f93-4539-bea8-8fd84f7b9874",
+                "pkg:maven/org.springframework/spring-tx@5.2.24.RELEASE?classifier=sources&uuid=19c293e9-debe-4f1f-9f69-185b2b33dec6"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Spring Transaction",
+    "release_date": null,
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Juergen Hoeller",
+            "email": "jhoeller@pivotal.io",
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Spring IO",
+            "email": null,
+            "url": "https://spring.io/projects/spring-framework"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/spring-projects/spring-framework",
+    "download_url": "https://repo1.maven.org/maven2/org/springframework/spring-tx/5.2.24.RELEASE/spring-tx-5.2.24.RELEASE-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "8c535fbfe4cd61c49df1a480a00241c9e6dcad43",
+    "sha256": "b19513e2c17e8c27ab396f7f762c13f395d178772940d6eaae7931b2e78dda5d",
+    "sha512": "a53f013fde04a931b3caa865c14adb54e895035ea9f9eb4263aa76a30ea6dd918d8da2abbb5d781399f6a1aa85adbef673e63fec5e84f8a7ab3c32697cdcaabb",
+    "bug_tracking_url": "https://github.com/spring-projects/spring-framework/issues",
+    "code_view_url": "https://github.com/spring-projects/spring-framework",
+    "vcs_url": "git://github.com/spring-projects/spring-framework",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_48.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: Apache License, Version 2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 5,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_48.RULE",
+                    "license_expression": "apache-2.0"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_url_1.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: https://www.apache.org/licenses/LICENSE-2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 8,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_url_1.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-8b0def3b-907f-4d50-db9d-c40959d8ddf2",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Apache License, Version 2.0\n  url: https://www.apache.org/licenses/LICENSE-2.0\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.springframework/spring-tx@5.2.24.RELEASE?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.springframework/spring-beans@5.2.24.RELEASE",
+            "extracted_requirement": "5.2.24.RELEASE",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-core@5.2.24.RELEASE",
+            "extracted_requirement": "5.2.24.RELEASE",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.springframework/spring-tx@5.2.24.RELEASE?classifier=sources&uuid=19c293e9-debe-4f1f-9f69-185b2b33dec6",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.springframework/spring-tx@5.2.24.RELEASE?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/springframework/spring-tx/5.2.24.RELEASE/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/springframework/spring-tx/5.2.24.RELEASE/spring-tx-5.2.24.RELEASE-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/springframework/spring-tx/5.2.24.RELEASE/spring-tx-5.2.24.RELEASE.pom",
+    "file_references": []
+}

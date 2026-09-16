@@ -1,0 +1,96 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.hadoop",
+    "name": "hadoop-mapreduce-client-shuffle",
+    "version": "2.6.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "844f6df3-539b-4b80-a051-6d81d736db3c",
+            "packages": [
+                "pkg:maven/org.apache.hadoop/hadoop-mapreduce-client-shuffle@2.6.0?uuid=c3a66a1a-c791-4480-93d6-1fe3ab02f400",
+                "pkg:maven/org.apache.hadoop/hadoop-mapreduce-client-shuffle@2.6.0?classifier=sources&uuid=5896f152-7b99-48d1-be20-c59040577616"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "hadoop-mapreduce-client-shuffle",
+    "release_date": "2014-11-13T22:49:38Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Apache Software Foundation",
+            "email": null,
+            "url": "http://www.apache.org"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.6.0/hadoop-mapreduce-client-shuffle-2.6.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "bcccefba4c268de6931094249e359c8c04eeb77f",
+    "sha256": "c147f84592c5ef64ffbdf40fca984fad9347e50f218b6b4d6552c4378a345388",
+    "sha512": "972d756f524679805f2e6ec5dede7975415898f925e9b0ca3f6e426202328e5e72148e1495c26ae9a6f0f67d6808195d9f687d0a809ad7b29cbced40fcd741b2",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.hadoop/hadoop-mapreduce-client-shuffle@2.6.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.hadoop/hadoop-yarn-server-common",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.hadoop/hadoop-yarn-server-nodemanager",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.hadoop/hadoop-mapreduce-client-common",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.fusesource.leveldbjni/leveldbjni-all",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.hadoop/hadoop-mapreduce-client-shuffle@2.6.0?classifier=sources&uuid=5896f152-7b99-48d1-be20-c59040577616",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.apache.hadoop/hadoop-mapreduce-client-shuffle@2.6.0?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.6.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.6.0/hadoop-mapreduce-client-shuffle-2.6.0-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.6.0/hadoop-mapreduce-client-shuffle-2.6.0.pom",
+    "file_references": []
+}

@@ -1,0 +1,136 @@
+{
+    "type": "maven",
+    "namespace": "org.echocat.jomon.maven",
+    "name": "common",
+    "version": "1.6.2",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "echocat Jomon Maven-Common",
+    "release_date": "2015-04-20T14:35:11Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/echocat/jomon/maven/common/1.6.2/common-1.6.2.jar",
+    "size": 19401,
+    "md5": null,
+    "sha1": "4a5705bce59b1a9232b560bc524657b20608fa73",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.echocat.jomon.maven/common@1.6.2?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.echocat.jomon.spring/common",
+            "extracted_requirement": "1.6.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.echocat.jomon.net/common",
+            "extracted_requirement": "1.6.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/commons-io/commons-io",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.commons/commons-lang3",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.maven/maven-core",
+            "extracted_requirement": "3.0.4",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.maven/maven-embedder",
+            "extracted_requirement": "3.0.4",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.maven/maven-plugin-api",
+            "extracted_requirement": "3.0.4",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.echocat.jomon/testing",
+            "extracted_requirement": "1.6.2",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.echocat.jomon.net/testing",
+            "extracted_requirement": "1.6.2",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/ch.qos.logback/logback-classic",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.echocat.jomon.maven/common@1.6.2?uuid=2b165839-6195-45cb-ae28-86a72a0e6b9c",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.echocat.jomon.maven/common@1.6.2",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/echocat/jomon/maven/common/1.6.2/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/echocat/jomon/maven/common/1.6.2/common-1.6.2.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/echocat/jomon/maven/common/1.6.2/common-1.6.2.pom",
+    "file_references": []
+}

@@ -1,0 +1,221 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.cxf",
+    "name": "cxf-rt-databinding-aegis",
+    "version": "3.4.10",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "429b9b2c-6017-428f-9db0-493f96e6d20d",
+            "packages": [
+                "pkg:maven/org.apache.cxf/cxf-rt-databinding-aegis@3.4.10?uuid=fedf5c83-41ff-415a-86ec-e5a89b3b6f50",
+                "pkg:maven/org.apache.cxf/cxf-rt-databinding-aegis@3.4.10?classifier=sources&uuid=73888c6e-fe0d-429a-a37b-2ba7ad87a400"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Apache CXF Runtime Aegis Databinding",
+    "release_date": "2022-12-07T18:46:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "The Apache CXF Team",
+            "email": "dev@cxf.apache.org",
+            "url": "https://cxf.apache.org"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "https://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://cxf.apache.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/cxf/cxf-rt-databinding-aegis/3.4.10/cxf-rt-databinding-aegis-3.4.10-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "15d159503ad53c7fbc917c358f0a29e1bf3f03b3",
+    "sha256": "5731a031f8c238ab24e6a05b0f3aa98e1513b84b802117b7a49cabade2a4d318",
+    "sha512": "378c1a9be9913318680b0dc974b07f116163e7f0a421e29f20414512d308190e02239a0ea0baf71da9c2ad80e936595b11156bb4d42b75967f1d1b54d9e78c13",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) Jason Hunter & Brett McLaughlin",
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "jdom AND (cpl-1.0 AND bsd-new AND apache-2.0)",
+    "other_license_expression_spdx": "LicenseRef-scancode-jdom AND (CPL-1.0 AND BSD-3-Clause AND Apache-2.0)",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.cxf/cxf-rt-databinding-aegis@3.4.10?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.apache.cxf/cxf@3.4.10",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.apache.cxf/cxf@3.4.10"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.cxf/cxf-core@3.4.10",
+            "extracted_requirement": "3.4.10",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.cxf/cxf-rt-frontend-simple@3.4.10",
+            "extracted_requirement": "3.4.10",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.cxf/cxf-rt-wsdl@3.4.10",
+            "extracted_requirement": "3.4.10",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.cxf/cxf-rt-transports-local@3.4.10",
+            "extracted_requirement": "3.4.10",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.cxf/cxf-rt-transports-http@3.4.10",
+            "extracted_requirement": "3.4.10",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.cxf/cxf-rt-transports-http-jetty@3.4.10",
+            "extracted_requirement": "3.4.10",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-jdk14",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/jcl-over-slf4j",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.cxf/cxf-rt-frontend-jaxws@3.4.10",
+            "extracted_requirement": "3.4.10",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.cxf/cxf-testutils@3.4.10",
+            "extracted_requirement": "3.4.10",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/net.java.dev.msv/msv-core",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/commons-codec/commons-codec",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-core",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-context",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.easymock/easymock",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/xerces/xercesImpl",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/jdom/jdom",
+            "extracted_requirement": "${cxf.jdom.version}",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.cxf/cxf-rt-databinding-aegis@3.4.10?classifier=sources&uuid=73888c6e-fe0d-429a-a37b-2ba7ad87a400",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.apache.cxf/cxf-rt-databinding-aegis@3.4.10?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/cxf/cxf-rt-databinding-aegis/3.4.10/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/cxf/cxf-rt-databinding-aegis/3.4.10/cxf-rt-databinding-aegis-3.4.10-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/cxf/cxf-rt-databinding-aegis/3.4.10/cxf-rt-databinding-aegis-3.4.10.pom",
+    "file_references": []
+}

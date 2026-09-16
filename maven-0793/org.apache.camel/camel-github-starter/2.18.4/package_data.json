@@ -1,0 +1,88 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.camel",
+    "name": "camel-github-starter",
+    "version": "2.18.4",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Spring-Boot Starter :: Camel :: GitHub\nSpring-Boot Starter for Camel Components",
+    "release_date": "2017-05-20T21:14:25Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/apache/camel/camel-github-starter/2.18.4/camel-github-starter-2.18.4.jar",
+    "size": 13121,
+    "md5": null,
+    "sha1": "199a30c16222b653a12188fbcc48ead64ffc3955",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.camel/camel-github-starter@2.18.4?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.springframework.boot/spring-boot-starter",
+            "extracted_requirement": "${spring-boot-version}",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.camel/camel-github",
+            "extracted_requirement": "2.18.4",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.camel/camel-core-starter",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.camel/camel-spring-boot-starter",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.mylyn.github/org.eclipse.egit.github.core",
+            "extracted_requirement": "${egit-github-core-version}",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.camel/camel-github-starter@2.18.4?uuid=3f504ba6-2436-4a68-b566-13ec6c859935",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.apache.camel/camel-github-starter@2.18.4",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/camel/camel-github-starter/2.18.4/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/camel/camel-github-starter/2.18.4/camel-github-starter-2.18.4.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/camel/camel-github-starter/2.18.4/camel-github-starter-2.18.4.pom",
+    "file_references": []
+}

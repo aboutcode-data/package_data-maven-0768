@@ -1,0 +1,256 @@
+{
+    "type": "maven",
+    "namespace": "io.fabric8.quickstarts",
+    "name": "rest-utils",
+    "version": "2.0.34",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Rest Utils\nA bunch of utility functions to create REST based micro services",
+    "release_date": "2015-03-25T21:48:04Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/io/fabric8/quickstarts/rest-utils/2.0.34/rest-utils-2.0.34.jar",
+    "size": 7734,
+    "md5": null,
+    "sha1": "f87f9e556bbb36ccf6d233c1e64542328d67d8f5",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.fabric8.quickstarts/rest-utils@2.0.34?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/io.fabric8/fabric8-project",
+            "extracted_requirement": "${fabric8.version}",
+            "scope": "import",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.fabric8/fabric-utils",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.deltaspike.core/deltaspike-core-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.deltaspike.core/deltaspike-core-impl",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.fabric8/fabric-cxf",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.cxf/cxf-rt-rs-service-description",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.cxf/cxf-integration-cdi",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.cxf/cxf-rt-frontend-jaxrs",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.cxf/cxf-rt-transports-http",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.cxf/cxf-rt-management",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.weld.se/weld-se",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.weld.servlet/weld-servlet",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.weld/weld-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-server",
+            "extracted_requirement": "9.1.5.v20140505",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-servlet",
+            "extracted_requirement": "9.1.5.v20140505",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-jndi",
+            "extracted_requirement": "9.1.5.v20140505",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-jsp",
+            "extracted_requirement": "9.1.5.v20140505",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-http",
+            "extracted_requirement": "9.1.5.v20140505",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-io",
+            "extracted_requirement": "9.1.5.v20140505",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-util",
+            "extracted_requirement": "9.1.5.v20140505",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-security",
+            "extracted_requirement": "9.1.5.v20140505",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/commons-httpclient/commons-httpclient",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.wordnik/swagger-jaxrs_2.10",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-log4j12",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/io.fabric8.quickstarts/rest-utils@2.0.34?uuid=f56d69ae-1678-499c-8d16-03f841893851",
+    "datasource_id": null,
+    "purl": "pkg:maven/io.fabric8.quickstarts/rest-utils@2.0.34",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/io/fabric8/quickstarts/rest-utils/2.0.34/",
+    "repository_download_url": "https://repo1.maven.org/maven2/io/fabric8/quickstarts/rest-utils/2.0.34/rest-utils-2.0.34.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/io/fabric8/quickstarts/rest-utils/2.0.34/rest-utils-2.0.34.pom",
+    "file_references": []
+}

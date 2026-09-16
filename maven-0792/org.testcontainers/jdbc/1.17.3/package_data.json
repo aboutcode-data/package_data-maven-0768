@@ -1,0 +1,111 @@
+{
+    "type": "maven",
+    "namespace": "org.testcontainers",
+    "name": "jdbc",
+    "version": "1.17.3",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "7affb9e8-6eca-4483-b7ba-d3f340c69304",
+            "packages": [
+                "pkg:maven/org.testcontainers/jdbc@1.17.3?uuid=9c7d45bd-6ea3-4af5-b5e6-757436d3d07f",
+                "pkg:maven/org.testcontainers/jdbc@1.17.3?classifier=sources&uuid=f414f25a-318c-4543-8b11-f4cd63e92b59"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Testcontainers :: JDBC\nIsolated container management for Java code testing",
+    "release_date": "2022-06-29T07:26:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Richard North",
+            "email": "rich.north@gmail.com",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://testcontainers.org",
+    "download_url": "https://repo1.maven.org/maven2/org/testcontainers/jdbc/1.17.3/jdbc-1.17.3-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "26bcbe46f18a227f3ea61191f7ae9f32c98b038d",
+    "sha256": "41fcc52591c354f178c5204b56e394420ae951d71078bd47b06cc27a1e057ff6",
+    "sha512": "ddcfa0aafcc32ac2331ef304240263116f3d96161e24ad9ad94526e1ba7b144a2583faeb334a2774e7e8c875e3c951fc864da6608501164ab8cf0a2b645b292a",
+    "bug_tracking_url": "https://github.com/testcontainers/testcontainers-java/issues",
+    "code_view_url": "https://github.com/testcontainers/testcontainers-java/",
+    "vcs_url": "git://github.com/testcontainers/testcontainers-java.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "mit",
+    "declared_license_expression_spdx": "MIT",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-spdx-id",
+                    "end_line": 1,
+                    "rule_url": null,
+                    "start_line": 1,
+                    "matched_text": "MIT",
+                    "match_coverage": 100.0,
+                    "matched_length": 1,
+                    "rule_relevance": 100,
+                    "rule_identifier": "spdx-license-identifier-mit-5da48780aba670b0860c46d899ed42a0f243ff06",
+                    "license_expression": "mit"
+                }
+            ],
+            "identifier": "mit-a822f434-d61f-f2b1-c792-8b8cb9e7b9bf",
+            "license_expression": "mit"
+        },
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/mit_82.RULE",
+                    "start_line": 1,
+                    "matched_text": "http://opensource.org/licenses/MIT",
+                    "match_coverage": 100.0,
+                    "matched_length": 5,
+                    "rule_relevance": 100,
+                    "rule_identifier": "mit_82.RULE",
+                    "license_expression": "mit"
+                }
+            ],
+            "identifier": "mit-ed4b10a1-dee4-8c47-62ce-3459c82174bc",
+            "license_expression": "mit"
+        }
+    ],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: MIT\n  url: http://opensource.org/licenses/MIT\n  comments:\n  distribution:\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.testcontainers/jdbc@1.17.3?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.testcontainers/database-commons@1.17.3",
+            "extracted_requirement": "1.17.3",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.testcontainers/jdbc@1.17.3?classifier=sources&uuid=f414f25a-318c-4543-8b11-f4cd63e92b59",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.testcontainers/jdbc@1.17.3?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

@@ -1,0 +1,144 @@
+{
+    "type": "maven",
+    "namespace": "org.jbpm",
+    "name": "jbpm-console-ng-business-domain-backend",
+    "version": "6.2.0.Beta2",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "jBPM Console NG - Business Domain Backend",
+    "release_date": "2014-09-15T06:36:39Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/jbpm/jbpm-console-ng-business-domain-backend/6.2.0.Beta2/jbpm-console-ng-business-domain-backend-6.2.0.Beta2.jar",
+    "size": 58884,
+    "md5": null,
+    "sha1": "d8dcd4d25e890606c4f77ea5f6281af4f25be04d",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.jbpm/jbpm-console-ng-business-domain-backend@6.2.0.Beta2?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.jbpm/jbpm-console-ng-business-domain-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jbpm/jbpm-console-ng-process-runtime-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jbpm/jbpm-console-ng-process-runtime-backend",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jbpm/jbpm-console-ng-human-tasks-backend",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jbpm/jbpm-designer-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jbpm/jbpm-services-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jbpm/jbpm-kie-services",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jbpm/jbpm-services-cdi",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.guvnor/guvnor-m2repo-editor-backend",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.guvnor/guvnor-structure-backend",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.kie.workbench.services/kie-wb-common-services-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.uberfire/uberfire-io",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.jbpm/jbpm-console-ng-business-domain-backend@6.2.0.Beta2?uuid=5b8a17bc-8498-4915-980c-66e06a5483ab",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.jbpm/jbpm-console-ng-business-domain-backend@6.2.0.Beta2",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/jbpm/jbpm-console-ng-business-domain-backend/6.2.0.Beta2/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/jbpm/jbpm-console-ng-business-domain-backend/6.2.0.Beta2/jbpm-console-ng-business-domain-backend-6.2.0.Beta2.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/jbpm/jbpm-console-ng-business-domain-backend/6.2.0.Beta2/jbpm-console-ng-business-domain-backend-6.2.0.Beta2.pom",
+    "file_references": []
+}

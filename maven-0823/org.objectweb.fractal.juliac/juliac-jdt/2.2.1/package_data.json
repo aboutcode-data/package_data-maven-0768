@@ -1,0 +1,72 @@
+{
+    "type": "maven",
+    "namespace": "org.objectweb.fractal.juliac",
+    "name": "juliac-jdt",
+    "version": "2.2.1",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Juliac Plugin JDT",
+    "release_date": "2009-07-03T08:18:03Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/objectweb/fractal/juliac/juliac-jdt/2.2.1/juliac-jdt-2.2.1.jar",
+    "size": 11657,
+    "md5": null,
+    "sha1": "784f72a307349db276f542decd8f9838e09a6b0b",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.objectweb.fractal.juliac/juliac-jdt@2.2.1?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.objectweb.fractal.juliac/juliac-compiler",
+            "extracted_requirement": "2.2.1",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.jdt/core",
+            "extracted_requirement": "3.3.0.771",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": "4.3.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.objectweb.fractal.juliac/juliac-jdt@2.2.1?uuid=3fe00172-5d09-4787-be3e-9cee907b3cff",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.objectweb.fractal.juliac/juliac-jdt@2.2.1",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/objectweb/fractal/juliac/juliac-jdt/2.2.1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/objectweb/fractal/juliac/juliac-jdt/2.2.1/juliac-jdt-2.2.1.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/objectweb/fractal/juliac/juliac-jdt/2.2.1/juliac-jdt-2.2.1.pom",
+    "file_references": []
+}

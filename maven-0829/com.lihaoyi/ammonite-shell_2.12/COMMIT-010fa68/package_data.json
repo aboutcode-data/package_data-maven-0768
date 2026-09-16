@@ -1,0 +1,111 @@
+{
+    "type": "maven",
+    "namespace": "com.lihaoyi",
+    "name": "ammonite-shell_2.12",
+    "version": "COMMIT-010fa68",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "ammonite-shell",
+    "release_date": "2017-05-17T09:18:19Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Li Haoyi",
+            "email": null,
+            "url": "https://github.com/lihaoyi"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "com.lihaoyi",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/lihaoyi/Ammonite",
+    "download_url": "https://repo1.maven.org/maven2/com/lihaoyi/ammonite-shell_2.12/COMMIT-010fa68/ammonite-shell_2.12-COMMIT-010fa68.jar",
+    "size": 55352,
+    "md5": null,
+    "sha1": "b559367e891fe02de6b39e3f850f93541b7919e0",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "mit",
+    "declared_license_expression_spdx": "MIT",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "MIT license\nhttp://www.opensource.org/licenses/mit-license.php",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.lihaoyi/ammonite-shell_2.12@COMMIT-010fa68?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.scala-lang/scala-library",
+            "extracted_requirement": "2.12.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.lihaoyi/ammonite-ops_2.12",
+            "extracted_requirement": "COMMIT-010fa68",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.lihaoyi/ammonite_2.12.2",
+            "extracted_requirement": "COMMIT-010fa68",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.lihaoyi/utest_2.12",
+            "extracted_requirement": "0.4.5",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.lihaoyi/acyclic_2.12",
+            "extracted_requirement": "0.1.7",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.scala-lang/scala-reflect",
+            "extracted_requirement": "2.12.2",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/com.lihaoyi/ammonite-shell_2.12@COMMIT-010fa68?uuid=5ec70ff4-89ce-4d8b-b78b-0017c7535770",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.lihaoyi/ammonite-shell_2.12@COMMIT-010fa68",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/lihaoyi/ammonite-shell_2.12/COMMIT-010fa68/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/lihaoyi/ammonite-shell_2.12/COMMIT-010fa68/ammonite-shell_2.12-COMMIT-010fa68.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/lihaoyi/ammonite-shell_2.12/COMMIT-010fa68/ammonite-shell_2.12-COMMIT-010fa68.pom",
+    "file_references": []
+}

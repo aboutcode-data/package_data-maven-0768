@@ -1,0 +1,160 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.logging.log4j",
+    "name": "log4j-layout-template-json",
+    "version": "2.17.1",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "398e877e-58dc-46e8-a37c-1a1dc5752f8b",
+            "packages": [
+                "pkg:maven/org.apache.logging.log4j/log4j-layout-template-json@2.17.1?uuid=77e46404-9a75-404f-ade0-6e1fb616eeaf",
+                "pkg:maven/org.apache.logging.log4j/log4j-layout-template-json@2.17.1?classifier=sources&uuid=ea9a5638-7ea5-407f-8c35-905f631cdc68"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Apache Log4j Layout for JSON template\nApache Log4j Layout for JSON template.",
+    "release_date": "2021-12-27T23:31:00Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "https://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://www.apache.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-layout-template-json/2.17.1/log4j-layout-template-json-2.17.1-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "30068b794854f8457adac1245807202919735afc",
+    "sha256": "795fb74a47d18c1ab2a8a9dd7ae4ec64d55b17d9abacb8ba0e878ce0c295d344",
+    "sha512": "4c61b4d59e795c6dcc3192fb008c22d27355e6246222fb247311d953ae4108612c19e0cc83cc797addf4cd6d64a86edcb1516054f8480c6bb7a23279403f559f",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) The Apache Software Foundation",
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.logging.log4j/log4j-layout-template-json@2.17.1?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.logging.log4j/log4j-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jctools/jctools-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.logging.log4j/log4j-core@2.17.1",
+            "extracted_requirement": "2.17.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.logging.log4j/log4j-1.2-api",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.junit.jupiter/junit-jupiter-engine",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.junit.jupiter/junit-jupiter-params",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.assertj/assertj-core",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/co.elastic.logging/log4j2-ecs-layout",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.code.java-allocation-instrumenter/java-allocation-instrumenter",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.elasticsearch.client/elasticsearch-rest-high-level-client",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.awaitility/awaitility",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.logging.log4j/log4j-layout-template-json@2.17.1?classifier=sources&uuid=ea9a5638-7ea5-407f-8c35-905f631cdc68",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.apache.logging.log4j/log4j-layout-template-json@2.17.1?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

@@ -1,0 +1,112 @@
+{
+    "type": "maven",
+    "namespace": "org.opendaylight.yangtools",
+    "name": "yang-parser-spi",
+    "version": "8.0.6",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "fe67d5b3-79fc-41b1-9b3b-bed41690deeb",
+            "packages": [
+                "pkg:maven/org.opendaylight.yangtools/yang-parser-spi@8.0.6?uuid=2fa6dba4-42d7-45fc-a7f8-097da20393ea",
+                "pkg:maven/org.opendaylight.yangtools/yang-parser-spi@8.0.6?classifier=sources&uuid=9631205f-6230-4382-8e76-260486a63a1c"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "yang-parser-spi\nYANG parser SPI",
+    "release_date": "2022-05-25T13:36:00Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/opendaylight/yangtools/yang-parser-spi/8.0.6/yang-parser-spi-8.0.6-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "85055e639ba1adf412cadee4191fd4d05568c040",
+    "sha256": "5d12bb2626df5630c7c7bde3925ce08ba7ce5deebafbdbc1815e4f22816c402c",
+    "sha512": "f0e8ae9e440cc6140c74f3b3e48fb79da96f7d7359fb12c607df536b4591cd3c1cdc31af2ca5d3f048968f897e03ef7c57bba8890978f3b60754026579293f45",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) Cisco Systems, Inc. and others",
+    "holder": null,
+    "declared_license_expression": "epl-1.0",
+    "declared_license_expression_spdx": "EPL-1.0",
+    "license_detections": [],
+    "other_license_expression": "epl-1.0 AND warranty-disclaimer",
+    "other_license_expression_spdx": "EPL-1.0 AND LicenseRef-scancode-warranty-disclaimer",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.opendaylight.yangtools/yang-parser-spi@8.0.6?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.google.guava/guava",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.opendaylight.yangtools/concepts",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.opendaylight.yangtools/yang-common",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.opendaylight.yangtools/yang-model-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.opendaylight.yangtools/yang-parser-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.opendaylight.yangtools/yang-repo-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.opendaylight.yangtools/mockito-configuration",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.opendaylight.yangtools/yang-parser-spi@8.0.6?classifier=sources&uuid=9631205f-6230-4382-8e76-260486a63a1c",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.opendaylight.yangtools/yang-parser-spi@8.0.6?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

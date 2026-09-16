@@ -1,0 +1,289 @@
+{
+    "type": "maven",
+    "namespace": "org.flowable",
+    "name": "flowable-event-registry",
+    "version": "6.7.2",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "1044bf67-4d5e-42a7-900d-46c049e3fe11",
+            "packages": [
+                "pkg:maven/org.flowable/flowable-event-registry@6.7.2?uuid=4970830b-f553-4c80-b8a1-016491b4b393",
+                "pkg:maven/org.flowable/flowable-event-registry@6.7.2?classifier=sources&uuid=f37509f4-0623-40dd-aa5f-ce0305a6d3b6"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Flowable - Event Registry",
+    "release_date": "2021-12-28T14:09:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Tijs Rademakers",
+            "email": null,
+            "url": "http://www.flowable.org"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Joram Barrez",
+            "email": null,
+            "url": "http://www.flowable.org"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Yvo Swillens",
+            "email": null,
+            "url": "http://www.flowable.org"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Josh Long",
+            "email": null,
+            "url": "http://www.pivotal.com"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Martin Grofcik",
+            "email": null,
+            "url": "http://www.edorasware.com"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Christian Muelder",
+            "email": null,
+            "url": "http://next-level-integration.com/"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Christian Stettler",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Flowable",
+            "email": null,
+            "url": "http://www.flowable.org"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.flowable.org",
+    "download_url": "https://repo1.maven.org/maven2/org/flowable/flowable-event-registry/6.7.2/flowable-event-registry-6.7.2-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "f161d74b00e26d0807df491cfd6f779dc05a0c60",
+    "sha256": "2b9c081f22d2d6d5ea0c0efce105e9d205a8fc5e5995e6cb74b5a7284f2bb3a3",
+    "sha512": "24d12da84b9a05d8c0ab3471ef69d75a5868e62058ddf0cc3484d3c03dbe5254363bc3bd3cc23153d6c9073e55c5d8c43f7934adda37fdcdf0d67bc523a64750",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.flowable/flowable-event-registry@6.7.2?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.flowable/flowable-event-registry-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.flowable/flowable-event-registry-model",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.flowable/flowable-event-registry-json-converter",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.flowable/flowable-engine-common",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.flowable/flowable-eventsubscription-service-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/commons-io/commons-io",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.mybatis/mybatis",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-beans",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/joda-time/joda-time",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.fasterxml.uuid/java-uuid-generator",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.liquibase/liquibase-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-log4j12",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.h2database/h2",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.postgresql/postgresql",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.junit.jupiter/junit-jupiter-engine",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.junit.vintage/junit-vintage-engine",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.assertj/assertj-core",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.zaxxer/HikariCP",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.junit.jupiter/junit-jupiter-api",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.flowable/flowable-event-registry@6.7.2?classifier=sources&uuid=f37509f4-0623-40dd-aa5f-ce0305a6d3b6",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.flowable/flowable-event-registry@6.7.2?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

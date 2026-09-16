@@ -1,0 +1,79 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.servicemix.bundles",
+    "name": "org.apache.servicemix.bundles.junit",
+    "version": "4.9_2",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "4f86cd60-a39b-4133-884d-b821a1b84168",
+            "packages": [
+                "pkg:maven/org.apache.servicemix.bundles/org.apache.servicemix.bundles.junit@4.9_2?uuid=918be402-1009-45a3-92bf-ac06aa9f7734",
+                "pkg:maven/org.apache.servicemix.bundles/org.apache.servicemix.bundles.junit@4.9_2?classifier=sources&uuid=1226814b-d53e-4c45-964a-9caa3f4984f4"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Apache ServiceMix :: Bundles ::\nThis OSGi bundle wraps  4.9 jar file.",
+    "release_date": "2012-01-31T08:13:52Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "http://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.apache.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/servicemix/bundles/org.apache.servicemix.bundles.junit/4.9_2/org.apache.servicemix.bundles.junit-4.9_2-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "1df69dfe9afce91565e53e7699bb30b5cb333c0b",
+    "sha256": "e7c5bbbce499f3d354679cd2241ed0350dd2d77f97d4cdd76b29ff4905d7743b",
+    "sha512": "9e61b350fc594390cc5232ecb6ee5b2c0443318cb38b230e67961da20546b3d3851e9cf43e989527b4cc9bc42f2d7cc7ee64e3f065280b9ac41dc388bb8f80b0",
+    "bug_tracking_url": null,
+    "code_view_url": "http://svn.apache.org/viewvc/servicemix/smx4/bundles/tags/org.apache.servicemix.bundles.junit-4.9_2",
+    "vcs_url": "svn+http://svn.apache.org/repos/asf/servicemix/smx4/bundles/tags/org.apache.servicemix.bundles.junit-4.9_2",
+    "copyright": "Copyright (c) The Apache Software Foundation",
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "bsd-new AND cpl-1.0",
+    "other_license_expression_spdx": "BSD-3-Clause AND CPL-1.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.servicemix.bundles/org.apache.servicemix.bundles.junit@4.9_2?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@7",
+            "Field `homepage_url` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@7",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@7"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.hamcrest/hamcrest-core@1.1",
+            "extracted_requirement": "1.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.servicemix.bundles/org.apache.servicemix.bundles.junit@4.9_2?classifier=sources&uuid=1226814b-d53e-4c45-964a-9caa3f4984f4",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.apache.servicemix.bundles/org.apache.servicemix.bundles.junit@4.9_2?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/servicemix/bundles/org.apache.servicemix.bundles.junit/4.9_2/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/servicemix/bundles/org.apache.servicemix.bundles.junit/4.9_2/org.apache.servicemix.bundles.junit-4.9_2-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/servicemix/bundles/org.apache.servicemix.bundles.junit/4.9_2/org.apache.servicemix.bundles.junit-4.9_2.pom",
+    "file_references": []
+}

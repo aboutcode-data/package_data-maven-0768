@@ -1,0 +1,168 @@
+{
+    "type": "maven",
+    "namespace": "org.eclipse.jetty.toolchain",
+    "name": "jetty-schemas",
+    "version": "3.1",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "790b64cb-804f-40d5-acc3-d6d4d9460fdd",
+            "packages": [
+                "pkg:maven/org.eclipse.jetty.toolchain/jetty-schemas@3.1?uuid=be6e26ec-1852-4265-bf98-f5285ba369e8",
+                "pkg:maven/org.eclipse.jetty.toolchain/jetty-schemas@3.1?classifier=sources&uuid=3253a8df-8c67-4464-a1ab-a6e6ab0e7eac"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Jetty :: Schemas",
+    "release_date": "2016-01-06T01:35:56Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Greg Wilkins",
+            "email": "gregw@apache.org",
+            "url": "http://www.mortbay.com/mortbay/people/gregw"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Jan Bartel",
+            "email": "janb@apache.org",
+            "url": "http://www.mortbay.com/people/janb"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Jules Gosnell",
+            "email": "jules@apache.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "James Strachan",
+            "email": "jstrachan@apache.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Simone Bordet",
+            "email": "simone.bordet@gmail.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Tim Vernum",
+            "email": "tim@adjective.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Nik Gonzalez",
+            "email": "ngonzalez@exist.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Jeanfrancois Arcand",
+            "email": "jfarcand@apache.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Jesse McConnell",
+            "email": "jesse@webtide.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "David Jencks",
+            "email": "david_jencks@yahoo.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "David Yu",
+            "email": "david.yu.ftw@gmail.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Athena Yao",
+            "email": "yao.athena@gmail.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Joakim Erdfelt",
+            "email": "joakim@intalio.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Hugues Malphettes",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Michael Gorovoy",
+            "email": "michael@webtide.com",
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Mort Bay Consulting",
+            "email": null,
+            "url": "http://www.mortbay.com"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.eclipse.org/jetty",
+    "download_url": "https://repo1.maven.org/maven2/org/eclipse/jetty/toolchain/jetty-schemas/3.1/jetty-schemas-3.1-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "0a1d2ddfd961a44cea3ec003c753337416889858",
+    "sha256": "618a0ec0beef5042aaf2a5ce7650dbc85e55fdb0927f3abf49b7523873aaea73",
+    "sha512": "036b18948573c06e0c40c6d26debe001a72e7aeb8ab9438e28108ddcdce0a21290b205a0f8a77891faa812ab959d2ca8a01750040a8c68f318e700e3e1c36b16",
+    "bug_tracking_url": null,
+    "code_view_url": "http://git.eclipse.org/c/jetty/org.eclipse.jetty.toolchain.git/tree/jetty-schemas",
+    "vcs_url": "git+http://git.eclipse.org/gitroot/jetty/org.eclipse.jetty.toolchain.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0 AND epl-1.0",
+    "declared_license_expression_spdx": "Apache-2.0 AND EPL-1.0",
+    "license_detections": [],
+    "other_license_expression": "(cddl-1.0 OR gpl-2.0 WITH classpath-exception-2.0) AND (cddl-1.1 OR gpl-2.0 WITH classpath-exception-2.0) AND ((cddl-1.0 OR gpl-2.0 WITH classpath-exception-2.0) AND apache-2.0) AND apache-2.0 AND (epl-1.0 OR apache-2.0)",
+    "other_license_expression_spdx": "(CDDL-1.0 OR GPL-2.0-only WITH Classpath-exception-2.0) AND (CDDL-1.1 OR GPL-2.0-only WITH Classpath-exception-2.0) AND ((CDDL-1.0 OR GPL-2.0-only WITH Classpath-exception-2.0) AND Apache-2.0) AND Apache-2.0 AND (EPL-1.0 OR Apache-2.0)",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.eclipse.jetty.toolchain/jetty-schemas@3.1?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [],
+    "package_uid": "pkg:maven/org.eclipse.jetty.toolchain/jetty-schemas@3.1?classifier=sources&uuid=3253a8df-8c67-4464-a1ab-a6e6ab0e7eac",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.eclipse.jetty.toolchain/jetty-schemas@3.1?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/eclipse/jetty/toolchain/jetty-schemas/3.1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/eclipse/jetty/toolchain/jetty-schemas/3.1/jetty-schemas-3.1-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/eclipse/jetty/toolchain/jetty-schemas/3.1/jetty-schemas-3.1.pom",
+    "file_references": []
+}

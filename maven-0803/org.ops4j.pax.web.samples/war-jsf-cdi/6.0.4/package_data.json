@@ -1,0 +1,96 @@
+{
+    "type": "maven",
+    "namespace": "org.ops4j.pax.web.samples",
+    "name": "war-jsf-cdi",
+    "version": "6.0.4",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "OPS4J Pax Web - Samples - WAR Extender - JSF and CDI",
+    "release_date": "2017-05-25T11:30:05Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/ops4j/pax/web/samples/war-jsf-cdi/6.0.4/war-jsf-cdi-6.0.4.jar",
+    "size": 16979,
+    "md5": null,
+    "sha1": "544e4000d49e00914d56c7f19b56df0e48a7a29c",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.ops4j.pax.web.samples/war-jsf-cdi@6.0.4?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.myfaces.core/myfaces-impl",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.inject/javax.inject",
+            "extracted_requirement": "1",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.enterprise/cdi-api",
+            "extracted_requirement": "1.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.servlet/javax.servlet-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.ops4j.pax.logging/pax-logging-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.ops4j.pax.cdi/pax-cdi-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.ops4j.pax.web.samples/war-jsf-cdi@6.0.4?uuid=b85b7320-f7e2-4b68-bd69-62692b953e13",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.ops4j.pax.web.samples/war-jsf-cdi@6.0.4",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/ops4j/pax/web/samples/war-jsf-cdi/6.0.4/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/ops4j/pax/web/samples/war-jsf-cdi/6.0.4/war-jsf-cdi-6.0.4.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/ops4j/pax/web/samples/war-jsf-cdi/6.0.4/war-jsf-cdi-6.0.4.pom",
+    "file_references": []
+}

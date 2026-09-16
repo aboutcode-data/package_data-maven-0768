@@ -1,0 +1,113 @@
+{
+    "type": "maven",
+    "namespace": "org.drizzle.jdbc",
+    "name": "drizzle-jdbc",
+    "version": "1.2",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "f6576e6a-611e-4bb3-9112-c147cdff42b5",
+            "packages": [
+                "pkg:maven/org.drizzle.jdbc/drizzle-jdbc@1.2?uuid=10ec25f1-6f23-4b2c-9aba-52d2efdeac4b",
+                "pkg:maven/org.drizzle.jdbc/drizzle-jdbc@1.2?classifier=sources&uuid=d8181de8-ce53-44fb-baf3-3009a61a0408"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Drizzle-JDBC\nBSD Licensed JDBC driver for Drizzle and MySQL",
+    "release_date": "2012-11-28T19:42:04Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Marcus Eriksson",
+            "email": "krummas@gmail.com",
+            "url": "http://developian.blogspot.com"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/krummas/DrizzleJDBC",
+    "download_url": "https://repo1.maven.org/maven2/org/drizzle/jdbc/drizzle-jdbc/1.2/drizzle-jdbc-1.2-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "9c2ebe2f63a10d39c2d6f2b826dff17eb537f029",
+    "sha256": "6081a8b4bfc2ee8f7db57cad11b42cc392ef15f3e4f8d152a55f022439f72006",
+    "sha512": "2114ffd2a2465d07cb695e4b3d112445e00de52bf7f95ff9360682e784d9e3984cf599f33e4f85b1cbbf6a1c603fdf433f8b75c06dca7b311dfe13b8f17203e8",
+    "bug_tracking_url": "https://github.com/krummas/DrizzleJDBC",
+    "code_view_url": "https://github.com/scm:git:git@github.com:krummas/DrizzleJDBC.git",
+    "vcs_url": "git+https://github.com/krummas/DrizzleJDBC.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "bsd-simplified AND bsd-new",
+    "declared_license_expression_spdx": "BSD-2-Clause AND BSD-3-Clause",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/bsd-simplified_150.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: Simplified BSD",
+                    "match_coverage": 100.0,
+                    "matched_length": 2,
+                    "rule_relevance": 100,
+                    "rule_identifier": "bsd-simplified_150.RULE",
+                    "license_expression": "bsd-simplified"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/bsd-new_30.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.opensource.org/licenses/bsd-license.php",
+                    "match_coverage": 100.0,
+                    "matched_length": 8,
+                    "rule_relevance": 100,
+                    "rule_identifier": "bsd-new_30.RULE",
+                    "license_expression": "bsd-new"
+                }
+            ],
+            "identifier": "bsd_simplified_and_bsd_new-b3229487-345b-6a20-a15c-0b0cc3ef946b",
+            "license_expression": "bsd-simplified AND bsd-new"
+        }
+    ],
+    "other_license_expression": "bsd-new",
+    "other_license_expression_spdx": "BSD-3-Clause",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Simplified BSD\n  url: http://www.opensource.org/licenses/bsd-license.php\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.drizzle.jdbc/drizzle-jdbc@1.2?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/junit/junit@4.6",
+            "extracted_requirement": "4.6",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.mockito/mockito-all@1.8.0-rc2",
+            "extracted_requirement": "1.8.0-rc2",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.drizzle.jdbc/drizzle-jdbc@1.2?classifier=sources&uuid=d8181de8-ce53-44fb-baf3-3009a61a0408",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.drizzle.jdbc/drizzle-jdbc@1.2?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/drizzle/jdbc/drizzle-jdbc/1.2/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/drizzle/jdbc/drizzle-jdbc/1.2/drizzle-jdbc-1.2-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/drizzle/jdbc/drizzle-jdbc/1.2/drizzle-jdbc-1.2.pom",
+    "file_references": []
+}

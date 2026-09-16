@@ -1,0 +1,98 @@
+{
+    "type": "maven",
+    "namespace": "com.liferay",
+    "name": "com.liferay.frontend.js.jquery.web",
+    "version": "3.0.22",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "c2b73cb3-9be0-4e24-8ca6-8088bee06784",
+            "packages": [
+                "pkg:maven/com.liferay/com.liferay.frontend.js.jquery.web@3.0.22?uuid=0521a52e-fb0a-4ee2-9556-f70bd9c5332f",
+                "pkg:maven/com.liferay/com.liferay.frontend.js.jquery.web@3.0.22?classifier=sources&uuid=d013d0e0-07b6-40a3-b4e0-c84e00b95be5"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Liferay Frontend JS jQuery Web",
+    "release_date": "2023-07-31T01:29:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Brian Wing Shun Chan",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.frontend.js.jquery.web/3.0.22/com.liferay.frontend.js.jquery.web-3.0.22-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "ce97051908ada8c246ec4cdf9c1df228c87a0866",
+    "sha256": "4862503a62ad53c8541cd3e7f20482830e72fc5e27e6ad8a590a81d4a9bf3119",
+    "sha512": "e721ee1b6ccf6acb1d41cbc62f7b680b24bc384708d7fd624877d1ec29533d1c300431c37085d746ccda2e7a784837781d1a71dff1c743c92cd6ba6d7e61b4c8",
+    "bug_tracking_url": null,
+    "code_view_url": "http://github.com/liferay/liferay-portal",
+    "vcs_url": "git+https://github.com/liferay/liferay-portal.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "lgpl-2.1",
+    "declared_license_expression_spdx": "LGPL-2.1-only",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_85.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: LGPL 2.1",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_85.RULE",
+                    "license_expression": "lgpl-2.1"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_37.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 11,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_37.RULE",
+                    "license_expression": "lgpl-2.1"
+                }
+            ],
+            "identifier": "lgpl_2_1-6893cb1b-4cad-db8f-2133-a48bc107078b",
+            "license_expression": "lgpl-2.1"
+        }
+    ],
+    "other_license_expression": "(lgpl-2.1-plus OR unknown-spdx) AND (mit OR gpl-1.0-plus)",
+    "other_license_expression_spdx": "(LGPL-2.1-or-later OR LicenseRef-scancode-unknown-spdx) AND (MIT OR GPL-1.0-or-later)",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: LGPL 2.1\n  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.liferay/com.liferay.frontend.js.jquery.web@3.0.22?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [],
+    "package_uid": "pkg:maven/com.liferay/com.liferay.frontend.js.jquery.web@3.0.22?classifier=sources&uuid=d013d0e0-07b6-40a3-b4e0-c84e00b95be5",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/com.liferay/com.liferay.frontend.js.jquery.web@3.0.22?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.frontend.js.jquery.web/3.0.22/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.frontend.js.jquery.web/3.0.22/com.liferay.frontend.js.jquery.web-3.0.22-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.frontend.js.jquery.web/3.0.22/com.liferay.frontend.js.jquery.web-3.0.22.pom",
+    "file_references": []
+}

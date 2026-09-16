@@ -1,0 +1,111 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.cxf",
+    "name": "cxf-xerces-xsd-validation",
+    "version": "2.7.11",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "a167bb63-1a91-41ea-9288-5e45384f5567",
+            "packages": [
+                "pkg:maven/org.apache.cxf/cxf-xerces-xsd-validation@2.7.11?uuid=c85d6c75-cbb7-4d4e-a0d1-a008331b6371",
+                "pkg:maven/org.apache.cxf/cxf-xerces-xsd-validation@2.7.11?classifier=sources&uuid=c163060e-2034-43e2-954f-b570ec946fc1"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Apache CXF XML Schema Validation with Xerces",
+    "release_date": "2014-04-08T23:28:48Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "The Apache CXF Team",
+            "email": "dev@cxf.apache.org",
+            "url": "http://cxf.apache.org"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "http://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://cxf.apache.org",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/cxf/cxf-xerces-xsd-validation/2.7.11/cxf-xerces-xsd-validation-2.7.11-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "3004f9a5fa63c64861a76f9f4fefb0e7117f8793",
+    "sha256": "1e6cd54048ca0d01ac5db45d765000f9892eeec721e6233dcdb2799282b12f03",
+    "sha512": "4ceb3f6fdf05a9cede46895a379a4096015ee2820c900ce0db70a290cf2a731420fa907a3e5b67d0f2f21faf0e8502bfd8188542242a86dd3e6016fe0c6ee5c9",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "cpl-1.0 AND apache-2.0 AND sax-pd AND w3c AND bsd-new",
+    "other_license_expression_spdx": "CPL-1.0 AND Apache-2.0 AND SAX-PD AND W3C AND BSD-3-Clause",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.cxf/cxf-xerces-xsd-validation@2.7.11?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.cxf/cxf-api@2.7.11",
+            "extracted_requirement": "2.7.11",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.geronimo.specs/geronimo-annotation_1.0_spec",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.ws.xmlschema/xmlschema-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/xerces/xercesImpl",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.cxf/cxf-xerces-xsd-validation@2.7.11?classifier=sources&uuid=c163060e-2034-43e2-954f-b570ec946fc1",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.apache.cxf/cxf-xerces-xsd-validation@2.7.11?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/cxf/cxf-xerces-xsd-validation/2.7.11/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/cxf/cxf-xerces-xsd-validation/2.7.11/cxf-xerces-xsd-validation-2.7.11-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/cxf/cxf-xerces-xsd-validation/2.7.11/cxf-xerces-xsd-validation-2.7.11.pom",
+    "file_references": []
+}

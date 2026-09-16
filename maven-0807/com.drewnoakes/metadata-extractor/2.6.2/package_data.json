@@ -1,0 +1,108 @@
+{
+    "type": "maven",
+    "namespace": "com.drewnoakes",
+    "name": "metadata-extractor",
+    "version": "2.6.2",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "6f0534f9-4f52-4802-ab44-6a3f63561a22",
+            "packages": [
+                "pkg:maven/com.drewnoakes/metadata-extractor@2.6.2?uuid=7beb97dd-981a-4888-bff0-8940566b71c4",
+                "pkg:maven/com.drewnoakes/metadata-extractor@2.6.2?classifier=sources&uuid=fac50fb7-9f4e-4536-b160-0263c88dd5ca"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "metadata-extractor\nJava library for reading metadata from image files.",
+    "release_date": "2012-07-19T20:21:02Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Drew Noakes",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://code.google.com/p/metadata-extractor/",
+    "download_url": "https://repo1.maven.org/maven2/com/drewnoakes/metadata-extractor/2.6.2/metadata-extractor-2.6.2-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "441a8022e63a5b4b9d891ff9d9da651ae9769395",
+    "sha256": "0ec381defea9ca074c66cfe6ac2e9ff00f3fe35a5af8fed9017d439b1c460941",
+    "sha512": "dd3c3951e7c01a1ad53f3dfe6d6d837ab31daf4efd9194801676c536813c73c4545a6f9e4e30cae701b1dd27620c55386eea5f36c56141aa47750c56634aacb7",
+    "bug_tracking_url": null,
+    "code_view_url": "https://code.google.com/r/raygauss-metadata-extractor/",
+    "vcs_url": "git+https://code.google.com/r/raygauss-metadata-extractor/",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_40.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: The Apache Software License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 18,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_40.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-bfa9e97a-62d3-0076-c881-8443e5e95192",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: The Apache Software License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.drewnoakes/metadata-extractor@2.6.2?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.adobe.xmp/xmpcore@5.1.2",
+            "extracted_requirement": "5.1.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/xerces/xercesImpl@2.8.1",
+            "extracted_requirement": "2.8.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit@4.8.2",
+            "extracted_requirement": "4.8.2",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/com.drewnoakes/metadata-extractor@2.6.2?classifier=sources&uuid=fac50fb7-9f4e-4536-b160-0263c88dd5ca",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.drewnoakes/metadata-extractor@2.6.2?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/drewnoakes/metadata-extractor/2.6.2/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/drewnoakes/metadata-extractor/2.6.2/metadata-extractor-2.6.2-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/drewnoakes/metadata-extractor/2.6.2/metadata-extractor-2.6.2.pom",
+    "file_references": []
+}

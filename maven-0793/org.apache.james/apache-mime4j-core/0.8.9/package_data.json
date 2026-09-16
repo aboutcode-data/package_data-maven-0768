@@ -1,0 +1,80 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.james",
+    "name": "apache-mime4j-core",
+    "version": "0.8.9",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "2fe2c990-b4bb-4409-8401-ed90180c8261",
+            "packages": [
+                "pkg:maven/org.apache.james/apache-mime4j-core@0.8.9?uuid=f72eddd8-a4c2-41f0-a517-8349eb098925",
+                "pkg:maven/org.apache.james/apache-mime4j-core@0.8.9?classifier=sources&uuid=c22709d5-f1c2-49b4-b87c-d52050f2fd87"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Apache James :: Mime4j :: Core",
+    "release_date": "2022-12-30T05:56:00Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "https://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://www.apache.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/james/apache-mime4j-core/0.8.9/apache-mime4j-core-0.8.9-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "c830c00c697526bf7824491d26e4083117ff0307",
+    "sha256": "3414332d2cd4056042fec095da23b27735c42b9f17aee3f14a11c593b65f67fe",
+    "sha512": "d09000fdc386d94230016af28980291a72269ccd35894aa5add23798c97560a209cd595f1df0ab94e35c4560772979b0850d8e62fda5c6832c3f95bb2bf7d298",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) The Apache Software Foundation",
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.james/apache-mime4j-core@0.8.9?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/commons-io/commons-io",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.james/apache-mime4j-core@0.8.9?classifier=sources&uuid=c22709d5-f1c2-49b4-b87c-d52050f2fd87",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.apache.james/apache-mime4j-core@0.8.9?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

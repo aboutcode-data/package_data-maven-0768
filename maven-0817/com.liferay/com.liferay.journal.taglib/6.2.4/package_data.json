@@ -1,0 +1,98 @@
+{
+    "type": "maven",
+    "namespace": "com.liferay",
+    "name": "com.liferay.journal.taglib",
+    "version": "6.2.4",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "659f30d7-c350-4914-a312-4dcd6dfbfd43",
+            "packages": [
+                "pkg:maven/com.liferay/com.liferay.journal.taglib@6.2.4?uuid=80f4db0c-b431-4c80-a237-499ec9a3a08f",
+                "pkg:maven/com.liferay/com.liferay.journal.taglib@6.2.4?classifier=sources&uuid=171972c9-9015-4950-947f-b6a226b2b660"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Liferay Journal Taglib",
+    "release_date": null,
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Brian Wing Shun Chan",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.journal.taglib/6.2.4/com.liferay.journal.taglib-6.2.4-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "d9c575d2f0ae10f6a108567df654ec1246e12acd",
+    "sha256": "a7c54e4a882454dd1038e3d9e5aa54dfc92ce3f1f1ba9bfba1bc23f443656113",
+    "sha512": "3df708d01704a05dec89308b057dc24d05142c558eeb2bd34a9793d9680b53d3a9ef04aa315bab03d08521bf52207992f990534917c7347f5e7264ff911e248a",
+    "bug_tracking_url": null,
+    "code_view_url": "http://github.com/liferay/liferay-portal",
+    "vcs_url": "git+https://github.com/liferay/liferay-portal.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "lgpl-2.1",
+    "declared_license_expression_spdx": "LGPL-2.1-only",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_85.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: LGPL 2.1",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_85.RULE",
+                    "license_expression": "lgpl-2.1"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_37.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 11,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_37.RULE",
+                    "license_expression": "lgpl-2.1"
+                }
+            ],
+            "identifier": "lgpl_2_1-6893cb1b-4cad-db8f-2133-a48bc107078b",
+            "license_expression": "lgpl-2.1"
+        }
+    ],
+    "other_license_expression": "lgpl-2.1-plus OR unknown-spdx",
+    "other_license_expression_spdx": "LGPL-2.1-or-later OR LicenseRef-scancode-unknown-spdx",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: LGPL 2.1\n  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.liferay/com.liferay.journal.taglib@6.2.4?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [],
+    "package_uid": "pkg:maven/com.liferay/com.liferay.journal.taglib@6.2.4?classifier=sources&uuid=171972c9-9015-4950-947f-b6a226b2b660",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/com.liferay/com.liferay.journal.taglib@6.2.4?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.journal.taglib/6.2.4/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.journal.taglib/6.2.4/com.liferay.journal.taglib-6.2.4-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.journal.taglib/6.2.4/com.liferay.journal.taglib-6.2.4.pom",
+    "file_references": []
+}

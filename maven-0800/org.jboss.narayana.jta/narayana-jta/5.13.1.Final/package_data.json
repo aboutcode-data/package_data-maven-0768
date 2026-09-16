@@ -1,0 +1,87 @@
+{
+    "type": "maven",
+    "namespace": "org.jboss.narayana.jta",
+    "name": "narayana-jta",
+    "version": "5.13.1.Final",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "8c5fff81-9676-45b1-b1c7-35c2ee7f2868",
+            "packages": [
+                "pkg:maven/org.jboss.narayana.jta/narayana-jta@5.13.1.Final?uuid=ad554433-ce32-4a0f-9978-f79feef66ce7",
+                "pkg:maven/org.jboss.narayana.jta/narayana-jta@5.13.1.Final?classifier=sources&uuid=d7f35107-bc4d-4716-846b-d0dc97421e52"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Narayana: ArjunaJTA narayana-jta\nNarayana: ArjunaJTA narayana-jta (jta uber jar)",
+    "release_date": "2022-11-14T16:01:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "JBoss.org Community",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "JBoss by Red Hat",
+            "email": null,
+            "url": "http://www.jboss.org"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.jboss.org",
+    "download_url": "https://repo1.maven.org/maven2/org/jboss/narayana/jta/narayana-jta/5.13.1.Final/narayana-jta-5.13.1.Final-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "b33407a7b7881f08fbd438b106705dd7abad5bf1",
+    "sha256": "167239fc71456864b5dc56c028c5d27b4cfbae3234163e4ef0563c0292489563",
+    "sha512": "582cbdf1942ce0a35f724727fa65623acd443d990d317b99ba48f57e997d7e4b0e33ac09ba10aa0055048ca8cc218e232b2049e34d5702c50aff29cbe5854ad4",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "public-domain AND cc0-1.0",
+    "declared_license_expression_spdx": "LicenseRef-scancode-public-domain AND CC0-1.0",
+    "license_detections": [],
+    "other_license_expression": "(lgpl-2.1-plus AND lgpl-2.1) AND lgpl-2.1-plus AND apache-2.0 AND ((lgpl-2.1-plus AND lgpl-2.1) AND gpl-1.0-plus) AND lgpl-2.1",
+    "other_license_expression_spdx": "(LGPL-2.1-or-later AND LGPL-2.1-only) AND LGPL-2.1-or-later AND Apache-2.0 AND ((LGPL-2.1-or-later AND LGPL-2.1-only) AND GPL-1.0-or-later) AND LGPL-2.1-only",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.jboss.narayana.jta/narayana-jta@5.13.1.Final?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.jboss/jboss-transaction-spi@7.6.1.Final",
+            "extracted_requirement": "7.6.1.Final",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.jboss.spec.javax.resource/jboss-connector-api_1.7_spec@1.0.0.Final",
+            "extracted_requirement": "1.0.0.Final",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.jboss.narayana.jta/narayana-jta@5.13.1.Final?classifier=sources&uuid=d7f35107-bc4d-4716-846b-d0dc97421e52",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.jboss.narayana.jta/narayana-jta@5.13.1.Final?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

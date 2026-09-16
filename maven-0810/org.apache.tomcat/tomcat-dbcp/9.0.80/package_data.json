@@ -1,0 +1,99 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.tomcat",
+    "name": "tomcat-dbcp",
+    "version": "9.0.80",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "00dcb677-d9a5-48a2-a7a5-5242be064a40",
+            "packages": [
+                "pkg:maven/org.apache.tomcat/tomcat-dbcp@9.0.80?uuid=a293f611-acef-4933-acd0-76932ca431a6",
+                "pkg:maven/org.apache.tomcat/tomcat-dbcp@9.0.80?classifier=sources&uuid=726ec174-60b5-4c15-8aab-7524a1070fea"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Tomcat Database Connection Pooling package",
+    "release_date": null,
+    "parties": [],
+    "keywords": [],
+    "homepage_url": "https://tomcat.apache.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/tomcat/tomcat-dbcp/9.0.80/tomcat-dbcp-9.0.80-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "ce6c509eaa22bb0b016188f3dc28a593c8299841",
+    "sha256": "1f1770f9c7695649cbf06f23a0b0b08ecd203e69e84973f6a5662bc0275adbab",
+    "sha512": "c558d78fa5f43f2369e806b9de2e4e4493307e49cd08f09c601103bfd3df6d0e1c8cf7c1e280cf288666c5413a0098b571f86598a6490679d7937a55814e2b30",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_48.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: Apache License, Version 2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 5,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_48.RULE",
+                    "license_expression": "apache-2.0"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_42.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.apache.org/licenses/LICENSE-2.0.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 9,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_42.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-efc1b129-3bcc-a9c0-71ea-964bc53d5512",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Apache License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.tomcat/tomcat-dbcp@9.0.80?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.tomcat/tomcat-juli@9.0.80",
+            "extracted_requirement": "9.0.80",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.tomcat/tomcat-dbcp@9.0.80?classifier=sources&uuid=726ec174-60b5-4c15-8aab-7524a1070fea",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.apache.tomcat/tomcat-dbcp@9.0.80?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/tomcat/tomcat-dbcp/9.0.80/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/tomcat/tomcat-dbcp/9.0.80/tomcat-dbcp-9.0.80-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/tomcat/tomcat-dbcp/9.0.80/tomcat-dbcp-9.0.80.pom",
+    "file_references": []
+}

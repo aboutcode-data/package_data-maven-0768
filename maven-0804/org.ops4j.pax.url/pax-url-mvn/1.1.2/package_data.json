@@ -1,0 +1,160 @@
+{
+    "type": "maven",
+    "namespace": "org.ops4j.pax.url",
+    "name": "pax-url-mvn",
+    "version": "1.1.2",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "b21c48fd-0e9f-413d-a487-8d2ad65cf0e6",
+            "packages": [
+                "pkg:maven/org.ops4j.pax.url/pax-url-mvn@1.1.2?uuid=1785d478-86b9-4c2d-985d-4289dd3e0069",
+                "pkg:maven/org.ops4j.pax.url/pax-url-mvn@1.1.2?classifier=sources&uuid=7c94bd21-0363-42c0-bf8e-5bd819916b0e"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "OPS4J Pax Url - mvn:\nOPS4J Pax Url - mvn: protocol handler.\n    Detailed information to be found at http://wiki.ops4j.org/confluence/x/CoA6.",
+    "release_date": "2009-10-16T07:32:31Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "OPS4J - Open Participation Software for Java",
+            "email": null,
+            "url": "http://www.ops4j.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.ops4j.org/projects/pax/master",
+    "download_url": "https://repo1.maven.org/maven2/org/ops4j/pax/url/pax-url-mvn/1.1.2/pax-url-mvn-1.1.2-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "83fa72f90da2dc408431bdce4cd67657ae3102c0",
+    "sha256": "6b933f9204059e4aa44da7b0f24a107dc854a9ff2dfe35a5d4bace8a636e7830",
+    "sha512": "12c3f06700c2f7e427a408237dee722bdffc8fb89a3f89e4e776a80521ebab6eca54750a4ea8c5df2412e319a2c2fcf41dbcbe66aafe4df3ad66d9e1e8efbde9",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.ops4j.pax.url/pax-url-mvn@1.1.2?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.ops4j.base/ops4j-base-lang",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.ops4j.base/ops4j-base-net",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.ops4j.base/ops4j-base-io",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.ops4j.base/ops4j-base-util-property",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.ops4j.base/ops4j-base-util-xml",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.ops4j.pax.swissbox/pax-swissbox-optional-jcl",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.ops4j.pax.url/pax-url-commons@1.1.2",
+            "extracted_requirement": "1.1.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.ops4j.pax.url/pax-url-maven-commons@1.1.2",
+            "extracted_requirement": "1.1.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.osgi/org.osgi.core",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.osgi/org.osgi.compendium",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.easymock/easymock",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.ops4j.pax.url/pax-url-mvn@1.1.2?classifier=sources&uuid=7c94bd21-0363-42c0-bf8e-5bd819916b0e",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.ops4j.pax.url/pax-url-mvn@1.1.2?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/ops4j/pax/url/pax-url-mvn/1.1.2/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/ops4j/pax/url/pax-url-mvn/1.1.2/pax-url-mvn-1.1.2-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/ops4j/pax/url/pax-url-mvn/1.1.2/pax-url-mvn-1.1.2.pom",
+    "file_references": []
+}

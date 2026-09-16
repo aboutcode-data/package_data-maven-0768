@@ -1,0 +1,115 @@
+{
+    "type": "maven",
+    "namespace": "rome",
+    "name": "rome",
+    "version": "0.9",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "749d468d-50a0-4f15-8466-d6f6d7cd8128",
+            "packages": [
+                "pkg:maven/rome/rome@0.9?uuid=4b3b7a7f-6882-4c85-85cd-3808591ab1b3",
+                "pkg:maven/rome/rome@0.9?classifier=sources&uuid=f515ffe1-5518-4b55-92d7-aa0acc038cf9"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "ROME, RSS and atOM utilitiEs for Java\nAll Roads Lead to ROME.\n      ROME is a set of Atom/RSS Java utilities that make it easy to work in Java with most syndication formats.\n      Today it accepts all flavors of RSS (0.90, 0.91, 0.92, 0.93, 0.94, 1.0 and 2.0) and Atom 0.3 feeds.\n      Rome includes a set of parsers and generators for the various flavors of feeds, as well as converters to convert from one format to another.\n      The parsers can give you back Java objects that are either specific for the format you want to work with, or a generic normalized SyndFeed object that lets you work on with the data without bothering about the underlying format.",
+    "release_date": "2007-05-11T20:26:30Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Alejandro Abdelnur",
+            "email": null,
+            "url": "http://blog.sun.com/roller/page/tucu/"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Elaine Chien",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Patrick Chanezon",
+            "email": null,
+            "url": "http://www.chanezon.com/pat/weblog/"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Sun Microsystems",
+            "email": null,
+            "url": "http://java.sun.com/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://rome.dev.java.net/",
+    "download_url": "https://repo1.maven.org/maven2/rome/rome/0.9/rome-0.9-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "226f851dc44fd94fe70b9c471881b71f88949cbf",
+    "sha256": "3b339134ae1364637afd3a12c61e2269f74cf144e2bcd75ba04deb4af06a7e59",
+    "sha512": "879a2b82a200ea5da9db7916a5c8a9ae5a45971a6183e978f0ca13d88c2ea7fc7b4cc76937528feb730fe53bd625196939a663c899052894f313cece864408ab",
+    "bug_tracking_url": "https://rome.dev.java.net/servlets/ProjectIssues",
+    "code_view_url": "https://rome.dev.java.net/source/browse/rome/",
+    "vcs_url": "cvs+https://github.com/pserver:guest@cvs.dev.java.net:/cvs:rome",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_40.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: The Apache Software License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 18,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_40.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-bfa9e97a-62d3-0076-c881-8443e5e95192",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: The Apache Software License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/rome/rome@0.9?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/jdom/jdom@1.0",
+            "extracted_requirement": "1.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/rome/rome@0.9?classifier=sources&uuid=f515ffe1-5518-4b55-92d7-aa0acc038cf9",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/rome/rome@0.9?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/rome/rome/0.9/",
+    "repository_download_url": "https://repo1.maven.org/maven2/rome/rome/0.9/rome-0.9-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/rome/rome/0.9/rome-0.9.pom",
+    "file_references": []
+}

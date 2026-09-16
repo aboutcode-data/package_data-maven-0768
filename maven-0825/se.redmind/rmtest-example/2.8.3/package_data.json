@@ -1,0 +1,80 @@
+{
+    "type": "maven",
+    "namespace": "se.redmind",
+    "name": "rmtest-example",
+    "version": "2.8.3",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "rmtest -> example",
+    "release_date": "2017-05-22T14:06:49Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/se/redmind/rmtest-example/2.8.3/rmtest-example-2.8.3.jar",
+    "size": 13502,
+    "md5": null,
+    "sha1": "c8a5f83b98729e90cdfe33efe74059f8c1eefb52",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0 AND apache-2.0 AND unknown",
+    "declared_license_expression_spdx": "Apache-2.0 AND Apache-2.0 AND LicenseRef-scancode-unknown",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "Apache License, Version 2.0\nhttp://www.apache.org/licenses/LICENSE-2.0.txt",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/se.redmind/rmtest-example@2.8.3?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/se.redmind/rmtest-testdroid",
+            "extracted_requirement": "2.8.3",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/se.redmind/rmtest-logback",
+            "extracted_requirement": "2.8.3",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/se.redmind/rmtest-cucumber-selenium",
+            "extracted_requirement": "2.8.3",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/se.redmind/rmtest-cucumber-restassured",
+            "extracted_requirement": "2.8.3",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/se.redmind/rmtest-example@2.8.3?uuid=6be7574a-c9f0-4cea-9f2f-36789424b232",
+    "datasource_id": null,
+    "purl": "pkg:maven/se.redmind/rmtest-example@2.8.3",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/se/redmind/rmtest-example/2.8.3/",
+    "repository_download_url": "https://repo1.maven.org/maven2/se/redmind/rmtest-example/2.8.3/rmtest-example-2.8.3.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/se/redmind/rmtest-example/2.8.3/rmtest-example-2.8.3.pom",
+    "file_references": []
+}

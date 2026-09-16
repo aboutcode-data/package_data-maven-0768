@@ -1,0 +1,97 @@
+{
+    "type": "maven",
+    "namespace": "com.jcraft",
+    "name": "jzlib",
+    "version": "1.1.3",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "63ccf33a-1725-4935-8c62-1fd02bc1a2fc",
+            "packages": [
+                "pkg:maven/com.jcraft/jzlib@1.1.3?uuid=c5909068-f2fb-4b5b-84ae-803665de72ee",
+                "pkg:maven/com.jcraft/jzlib@1.1.3?classifier=sources&uuid=41f4e37f-efa6-4c4c-ad12-82e2b1c86b58",
+                "pkg:github/ymnk/jzlib@1.1.3?uuid=ad2eb444-70ca-4597-9a28-8eb6cb910827",
+                "pkg:github/ymnk/jzlib@1.1.3?uuid=35c3db5e-3e45-4f63-9d83-610598af27c2"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "JZlib\nJZlib is a re-implementation of zlib in pure Java",
+    "release_date": "2013-10-04T07:55:03Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Atsuhiko Yamanaka",
+            "email": "ymnk at jcraft D0t com",
+            "url": "http://github.com/ymnk"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "jcraft",
+            "email": null,
+            "url": "http://www.jcraft.com/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.jcraft.com/jzlib/",
+    "download_url": "https://repo1.maven.org/maven2/com/jcraft/jzlib/1.1.3/jzlib-1.1.3-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "3102d5e0e3e6cdb601b42f7bdcbff13167a2226d",
+    "sha256": "35ebd67941ce7024e6e7d80b60a4252a9687fa0f909a7079ac904bef6c1658cf",
+    "sha512": "b094a7205132238317481fb1805071814b3add647c0c13f8383fe1fd43cd1e21156762475dbfcd0d93d3ef57de73554e2830413312145d324b1788eb5a1d2ff6",
+    "bug_tracking_url": null,
+    "code_view_url": "git://github.com/ymnk/jzlib.git",
+    "vcs_url": "git://github.com/ymnk/jzlib.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "bsd-new",
+    "declared_license_expression_spdx": "BSD-3-Clause",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 55.0,
+                    "matcher": "1-hash",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/bsd-new_1301.RULE",
+                    "from_file": null,
+                    "start_line": 1,
+                    "matched_text": "- name: BSD\n  url: http://www.jcraft.com/jzlib/LICENSE.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 10,
+                    "rule_relevance": 55,
+                    "rule_identifier": "bsd-new_1301.RULE",
+                    "license_expression": "bsd-new",
+                    "spdx_license_expression": "BSD-3-Clause"
+                }
+            ],
+            "identifier": "bsd_new-7237f867-f58f-36ed-74cb-dd812acc76b3",
+            "license_expression": "bsd-new",
+            "license_expression_spdx": "BSD-3-Clause"
+        }
+    ],
+    "other_license_expression": "(bsd-new AND zlib) AND bsd-new",
+    "other_license_expression_spdx": "(BSD-3-Clause AND Zlib) AND BSD-3-Clause",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: BSD\n  url: http://www.jcraft.com/jzlib/LICENSE.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.jcraft/jzlib@1.1.3?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [],
+    "package_uid": "pkg:maven/com.jcraft/jzlib@1.1.3?classifier=sources&uuid=41f4e37f-efa6-4c4c-ad12-82e2b1c86b58",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/com.jcraft/jzlib@1.1.3?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/jcraft/jzlib/1.1.3/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/jcraft/jzlib/1.1.3/jzlib-1.1.3-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/jcraft/jzlib/1.1.3/jzlib-1.1.3.pom",
+    "file_references": []
+}

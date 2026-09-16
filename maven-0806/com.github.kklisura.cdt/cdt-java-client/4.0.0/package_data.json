@@ -1,0 +1,229 @@
+{
+    "type": "maven",
+    "namespace": "com.github.kklisura.cdt",
+    "name": "cdt-java-client",
+    "version": "4.0.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "ba263aae-b983-4dbf-98f2-c8398446abc8",
+            "packages": [
+                "pkg:maven/com.github.kklisura.cdt/cdt-java-client@4.0.0?uuid=60e6333f-35cf-40d4-9809-4352cb26d0b2",
+                "pkg:maven/com.github.kklisura.cdt/cdt-java-client@4.0.0?classifier=sources&uuid=6bc02776-4a4a-4d2f-87fd-9fd7cfaa48a7"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "cdt-java-client\nChrome DevTools java client",
+    "release_date": "2021-05-21T22:00:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Kenan Klisura",
+            "email": "kklisura@hotmail.com",
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Kenan Klisura",
+            "email": null,
+            "url": "https://kklisura.com"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/kklisura/chrome-devtools-java-client",
+    "download_url": "https://repo1.maven.org/maven2/com/github/kklisura/cdt/cdt-java-client/4.0.0/cdt-java-client-4.0.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "7cd498cec1b2749fd5b119a65d6cf981028eb5c8",
+    "sha256": "f79eed5d3f2dba11362fcc709089d1395ed41800328ea9eba2e52d56b9aba912",
+    "sha512": "f250468174107a98a890447d7c1ae91cdd651b9016e285a35c73fa0224fc6f813213b570da5463c9cb4385d40da23fb47ef2df4c222baad3429f5fe70f7f8378",
+    "bug_tracking_url": null,
+    "code_view_url": "http://github.com/kklisura/chrome-devtools-java-client/tree/master",
+    "vcs_url": "git://github.com/kklisura/chrome-devtools-java-client.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_40.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: The Apache Software License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 18,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_40.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-bfa9e97a-62d3-0076-c881-8443e5e95192",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": "(apache-2.0 AND epl-1.0 AND lgpl-2.0-plus AND unknown-license-reference AND gpl-2.0 AND mit AND bsd-new AND lgpl-2.1 AND mpl-1.1) AND (apache-2.0 AND epl-1.0 AND bsd-new AND unknown-license-reference AND gpl-2.0)",
+    "other_license_expression_spdx": "(Apache-2.0 AND EPL-1.0 AND LGPL-2.0-or-later AND LicenseRef-scancode-unknown-license-reference AND GPL-2.0-only AND MIT AND BSD-3-Clause AND LGPL-2.1-only AND MPL-1.1) AND (Apache-2.0 AND EPL-1.0 AND BSD-3-Clause AND LicenseRef-scancode-unknown-license-reference AND GPL-2.0-only)",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: The Apache Software License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.github.kklisura.cdt/cdt-java-client@4.0.0?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/javax.websocket/javax.websocket-api@1.1",
+            "extracted_requirement": "1.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.glassfish.tyrus/tyrus-container-grizzly-client@1.13.1",
+            "extracted_requirement": "1.13.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.javassist/javassist@3.24.1-GA",
+            "extracted_requirement": "3.24.1-GA",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-api@1.7.25",
+            "extracted_requirement": "1.7.25",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.11.3",
+            "extracted_requirement": "2.11.3",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.11.3",
+            "extracted_requirement": "2.11.3",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.11.3",
+            "extracted_requirement": "2.11.3",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.glassfish.tyrus/tyrus-container-grizzly-server@1.13.1",
+            "extracted_requirement": "1.13.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/ch.qos.logback/logback-classic@1.2.3",
+            "extracted_requirement": "1.2.3",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit@4.13.1",
+            "extracted_requirement": "4.13.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.skyscreamer/jsonassert@1.5.0",
+            "extracted_requirement": "1.5.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.easymock/easymock@3.4",
+            "extracted_requirement": "3.4",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.powermock/powermock-module-junit4@1.6.6",
+            "extracted_requirement": "1.6.6",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.powermock/powermock-module-test-easymock-junit4@1.6.6",
+            "extracted_requirement": "1.6.6",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.glassfish.tyrus/tyrus-server@1.13.1",
+            "extracted_requirement": "1.13.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.squareup.okhttp/mockwebserver@2.7.5",
+            "extracted_requirement": "2.7.5",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.jacoco/org.jacoco.agent@0.8.0",
+            "extracted_requirement": "0.8.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/com.github.kklisura.cdt/cdt-java-client@4.0.0?classifier=sources&uuid=6bc02776-4a4a-4d2f-87fd-9fd7cfaa48a7",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/com.github.kklisura.cdt/cdt-java-client@4.0.0?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/github/kklisura/cdt/cdt-java-client/4.0.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/github/kklisura/cdt/cdt-java-client/4.0.0/cdt-java-client-4.0.0-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/github/kklisura/cdt/cdt-java-client/4.0.0/cdt-java-client-4.0.0.pom",
+    "file_references": []
+}

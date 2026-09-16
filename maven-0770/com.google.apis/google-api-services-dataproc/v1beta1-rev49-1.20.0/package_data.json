@@ -1,0 +1,64 @@
+{
+    "type": "maven",
+    "namespace": "com.google.apis",
+    "name": "google-api-services-dataproc",
+    "version": "v1beta1-rev49-1.20.0",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Google Cloud Dataproc API v1beta1-rev49-1.20.0",
+    "release_date": "2017-05-18T19:05:44Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Google",
+            "email": null,
+            "url": "http://www.google.com/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/com/google/apis/google-api-services-dataproc/v1beta1-rev49-1.20.0/google-api-services-dataproc-v1beta1-rev49-1.20.0.jar",
+    "size": 80513,
+    "md5": null,
+    "sha1": "dc814b0cf7f8aa4d2ecb7d3f72e15356de0e4907",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "The Apache Software License, Version 2.0\nhttp://www.apache.org/licenses/LICENSE-2.0.txt",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.google.apis/google-api-services-dataproc@v1beta1-rev49-1.20.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.google.api-client/google-api-client",
+            "extracted_requirement": "1.20.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/com.google.apis/google-api-services-dataproc@v1beta1-rev49-1.20.0?uuid=45386edd-cafd-40a8-8bcc-7c569668f44b",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.google.apis/google-api-services-dataproc@v1beta1-rev49-1.20.0",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/google/apis/google-api-services-dataproc/v1beta1-rev49-1.20.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/google/apis/google-api-services-dataproc/v1beta1-rev49-1.20.0/google-api-services-dataproc-v1beta1-rev49-1.20.0.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/google/apis/google-api-services-dataproc/v1beta1-rev49-1.20.0/google-api-services-dataproc-v1beta1-rev49-1.20.0.pom",
+    "file_references": []
+}

@@ -1,0 +1,88 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.camel",
+    "name": "camel-example-swagger-osgi",
+    "version": "2.18.4",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Camel :: Example :: Swagger :: OSGi\nAn example using REST DSL in XML and Swagger API",
+    "release_date": "2017-05-20T23:06:53Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/apache/camel/camel-example-swagger-osgi/2.18.4/camel-example-swagger-osgi-2.18.4.jar",
+    "size": 19465,
+    "md5": null,
+    "sha1": "1a2d8398a904740406dd10eb3eb19692c78260cd",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.camel/camel-example-swagger-osgi@2.18.4?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.camel/camel-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.camel/camel-spring",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.camel/camel-jetty",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.camel/camel-swagger-java",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.camel/camel-jackson",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.camel/camel-example-swagger-osgi@2.18.4?uuid=6d0bf365-019f-4cdb-b4ac-0cf95cc7f4e7",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.apache.camel/camel-example-swagger-osgi@2.18.4",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/camel/camel-example-swagger-osgi/2.18.4/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/camel/camel-example-swagger-osgi/2.18.4/camel-example-swagger-osgi-2.18.4.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/camel/camel-example-swagger-osgi/2.18.4/camel-example-swagger-osgi-2.18.4.pom",
+    "file_references": []
+}

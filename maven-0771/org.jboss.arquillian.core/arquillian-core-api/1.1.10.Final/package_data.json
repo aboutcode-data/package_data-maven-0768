@@ -1,0 +1,79 @@
+{
+    "type": "maven",
+    "namespace": "org.jboss.arquillian.core",
+    "name": "arquillian-core-api",
+    "version": "1.1.10.Final",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "198f4b33-72d9-42a6-8f7d-d49715f37b6e",
+            "packages": [
+                "pkg:maven/org.jboss.arquillian.core/arquillian-core-api@1.1.10.Final?uuid=203ee882-c584-48db-a910-a0e402cd83ba",
+                "pkg:maven/org.jboss.arquillian.core/arquillian-core-api@1.1.10.Final?classifier=sources&uuid=33752277-43fe-477b-a9ef-5eb2b7fb4a0f"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Arquillian Core API\nAPI for the Core.",
+    "release_date": "2015-10-19T12:54:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "JBoss.org Community",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "JBoss by Red Hat",
+            "email": null,
+            "url": "http://www.jboss.org"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.jboss.org",
+    "download_url": "https://repo1.maven.org/maven2/org/jboss/arquillian/core/arquillian-core-api/1.1.10.Final/arquillian-core-api-1.1.10.Final-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "0b10b267b0b5e98fbc03327cb12b7a957f9ca28d",
+    "sha256": "5e201b542181330f09af13e352485eca74f1e5406ed648cdb4b68dbc272ead40",
+    "sha512": "0c32c310ab40e1901b5d2946b7eb7f5c70607ee8917289b804fa596d7bdea83f7e841297b021d3a2e0258487407a9604c87e39bba908b4f439701b44b6d19e9e",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "public-domain AND cc0-1.0",
+    "declared_license_expression_spdx": "LicenseRef-scancode-public-domain AND CC0-1.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.jboss.arquillian.core/arquillian-core-api@1.1.10.Final?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.jboss.arquillian.core/arquillian-core-api@1.1.10.Final?classifier=sources&uuid=33752277-43fe-477b-a9ef-5eb2b7fb4a0f",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.jboss.arquillian.core/arquillian-core-api@1.1.10.Final?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/jboss/arquillian/core/arquillian-core-api/1.1.10.Final/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/jboss/arquillian/core/arquillian-core-api/1.1.10.Final/arquillian-core-api-1.1.10.Final-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/jboss/arquillian/core/arquillian-core-api/1.1.10.Final/arquillian-core-api-1.1.10.Final.pom",
+    "file_references": []
+}

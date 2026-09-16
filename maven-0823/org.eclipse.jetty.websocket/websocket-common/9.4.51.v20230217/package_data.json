@@ -1,0 +1,168 @@
+{
+    "type": "maven",
+    "namespace": "org.eclipse.jetty.websocket",
+    "name": "websocket-common",
+    "version": "9.4.51.v20230217",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "66c23756-3a76-42a2-9215-5c60d313f8b8",
+            "packages": [
+                "pkg:maven/org.eclipse.jetty.websocket/websocket-common@9.4.51.v20230217?uuid=412e6e72-5e6d-44d9-aaa5-5bbddf7c8c16",
+                "pkg:maven/org.eclipse.jetty.websocket/websocket-common@9.4.51.v20230217?classifier=sources&uuid=cbac8472-b213-47e0-afed-31f64cc04587"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Jetty :: Websocket :: Common",
+    "release_date": "2023-02-17T08:23:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Greg Wilkins",
+            "email": "gregw@webtide.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Jan Bartel",
+            "email": "janb@webtide.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Jesse McConnell",
+            "email": "jesse.mcconnell@gmail.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Joakim Erdfelt",
+            "email": "joakim.erdfelt@gmail.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Simone Bordet",
+            "email": "simone.bordet@gmail.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "David Jencks",
+            "email": "david.a.jencks@gmail.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Olivier Lamy",
+            "email": "oliver.lamy@gmail.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Ludovic Orban",
+            "email": "lorban@bitronix.be",
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Webtide",
+            "email": null,
+            "url": "https://webtide.com"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://eclipse.org/jetty",
+    "download_url": "https://repo1.maven.org/maven2/org/eclipse/jetty/websocket/websocket-common/9.4.51.v20230217/websocket-common-9.4.51.v20230217-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "358046157117fbc676ca72098a7acd6f445cdbfe",
+    "sha256": "9b4aa628501928818d34145bc930872759511482306d8d0475b418fde6204966",
+    "sha512": "33ec077bc4d9438723926cefecd9c695ee22bc6f18a92e48314f8885cfac952359ed8180ac1b75efb2b67e9d9844f311243756e46d839e8b30488c074a9b514b",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) Mort Bay Consulting Pty Ltd., Aki Yoshida",
+    "holder": null,
+    "declared_license_expression": "apache-2.0 AND bsd-new AND cddl-1.0 AND epl-1.0 AND epl-2.0 AND gpl-2.0 AND gpl-2.0 WITH classpath-exception-2.0 AND other-permissive",
+    "declared_license_expression_spdx": "Apache-2.0 AND BSD-3-Clause AND CDDL-1.0 AND EPL-1.0 AND EPL-2.0 AND GPL-2.0-only AND GPL-2.0-only WITH Classpath-exception-2.0 AND LicenseRef-scancode-other-permissive",
+    "license_detections": [],
+    "other_license_expression": "(epl-1.0 OR apache-2.0) AND (((epl-1.0 OR apache-2.0) AND epl-1.0 AND apache-1.1 AND apache-2.0) AND other-permissive) AND (apache-2.0 AND epl-1.0 AND cddl-1.0 AND (cddl-1.0 OR gpl-2.0 WITH classpath-exception-2.0) AND (gpl-2.0 AND gpl-2.0 WITH classpath-exception-2.0) AND bsd-new AND other-permissive) AND (epl-2.0 AND apache-2.0 AND epl-1.0)",
+    "other_license_expression_spdx": "(EPL-1.0 OR Apache-2.0) AND (((EPL-1.0 OR Apache-2.0) AND EPL-1.0 AND Apache-1.1 AND Apache-2.0) AND LicenseRef-scancode-other-permissive) AND (Apache-2.0 AND EPL-1.0 AND CDDL-1.0 AND (CDDL-1.0 OR GPL-2.0-only WITH Classpath-exception-2.0) AND (GPL-2.0-only AND GPL-2.0-only WITH Classpath-exception-2.0) AND BSD-3-Clause AND LicenseRef-scancode-other-permissive) AND (EPL-2.0 AND Apache-2.0 AND EPL-1.0)",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.eclipse.jetty.websocket/websocket-common@9.4.51.v20230217?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.eclipse.jetty.websocket/websocket-api@9.4.51.v20230217",
+            "extracted_requirement": "9.4.51.v20230217",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-util@9.4.51.v20230217",
+            "extracted_requirement": "9.4.51.v20230217",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-io@9.4.51.v20230217",
+            "extracted_requirement": "9.4.51.v20230217",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-client@9.4.51.v20230217",
+            "extracted_requirement": "9.4.51.v20230217",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-server@9.4.51.v20230217",
+            "extracted_requirement": "9.4.51.v20230217",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.jetty.toolchain/jetty-test-helper",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.eclipse.jetty.websocket/websocket-common@9.4.51.v20230217?classifier=sources&uuid=cbac8472-b213-47e0-afed-31f64cc04587",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.eclipse.jetty.websocket/websocket-common@9.4.51.v20230217?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

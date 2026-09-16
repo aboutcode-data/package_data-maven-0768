@@ -1,0 +1,235 @@
+{
+    "type": "maven",
+    "namespace": "commons-logging",
+    "name": "commons-logging",
+    "version": "1.1.3",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "23784258-85e9-48ff-a481-fa13b03d4e2c",
+            "packages": [
+                "pkg:maven/commons-logging/commons-logging@1.1.3?uuid=f4af5044-0f48-438f-bb92-f92b678645df",
+                "pkg:maven/commons-logging/commons-logging@1.1.3?classifier=sources&uuid=27f625b2-3b68-4254-83ee-9faf8c6c1646"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Commons Logging\nCommons Logging is a thin adapter allowing configurable bridging to other,\n    well known logging systems.",
+    "release_date": "2013-05-16T20:05:26Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Juozas Baliuka",
+            "email": "baliuka@apache.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Morgan Delagrange",
+            "email": "morgand@apache.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Peter Donald",
+            "email": "donaldp@apache.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Robert Burrell Donkin",
+            "email": "rdonkin@apache.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Simon Kitching",
+            "email": "skitching@apache.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Dennis Lundberg",
+            "email": "dennisl@apache.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Costin Manolache",
+            "email": "costin@apache.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Craig McClanahan",
+            "email": "craigmcc@apache.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Thomas Neidhart",
+            "email": "tn@apache.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Scott Sanders",
+            "email": "sanders@apache.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Richard Sitze",
+            "email": "rsitze@apache.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Brian Stansberry",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Rodney Waldhoff",
+            "email": "rwaldhoff@apache.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Matthew P. Del Buono",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Vince Eagen",
+            "email": "vince256 at comcast dot net",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Peter Lawrey",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Berin Loritsch",
+            "email": "bloritsch at apache dot org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Philippe Mouawad",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Neeme Praks",
+            "email": "neeme at apache dot org",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://commons.apache.org/proper/commons-logging/",
+    "download_url": "https://repo1.maven.org/maven2/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "28bb0405fddaf04f15058fbfbe01fe2780d7d3b6",
+    "sha256": "3196a32bfcc6d397243f01f670cb5d17390a8facde972c2f94cb53a4705126aa",
+    "sha512": "bc493b58cec74a0e8ffd6610766a10b71580cdc0e83f1d302f1614acfd70a8c85eb32734997c06bc406f99de8f4ddef274b5decee12b80e596a76cb47e837ce1",
+    "bug_tracking_url": "http://issues.apache.org/jira/browse/LOGGING",
+    "code_view_url": "http://svn.apache.org/repos/asf/commons/proper/logging/trunk",
+    "vcs_url": "svn+http://svn.apache.org/repos/asf/commons/proper/logging/trunk",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/commons-logging/commons-logging@1.1.3?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@13"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/junit/junit@3.8.1",
+            "extracted_requirement": "3.8.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/log4j/log4j@1.2.17",
+            "extracted_requirement": "1.2.17",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/logkit/logkit@1.0.1",
+            "extracted_requirement": "1.0.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/avalon-framework/avalon-framework@4.1.5",
+            "extracted_requirement": "4.1.5",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/javax.servlet/servlet-api@2.3",
+            "extracted_requirement": "2.3",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/commons-logging/commons-logging@1.1.3?classifier=sources&uuid=27f625b2-3b68-4254-83ee-9faf8c6c1646",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/commons-logging/commons-logging@1.1.3?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/commons-logging/commons-logging/1.1.3/",
+    "repository_download_url": "https://repo1.maven.org/maven2/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.pom",
+    "file_references": []
+}

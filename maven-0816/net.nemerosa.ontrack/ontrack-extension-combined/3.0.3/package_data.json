@@ -1,0 +1,72 @@
+{
+    "type": "maven",
+    "namespace": "net.nemerosa.ontrack",
+    "name": "ontrack-extension-combined",
+    "version": "3.0.3",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "ontrack-extension-combined",
+    "release_date": "2017-05-22T08:30:19Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Damien Coraboeuf",
+            "email": "damien.coraboeuf@gmail.com",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://nemerosa.github.io/ontrack",
+    "download_url": "https://repo1.maven.org/maven2/net/nemerosa/ontrack/ontrack-extension-combined/3.0.3/ontrack-extension-combined-3.0.3.jar",
+    "size": 18378,
+    "md5": null,
+    "sha1": "6f6153f553293c4efa10f574bec9aba30366fa7d",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "mit AND unknown",
+    "declared_license_expression_spdx": "MIT AND LicenseRef-scancode-unknown",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "The MIT License (MIT)\nhttp://opensource.org/licenses/MIT",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/net.nemerosa.ontrack/ontrack-extension-combined@3.0.3?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.springframework.boot/spring-boot-dependencies",
+            "extracted_requirement": "1.5.2.RELEASE",
+            "scope": "import",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/net.nemerosa.ontrack/ontrack-extension-issues",
+            "extracted_requirement": "3.0.3",
+            "scope": "runtime",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/net.nemerosa.ontrack/ontrack-extension-combined@3.0.3?uuid=fd00e55f-5b42-4570-a6df-9be6662bb941",
+    "datasource_id": null,
+    "purl": "pkg:maven/net.nemerosa.ontrack/ontrack-extension-combined@3.0.3",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/net/nemerosa/ontrack/ontrack-extension-combined/3.0.3/",
+    "repository_download_url": "https://repo1.maven.org/maven2/net/nemerosa/ontrack/ontrack-extension-combined/3.0.3/ontrack-extension-combined-3.0.3.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/net/nemerosa/ontrack/ontrack-extension-combined/3.0.3/ontrack-extension-combined-3.0.3.pom",
+    "file_references": []
+}

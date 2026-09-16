@@ -1,0 +1,78 @@
+{
+    "type": "maven",
+    "namespace": "com.vaadin",
+    "name": "vaadin-compatibility-shared",
+    "version": "8.14.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "7170b149-daf0-42db-bf44-de5f954a685a",
+            "packages": [
+                "pkg:maven/com.vaadin/vaadin-compatibility-shared@8.14.0?uuid=f2994013-099a-4c8f-8654-6844df8a2a12",
+                "pkg:maven/com.vaadin/vaadin-compatibility-shared@8.14.0?classifier=sources&uuid=d0da01ce-31c4-4ed5-9280-a2b7d30c3b79"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "vaadin-compatibility-shared\nVaadin 7 compatibility package for Vaadin 8",
+    "release_date": "2021-09-14T20:52:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Henri Sara",
+            "email": "hesara@vaadin.com",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://vaadin.com/",
+    "download_url": "https://repo1.maven.org/maven2/com/vaadin/vaadin-compatibility-shared/8.14.0/vaadin-compatibility-shared-8.14.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "85f6764dc514241e071c7f20c2363e91e331043c",
+    "sha256": "10320c473d686c92bebb8f29adfcd273bb23427c40d7bb96f31ba775be9881b9",
+    "sha512": "69851dfd90c1260228fe52d6f98d0ccc5a09f104233b25cb50b1ad925915bea378655da5397d4c7d518cea455267ece3fc1d9da382d3c3cd4ded28be379e5cd8",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.vaadin/vaadin-compatibility-shared@8.14.0?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/com.vaadin/vaadin-parent@1.1.0",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/com.vaadin/vaadin-parent@1.1.0"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.vaadin/vaadin-shared@8.14.0",
+            "extracted_requirement": "8.14.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/com.vaadin/vaadin-compatibility-shared@8.14.0?classifier=sources&uuid=d0da01ce-31c4-4ed5-9280-a2b7d30c3b79",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/com.vaadin/vaadin-compatibility-shared@8.14.0?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/vaadin/vaadin-compatibility-shared/8.14.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/vaadin/vaadin-compatibility-shared/8.14.0/vaadin-compatibility-shared-8.14.0-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/vaadin/vaadin-compatibility-shared/8.14.0/vaadin-compatibility-shared-8.14.0.pom",
+    "file_references": []
+}

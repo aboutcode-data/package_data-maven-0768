@@ -1,0 +1,112 @@
+{
+    "type": "maven",
+    "namespace": "org.opendaylight.yangtools",
+    "name": "yang-parser-reactor",
+    "version": "8.0.6",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "5e3977f1-8866-4808-9ab5-9a99b11a8ab7",
+            "packages": [
+                "pkg:maven/org.opendaylight.yangtools/yang-parser-reactor@8.0.6?uuid=6f33eb91-9766-4e4a-8d46-6e28c94bd106",
+                "pkg:maven/org.opendaylight.yangtools/yang-parser-reactor@8.0.6?classifier=sources&uuid=a4801a63-bef2-4b7d-9945-f5710ab9fd13"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "yang-parser-reactor\nYANG parser",
+    "release_date": "2022-05-25T13:36:00Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/opendaylight/yangtools/yang-parser-reactor/8.0.6/yang-parser-reactor-8.0.6-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "024c3a2e94415919c1fc1b2c279dc06485ae0fd3",
+    "sha256": "86d0e47e56898694f499d0b6c5117e920f678049ac8486de13d1b61c450f19bf",
+    "sha512": "324583645d18bce538c1b7dabd91f54ac27061db225c054599cec177a980a270f908e7f5c7a04fa06b3ff930706b43021207ffea9be825d3127be65572f74716",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) Cisco Systems, Inc. and others",
+    "holder": null,
+    "declared_license_expression": "epl-1.0",
+    "declared_license_expression_spdx": "EPL-1.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.opendaylight.yangtools/yang-parser-reactor@8.0.6?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.google.guava/guava",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.opendaylight.yangtools/concepts",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.opendaylight.yangtools/yang-common",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.opendaylight.yangtools/yang-model-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.opendaylight.yangtools/yang-model-spi",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.opendaylight.yangtools/yang-parser-spi",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.opendaylight.yangtools/yang-repo-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.opendaylight.yangtools/yang-parser-reactor@8.0.6?classifier=sources&uuid=a4801a63-bef2-4b7d-9945-f5710ab9fd13",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.opendaylight.yangtools/yang-parser-reactor@8.0.6?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

@@ -1,0 +1,96 @@
+{
+    "type": "maven",
+    "namespace": "org.glassfish.fighterfish",
+    "name": "osgi-ejb-container",
+    "version": "1.0.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "ec432667-031f-4284-84a8-35aff743d891",
+            "packages": [
+                "pkg:maven/org.glassfish.fighterfish/osgi-ejb-container@1.0.0?uuid=91822f45-be8b-4018-8631-fb35ddd1d254",
+                "pkg:maven/org.glassfish.fighterfish/osgi-ejb-container@1.0.0?classifier=sources&uuid=a9b0839e-58e2-49b6-9b53-5cf8e156e66b"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "GlassFish EJB Container for OSGi Enabled EJB Applications",
+    "release_date": "2011-04-24T11:16:50Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Sahoo",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://glassfish.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/glassfish/fighterfish/osgi-ejb-container/1.0.0/osgi-ejb-container-1.0.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "c4a2eec6cd08e29c393c3b4639eea2ecb835c142",
+    "sha256": "f6e52cd7325d647782370bea9bd3d90427bece7435bab101dc730ac49c1aee92",
+    "sha512": "8f7c7eefe805914c35bcfbc858ac544b7e4827e36a04992ae631e3e7161e1d82f059866e289b839fee7afa67c3fe3120fa357e793b9d96eb37c4c572307188d9",
+    "bug_tracking_url": null,
+    "code_view_url": "scm:svn:https://svn.java.net/svn/glassfish~svn/tags/fighterfish-releases/org.glassfish.fighterfish.osgi-ejb-container-1.0.0",
+    "vcs_url": "svn+https://svn.java.net/svn/glassfish~svn/tags/fighterfish-releases/org.glassfish.fighterfish.osgi-ejb-container-1.0.0",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "cddl-1.0 OR gpl-2.0 WITH classpath-exception-2.0",
+    "declared_license_expression_spdx": "CDDL-1.0 OR GPL-2.0-only WITH Classpath-exception-2.0",
+    "license_detections": [],
+    "other_license_expression": "cddl-1.1 OR gpl-2.0 WITH classpath-exception-2.0",
+    "other_license_expression_spdx": "CDDL-1.1 OR GPL-2.0-only WITH Classpath-exception-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.glassfish.fighterfish/osgi-ejb-container@1.0.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.glassfish.fighterfish/osgi-javaee-base@1.0.0",
+            "extracted_requirement": "1.0.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.glassfish.deployment/dol",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.osgi/org.osgi.core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.osgi/org.osgi.compendium",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.glassfish.fighterfish/osgi-ejb-container@1.0.0?classifier=sources&uuid=a9b0839e-58e2-49b6-9b53-5cf8e156e66b",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.glassfish.fighterfish/osgi-ejb-container@1.0.0?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/glassfish/fighterfish/osgi-ejb-container/1.0.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/glassfish/fighterfish/osgi-ejb-container/1.0.0/osgi-ejb-container-1.0.0-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/glassfish/fighterfish/osgi-ejb-container/1.0.0/osgi-ejb-container-1.0.0.pom",
+    "file_references": []
+}

@@ -1,0 +1,224 @@
+{
+    "type": "maven",
+    "namespace": "io.netty",
+    "name": "netty-handler",
+    "version": "4.1.89.Final",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "b13e9486-54a5-4f43-902c-250f138f1d96",
+            "packages": [
+                "pkg:maven/io.netty/netty-handler@4.1.89.Final?uuid=8a5d8ad5-33ab-4b9f-a63b-5f78cf9938ea",
+                "pkg:maven/io.netty/netty-handler@4.1.89.Final?classifier=sources&uuid=ce1fb716-631f-40ff-a053-f5a1cfbf48e9"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Netty/Handler",
+    "release_date": "2023-02-13T15:55:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "The Netty Project Contributors",
+            "email": "netty@googlegroups.com",
+            "url": "https://netty.io/"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Netty Project",
+            "email": null,
+            "url": "https://netty.io/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://nexus.sonatype.org/oss-repository-hosting.html",
+    "download_url": "https://repo1.maven.org/maven2/io/netty/netty-handler/4.1.89.Final/netty-handler-4.1.89.Final-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "a8e6a06c82196f31f88c0b1923cb107ee77b1146",
+    "sha256": "38e99f214d58cfd5dfa1a164645d32dd17e8d9a24701d56e41222e22fabf8d22",
+    "sha512": "3dd162beea392a590077e5fdeea4edbc244954392d7843b75cb39a07fa4d6f7b7518e1fe655b2ddb55ca89c82c8f7cc509bfc16ad8b2453282d217ade06632e9",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) The Netty Project",
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.netty/netty-handler@4.1.89.Final?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.sonatype.oss/oss-parent@9",
+            "Field `homepage_url` has been updated using values obtained from the parent POM pkg:maven/org.sonatype.oss/oss-parent@9",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.sonatype.oss/oss-parent@9",
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/io.netty/netty-parent@4.1.89.Final",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/io.netty/netty-parent@4.1.89.Final"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/io.netty/netty-common@4.1.89.Final",
+            "extracted_requirement": "4.1.89.Final",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.netty/netty-resolver@4.1.89.Final",
+            "extracted_requirement": "4.1.89.Final",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.netty/netty-buffer@4.1.89.Final",
+            "extracted_requirement": "4.1.89.Final",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.netty/netty-transport@4.1.89.Final",
+            "extracted_requirement": "4.1.89.Final",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.netty/netty-transport-native-unix-common@4.1.89.Final",
+            "extracted_requirement": "4.1.89.Final",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.netty/netty-codec@4.1.89.Final",
+            "extracted_requirement": "4.1.89.Final",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.netty/netty-tcnative-classes",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.netty/%24%7Btcnative.artifactId%7D",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.bouncycastle/bcpkix-jdk15on",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.bouncycastle/bctls-jdk15on",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.jetty.npn/npn-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.jetty.alpn/alpn-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/%24%7Bconscrypt.groupId%7D/%24%7Bconscrypt.artifactId%7D",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.mockito/mockito-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.reflections/reflections",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.code.gson/gson",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/software.amazon.cryptools/AmazonCorrettoCryptoProvider@1.1.0",
+            "extracted_requirement": "1.1.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.netty/netty-transport@4.1.89.Final",
+            "extracted_requirement": "4.1.89.Final",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/io.netty/netty-handler@4.1.89.Final?classifier=sources&uuid=ce1fb716-631f-40ff-a053-f5a1cfbf48e9",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/io.netty/netty-handler@4.1.89.Final?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/io/netty/netty-handler/4.1.89.Final/",
+    "repository_download_url": "https://repo1.maven.org/maven2/io/netty/netty-handler/4.1.89.Final/netty-handler-4.1.89.Final-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/io/netty/netty-handler/4.1.89.Final/netty-handler-4.1.89.Final.pom",
+    "file_references": []
+}

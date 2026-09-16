@@ -1,0 +1,176 @@
+{
+    "type": "maven",
+    "namespace": "org.kaazing",
+    "name": "k3po.driver",
+    "version": "3.0.0-alpha-74",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "k3po/driver\nK3PO driver",
+    "release_date": "2017-05-26T18:47:11Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": "https://github.com/kaazing/k3po",
+    "download_url": "https://repo1.maven.org/maven2/org/kaazing/k3po.driver/3.0.0-alpha-74/k3po.driver-3.0.0-alpha-74.jar",
+    "size": 504668,
+    "md5": null,
+    "sha1": "fea39ebd9a3f87a4e7fc12618a6b6e4ed6b82df3",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.kaazing/k3po.driver@3.0.0-alpha-74?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.kaazing/k3po.lang",
+            "extracted_requirement": "3.0.0-alpha-74",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.netty/netty",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/de.odysseus.juel/juel-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/de.odysseus.juel/juel-impl",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.kaazing/specification.k3po.control",
+            "extracted_requirement": "3.0.0-alpha-74",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.agrona/Agrona",
+            "extracted_requirement": "0.5.5",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jmock/jmock",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jmock/jmock-junit4",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jmock/jmock-legacy",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.mockito/mockito-all",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.kaazing/net.api",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.kaazing/net.tcp",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.kaazing/net.bbosh",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.kaazing/k3po.driver@3.0.0-alpha-74?uuid=8ce7f578-94db-4826-bdb4-53c98852c77d",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.kaazing/k3po.driver@3.0.0-alpha-74",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/kaazing/k3po.driver/3.0.0-alpha-74/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/kaazing/k3po.driver/3.0.0-alpha-74/k3po.driver-3.0.0-alpha-74.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/kaazing/k3po.driver/3.0.0-alpha-74/k3po.driver-3.0.0-alpha-74.pom",
+    "file_references": []
+}

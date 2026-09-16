@@ -1,0 +1,152 @@
+{
+    "type": "maven",
+    "namespace": "net.openhft",
+    "name": "chronicle-map",
+    "version": "2.1.6",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "OpenHFT/Chronicle-Map\nChronicle-Map",
+    "release_date": "2015-04-27T12:50:51Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/net/openhft/chronicle-map/2.1.6/chronicle-map-2.1.6.jar",
+    "size": 459255,
+    "md5": null,
+    "sha1": "81a0b70260fd0ba5150bc9352cae7f333a726f2c",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/net.openhft/chronicle-map@2.1.6?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/net.openhft/third-party-bom",
+            "extracted_requirement": "3.4.18",
+            "scope": "import",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/net.openhft/compiler",
+            "extracted_requirement": "2.2.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/net.openhft/lang",
+            "extracted_requirement": "6.6.3",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.intellij/annotations",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.thoughtworks.xstream/xstream",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.codehaus.jettison/jettison",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.ops4j.pax.url/pax-url-aether",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-simple",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.mockito/mockito-core",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/net.openhft/affinity",
+            "extracted_requirement": "2.2",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.guava/guava-testlib",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/net.openhft/chronicle-map@2.1.6?uuid=d3e7c983-3353-4cd8-8dc8-dff95b20846e",
+    "datasource_id": null,
+    "purl": "pkg:maven/net.openhft/chronicle-map@2.1.6",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/net/openhft/chronicle-map/2.1.6/",
+    "repository_download_url": "https://repo1.maven.org/maven2/net/openhft/chronicle-map/2.1.6/chronicle-map-2.1.6.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/net/openhft/chronicle-map/2.1.6/chronicle-map-2.1.6.pom",
+    "file_references": []
+}

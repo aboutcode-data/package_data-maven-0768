@@ -1,0 +1,96 @@
+{
+    "type": "maven",
+    "namespace": "com.liferay",
+    "name": "com.liferay.mail.reader.api",
+    "version": "3.0.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "5ee25bc8-2b91-4bba-b442-945d11c5a0dc",
+            "packages": [
+                "pkg:maven/com.liferay/com.liferay.mail.reader.api@3.0.0?uuid=851f0ea1-d986-49ca-92cf-db553858fbdd",
+                "pkg:maven/com.liferay/com.liferay.mail.reader.api@3.0.0?classifier=sources&uuid=00253636-be4a-4be7-995f-a6de8f5c1370"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Liferay Mail Reader API",
+    "release_date": "2019-04-25T04:38:09Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Brian Wing Shun Chan",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.mail.reader.api/3.0.0/com.liferay.mail.reader.api-3.0.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "88957c6ea89de08de30634e8fa1dc10197c66545",
+    "sha256": "9e7ddb9e3a08f7cb477ee0cc60dd2f3e23f78f3f18c0fbbc35fdd932464c18dd",
+    "sha512": "fa97de2e3ba9dfb75effd9c88bac01b328d3842c788ef7f6acfd4ec9de4822780af893f22fad01ab58897386fcc50d7c95593b0e7ab1cfef11a3986bfd233f1f",
+    "bug_tracking_url": null,
+    "code_view_url": "http://github.com/liferay/liferay-portal",
+    "vcs_url": "git+https://github.com/liferay/liferay-portal.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "lgpl-2.1",
+    "declared_license_expression_spdx": "LGPL-2.1-only",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_85.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: LGPL 2.1",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_85.RULE",
+                    "license_expression": "lgpl-2.1"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_37.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 11,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_37.RULE",
+                    "license_expression": "lgpl-2.1"
+                }
+            ],
+            "identifier": "lgpl_2_1-6893cb1b-4cad-db8f-2133-a48bc107078b",
+            "license_expression": "lgpl-2.1"
+        }
+    ],
+    "other_license_expression": "lgpl-2.1-plus",
+    "other_license_expression_spdx": "LGPL-2.1-or-later",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: LGPL 2.1\n  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.liferay/com.liferay.mail.reader.api@3.0.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [],
+    "package_uid": "pkg:maven/com.liferay/com.liferay.mail.reader.api@3.0.0?classifier=sources&uuid=00253636-be4a-4be7-995f-a6de8f5c1370",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.liferay/com.liferay.mail.reader.api@3.0.0?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.mail.reader.api/3.0.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.mail.reader.api/3.0.0/com.liferay.mail.reader.api-3.0.0-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.mail.reader.api/3.0.0/com.liferay.mail.reader.api-3.0.0.pom",
+    "file_references": []
+}

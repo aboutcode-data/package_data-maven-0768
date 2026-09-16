@@ -1,0 +1,112 @@
+{
+    "type": "maven",
+    "namespace": "org.openscience.cdk",
+    "name": "cdk-test-interfaces",
+    "version": "2.0",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "cdk-test-interfaces",
+    "release_date": "2017-05-25T10:16:58Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/openscience/cdk/cdk-test-interfaces/2.0/cdk-test-interfaces-2.0.jar",
+    "size": 1917,
+    "md5": null,
+    "sha1": "bbd058413266e80f0948fa078571f5b6805cb118",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.openscience.cdk/cdk-test-interfaces@2.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.openscience.cdk/cdk-interfaces",
+            "extracted_requirement": "2.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.mockito/mockito-all",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.vecmath/vecmath",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.openscience.cdk/cdk-core",
+            "extracted_requirement": "2.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.openscience.cdk/cdk-diff",
+            "extracted_requirement": "2.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.openscience.cdk/cdk-standard",
+            "extracted_requirement": "2.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.openscience.cdk/cdk-test",
+            "extracted_requirement": "2.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.openscience.cdk/cdk-test-interfaces@2.0?uuid=83218507-9394-4dc3-af83-974c6387bc23",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.openscience.cdk/cdk-test-interfaces@2.0",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/openscience/cdk/cdk-test-interfaces/2.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/openscience/cdk/cdk-test-interfaces/2.0/cdk-test-interfaces-2.0.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/openscience/cdk/cdk-test-interfaces/2.0/cdk-test-interfaces-2.0.pom",
+    "file_references": []
+}

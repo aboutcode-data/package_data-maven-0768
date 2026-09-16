@@ -1,0 +1,126 @@
+{
+    "type": "maven",
+    "namespace": "com.vaadin",
+    "name": "vaadin-themes",
+    "version": "8.4.3",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "b00c003f-170f-442e-afce-2c65c679a950",
+            "packages": [
+                "pkg:maven/com.vaadin/vaadin-themes@8.4.3?uuid=9fdeb695-d4fa-439b-b7ae-9f93d4f9a92c",
+                "pkg:maven/com.vaadin/vaadin-themes@8.4.3?classifier=sources&uuid=40a5e564-0a5b-4d5a-9ce1-3e2ca9620f69"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "vaadin-themes\nVaadin themes",
+    "release_date": "2018-05-31T11:35:32Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Henri Sara",
+            "email": "hesara@vaadin.com",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://vaadin.com/",
+    "download_url": "https://repo1.maven.org/maven2/com/vaadin/vaadin-themes/8.4.3/vaadin-themes-8.4.3-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "3663dc10162dd2336d73f722d5976247e65ba0e0",
+    "sha256": "e4da9b795b79d98543a5282d599b81231088bf28fcd2041eb31107eb41edfba0",
+    "sha512": "7f563167cabb569b4d675a6ca701e3f3e98cee50a53503011391ff4ef5cc493ff67fd143080614058a5a36ba012865b9be34ba421c6b96b5a76de046d7435f58",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.vaadin/vaadin-themes@8.4.3?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/com.vaadin/vaadin-parent@1.1.0",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/com.vaadin/vaadin-parent@1.1.0"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.vaadin/vaadin-server@8.4.3",
+            "extracted_requirement": "8.4.3",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.vaadin/vaadin-sass-compiler",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.vaadin/vaadin-icons",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.carrotsearch/smartsprites",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/commons-io/commons-io",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.osgi/osgi.core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.osgi/osgi.cmpn",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/com.vaadin/vaadin-themes@8.4.3?classifier=sources&uuid=40a5e564-0a5b-4d5a-9ce1-3e2ca9620f69",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/com.vaadin/vaadin-themes@8.4.3?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/vaadin/vaadin-themes/8.4.3/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/vaadin/vaadin-themes/8.4.3/vaadin-themes-8.4.3-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/vaadin/vaadin-themes/8.4.3/vaadin-themes-8.4.3.pom",
+    "file_references": []
+}

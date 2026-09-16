@@ -1,0 +1,224 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.shindig",
+    "name": "shindig-social-api",
+    "version": "2.0.2",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "73d4a5f5-20dc-42ea-8fae-627d28472076",
+            "packages": [
+                "pkg:maven/org.apache.shindig/shindig-social-api@2.0.2?uuid=4639a4ea-baac-4646-b244-034f15b2c76c",
+                "pkg:maven/org.apache.shindig/shindig-social-api@2.0.2?classifier=sources&uuid=32b4276d-5209-4fea-b488-9a06abff5fd2"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Apache Shindig Social API\nServes OpenSocial Data and the RESTful APIs.",
+    "release_date": "2010-10-26T17:17:47Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "http://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.apache.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/shindig/shindig-social-api/2.0.2/shindig-social-api-2.0.2-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "c7ee378c3e353d5a4b4ae354404f62b6babc3a9d",
+    "sha256": "b7730f5aaae42797845680c464d49c55924244476b6b8db45fe5751fdda3e957",
+    "sha512": "ca65a2e6a45d3690480074e760c18b6756db1f56f9d6940758b2df0a11c781b3ac78b9444fba05c3cd275f1e8499e79fdf571951f0446c7c585b5c0d0b9c2b88",
+    "bug_tracking_url": null,
+    "code_view_url": "http://svn.apache.org/viewvc/shindig/tags/shindig-project-2.0.2/java/social-api",
+    "vcs_url": "svn+http://svn.apache.org/repos/asf/shindig/tags/shindig-project-2.0.2/java/social-api",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0 AND (apache-2.0 AND indiana-extreme-1.2 AND cc-pd) AND (mit AND apache-2.0 AND bsd-new) AND public-domain",
+    "other_license_expression_spdx": "Apache-2.0 AND (Apache-2.0 AND xpp AND CC-PDDC) AND (MIT AND Apache-2.0 AND BSD-3-Clause) AND LicenseRef-scancode-public-domain",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.shindig/shindig-social-api@2.0.2?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.shindig/shindig-common",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.json/json",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.inject/guice",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.inject.extensions/guice-multibindings",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/commons-codec/commons-codec",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.guava/guava",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/commons-lang/commons-lang",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/net.oauth.core/oauth-provider",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/net.oauth.core/oauth-httpclient4",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.geronimo.specs/geronimo-stax-api_1.0_spec",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.thoughtworks.xstream/xstream",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/xpp3/xpp3_min",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/commons-io/commons-io",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.httpcomponents/httpclient",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/xml-apis/xml-apis",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.shindig/shindig-common",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/rhino/js",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/log4j/log4j",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.mortbay.jetty/jetty",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.tomcat/el-api",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.shindig/shindig-social-api@2.0.2?classifier=sources&uuid=32b4276d-5209-4fea-b488-9a06abff5fd2",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.apache.shindig/shindig-social-api@2.0.2?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/shindig/shindig-social-api/2.0.2/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/shindig/shindig-social-api/2.0.2/shindig-social-api-2.0.2-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/shindig/shindig-social-api/2.0.2/shindig-social-api-2.0.2.pom",
+    "file_references": []
+}

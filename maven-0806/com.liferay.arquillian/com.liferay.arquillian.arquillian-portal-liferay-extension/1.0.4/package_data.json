@@ -1,0 +1,96 @@
+{
+    "type": "maven",
+    "namespace": "com.liferay.arquillian",
+    "name": "com.liferay.arquillian.arquillian-portal-liferay-extension",
+    "version": "1.0.4",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Arquillian Portal Liferay Extension",
+    "release_date": "2016-04-21T13:40:03Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/com/liferay/arquillian/com.liferay.arquillian.arquillian-portal-liferay-extension/1.0.4/com.liferay.arquillian.arquillian-portal-liferay-extension-1.0.4.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "cca2f150b3f793403eb9b152bb02c76e4cc6229a",
+    "sha256": "8b949cc517ae819aa3337c9c9c8acae7455a8de522f29d2560f71feb116ac2c1",
+    "sha512": "7428e6bd00c32ecb40f9d05537b03a6cc1dba63056f67255295d9919cdf17a4c26af34c731d1021895b7bf8a88f3a2e7d78e7b567ae94fa0b1dcd68da8521eda",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.liferay.arquillian/com.liferay.arquillian.arquillian-portal-liferay-extension@1.0.4?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.jboss.arquillian.container/arquillian-container-test-spi",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.liferay.portal/com.liferay.portal.kernel@2.3.0",
+            "extracted_requirement": "2.3.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/javax.portlet/portlet-api@2.0",
+            "extracted_requirement": "2.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/javax.servlet/javax.servlet-api@3.0.1",
+            "extracted_requirement": "3.0.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.osgi/org.osgi.core@6.0.0",
+            "extracted_requirement": "6.0.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.jboss.osgi.repository/jbosgi-repository-bundle@4.0.0.CR1",
+            "extracted_requirement": "4.0.0.CR1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/com.liferay.arquillian/com.liferay.arquillian.arquillian-portal-liferay-extension@1.0.4?uuid=33f2c654-6fef-420e-8431-5f99c0f99d08",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.liferay.arquillian/com.liferay.arquillian.arquillian-portal-liferay-extension@1.0.4",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/liferay/arquillian/com.liferay.arquillian.arquillian-portal-liferay-extension/1.0.4/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/liferay/arquillian/com.liferay.arquillian.arquillian-portal-liferay-extension/1.0.4/com.liferay.arquillian.arquillian-portal-liferay-extension-1.0.4.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/liferay/arquillian/com.liferay.arquillian.arquillian-portal-liferay-extension/1.0.4/com.liferay.arquillian.arquillian-portal-liferay-extension-1.0.4.pom",
+    "file_references": []
+}

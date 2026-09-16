@@ -1,0 +1,80 @@
+{
+    "type": "maven",
+    "namespace": "org.glassfish.metro",
+    "name": "webservices-extra",
+    "version": "2.1.1-b03",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Metro Web Services Extra Runtime non-OSGi Bundle\nThis module contains the compilation of all additional classes required\n        for running Metro outside JavaEE container",
+    "release_date": "2011-04-29T13:32:03Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/glassfish/metro/webservices-extra/2.1.1-b03/webservices-extra-2.1.1-b03.jar",
+    "size": 842488,
+    "md5": null,
+    "sha1": "4f6dea14d7f78db2696c994f193b2be00d6583e9",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.glassfish.metro/webservices-extra@2.1.1-b03?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.sun.commons/beanutils",
+            "extracted_requirement": "1.6.1-20070314",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.sun.commons/logging-api",
+            "extracted_requirement": "1.0.4",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.sun.commons/modeler",
+            "extracted_requirement": "1.1",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.activation/activation",
+            "extracted_requirement": "1.1",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.glassfish.metro/webservices-extra@2.1.1-b03?uuid=1494aaca-88e0-4387-bd74-a5bc54ff57a2",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.glassfish.metro/webservices-extra@2.1.1-b03",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/glassfish/metro/webservices-extra/2.1.1-b03/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/glassfish/metro/webservices-extra/2.1.1-b03/webservices-extra-2.1.1-b03.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/glassfish/metro/webservices-extra/2.1.1-b03/webservices-extra-2.1.1-b03.pom",
+    "file_references": []
+}

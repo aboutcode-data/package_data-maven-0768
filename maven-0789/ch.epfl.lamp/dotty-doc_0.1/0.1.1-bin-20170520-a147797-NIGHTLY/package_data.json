@@ -1,0 +1,195 @@
+{
+    "type": "maven",
+    "namespace": "ch.epfl.lamp",
+    "name": "dotty-doc_0.1",
+    "version": "0.1.1-bin-20170520-a147797-NIGHTLY",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "dotty-doc-bootstrapped",
+    "release_date": "2017-05-21T01:34:17Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Martin Odersky",
+            "email": "martin.odersky@epfl.ch",
+            "url": "https://github.com/odersky"
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Dmitry Petrashko",
+            "email": "me@d-d.me",
+            "url": "https://d-d.me"
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Guillaume Martres",
+            "email": "smarter@ubuntu.com",
+            "url": "http://guillaume.martres.me"
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Felix Mulder",
+            "email": "felix.mulder@gmail.com",
+            "url": "http://felixmulder.com"
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Liu Fengyun",
+            "email": "liufengyun@chaos-lab.com",
+            "url": "http://chaos-lab.com"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "LAMP/EPFL",
+            "email": null,
+            "url": "http://lamp.epfl.ch"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/lampepfl/dotty",
+    "download_url": "https://repo1.maven.org/maven2/ch/epfl/lamp/dotty-doc_0.1/0.1.1-bin-20170520-a147797-NIGHTLY/dotty-doc_0.1-0.1.1-bin-20170520-a147797-NIGHTLY.jar",
+    "size": 1014346,
+    "md5": null,
+    "sha1": "027ebe905a96290ecd832960971178b8afc70dc7",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "unknown",
+    "declared_license_expression_spdx": "LicenseRef-scancode-unknown",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "BSD New\nhttps://github.com/lampepfl/dotty/blob/master/LICENSE.md",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/ch.epfl.lamp/dotty-doc_0.1@0.1.1-bin-20170520-a147797-NIGHTLY?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/ch.epfl.lamp/dotty-compiler_0.1",
+            "extracted_requirement": "0.1.1-bin-20170520-a147797-NIGHTLY",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.scala-lang/scala-library",
+            "extracted_requirement": "2.11.11",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.vladsch.flexmark/flexmark",
+            "extracted_requirement": "0.11.1",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.vladsch.flexmark/flexmark-ext-gfm-tasklist",
+            "extracted_requirement": "0.11.1",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.vladsch.flexmark/flexmark-ext-gfm-tables",
+            "extracted_requirement": "0.11.1",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.vladsch.flexmark/flexmark-ext-autolink",
+            "extracted_requirement": "0.11.1",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.vladsch.flexmark/flexmark-ext-anchorlink",
+            "extracted_requirement": "0.11.1",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.vladsch.flexmark/flexmark-ext-emoji",
+            "extracted_requirement": "0.11.1",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.vladsch.flexmark/flexmark-ext-gfm-strikethrough",
+            "extracted_requirement": "0.11.1",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.vladsch.flexmark/flexmark-ext-yaml-front-matter",
+            "extracted_requirement": "0.11.1",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-yaml",
+            "extracted_requirement": "2.8.6",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/nl.big-o/liqp",
+            "extracted_requirement": "0.6.7",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.novocode/junit-interface",
+            "extracted_requirement": "0.11",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/ch.epfl.lamp/dotty-doc_0.1@0.1.1-bin-20170520-a147797-NIGHTLY?uuid=fb0dadcd-e62c-4564-9071-b64e0be36d94",
+    "datasource_id": null,
+    "purl": "pkg:maven/ch.epfl.lamp/dotty-doc_0.1@0.1.1-bin-20170520-a147797-NIGHTLY",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/ch/epfl/lamp/dotty-doc_0.1/0.1.1-bin-20170520-a147797-NIGHTLY/",
+    "repository_download_url": "https://repo1.maven.org/maven2/ch/epfl/lamp/dotty-doc_0.1/0.1.1-bin-20170520-a147797-NIGHTLY/dotty-doc_0.1-0.1.1-bin-20170520-a147797-NIGHTLY.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/ch/epfl/lamp/dotty-doc_0.1/0.1.1-bin-20170520-a147797-NIGHTLY/dotty-doc_0.1-0.1.1-bin-20170520-a147797-NIGHTLY.pom",
+    "file_references": []
+}

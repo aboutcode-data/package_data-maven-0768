@@ -1,0 +1,112 @@
+{
+    "type": "maven",
+    "namespace": "io.vertx",
+    "name": "vertx-codegen",
+    "version": "4.3.4",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "638abc89-8db3-4516-9e22-f2f4c339893e",
+            "packages": [
+                "pkg:maven/io.vertx/vertx-codegen@4.3.4?uuid=5f69cde0-4d9d-45a2-bb3f-7d65f52a513b",
+                "pkg:maven/io.vertx/vertx-codegen@4.3.4?classifier=sources&uuid=769fc1a1-fcd4-48ec-a1b8-2729e8ee9af8"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": null,
+    "release_date": "2022-09-30T09:51:00Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Eclipse",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/io/vertx/vertx-codegen/4.3.4/vertx-codegen-4.3.4-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "75463de8346456d970b7704729ddc8cb8143c9a4",
+    "sha256": "253828134134ef1bcd2f317c4a3fd369c5b394991757eff1d8e50f895c93b3fa",
+    "sha512": "28d65fce7ab524bcca0052b2923536d7415d1efaf32aa86aacbcce7c0053ff42cb28b363c29fc267408767d1b047c52594a7a368c61a18890b19d447455149aa",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0 AND epl-1.0",
+    "declared_license_expression_spdx": "Apache-2.0 AND EPL-1.0",
+    "license_detections": [],
+    "other_license_expression": "epl-1.0 OR apache-2.0",
+    "other_license_expression_spdx": "EPL-1.0 OR Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.vertx/vertx-codegen@4.3.4?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/io.vertx/vertx-dependencies@4.3.4",
+            "extracted_requirement": "4.3.4",
+            "scope": "import",
+            "is_runtime": false,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.vertx/vertx-docgen",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit@4.13.1",
+            "extracted_requirement": "4.13.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.sun/tools@1.8",
+            "extracted_requirement": "1.8",
+            "scope": "system",
+            "is_runtime": true,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.vertx/vertx-dependencies@4.3.4",
+            "extracted_requirement": "4.3.4",
+            "scope": "dependencymanagement",
+            "is_runtime": false,
+            "is_optional": false,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/io.vertx/vertx-codegen@4.3.4?classifier=sources&uuid=769fc1a1-fcd4-48ec-a1b8-2729e8ee9af8",
+    "datasource_id": null,
+    "purl": "pkg:maven/io.vertx/vertx-codegen@4.3.4?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

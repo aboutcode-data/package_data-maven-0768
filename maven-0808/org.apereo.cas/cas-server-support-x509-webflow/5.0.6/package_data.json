@@ -1,0 +1,650 @@
+{
+    "type": "maven",
+    "namespace": "org.apereo.cas",
+    "name": "cas-server-support-x509-webflow",
+    "version": "5.0.6",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "cas-server-support-x509-webflow",
+    "release_date": "2017-05-27T18:27:44Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "J\u00e9r\u00f4me Leleu",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Andrew Petro",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "William G. Thompson",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Marvin S. Addison",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Scott Battaglia",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Misagh Moayyed",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Robert Oschwald",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Daniel Frett",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Dmitriy Kopylenko",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Adam Rybicki",
+            "email": "arybicki@unicon.net",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Andrew Tillinghast",
+            "email": "atilling@conncoll.edu",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Arnaud Lesueur",
+            "email": "arnaud.lesueur@gmail.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Drew Mazurek",
+            "email": "dmazurek@unicon.net",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Eric Dalquist",
+            "email": "eric.dalquist@doit.wisc.edu",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Eric Pierce",
+            "email": "epierce@usf.edu",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Frederic Esnault",
+            "email": "esnault.frederic@gmail.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Howard Gilbert",
+            "email": "Howard.Gilbert@yale.edu",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Jan Van der Velpen",
+            "email": "velpi@industria.be",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "John Martin",
+            "email": "jmartin@unicon.net",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "MarcAntoine Garrigue",
+            "email": "marc.antoine.garrigue@gmail.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Mihir Patel",
+            "email": "exploremihir@gmail.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Fredrik J\u00f6nsson",
+            "email": "fjo@kth.se",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Jeff Sittler",
+            "email": "jsittler@unicon.net",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.apereo.org/cas",
+    "download_url": "https://repo1.maven.org/maven2/org/apereo/cas/cas-server-support-x509-webflow/5.0.6/cas-server-support-x509-webflow-5.0.6.jar",
+    "size": 4664,
+    "md5": null,
+    "sha1": "5315b3b8255f22eb2814485c46adce05d6f7a8bf",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "The Apache Software License, Version 2.0\nhttp://www.apache.org/licenses/LICENSE-2.0.txt",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apereo.cas/cas-server-support-x509-webflow@5.0.6?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.aspectj/aspectjrt",
+            "extracted_requirement": "1.8.9",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.aspectj/aspectjweaver",
+            "extracted_requirement": "1.8.9",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.validation/validation-api",
+            "extracted_requirement": "1.1.0.Final",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.logging.log4j/log4j-api",
+            "extracted_requirement": "2.6.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.logging.log4j/log4j-core",
+            "extracted_requirement": "2.6.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.logging.log4j/log4j-jcl",
+            "extracted_requirement": "2.6.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.logging.log4j/log4j-slf4j-impl",
+            "extracted_requirement": "2.6.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.logging.log4j/log4j-web",
+            "extracted_requirement": "2.6.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-api",
+            "extracted_requirement": "1.7.21",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/jul-to-slf4j",
+            "extracted_requirement": "1.7.21",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.lmax/disruptor",
+            "extracted_requirement": "3.3.6",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.guava/guava",
+            "extracted_requirement": "19.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.reflections/reflections",
+            "extracted_requirement": "0.9.10",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.javassist/javassist",
+            "extracted_requirement": "3.20.0-GA",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.springmodules/spring-modules-cache",
+            "extracted_requirement": "0.8",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/commons-io/commons-io",
+            "extracted_requirement": "2.5",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/commons-validator/commons-validator",
+            "extracted_requirement": "1.5.1",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/commons-codec/commons-codec",
+            "extracted_requirement": "1.10",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/commons-jexl/commons-jexl",
+            "extracted_requirement": "1.1",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.commons/commons-lang3",
+            "extracted_requirement": "3.4",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jooq/jool",
+            "extracted_requirement": "0.9.12",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.github.lalyos/jfiglet",
+            "extracted_requirement": "0.0.7",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/commons-collections/commons-collections",
+            "extracted_requirement": "3.2.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.commons/commons-collections4",
+            "extracted_requirement": "4.1",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/joda-time/joda-time",
+            "extracted_requirement": "2.9.5",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apereo.inspektr/inspektr-audit",
+            "extracted_requirement": "1.7.GA",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apereo.inspektr/inspektr-support-spring",
+            "extracted_requirement": "1.7.GA",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apereo.cas/cas-server-core-webflow",
+            "extracted_requirement": "5.0.6",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apereo.cas/cas-server-support-x509",
+            "extracted_requirement": "5.0.6",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.servlet/javax.servlet-api",
+            "extracted_requirement": "3.1.0",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.servlet/jstl",
+            "extracted_requirement": "1.2",
+            "scope": "runtime",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.transaction/jta",
+            "extracted_requirement": "1.1",
+            "scope": "runtime",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.mockito/mockito-core",
+            "extracted_requirement": "1.10.19",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.objenesis/objenesis",
+            "extracted_requirement": "2.4",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": "4.12",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.unboundid/unboundid-ldapsdk",
+            "extracted_requirement": "3.2.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.ldaptive/ldaptive-unboundid",
+            "extracted_requirement": "1.2.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.github.fakemongo/fongo",
+            "extracted_requirement": "2.0.9",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/de.flapdoodle.embed/de.flapdoodle.embed.memcached",
+            "extracted_requirement": "1.06.4",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.springframework.boot/spring-boot-starter-test",
+            "extracted_requirement": "1.4.2.RELEASE",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.hsqldb/hsqldb",
+            "extracted_requirement": "2.3.4",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.skyscreamer/jsonassert",
+            "extracted_requirement": "1.3.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-test",
+            "extracted_requirement": "4.3.4.RELEASE",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.spockframework/spock-core",
+            "extracted_requirement": "1.0-groovy-2.4",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.spockframework/spock-spring",
+            "extracted_requirement": "1.0-groovy-2.4",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.json/json",
+            "extracted_requirement": "20160810",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apereo.cas/cas-server-support-generic",
+            "extracted_requirement": "5.0.6",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apereo.cas/cas-server-support-ldap",
+            "extracted_requirement": "5.0.6",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apereo.cas/cas-server-core-logout",
+            "extracted_requirement": "5.0.6",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apereo.cas/cas-server-core-services",
+            "extracted_requirement": "5.0.6",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apereo.cas/cas-server-core",
+            "extracted_requirement": "5.0.6",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apereo.cas/cas-server-core-monitor",
+            "extracted_requirement": "5.0.6",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apereo.cas/cas-server-core-authentication",
+            "extracted_requirement": "5.0.6",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apereo.cas/cas-server-support-x509",
+            "extracted_requirement": "5.0.6",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apereo.cas/cas-server-support-cookie",
+            "extracted_requirement": "5.0.6",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apereo.cas/cas-server-support-x509-webflow@5.0.6?uuid=609a198f-f562-4075-b64c-4df50cf5c3d1",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.apereo.cas/cas-server-support-x509-webflow@5.0.6",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apereo/cas/cas-server-support-x509-webflow/5.0.6/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apereo/cas/cas-server-support-x509-webflow/5.0.6/cas-server-support-x509-webflow-5.0.6.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apereo/cas/cas-server-support-x509-webflow/5.0.6/cas-server-support-x509-webflow-5.0.6.pom",
+    "file_references": []
+}

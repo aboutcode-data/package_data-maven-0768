@@ -1,0 +1,98 @@
+{
+    "type": "maven",
+    "namespace": "com.liferay",
+    "name": "com.liferay.layout.admin.web",
+    "version": "5.0.144",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "55cbe113-97b5-4366-9e27-fc90b1e38c8a",
+            "packages": [
+                "pkg:maven/com.liferay/com.liferay.layout.admin.web@5.0.144?uuid=d5213467-b475-4d6c-a3a0-69a84efc359b",
+                "pkg:maven/com.liferay/com.liferay.layout.admin.web@5.0.144?classifier=sources&uuid=3e5b867e-456a-41fc-93fc-d76f74448c2d"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Liferay Layout Admin Web",
+    "release_date": "2023-06-08T19:54:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Brian Wing Shun Chan",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.layout.admin.web/5.0.144/com.liferay.layout.admin.web-5.0.144-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "1a3d24c6696233af992d2ee4c01e789d1f78854b",
+    "sha256": "0a2d159e2024426f1751e8417fcbb6d7a82edf98ac71de1bbc1c9a6ad8f7074a",
+    "sha512": "3bf101bd24519b185436f6b0847d55b1ed33bc1623d57f8f196c260ac3af0d05f56a894147ee463efd20899b0a7eea0efa931aab6deb1c70bc324ddffc03bbd5",
+    "bug_tracking_url": null,
+    "code_view_url": "http://github.com/liferay/liferay-portal",
+    "vcs_url": "git+https://github.com/liferay/liferay-portal.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "lgpl-2.1",
+    "declared_license_expression_spdx": "LGPL-2.1-only",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_85.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: LGPL 2.1",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_85.RULE",
+                    "license_expression": "lgpl-2.1"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_37.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 11,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_37.RULE",
+                    "license_expression": "lgpl-2.1"
+                }
+            ],
+            "identifier": "lgpl_2_1-6893cb1b-4cad-db8f-2133-a48bc107078b",
+            "license_expression": "lgpl-2.1"
+        }
+    ],
+    "other_license_expression": "lgpl-2.1-plus",
+    "other_license_expression_spdx": "LGPL-2.1-or-later",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: LGPL 2.1\n  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.liferay/com.liferay.layout.admin.web@5.0.144?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [],
+    "package_uid": "pkg:maven/com.liferay/com.liferay.layout.admin.web@5.0.144?classifier=sources&uuid=3e5b867e-456a-41fc-93fc-d76f74448c2d",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/com.liferay/com.liferay.layout.admin.web@5.0.144?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.layout.admin.web/5.0.144/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.layout.admin.web/5.0.144/com.liferay.layout.admin.web-5.0.144-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.layout.admin.web/5.0.144/com.liferay.layout.admin.web-5.0.144.pom",
+    "file_references": []
+}

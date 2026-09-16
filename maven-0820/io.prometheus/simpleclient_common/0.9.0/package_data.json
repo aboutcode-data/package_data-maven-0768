@@ -1,0 +1,119 @@
+{
+    "type": "maven",
+    "namespace": "io.prometheus",
+    "name": "simpleclient_common",
+    "version": "0.9.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "939c7eca-89b8-49f0-9466-bbdf62920323",
+            "packages": [
+                "pkg:maven/io.prometheus/simpleclient_common@0.9.0?uuid=9efc8af4-a6e2-4986-a235-33b57c79b36e",
+                "pkg:maven/io.prometheus/simpleclient_common@0.9.0?classifier=sources&uuid=cbea58e4-2d49-4bea-8468-cecb469eb9f9"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Prometheus Java Simpleclient Common\nCommon code used by various modules of the Simpleclient.",
+    "release_date": "2020-05-11T11:07:23Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Brian Brazil",
+            "email": "brian.brazil@boxever.com",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://github.com/prometheus/client_java",
+    "download_url": "https://repo1.maven.org/maven2/io/prometheus/simpleclient_common/0.9.0/simpleclient_common-0.9.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "f9839e4771df83e20ebf381764028f52547d66b8",
+    "sha256": "6d0f2c3dace483abcc4cee8e19af321c26a5d90ad2daf50fb5b1deb66783d53e",
+    "sha512": "e34abd72937e0f7725cc14719b61fc7d9962d5312e86149cf59297a33284b72bc27f8c8c3f8039ebc362e500a1f927ff120cffc47345d89964a8053e9e102e39",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_5.RULE",
+                    "start_line": 1,
+                    "matched_text": "The Apache Software License, Version 2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 7,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_5.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-daaaee76-1395-c8c8-e06a-3f3f76e079b1",
+            "license_expression": "apache-2.0"
+        },
+        {
+            "matches": [
+                {
+                    "score": 80.0,
+                    "matcher": "1-hash",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_42.RULE",
+                    "start_line": 1,
+                    "matched_text": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 9,
+                    "rule_relevance": 80,
+                    "rule_identifier": "apache-2.0_42.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-e6b67d43-b657-21c0-8d8b-17f617aef8ce",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: The Apache Software License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt\n  comments:\n  distribution: repo\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.prometheus/simpleclient_common@0.9.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/io.prometheus/simpleclient@0.9.0",
+            "extracted_requirement": "0.9.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit@4.11",
+            "extracted_requirement": "4.11",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/io.prometheus/simpleclient_common@0.9.0?classifier=sources&uuid=cbea58e4-2d49-4bea-8468-cecb469eb9f9",
+    "datasource_id": null,
+    "purl": "pkg:maven/io.prometheus/simpleclient_common@0.9.0?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/io/prometheus/simpleclient_common/0.9.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/io/prometheus/simpleclient_common/0.9.0/simpleclient_common-0.9.0-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/io/prometheus/simpleclient_common/0.9.0/simpleclient_common-0.9.0.pom",
+    "file_references": []
+}

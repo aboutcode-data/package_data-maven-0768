@@ -1,0 +1,88 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.velocity",
+    "name": "velocity-engine-scripting",
+    "version": "2.2",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "be9d73f5-855a-4428-86a1-66a9d9392723",
+            "packages": [
+                "pkg:maven/org.apache.velocity/velocity-engine-scripting@2.2?uuid=59271197-f540-4604-b3e4-2647b1757977",
+                "pkg:maven/org.apache.velocity/velocity-engine-scripting@2.2?classifier=sources&uuid=97490913-f971-4e1d-9cc0-dbd09066465f"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Apache Velocity - JSR 223 Scripting",
+    "release_date": "2020-01-29T17:07:41Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "https://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://www.apache.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/velocity/velocity-engine-scripting/2.2/velocity-engine-scripting-2.2-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "f6edcb8797ccd6e9dc834302d4868ae07503f45b",
+    "sha256": "c7d6fb97daadbc9d10b332a95dd9c5cdafcac889b93c70957b5f1f426832c7bd",
+    "sha512": "1a8cadcaa7f243500e76fc8d5f13a78e66b6d6664a074f81b7553ae210a00dafe7ad85e4213a2791eb536a85e1bdfab803503edc8a9d36fcbcc3e9169e548fee",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) The Apache Software Foundation",
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "bsd-new AND (mit AND apache-2.0)",
+    "other_license_expression_spdx": "BSD-3-Clause AND (MIT AND Apache-2.0)",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.velocity/velocity-engine-scripting@2.2?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.velocity/velocity-engine-core@2.2",
+            "extracted_requirement": "2.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": "${junit.version}",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-simple",
+            "extracted_requirement": "${slf4j.version}",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.velocity/velocity-engine-scripting@2.2?classifier=sources&uuid=97490913-f971-4e1d-9cc0-dbd09066465f",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.apache.velocity/velocity-engine-scripting@2.2?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/velocity/velocity-engine-scripting/2.2/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/velocity/velocity-engine-scripting/2.2/velocity-engine-scripting-2.2-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/velocity/velocity-engine-scripting/2.2/velocity-engine-scripting-2.2.pom",
+    "file_references": []
+}

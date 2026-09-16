@@ -1,0 +1,288 @@
+{
+    "type": "maven",
+    "namespace": "org.ops4j.pax.url",
+    "name": "pax-url-aether",
+    "version": "1.5.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "f8df7331-2f3d-4623-9479-c59f2f1d0c26",
+            "packages": [
+                "pkg:maven/org.ops4j.pax.url/pax-url-aether@1.5.0?uuid=911b499d-927e-4afe-83d4-e830b03d1813",
+                "pkg:maven/org.ops4j.pax.url/pax-url-aether@1.5.0?classifier=sources&uuid=03cb5ec5-b8d0-4c66-952a-75380fc73fd3"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "OPS4J Pax Url - aether:\nOPS4J Pax Url - aether: protocol handler.\n        Detailed information to be found at http://wiki.ops4j.org/confluence/x/CoA6.",
+    "release_date": "2012-08-25T16:35:42Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Harald Wellmann",
+            "email": "harald.wellmann@gmx.de",
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "OPS4J - Open Participation Software for Java",
+            "email": null,
+            "url": "http://www.ops4j.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://nexus.sonatype.org/oss-repository-hosting.html",
+    "download_url": "https://repo1.maven.org/maven2/org/ops4j/pax/url/pax-url-aether/1.5.0/pax-url-aether-1.5.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "54fbe097a7323b987640b193842d0b61f86aaccd",
+    "sha256": "0b7a7bd5cf289d0a2abb2738e0142a57a9d998da52c7291fd7c6d51c646cf8d1",
+    "sha512": "0c7419c362e3525850b3eff260320e4ab56867224d2d04c29fda1a2d11ae38898c2ef482f421fcff8e507b745ecbacbfdd985d2bbac281c85691e7b4cfdfc15a",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.ops4j.pax.url/pax-url-aether@1.5.0?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.sonatype.oss/oss-parent@7",
+            "Field `homepage_url` has been updated using values obtained from the parent POM pkg:maven/org.sonatype.oss/oss-parent@7",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.sonatype.oss/oss-parent@7",
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.ops4j/master@3.1.0",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.ops4j/master@3.1.0"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.ops4j.base/ops4j-base-lang",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.ops4j.base/ops4j-base-net",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.ops4j.base/ops4j-base-io",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.ops4j.base/ops4j-base-util-property",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.ops4j.base/ops4j-base-util-xml",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.ops4j.pax.url/pax-url-commons@1.5.0",
+            "extracted_requirement": "1.5.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.ops4j.pax.url/pax-url-maven-commons@1.5.0",
+            "extracted_requirement": "1.5.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.sonatype.aether/aether-api@1.13.1",
+            "extracted_requirement": "1.13.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.sonatype.aether/aether-spi@1.13.1",
+            "extracted_requirement": "1.13.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.sonatype.aether/aether-util@1.13.1",
+            "extracted_requirement": "1.13.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.sonatype.aether/aether-impl@1.13.1",
+            "extracted_requirement": "1.13.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.sonatype.aether/aether-connector-wagon@1.13.1",
+            "extracted_requirement": "1.13.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.maven/maven-aether-provider@3.0.4",
+            "extracted_requirement": "3.0.4",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.maven.wagon/wagon-provider-api@1.0-beta-7",
+            "extracted_requirement": "1.0-beta-7",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.maven.wagon/wagon-file@1.0-beta-7",
+            "extracted_requirement": "1.0-beta-7",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.maven.wagon/wagon-http-lightweight@1.0-beta-7",
+            "extracted_requirement": "1.0-beta-7",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.codehaus.plexus/plexus-container-default@1.5.5",
+            "extracted_requirement": "1.5.5",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.codehaus.plexus/plexus-utils@3.0",
+            "extracted_requirement": "3.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/commons-httpclient/commons-httpclient@3.1",
+            "extracted_requirement": "3.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.osgi/org.osgi.core",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.osgi/org.osgi.compendium",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.easymock/easymock",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-simple",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.jetty.aggregate/jetty-server@7.3.1.v20110307",
+            "extracted_requirement": "7.3.1.v20110307",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.ops4j.pax.url/pax-url-aether@1.5.0?classifier=sources&uuid=03cb5ec5-b8d0-4c66-952a-75380fc73fd3",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.ops4j.pax.url/pax-url-aether@1.5.0?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/ops4j/pax/url/pax-url-aether/1.5.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/ops4j/pax/url/pax-url-aether/1.5.0/pax-url-aether-1.5.0-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/ops4j/pax/url/pax-url-aether/1.5.0/pax-url-aether-1.5.0.pom",
+    "file_references": []
+}

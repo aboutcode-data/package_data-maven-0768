@@ -1,0 +1,146 @@
+{
+    "type": "maven",
+    "namespace": "org.jgroups",
+    "name": "jgroups",
+    "version": "4.1.6.Final",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "7ea5b424-6f02-4206-999c-942407efd655",
+            "packages": [
+                "pkg:maven/org.jgroups/jgroups@4.1.6.Final?uuid=619b471b-3462-4382-809d-2cfed9403738",
+                "pkg:maven/org.jgroups/jgroups@4.1.6.Final?classifier=sources&uuid=059b0c7a-a6f1-4728-b0b2-f15862e4717e"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "JGroups\nReliable cluster communication toolkit",
+    "release_date": "2019-10-04T12:57:05Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Bela Ban",
+            "email": "belaban@yahoo.com",
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "JBoss, a division of Red Hat",
+            "email": null,
+            "url": "http://www.jboss.org"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.jgroups.org",
+    "download_url": "https://repo1.maven.org/maven2/org/jgroups/jgroups/4.1.6.Final/jgroups-4.1.6.Final-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "99f178e0d67b6dfb5276d54669a723e56a3d9da8",
+    "sha256": "4712de5631b02dd2a3a12c9c5083145b899843fed6c955828e58fb61f3452d13",
+    "sha512": "9ee3dce66450e7c6f995a07a149be817eacf2eddfcde0c37a2c941c82f0998962a977736b6120839d7beb2616afc86e4bca8e13a68225105fe384042e91c2912",
+    "bug_tracking_url": "https://jira.jboss.com/jira/browse/JGRP",
+    "code_view_url": "https://github.com/belaban/JGroups",
+    "vcs_url": "git://github.com/belaban/JGroups.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_1039.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: Apache License 2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 5,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_1039.RULE",
+                    "license_expression": "apache-2.0"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_20.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.apache.org/licenses/LICENSE-2.0.html",
+                    "match_coverage": 100.0,
+                    "matched_length": 9,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_20.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-eb058c3c-9605-84f4-30ec-3991d62bfe41",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": "cc-by-2.5 AND public-domain-disclaimer",
+    "other_license_expression_spdx": "CC-BY-2.5 AND LicenseRef-scancode-public-domain-disclaimer",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Apache License 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.html\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.jgroups/jgroups@4.1.6.Final?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.logging.log4j/log4j-core",
+            "extracted_requirement": "[2.0,)",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.logging.log4j/log4j-api",
+            "extracted_requirement": "[2.0,)",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-api",
+            "extracted_requirement": "[1.7,)",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.testng/testng",
+            "extracted_requirement": "[6.14,6.20]",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.byteman/byteman-bmunit",
+            "extracted_requirement": "[4,)",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.jgroups/jgroups@4.1.6.Final?classifier=sources&uuid=059b0c7a-a6f1-4728-b0b2-f15862e4717e",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.jgroups/jgroups@4.1.6.Final?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/jgroups/jgroups/4.1.6.Final/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/jgroups/jgroups/4.1.6.Final/jgroups-4.1.6.Final-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/jgroups/jgroups/4.1.6.Final/jgroups-4.1.6.Final.pom",
+    "file_references": []
+}

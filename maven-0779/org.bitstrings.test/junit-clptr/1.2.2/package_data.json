@@ -1,0 +1,123 @@
+{
+    "type": "maven",
+    "namespace": "org.bitstrings.test",
+    "name": "junit-clptr",
+    "version": "1.2.2",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "bd55e15d-5bc5-4de4-8184-0641aafbee5f",
+            "packages": [
+                "pkg:maven/org.bitstrings.test/junit-clptr@1.2.2?uuid=cc6dfee5-6bbe-4829-ae2b-7d8729a89f03",
+                "pkg:maven/org.bitstrings.test/junit-clptr@1.2.2?classifier=sources&uuid=28cb84d4-3288-41ed-8131-a402dd0fef93"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Junit ClassLoader per test runner\nClassLoader per Test runner for JUnit 4.12+ based on myfaces-test \"TestPerClassLoaderRunner\".",
+    "release_date": "2016-02-14T23:08:23Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Pino Silvaggio",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "bitstrings.org",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://nexus.sonatype.org/oss-repository-hosting.html",
+    "download_url": "https://repo1.maven.org/maven2/org/bitstrings/test/junit-clptr/1.2.2/junit-clptr-1.2.2-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "d26b829365796cde428e08a0438badc0b8c151f1",
+    "sha256": "165b0b1ed4602bbc7b43aaf3a7da181b143afad5e855a878486aa948cd0adc4d",
+    "sha512": "7e1d16ffc651f2c082a8870ca34225ea55a24c4ad7614426824d949efd4e9c498ebe72c5ab8a7118774ebbfd4508ff27a76a298d0ff6c71edbfcd6a44fc3db96",
+    "bug_tracking_url": "https://github.com/bitstrings/junit-clptr/issues",
+    "code_view_url": "https://github.com/bitstrings/junit-clptr",
+    "vcs_url": "git://github.com/bitstrings/junit-clptr.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0 AND unknown",
+    "declared_license_expression_spdx": "Apache-2.0 AND LicenseRef-scancode-unknown",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 66.67,
+                    "matcher": "3-seq",
+                    "end_line": 3,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_959.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: Apache License Version 2.0, January 2004\n  url: https://raw.github.com/bitstrings/junit-clptr/master/LICENSE.txt\n  comments: http://www.apache.org/licenses/LICENSE-2.0.html",
+                    "match_coverage": 66.67,
+                    "matched_length": 14,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_959.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-f2938d3a-83f2-d0a4-1fe6-9362efbf6d8f",
+            "license_expression": "apache-2.0"
+        },
+        {
+            "matches": [
+                {
+                    "score": 93.33,
+                    "matcher": "5-undetected",
+                    "end_line": 3,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/package-manifest-unknown-818658d7f8d36d98eb357662b05a8091d35f1b9f",
+                    "start_line": 1,
+                    "matched_text": "license - name: Apache License Version 2.0, January 2004\n  url: https://raw.github.com/bitstrings/junit-clptr/master/LICENSE.txt\n  comments: http://www.apache.org/licenses/LICENSE-2.0.html",
+                    "match_coverage": 100.0,
+                    "matched_length": 28,
+                    "rule_relevance": 100,
+                    "rule_identifier": "package-manifest-unknown-818658d7f8d36d98eb357662b05a8091d35f1b9f",
+                    "license_expression": "unknown"
+                }
+            ],
+            "identifier": "unknown-3d56de3b-ae3f-65e9-4e2d-12fad3795145",
+            "license_expression": "unknown"
+        }
+    ],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Apache License Version 2.0, January 2004\n  url: https://raw.github.com/bitstrings/junit-clptr/master/LICENSE.txt\n  comments: http://www.apache.org/licenses/LICENSE-2.0.html\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.bitstrings.test/junit-clptr@1.2.2?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `homepage_url` has been updated using values obtained from the parent POM pkg:maven/org.sonatype.oss/oss-parent@9"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/junit/junit@4.12",
+            "extracted_requirement": "4.12",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.bitstrings.test/junit-clptr@1.2.2?classifier=sources&uuid=28cb84d4-3288-41ed-8131-a402dd0fef93",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.bitstrings.test/junit-clptr@1.2.2?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/bitstrings/test/junit-clptr/1.2.2/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/bitstrings/test/junit-clptr/1.2.2/junit-clptr-1.2.2-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/bitstrings/test/junit-clptr/1.2.2/junit-clptr-1.2.2.pom",
+    "file_references": []
+}

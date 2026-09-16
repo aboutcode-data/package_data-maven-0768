@@ -1,0 +1,293 @@
+{
+    "type": "maven",
+    "namespace": "it.unimi.di.law",
+    "name": "bubing",
+    "version": "0.9.9",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "BUbiNG\nBUbiNG is an open-source Java fully distributed crawler",
+    "release_date": "2015-04-02T10:11:29Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Paolo Boldi",
+            "email": "boldi@di.unimi.it",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Andrea Marino",
+            "email": "andreamarino.it@gmail.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Massimo Santini",
+            "email": "santini@di.unimi.it",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Sebastiano Vigna",
+            "email": "vigna@di.unimi.it",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://law.di.unimi.it/",
+    "download_url": "https://repo1.maven.org/maven2/it/unimi/di/law/bubing/0.9.9/bubing-0.9.9.jar",
+    "size": 539031,
+    "md5": null,
+    "sha1": "e59ba52495d07325f8ed13d6daacb094e854647d",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "gpl-1.0-plus AND gpl-1.0-plus AND unknown",
+    "declared_license_expression_spdx": "GPL-1.0-or-later AND GPL-1.0-or-later AND LicenseRef-scancode-unknown",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "GNU General Public License Version 3+\nhttp://www.gnu.org/licenses/gpl.html",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/it.unimi.di.law/bubing@0.9.9?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/ch.qos.logback/logback-classic.jar",
+            "extracted_requirement": "0.9.9",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/net.java.dev.javacc/javacc",
+            "extracted_requirement": "5.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/it.unimi.dsi/dsiutils",
+            "extracted_requirement": "2.2.4",
+            "scope": "runtime",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/it.unimi.di.law/jai4j",
+            "extracted_requirement": "2.0.11-SNAPSHOT",
+            "scope": "runtime",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/it.unimi.di.law/jericho-html-dev",
+            "extracted_requirement": "20131217",
+            "scope": "runtime",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/log4j-over-slf4j",
+            "extracted_requirement": "1.7.12",
+            "scope": "runtime",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/jcl-over-slf4j",
+            "extracted_requirement": "1.7.12",
+            "scope": "runtime",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/ch.qos.logback/logback-classic",
+            "extracted_requirement": "1.1.3",
+            "scope": "runtime",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/it.unimi.dsi/fastutil",
+            "extracted_requirement": "7.0.2",
+            "scope": "runtime",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/it.unimi.dsi/webgraph",
+            "extracted_requirement": "3.4.3",
+            "scope": "runtime",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/it.unimi.dsi/webgraph-big",
+            "extracted_requirement": "3.3.6",
+            "scope": "runtime",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/it.unimi.dsi/sux4j",
+            "extracted_requirement": "3.2.2",
+            "scope": "runtime",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/it.unimi.dsi/mg4j",
+            "extracted_requirement": "4.0.3",
+            "scope": "runtime",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/it.unimi.di/mg4j",
+            "extracted_requirement": "5.2",
+            "scope": "runtime",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/it.unimi.dsi/mg4j-big",
+            "extracted_requirement": "4.0.4",
+            "scope": "runtime",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.sleepycat/je",
+            "extracted_requirement": "5.0.73",
+            "scope": "runtime",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/dnsjava/dnsjava",
+            "extracted_requirement": "2.1.7",
+            "scope": "runtime",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.commons/commons-math3",
+            "extracted_requirement": "3.4.1",
+            "scope": "runtime",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.httpcomponents/httpcore",
+            "extracted_requirement": "4.4.1",
+            "scope": "runtime",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.httpcomponents/httpclient",
+            "extracted_requirement": "4.4.1",
+            "scope": "runtime",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.martiansoftware/jsap",
+            "extracted_requirement": "2.1",
+            "scope": "runtime",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.softee/pojo-mbean",
+            "extracted_requirement": "1.1",
+            "scope": "runtime",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.guava/guava",
+            "extracted_requirement": "18.0",
+            "scope": "runtime",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.umlgraph/umlgraph",
+            "extracted_requirement": "5.6.6",
+            "scope": "runtime",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.commons/commons-math",
+            "extracted_requirement": "2.2",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": "4.12",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jacoco/org.jacoco.ant",
+            "extracted_requirement": "0.7.2.201409121644",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/it.unimi.di.law/bubing@0.9.9?uuid=7f5d6b69-d921-41fc-a05d-ad497f47dd6e",
+    "datasource_id": null,
+    "purl": "pkg:maven/it.unimi.di.law/bubing@0.9.9",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/it/unimi/di/law/bubing/0.9.9/",
+    "repository_download_url": "https://repo1.maven.org/maven2/it/unimi/di/law/bubing/0.9.9/bubing-0.9.9.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/it/unimi/di/law/bubing/0.9.9/bubing-0.9.9.pom",
+    "file_references": []
+}

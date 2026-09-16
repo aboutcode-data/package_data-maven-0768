@@ -1,0 +1,189 @@
+{
+    "type": "maven",
+    "namespace": "org.wicketstuff",
+    "name": "wicketstuff-phonebook",
+    "version": "7.0.0-M4",
+    "qualifiers": "type=war",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Wicket Phonebook Example\nWicket Phonebook Example - Spring & [Hibernate|iBATIS] CrUD app",
+    "release_date": "2014-11-11T14:58:10Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Igor Vaynberg",
+            "email": "ivaynberg at users.sourceforge.net",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Gwyn Evans",
+            "email": "gwynevans at users.sourceforge.net",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Kare Nuorteva",
+            "email": "kare at users.sourceforge.net",
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Wicket developers",
+            "email": null,
+            "url": "http://wicket.sourceforge.net"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/wicketstuff/wicketstuff-phonebook/7.0.0-M4/wicketstuff-phonebook-7.0.0-M4.war",
+    "size": 18399146,
+    "md5": null,
+    "sha1": "409d695dbe50890a73df227d975b73d0967b615c",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "The Apache Software License, Version 2.0\nhttp://www.apache.org/licenses/LICENSE-2.0.txt",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.wicketstuff/wicketstuff-phonebook@7.0.0-M4?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.wicket/wicket-extensions",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.wicket/wicket-spring",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-orm",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-web",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.hibernate/hibernate-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/net.sf.ehcache/ehcache-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.javassist/javassist",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.hsqldb/hsqldb",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/net.sf.shadesdb/shades",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.easymock/easymock",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-log4j12",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.jetty.aggregate/jetty-all-server",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.wicketstuff/wicketstuff-phonebook@7.0.0-M4?type=war&uuid=3f9745fc-57d4-4386-b8d6-8e7ef0b3f5aa",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.wicketstuff/wicketstuff-phonebook@7.0.0-M4?type=war",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/wicketstuff/wicketstuff-phonebook/7.0.0-M4/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/wicketstuff/wicketstuff-phonebook/7.0.0-M4/wicketstuff-phonebook-7.0.0-M4.war",
+    "api_data_url": "https://repo1.maven.org/maven2/org/wicketstuff/wicketstuff-phonebook/7.0.0-M4/wicketstuff-phonebook-7.0.0-M4.pom",
+    "file_references": []
+}

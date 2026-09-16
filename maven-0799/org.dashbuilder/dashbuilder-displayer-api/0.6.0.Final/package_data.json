@@ -1,0 +1,80 @@
+{
+    "type": "maven",
+    "namespace": "org.dashbuilder",
+    "name": "dashbuilder-displayer-api",
+    "version": "0.6.0.Final",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Dashbuilder Displayer API\nDashbuilder Displayer API shared between client and server.",
+    "release_date": "2017-05-18T05:49:03Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/dashbuilder/dashbuilder-displayer-api/0.6.0.Final/dashbuilder-displayer-api-0.6.0.Final.jar",
+    "size": 51793,
+    "md5": null,
+    "sha1": "4631f85fca235e3468c89c1359465ee21af3091e",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.dashbuilder/dashbuilder-displayer-api@0.6.0.Final?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.dashbuilder/dashbuilder-dataset-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.dashbuilder/dashbuilder-json",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.errai/errai-bus",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.errai/errai-common",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.dashbuilder/dashbuilder-displayer-api@0.6.0.Final?uuid=460bd573-b3ca-42a0-bebb-89532a9648b8",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.dashbuilder/dashbuilder-displayer-api@0.6.0.Final",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/dashbuilder/dashbuilder-displayer-api/0.6.0.Final/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/dashbuilder/dashbuilder-displayer-api/0.6.0.Final/dashbuilder-displayer-api-0.6.0.Final.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/dashbuilder/dashbuilder-displayer-api/0.6.0.Final/dashbuilder-displayer-api-0.6.0.Final.pom",
+    "file_references": []
+}

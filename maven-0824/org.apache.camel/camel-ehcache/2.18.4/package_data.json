@@ -1,0 +1,112 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.camel",
+    "name": "camel-ehcache",
+    "version": "2.18.4",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Camel :: Ehcache\nCamel Ehcache support",
+    "release_date": "2017-05-20T19:45:03Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/apache/camel/camel-ehcache/2.18.4/camel-ehcache-2.18.4.jar",
+    "size": 35794,
+    "md5": null,
+    "sha1": "ffc53041ce33cc5602dbbbf2ed59c5e3729af927",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.camel/camel-ehcache@2.18.4?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.camel/camel-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.ehcache/ehcache",
+            "extracted_requirement": "${ehcache3-version}",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.camel/camel-test",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.logging.log4j/log4j-api",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.logging.log4j/log4j-core",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.logging.log4j/log4j-slf4j-impl",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.mockito/mockito-all",
+            "extracted_requirement": "${mockito-version}",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.hamcrest/java-hamcrest",
+            "extracted_requirement": "${hamcrest-version}",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.camel/camel-ehcache@2.18.4?uuid=2d5f8163-9cea-4519-a0a5-3cdd3a6e8894",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.apache.camel/camel-ehcache@2.18.4",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/camel/camel-ehcache/2.18.4/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/camel/camel-ehcache/2.18.4/camel-ehcache-2.18.4.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/camel/camel-ehcache/2.18.4/camel-ehcache-2.18.4.pom",
+    "file_references": []
+}

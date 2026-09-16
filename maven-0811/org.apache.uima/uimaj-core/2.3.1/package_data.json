@@ -1,0 +1,80 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.uima",
+    "name": "uimaj-core",
+    "version": "2.3.1",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "42e05d5f-c775-4fb4-93d2-689d12b3b96f",
+            "packages": [
+                "pkg:maven/org.apache.uima/uimaj-core@2.3.1?uuid=75619816-670d-4031-a3f2-bf54662dc87e",
+                "pkg:maven/org.apache.uima/uimaj-core@2.3.1?classifier=sources&uuid=5e57e0d8-fd28-4f6f-bc8d-5b24cd3aa88a"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "UIMA Base: uimaj-core\nThe core implementation of the UIMA Java Framework",
+    "release_date": "2010-12-06T23:29:27Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "http://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "${uimaWebsiteUrl}",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/uima/uimaj-core/2.3.1/uimaj-core-2.3.1-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "a35fd7f506a2c7811694a31c254e33a058cb8f44",
+    "sha256": "29da9ffa110d24328f9a98966ac5b35cbda6151fb10d80b7bcbb0b7e1bd2a8be",
+    "sha512": "74dc2f1c4ca590b8a92864ce4665b29eae44f3db1ac25d1c25a3dae8ee9c6b452996f017acfe8408644a30c5a835e6eeda76b53790d1ee0441cd1c84c0f73663",
+    "bug_tracking_url": null,
+    "code_view_url": "http://svn.apache.org/viewvc/uima/uimaj/tags/uimaj-2.3.1-rc1/uimaj-core",
+    "vcs_url": "svn+http://svn.apache.org/repos/asf/uima/uimaj/tags/uimaj-2.3.1-rc1/uimaj-core",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0 AND proprietary-license AND unknown-license-reference AND warranty-disclaimer",
+    "other_license_expression_spdx": "Apache-2.0 AND LicenseRef-scancode-proprietary-license AND LicenseRef-scancode-unknown-license-reference AND LicenseRef-scancode-warranty-disclaimer",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.uima/uimaj-core@2.3.1?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/log4j/log4j@1.2.8",
+            "extracted_requirement": "1.2.8",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.uima/uimaj-test-util@2.3.1",
+            "extracted_requirement": "2.3.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.uima/uimaj-core@2.3.1?classifier=sources&uuid=5e57e0d8-fd28-4f6f-bc8d-5b24cd3aa88a",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.apache.uima/uimaj-core@2.3.1?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/uima/uimaj-core/2.3.1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/uima/uimaj-core/2.3.1/uimaj-core-2.3.1-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/uima/uimaj-core/2.3.1/uimaj-core-2.3.1.pom",
+    "file_references": []
+}

@@ -1,0 +1,72 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.htrace",
+    "name": "htrace-core",
+    "version": "3.1.0-incubating",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "5240ce91-6f7b-4d0f-9b7c-3046fbaa9907",
+            "packages": [
+                "pkg:maven/org.apache.htrace/htrace-core@3.1.0-incubating?uuid=e2d5a53e-e25d-49d4-809a-15e8427f9f98",
+                "pkg:maven/org.apache.htrace/htrace-core@3.1.0-incubating?classifier=sources&uuid=e51aacd2-ee99-42e0-87b3-eba9510517ff"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "htrace-core",
+    "release_date": "2015-01-15T19:37:03Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "http://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://incubator.apache.org/projects/htrace.html",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/htrace/htrace-core/3.1.0-incubating/htrace-core-3.1.0-incubating-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "8235eca5e9cae7e0a1cd7e239fb6af24bc96e163",
+    "sha256": "00639921372693c68a23b9f65f72fe28c68967fa7c080c44ef20007d9cad9bf4",
+    "sha512": "ef786db949dd6004b7dc171f0aff6ce7c76b8750c72c63a8cc4323eb5407564e5cc5697ba422fccbb551fc2d9c875ccbe73c8259dfca784bdcc209d35a3a0c61",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.htrace/htrace-core@3.1.0-incubating?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/junit/junit@4.10",
+            "extracted_requirement": "4.10",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.htrace/htrace-core@3.1.0-incubating?classifier=sources&uuid=e51aacd2-ee99-42e0-87b3-eba9510517ff",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.apache.htrace/htrace-core@3.1.0-incubating?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/htrace/htrace-core/3.1.0-incubating/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/htrace/htrace-core/3.1.0-incubating/htrace-core-3.1.0-incubating-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/htrace/htrace-core/3.1.0-incubating/htrace-core-3.1.0-incubating.pom",
+    "file_references": []
+}

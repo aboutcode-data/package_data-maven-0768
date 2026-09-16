@@ -1,0 +1,120 @@
+{
+    "type": "maven",
+    "namespace": "io.zipkin.brave",
+    "name": "brave-p6spy",
+    "version": "4.3.3",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "archive/brave-p6spy\np6spy integration for brave",
+    "release_date": "2017-05-17T17:14:00Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/io/zipkin/brave/brave-p6spy/4.3.3/brave-p6spy-4.3.3.jar",
+    "size": 7346,
+    "md5": null,
+    "sha1": "a51d2cbed3f5d3ed53fcfcb26f28f688af50c4d8",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.zipkin.brave/brave-p6spy@4.3.3?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/io.zipkin.brave/brave-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/p6spy/p6spy",
+            "extracted_requirement": "3.0.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.derby/derby",
+            "extracted_requirement": "10.13.1.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.derby/derbyclient",
+            "extracted_requirement": "10.13.1.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.liquibase/liquibase-core",
+            "extracted_requirement": "3.0.8",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-jdbc",
+            "extracted_requirement": "${spring.version}",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-context",
+            "extracted_requirement": "${spring.version}",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.openjdk.jmh/jmh-core",
+            "extracted_requirement": "${jmh.version}",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.openjdk.jmh/jmh-generator-annprocess",
+            "extracted_requirement": "${jmh.version}",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/io.zipkin.brave/brave-p6spy@4.3.3?uuid=88586abe-2893-4dc0-820b-e380473821fe",
+    "datasource_id": null,
+    "purl": "pkg:maven/io.zipkin.brave/brave-p6spy@4.3.3",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/io/zipkin/brave/brave-p6spy/4.3.3/",
+    "repository_download_url": "https://repo1.maven.org/maven2/io/zipkin/brave/brave-p6spy/4.3.3/brave-p6spy-4.3.3.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/io/zipkin/brave/brave-p6spy/4.3.3/brave-p6spy-4.3.3.pom",
+    "file_references": []
+}

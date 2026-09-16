@@ -1,0 +1,112 @@
+{
+    "type": "maven",
+    "namespace": "net.liftweb",
+    "name": "lift-mapper_2.8.0",
+    "version": "2.4-M3",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Lift Mapper",
+    "release_date": "2011-07-20T16:44:53Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "WorldWide Conferencing, LLC",
+            "email": null,
+            "url": "http://www.liftweb.net"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.liftweb.net",
+    "download_url": "https://repo1.maven.org/maven2/net/liftweb/lift-mapper_2.8.0/2.4-M3/lift-mapper_2.8.0-2.4-M3.jar",
+    "size": 1435838,
+    "md5": null,
+    "sha1": null,
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0 AND apache-2.0 AND unknown",
+    "declared_license_expression_spdx": "Apache-2.0 AND Apache-2.0 AND LicenseRef-scancode-unknown",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "Apache License, Version 2.0\nhttp://www.apache.org/licenses/LICENSE-2.0.txt\nLift Mapper is licensed under Apache License, Version 2.0",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/net.liftweb/lift-mapper_2.8.0@2.4-M3?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.scala-tools.testing/specs_2.8.0",
+            "extracted_requirement": "1.6.5",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.scala-tools.testing/scalacheck_2.8.0",
+            "extracted_requirement": "1.7",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.h2database/h2",
+            "extracted_requirement": "1.2.147",
+            "scope": "runtime",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.derby/derby",
+            "extracted_requirement": "10.7.1.1",
+            "scope": "runtime",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/net.liftweb/lift-db_2.8.0",
+            "extracted_requirement": "2.4-M3",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/net.liftweb/lift-proto_2.8.0",
+            "extracted_requirement": "2.4-M3",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.scala-lang/scala-library",
+            "extracted_requirement": "2.8.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/net.liftweb/lift-mapper_2.8.0@2.4-M3?uuid=bf8f6cfa-b1e4-49bd-b4b4-ae0ed687a610",
+    "datasource_id": null,
+    "purl": "pkg:maven/net.liftweb/lift-mapper_2.8.0@2.4-M3",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/net/liftweb/lift-mapper_2.8.0/2.4-M3/",
+    "repository_download_url": "https://repo1.maven.org/maven2/net/liftweb/lift-mapper_2.8.0/2.4-M3/lift-mapper_2.8.0-2.4-M3.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/net/liftweb/lift-mapper_2.8.0/2.4-M3/lift-mapper_2.8.0-2.4-M3.pom",
+    "file_references": []
+}

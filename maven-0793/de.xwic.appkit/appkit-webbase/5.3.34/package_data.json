@@ -1,0 +1,104 @@
+{
+    "type": "maven",
+    "namespace": "de.xwic.appkit",
+    "name": "appkit-webbase",
+    "version": "5.3.34",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "APPKIT::WEBBASE",
+    "release_date": "2017-05-17T06:56:37Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/de/xwic/appkit/appkit-webbase/5.3.34/appkit-webbase-5.3.34.jar",
+    "size": 679764,
+    "md5": null,
+    "sha1": "a70cd141b65c500e014cb1ed7e83f550605d529b",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/de.xwic.appkit/appkit-webbase@5.3.34?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/de.xwic.appkit/appkit-core",
+            "extracted_requirement": "5.3.34",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/de.xwic.jwic/jwic-core",
+            "extracted_requirement": "${mvnDependencyVersionxWicjWic}",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/de.xwic.jwic/jwic-controls",
+            "extracted_requirement": "${mvnDependencyVersionxWicjWic}",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/de.xwic.jwic/jwic-web",
+            "extracted_requirement": "${mvnDependencyVersionxWicjWic}",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/de.xwic.cube/cube-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.mockito/mockito-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/de.xwic.appkit/appkit-webbase@5.3.34?uuid=b33ad583-3163-4195-af54-e341b227b470",
+    "datasource_id": null,
+    "purl": "pkg:maven/de.xwic.appkit/appkit-webbase@5.3.34",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/de/xwic/appkit/appkit-webbase/5.3.34/",
+    "repository_download_url": "https://repo1.maven.org/maven2/de/xwic/appkit/appkit-webbase/5.3.34/appkit-webbase-5.3.34.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/de/xwic/appkit/appkit-webbase/5.3.34/appkit-webbase-5.3.34.pom",
+    "file_references": []
+}

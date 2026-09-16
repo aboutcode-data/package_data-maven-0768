@@ -1,0 +1,87 @@
+{
+    "type": "maven",
+    "namespace": "software.amazon.awssdk",
+    "name": "third-party-jackson-core",
+    "version": "2.17.112",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "0823565a-6d8e-4c11-a9de-cfe50688e3fe",
+            "packages": [
+                "pkg:maven/software.amazon.awssdk/third-party-jackson-core@2.17.112?uuid=41676acc-8f21-4b7a-942c-c7735c137855",
+                "pkg:maven/software.amazon.awssdk/third-party-jackson-core@2.17.112?classifier=sources&uuid=c153ce76-564a-434d-91cd-91e07b9783ec",
+                "pkg:github/aws/aws-sdk-java-v2@2.17.112?uuid=b0aa8f44-625e-4734-af25-55063f02e6a4"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "AWS Java SDK :: Third Party :: Jackson-core",
+    "release_date": "2022-01-14T20:38:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": null,
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://aws.amazon.com/sdkforjava",
+    "download_url": "https://repo1.maven.org/maven2/software/amazon/awssdk/third-party-jackson-core/2.17.112/third-party-jackson-core-2.17.112-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "2785485144bea670dc401b5d5a92501c872e58b4",
+    "sha256": "065ba468259721388378ee59a54abc41f8a39f0b6bfe1041295e6979c1eb5289",
+    "sha512": "123a5e6060bc072bdb0a5dcfb4780ef0060181a14badea6eb06584ea7ede89ccc425f9e3ddecabead5befe262eebddced96030dbc6853658a6d111d41d86827e",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) Amazon.com, Inc. or its affiliates",
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/software.amazon.awssdk/third-party-jackson-core@2.17.112?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/software.amazon.awssdk/aws-sdk-java-pom@2.17.112",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/software.amazon.awssdk/aws-sdk-java-pom@2.17.112"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/software.amazon.awssdk/bom-internal@2.17.112",
+            "extracted_requirement": "2.17.112",
+            "scope": "import",
+            "is_runtime": false,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/software.amazon.awssdk/bom-internal@2.17.112",
+            "extracted_requirement": "2.17.112",
+            "scope": "dependencymanagement",
+            "is_runtime": false,
+            "is_optional": false,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/software.amazon.awssdk/third-party-jackson-core@2.17.112?classifier=sources&uuid=c153ce76-564a-434d-91cd-91e07b9783ec",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/software.amazon.awssdk/third-party-jackson-core@2.17.112?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/software/amazon/awssdk/third-party-jackson-core/2.17.112/",
+    "repository_download_url": "https://repo1.maven.org/maven2/software/amazon/awssdk/third-party-jackson-core/2.17.112/third-party-jackson-core-2.17.112-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/software/amazon/awssdk/third-party-jackson-core/2.17.112/third-party-jackson-core-2.17.112.pom",
+    "file_references": []
+}

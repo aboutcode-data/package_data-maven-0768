@@ -1,0 +1,80 @@
+{
+    "type": "maven",
+    "namespace": "org.jclouds",
+    "name": "jclouds-all",
+    "version": "1.5.0-alpha.4",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "all",
+    "release_date": "2012-04-19T00:41:59Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/jclouds/jclouds-all/1.5.0-alpha.4/jclouds-all-1.5.0-alpha.4.jar",
+    "size": 7303,
+    "md5": null,
+    "sha1": "e60df680bcc83b76f32033bca066f8ff98bcb487",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.jclouds/jclouds-all@1.5.0-alpha.4?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.jclouds.provider/aws-cloudwatch",
+            "extracted_requirement": "1.5.0-alpha.4",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jclouds/jclouds-allloadbalancer",
+            "extracted_requirement": "1.5.0-alpha.4",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jclouds/jclouds-allcompute",
+            "extracted_requirement": "1.5.0-alpha.4",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jclouds/jclouds-allblobstore",
+            "extracted_requirement": "1.5.0-alpha.4",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.jclouds/jclouds-all@1.5.0-alpha.4?uuid=b9dfcd0f-c227-4d7d-9d31-10adb18aa9fc",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.jclouds/jclouds-all@1.5.0-alpha.4",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/jclouds/jclouds-all/1.5.0-alpha.4/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/jclouds/jclouds-all/1.5.0-alpha.4/jclouds-all-1.5.0-alpha.4.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/jclouds/jclouds-all/1.5.0-alpha.4/jclouds-all-1.5.0-alpha.4.pom",
+    "file_references": []
+}

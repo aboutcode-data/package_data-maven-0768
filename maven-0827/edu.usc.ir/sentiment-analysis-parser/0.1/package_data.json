@@ -1,0 +1,179 @@
+{
+    "type": "maven",
+    "namespace": "edu.usc.ir",
+    "name": "sentiment-analysis-parser",
+    "version": "0.1",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "4167ab91-f8e4-4f7e-a8fb-3c200e182e97",
+            "packages": [
+                "pkg:maven/edu.usc.ir/sentiment-analysis-parser@0.1?uuid=063f6f7b-bb35-42e3-b040-9d7d2908d5b1",
+                "pkg:maven/edu.usc.ir/sentiment-analysis-parser@0.1?classifier=sources&uuid=ccb7db93-80a0-4654-8691-562f2838b83f"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "SentimentAnalysisParser\nCombines Apache OpenNLP and Apache Tika and provides facilities for automatically deriving sentiment from text.",
+    "release_date": "2016-06-08T18:31:17Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Anastasija Mensikova",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/USCDataScience/SentimentAnalysisParser",
+    "download_url": "https://repo1.maven.org/maven2/edu/usc/ir/sentiment-analysis-parser/0.1/sentiment-analysis-parser-0.1-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "aec4b4f0344bfff776b6bed33067b75cdf834eb6",
+    "sha256": "53fdd5f77d47b74c284a939d8ba4a3676e28a211a42b4102a1226221b09a9cc8",
+    "sha512": "c24399ee04ba9f7eaa716d0a3c6129542ee8f858062739616b47354ea5c4d182e4fde2a9ccc6643deaa4fa7d36c93d3d9e0b59871b02c0e95b39316337e30ae2",
+    "bug_tracking_url": null,
+    "code_view_url": "https://github.com/USCDataScience/SentimentAnalysisParser.git",
+    "vcs_url": "git://github.com/USCDataScience/SentimentAnalysisParser.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_182.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: The Apache License, Version 2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 6,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_182.RULE",
+                    "license_expression": "apache-2.0"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_42.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.apache.org/licenses/LICENSE-2.0.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 9,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_42.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-e8c40f40-3205-ccee-fa1e-76154bd59d16",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: The Apache License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/edu.usc.ir/sentiment-analysis-parser@0.1?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.tika/tika-core@1.13",
+            "extracted_requirement": "1.13",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.tika/tika-parsers@1.13",
+            "extracted_requirement": "1.13",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.tika/tika-langdetect@1.13",
+            "extracted_requirement": "1.13",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.tika/tika-batch@1.13",
+            "extracted_requirement": "1.13",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.opennlp/opennlp-tools@1.6.0",
+            "extracted_requirement": "1.6.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-log4j12@1.7.21",
+            "extracted_requirement": "1.7.21",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/jul-to-slf4j@1.7.21",
+            "extracted_requirement": "1.7.21",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/jcl-over-slf4j@1.7.21",
+            "extracted_requirement": "1.7.21",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/log4j/log4j@1.2.17",
+            "extracted_requirement": "1.2.17",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit@4.12",
+            "extracted_requirement": "4.12",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/edu.usc.ir/sentiment-analysis-parser@0.1?classifier=sources&uuid=ccb7db93-80a0-4654-8691-562f2838b83f",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/edu.usc.ir/sentiment-analysis-parser@0.1?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/edu/usc/ir/sentiment-analysis-parser/0.1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/edu/usc/ir/sentiment-analysis-parser/0.1/sentiment-analysis-parser-0.1-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/edu/usc/ir/sentiment-analysis-parser/0.1/sentiment-analysis-parser-0.1.pom",
+    "file_references": []
+}

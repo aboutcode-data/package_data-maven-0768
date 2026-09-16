@@ -1,0 +1,88 @@
+{
+    "type": "maven",
+    "namespace": "org.sonatype.aether",
+    "name": "aether-util",
+    "version": "1.13.1",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "e7f623f8-b4d2-42c4-b33c-8e6a55211424",
+            "packages": [
+                "pkg:maven/org.sonatype.aether/aether-util@1.13.1?uuid=dbb5b588-a9dd-46bf-83c3-6aefe12b04c0",
+                "pkg:maven/org.sonatype.aether/aether-util@1.13.1?classifier=sources&uuid=e1faa22b-5f88-4748-914d-7e78618d0681"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Aether :: Utilities\nA collection of utility classes to ease usage of the repository system.",
+    "release_date": "2011-11-29T13:29:43Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Sonatype, Inc.",
+            "email": null,
+            "url": "http://www.sonatype.com/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://forge.sonatype.com/",
+    "download_url": "https://repo1.maven.org/maven2/org/sonatype/aether/aether-util/1.13.1/aether-util-1.13.1-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "1c51acc5f07be722f3a808e316d123da22183466",
+    "sha256": "da373fd77a88458aa0a82dfd82210433380749415d01677de88658fb8993a361",
+    "sha512": "2b738b1b45d9f01049f9351ecda717a8f77c554b6a5aea9b6d7a3cc04ac7ff0e4b6d50773265767ac4020d1935a3d2b2a2a623742b34653db67f52e218c9d5e4",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "epl-1.0",
+    "declared_license_expression_spdx": "EPL-1.0",
+    "license_detections": [],
+    "other_license_expression": "epl-1.0",
+    "other_license_expression_spdx": "EPL-1.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.sonatype.aether/aether-util@1.13.1?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.sonatype.aether/aether-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.sonatype.aether/aether-test-util",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.sonatype.aether/aether-util@1.13.1?classifier=sources&uuid=e1faa22b-5f88-4748-914d-7e78618d0681",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.sonatype.aether/aether-util@1.13.1?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/sonatype/aether/aether-util/1.13.1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/sonatype/aether/aether-util/1.13.1/aether-util-1.13.1-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/sonatype/aether/aether-util/1.13.1/aether-util-1.13.1.pom",
+    "file_references": []
+}

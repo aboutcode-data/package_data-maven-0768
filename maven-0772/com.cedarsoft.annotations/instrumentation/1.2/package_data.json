@@ -1,0 +1,96 @@
+{
+    "type": "maven",
+    "namespace": "com.cedarsoft.annotations",
+    "name": "instrumentation",
+    "version": "1.2",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": null,
+    "release_date": "2012-08-27T12:21:15Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/com/cedarsoft/annotations/instrumentation/1.2/instrumentation-1.2.jar",
+    "size": 6344,
+    "md5": null,
+    "sha1": "de3afc549551decce448db6d45c7968311d7c6de",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.cedarsoft.annotations/instrumentation@1.2?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.google.code.findbugs/jsr305",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.cedarsoft/annotations",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.cedarsoft.annotations/verification",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javassist/javassist",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.cedarsoft.commons/test-utils",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/com.cedarsoft.annotations/instrumentation@1.2?uuid=a1893beb-c057-4ea3-b809-3d444ae6432b",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.cedarsoft.annotations/instrumentation@1.2",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/cedarsoft/annotations/instrumentation/1.2/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/cedarsoft/annotations/instrumentation/1.2/instrumentation-1.2.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/cedarsoft/annotations/instrumentation/1.2/instrumentation-1.2.pom",
+    "file_references": []
+}

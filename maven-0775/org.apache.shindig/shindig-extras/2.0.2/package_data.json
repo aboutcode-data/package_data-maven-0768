@@ -1,0 +1,120 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.shindig",
+    "name": "shindig-extras",
+    "version": "2.0.2",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "d603b27e-721e-4a06-8df7-2280bb6f4834",
+            "packages": [
+                "pkg:maven/org.apache.shindig/shindig-extras@2.0.2?uuid=c1899c22-a1da-4fdd-be64-9cb4aaafc7c5",
+                "pkg:maven/org.apache.shindig/shindig-extras@2.0.2?classifier=sources&uuid=588e2b32-1fcd-4e3b-a979-844854b597a9"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Apache Shindig Extra Modules\nProvides extra, deprecated or extended functionality. The items here have unstable APIs and could change at any time.",
+    "release_date": "2010-10-26T17:18:12Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "http://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.apache.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/shindig/shindig-extras/2.0.2/shindig-extras-2.0.2-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "35a266287512edd7cf3100e75f13135c454c58f7",
+    "sha256": "9cd5631a3ccaac4e624c3007f8a37132b06a8e3c63fc6695904450b42ac68de7",
+    "sha512": "f0dcd1d2563800c53d5694d00ad2f14084e64308dcc554437e42c9f2b6704b8ac9e293c25da15b178ff2323a0fba6e3832f037acaee7c1924bf7568a53b4b300",
+    "bug_tracking_url": null,
+    "code_view_url": "http://svn.apache.org/viewvc/shindig/tags/shindig-project-2.0.2/extras",
+    "vcs_url": "svn+http://svn.apache.org/repos/asf/shindig/tags/shindig-project-2.0.2/extras",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0 AND (apache-2.0 AND indiana-extreme-1.2 AND cc-pd) AND (apache-2.0 AND warranty-disclaimer AND bsd-new) AND mit AND (public-domain AND apache-2.0 AND x11)",
+    "other_license_expression_spdx": "Apache-2.0 AND (Apache-2.0 AND xpp AND CC-PDDC) AND (Apache-2.0 AND LicenseRef-scancode-warranty-disclaimer AND BSD-3-Clause) AND MIT AND (LicenseRef-scancode-public-domain AND Apache-2.0 AND ICU)",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.shindig/shindig-extras@2.0.2?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.google.inject/guice",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.shindig/shindig-common",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.shindig/shindig-gadgets",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.shindig/shindig-social-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.inject.extensions/guice-multibindings",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.shindig/shindig-common@2.0.2",
+            "extracted_requirement": "2.0.2",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.shindig/shindig-social-api@2.0.2",
+            "extracted_requirement": "2.0.2",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.shindig/shindig-extras@2.0.2?classifier=sources&uuid=588e2b32-1fcd-4e3b-a979-844854b597a9",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.apache.shindig/shindig-extras@2.0.2?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/shindig/shindig-extras/2.0.2/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/shindig/shindig-extras/2.0.2/shindig-extras-2.0.2-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/shindig/shindig-extras/2.0.2/shindig-extras-2.0.2.pom",
+    "file_references": []
+}

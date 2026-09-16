@@ -1,0 +1,72 @@
+{
+    "type": "maven",
+    "namespace": "org.apithefire",
+    "name": "apithefire-web",
+    "version": "0.1.0",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "apithefire-web\nWeb Library.",
+    "release_date": "2008-04-12T02:35:31Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": "http://www.apithefire.org/apithefire-web/",
+    "download_url": "https://repo1.maven.org/maven2/org/apithefire/apithefire-web/0.1.0/apithefire-web-0.1.0.jar",
+    "size": 8676,
+    "md5": null,
+    "sha1": "e9498fc838633e6651d4d86b9a347501fd5b3c69",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apithefire/apithefire-web@0.1.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apithefire/apithefire-test",
+            "extracted_requirement": "0.1.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apithefire/apithefire-util",
+            "extracted_requirement": "0.1.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.servlet/servlet-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apithefire/apithefire-web@0.1.0?uuid=30a88fbf-d7d8-4ce0-82b0-02a2ed1b285c",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.apithefire/apithefire-web@0.1.0",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apithefire/apithefire-web/0.1.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apithefire/apithefire-web/0.1.0/apithefire-web-0.1.0.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apithefire/apithefire-web/0.1.0/apithefire-web-0.1.0.pom",
+    "file_references": []
+}

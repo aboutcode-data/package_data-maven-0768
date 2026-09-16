@@ -1,0 +1,94 @@
+{
+    "type": "maven",
+    "namespace": "org.drools",
+    "name": "guvnor-repository-connector-jackrabbit",
+    "version": "5.4.0.Final",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "01f6537b-2969-4aaa-8a33-a125b8f94ee3",
+            "packages": [
+                "pkg:maven/org.drools/guvnor-repository-connector-jackrabbit@5.4.0.Final?uuid=e4722ebe-e2b5-46de-a0e1-ed774b655c64",
+                "pkg:maven/org.drools/guvnor-repository-connector-jackrabbit@5.4.0.Final?classifier=sources&uuid=60966265-ef36-472b-85aa-2895e3e75549"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Guvnor repository connector Jackrabbit",
+    "release_date": "2012-05-12T15:35:45Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "All developers are listed on the team website",
+            "email": null,
+            "url": "http://www.jboss.org/drools/team"
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "All contributors are listed on the team website",
+            "email": null,
+            "url": "http://www.jboss.org/drools/team"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "JBoss by Red Hat",
+            "email": null,
+            "url": "http://www.jboss.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.jboss.org/drools",
+    "download_url": "https://repo1.maven.org/maven2/org/drools/guvnor-repository-connector-jackrabbit/5.4.0.Final/guvnor-repository-connector-jackrabbit-5.4.0.Final-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "7596b5c8f877ceaece90006d53a5155490fbceab",
+    "sha256": "c9d01d8b29a1ca5bbedcdaea0f7cea20adb02e0a8592557f4886dda42fdabc2d",
+    "sha512": "cc9f390d284fd06480c6b3c7664399cad90365162e64755474c48b3bc00f183ed61674c6a9b1437304f6df94aed36cd91cccae7283b6e03bc92ed2f825637a61",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.drools/guvnor-repository-connector-jackrabbit@5.4.0.Final?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.drools/guvnor-repository-connector-jcr",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.jackrabbit/jackrabbit-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.drools/guvnor-repository-connector-jackrabbit@5.4.0.Final?classifier=sources&uuid=60966265-ef36-472b-85aa-2895e3e75549",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.drools/guvnor-repository-connector-jackrabbit@5.4.0.Final?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/drools/guvnor-repository-connector-jackrabbit/5.4.0.Final/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/drools/guvnor-repository-connector-jackrabbit/5.4.0.Final/guvnor-repository-connector-jackrabbit-5.4.0.Final-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/drools/guvnor-repository-connector-jackrabbit/5.4.0.Final/guvnor-repository-connector-jackrabbit-5.4.0.Final.pom",
+    "file_references": []
+}

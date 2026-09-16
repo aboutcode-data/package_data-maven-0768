@@ -1,0 +1,80 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.tomcat",
+    "name": "tomcat-i18n-de",
+    "version": "9.0.80",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "German translations",
+    "release_date": null,
+    "parties": [],
+    "keywords": [],
+    "homepage_url": "https://tomcat.apache.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/tomcat/tomcat-i18n-de/9.0.80/tomcat-i18n-de-9.0.80.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "027340cb7ca0a69877afdc4df14818e10aa12641",
+    "sha256": "c1e8011241389fda7e87cc97b4ca31374e3abb2f9d2c1e3e9560a9a7411133c2",
+    "sha512": "158f877467bb0c9e37c65c5cba05a34f1951b428bee635a441696e390292a53d2f738ef1313c27bbd471a607df64f9997e98a333e928f9288e2c3c798a317ba6",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_48.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: Apache License, Version 2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 5,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_48.RULE",
+                    "license_expression": "apache-2.0"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_42.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.apache.org/licenses/LICENSE-2.0.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 9,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_42.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-efc1b129-3bcc-a9c0-71ea-964bc53d5512",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Apache License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.tomcat/tomcat-i18n-de@9.0.80?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [],
+    "package_uid": "pkg:maven/org.apache.tomcat/tomcat-i18n-de@9.0.80?uuid=ba360199-c4ff-4e0f-8ce5-ce725a7291cb",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.apache.tomcat/tomcat-i18n-de@9.0.80",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

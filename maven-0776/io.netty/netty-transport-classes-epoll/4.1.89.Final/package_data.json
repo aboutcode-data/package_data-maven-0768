@@ -1,0 +1,112 @@
+{
+    "type": "maven",
+    "namespace": "io.netty",
+    "name": "netty-transport-classes-epoll",
+    "version": "4.1.89.Final",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "ce020570-cf2e-4976-86f3-39701336d31e",
+            "packages": [
+                "pkg:maven/io.netty/netty-transport-classes-epoll@4.1.89.Final?uuid=338037d4-4faf-4f80-b21e-7b5ca848dcb3",
+                "pkg:maven/io.netty/netty-transport-classes-epoll@4.1.89.Final?classifier=sources&uuid=dbeb9b68-4cd6-4339-b52f-ac27cdcc9e68"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Netty/Transport/Classes/Epoll",
+    "release_date": "2023-02-13T15:14:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "The Netty Project Contributors",
+            "email": "netty@googlegroups.com",
+            "url": "https://netty.io/"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Netty Project",
+            "email": null,
+            "url": "https://netty.io/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://nexus.sonatype.org/oss-repository-hosting.html",
+    "download_url": "https://repo1.maven.org/maven2/io/netty/netty-transport-classes-epoll/4.1.89.Final/netty-transport-classes-epoll-4.1.89.Final-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "c4e7732ed86ab26490ffdcbd4e00297a003c70d1",
+    "sha256": "cad9f173301f0f803b3a13866c86dcdb580e7b634e4e603d2df33af65c616462",
+    "sha512": "8f03e4668ae32ffd49c5332b624d30cfd3c5d945ac89ff8403d62c56f77c760af3379031369964ca312e29f72ecf31067af4c87747aed91becb6ae5f497120bf",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) The Netty Project",
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.netty/netty-transport-classes-epoll@4.1.89.Final?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.sonatype.oss/oss-parent@9",
+            "Field `homepage_url` has been updated using values obtained from the parent POM pkg:maven/org.sonatype.oss/oss-parent@9",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.sonatype.oss/oss-parent@9",
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/io.netty/netty-parent@4.1.89.Final",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/io.netty/netty-parent@4.1.89.Final"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/io.netty/netty-common@4.1.89.Final",
+            "extracted_requirement": "4.1.89.Final",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.netty/netty-buffer@4.1.89.Final",
+            "extracted_requirement": "4.1.89.Final",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.netty/netty-transport@4.1.89.Final",
+            "extracted_requirement": "4.1.89.Final",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.netty/netty-transport-native-unix-common@4.1.89.Final",
+            "extracted_requirement": "4.1.89.Final",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/io.netty/netty-transport-classes-epoll@4.1.89.Final?classifier=sources&uuid=dbeb9b68-4cd6-4339-b52f-ac27cdcc9e68",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/io.netty/netty-transport-classes-epoll@4.1.89.Final?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/io/netty/netty-transport-classes-epoll/4.1.89.Final/",
+    "repository_download_url": "https://repo1.maven.org/maven2/io/netty/netty-transport-classes-epoll/4.1.89.Final/netty-transport-classes-epoll-4.1.89.Final-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/io/netty/netty-transport-classes-epoll/4.1.89.Final/netty-transport-classes-epoll-4.1.89.Final.pom",
+    "file_references": []
+}

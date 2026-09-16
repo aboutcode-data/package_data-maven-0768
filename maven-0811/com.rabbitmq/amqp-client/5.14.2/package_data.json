@@ -1,0 +1,276 @@
+{
+    "type": "maven",
+    "namespace": "com.rabbitmq",
+    "name": "amqp-client",
+    "version": "5.14.2",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "f4ca149d-ac8b-4ce9-8098-014b929d75a3",
+            "packages": [
+                "pkg:maven/com.rabbitmq/amqp-client@5.14.2?uuid=4dcc927c-a45a-4b39-a83d-09a964c6d45b",
+                "pkg:maven/com.rabbitmq/amqp-client@5.14.2?classifier=sources&uuid=e2408b13-faef-4898-86ae-c4f762ed6ac9"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "RabbitMQ Java Client\nThe RabbitMQ Java client library allows Java applications to interface with RabbitMQ.",
+    "release_date": "2022-02-10T09:17:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Team RabbitMQ",
+            "email": "info@rabbitmq.com",
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "VMware, Inc. or its affiliates.",
+            "email": null,
+            "url": "https://www.rabbitmq.com"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://www.rabbitmq.com",
+    "download_url": "https://repo1.maven.org/maven2/com/rabbitmq/amqp-client/5.14.2/amqp-client-5.14.2-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "008bfff7c0c79a1a0fb81053b5597f2a40663f4c",
+    "sha256": "1d873cdbd41d7d1534ad7fb668b9723141b0433c39e15756b14c6d6e863b83ab",
+    "sha512": "5dd8fa3d454ecb6d4a2fdf78499dadacb0dc62778dbb0d6449be27eae38c7aab4579ea34cbaeeeb450da36630e59cc255023cd70df3582a6fdec54a170755dc5",
+    "bug_tracking_url": null,
+    "code_view_url": "https://github.com/rabbitmq/rabbitmq-java-client",
+    "vcs_url": "git://github.com/rabbitmq/rabbitmq-java-client.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0 AND gpl-2.0 AND mpl-2.0",
+    "declared_license_expression_spdx": "Apache-2.0 AND GPL-2.0-only AND MPL-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 95.0,
+                    "matcher": "1-hash",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_531.RULE",
+                    "start_line": 1,
+                    "matched_text": "ASL 2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 95,
+                    "rule_identifier": "apache-2.0_531.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-11642125-96a2-13aa-d9b2-c928c56225c5",
+            "license_expression": "apache-2.0"
+        },
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_89.RULE",
+                    "start_line": 1,
+                    "matched_text": "https://www.apache.org/licenses/LICENSE-2.0.html",
+                    "match_coverage": 100.0,
+                    "matched_length": 9,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_89.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-45ad56dd-3422-d541-60b6-b4f47b10e5b8",
+            "license_expression": "apache-2.0"
+        },
+        {
+            "matches": [
+                {
+                    "score": 98.0,
+                    "matcher": "1-hash",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/gpl-2.0_238.RULE",
+                    "start_line": 1,
+                    "matched_text": "GPL v2",
+                    "match_coverage": 100.0,
+                    "matched_length": 2,
+                    "rule_relevance": 98,
+                    "rule_identifier": "gpl-2.0_238.RULE",
+                    "license_expression": "gpl-2.0"
+                }
+            ],
+            "identifier": "gpl_2_0-a1629d13-dae0-6478-dbce-c9f7ecd336c2",
+            "license_expression": "gpl-2.0"
+        },
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/gpl-2.0_1269.RULE",
+                    "start_line": 1,
+                    "matched_text": "https://www.gnu.org/licenses/gpl-2.0.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 9,
+                    "rule_relevance": 100,
+                    "rule_identifier": "gpl-2.0_1269.RULE",
+                    "license_expression": "gpl-2.0"
+                }
+            ],
+            "identifier": "gpl_2_0-5f4d4606-8481-416a-b2a1-43e953743764",
+            "license_expression": "gpl-2.0"
+        },
+        {
+            "matches": [
+                {
+                    "score": 50.0,
+                    "matcher": "1-hash",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/spdx_license_id_mpl-2.0_for_mpl-2.0.RULE",
+                    "start_line": 1,
+                    "matched_text": "MPL 2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 50,
+                    "rule_identifier": "spdx_license_id_mpl-2.0_for_mpl-2.0.RULE",
+                    "license_expression": "mpl-2.0"
+                }
+            ],
+            "identifier": "mpl_2_0-159c4a7a-362a-76f0-7d8e-d20aa1923af3",
+            "license_expression": "mpl-2.0"
+        },
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/mpl-2.0_5.RULE",
+                    "start_line": 1,
+                    "matched_text": "https://www.mozilla.org/en-US/MPL/2.0/",
+                    "match_coverage": 100.0,
+                    "matched_length": 9,
+                    "rule_relevance": 100,
+                    "rule_identifier": "mpl-2.0_5.RULE",
+                    "license_expression": "mpl-2.0"
+                }
+            ],
+            "identifier": "mpl_2_0-5abf2a91-941a-42e1-7deb-de2226c933bc",
+            "license_expression": "mpl-2.0"
+        }
+    ],
+    "other_license_expression": "((mpl-1.1 OR gpl-2.0 OR apache-2.0) AND warranty-disclaimer) AND (((mpl-1.1 OR gpl-2.0 OR apache-2.0) AND warranty-disclaimer) AND apache-2.0 AND lgpl-2.0-plus) AND (((mpl-1.1 OR gpl-2.0 OR apache-2.0) AND warranty-disclaimer) AND cc-pd) AND (((mpl-1.1 OR gpl-2.0 OR apache-2.0) AND warranty-disclaimer) AND unknown-license-reference) AND ((mpl-1.1 OR gpl-2.0-plus OR lgpl-2.1-plus) AND apache-2.0 AND gpl-2.0 AND mpl-2.0)",
+    "other_license_expression_spdx": "((MPL-1.1 OR GPL-2.0-only OR Apache-2.0) AND LicenseRef-scancode-warranty-disclaimer) AND (((MPL-1.1 OR GPL-2.0-only OR Apache-2.0) AND LicenseRef-scancode-warranty-disclaimer) AND Apache-2.0 AND LGPL-2.0-or-later) AND (((MPL-1.1 OR GPL-2.0-only OR Apache-2.0) AND LicenseRef-scancode-warranty-disclaimer) AND CC-PDDC) AND (((MPL-1.1 OR GPL-2.0-only OR Apache-2.0) AND LicenseRef-scancode-warranty-disclaimer) AND LicenseRef-scancode-unknown-license-reference) AND ((MPL-1.1 OR GPL-2.0-or-later OR LGPL-2.1-or-later) AND Apache-2.0 AND GPL-2.0-only AND MPL-2.0)",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: ASL 2.0\n  url: https://www.apache.org/licenses/LICENSE-2.0.html\n  comments:\n  distribution: repo\n- name: GPL v2\n  url: https://www.gnu.org/licenses/gpl-2.0.txt\n  comments:\n  distribution: repo\n- name: MPL 2.0\n  url: https://www.mozilla.org/en-US/MPL/2.0/\n  comments:\n  distribution: repo\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.rabbitmq/amqp-client@5.14.2?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-api@1.7.32",
+            "extracted_requirement": "1.7.32",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.dropwizard.metrics/metrics-core@4.2.4",
+            "extracted_requirement": "4.2.4",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.micrometer/micrometer-core@1.7.5",
+            "extracted_requirement": "1.7.5",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.13.0",
+            "extracted_requirement": "2.13.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit@4.13.2",
+            "extracted_requirement": "4.13.2",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/ch.qos.logback/logback-classic@1.2.6",
+            "extracted_requirement": "1.2.6",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.mockito/mockito-core@4.0.0",
+            "extracted_requirement": "4.0.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.assertj/assertj-core@3.21.0",
+            "extracted_requirement": "3.21.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-servlet@9.4.44.v20210927",
+            "extracted_requirement": "9.4.44.v20210927",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.bouncycastle/bcpkix-jdk15on@1.70",
+            "extracted_requirement": "1.70",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.github.netcrusherorg/netcrusher-core@0.10",
+            "extracted_requirement": "0.10",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/com.rabbitmq/amqp-client@5.14.2?classifier=sources&uuid=e2408b13-faef-4898-86ae-c4f762ed6ac9",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/com.rabbitmq/amqp-client@5.14.2?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/rabbitmq/amqp-client/5.14.2/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/rabbitmq/amqp-client/5.14.2/amqp-client-5.14.2-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/rabbitmq/amqp-client/5.14.2/amqp-client-5.14.2.pom",
+    "file_references": []
+}

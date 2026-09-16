@@ -1,0 +1,88 @@
+{
+    "type": "maven",
+    "namespace": "com.github.stephenc.high-scale-lib",
+    "name": "high-scale-lib",
+    "version": "1.1.4",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "4e8f2bca-ebc9-4a24-a08d-4888557ceda7",
+            "packages": [
+                "pkg:maven/com.github.stephenc.high-scale-lib/high-scale-lib@1.1.4?uuid=557b33d9-bd0c-4b2a-b596-9a10e5af9ba0",
+                "pkg:maven/com.github.stephenc.high-scale-lib/high-scale-lib@1.1.4?classifier=sources&uuid=fd8e4b5a-93e5-4810-bb07-956fba4bb806"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Highly Scalable Java",
+    "release_date": "2011-11-28T22:35:48Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Stephen Connolly",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Cliff Click",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://nexus.sonatype.org/oss-repository-hosting.html",
+    "download_url": "https://repo1.maven.org/maven2/com/github/stephenc/high-scale-lib/high-scale-lib/1.1.4/high-scale-lib-1.1.4-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "602a2d5114bf725bc3b2503d5b3d8947b347fb37",
+    "sha256": "0cdf0bd74a11dc9358b649ae2f73cd847c481bcd9ef0fb4b0b3b04838d6d96ad",
+    "sha512": "f65311d12dd0a94eae638357814a5ab3be946d3c540e2225130246b9cf01d99e5bdd9d3ff431bbdbc53aa659bebc6d43c498a6462762f0be959dd3f94e9debf7",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "public-domain AND cc-pd",
+    "declared_license_expression_spdx": "LicenseRef-scancode-public-domain AND CC-PDDC",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.github.stephenc.high-scale-lib/high-scale-lib@1.1.4?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.sonatype.oss/oss-parent@7",
+            "Field `homepage_url` has been updated using values obtained from the parent POM pkg:maven/org.sonatype.oss/oss-parent@7",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.sonatype.oss/oss-parent@7",
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/com.github.stephenc.high-scale-lib/high-scale-lib-parent@1.1.4",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/com.github.stephenc.high-scale-lib/high-scale-lib-parent@1.1.4"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/junit/junit@4.4",
+            "extracted_requirement": "4.4",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/com.github.stephenc.high-scale-lib/high-scale-lib@1.1.4?classifier=sources&uuid=fd8e4b5a-93e5-4810-bb07-956fba4bb806",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/com.github.stephenc.high-scale-lib/high-scale-lib@1.1.4?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/github/stephenc/high-scale-lib/high-scale-lib/1.1.4/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/github/stephenc/high-scale-lib/high-scale-lib/1.1.4/high-scale-lib-1.1.4-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/github/stephenc/high-scale-lib/high-scale-lib/1.1.4/high-scale-lib-1.1.4.pom",
+    "file_references": []
+}

@@ -1,0 +1,158 @@
+{
+    "type": "maven",
+    "namespace": "com.github.lookfirst",
+    "name": "sardine",
+    "version": "5.10",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "9821e7c4-1418-49f2-8168-625cb0c8f411",
+            "packages": [
+                "pkg:maven/com.github.lookfirst/sardine@5.10?uuid=6a4b7bcd-85d2-4cff-9aad-fa11d587e9bc",
+                "pkg:maven/com.github.lookfirst/sardine@5.10?classifier=sources&uuid=2fb02395-6c4f-4970-b562-49289be81a5b"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Sardine WebDAV client\nAn easy to use WebDAV client for Java",
+    "release_date": "2020-07-11T05:42:32Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Jon Stevens",
+            "email": "latchkey@gmail.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "David Kocher",
+            "email": "post@iterate.ch",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/lookfirst/sardine",
+    "download_url": "https://repo1.maven.org/maven2/com/github/lookfirst/sardine/5.10/sardine-5.10-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "0ba4916b72b1c0cd3197e055a7ac5853b096d0d3",
+    "sha256": "30ba22b36203ce0839f54b88d3707fcf1ae251f1973dbbc0ab13549d68d901c4",
+    "sha512": "58740940c04ec27a0eddf46f4a006495f993323616ea9120c0bbbc0dc69d880c59328305761458aab537fb43b22ac8575791d408e7d014833bf046cea11844fb",
+    "bug_tracking_url": null,
+    "code_view_url": "https://github.com/lookfirst/sardine.git",
+    "vcs_url": "git+https://github.com/lookfirst/sardine.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/spdx_license_id_apache-2.0_for_apache-2.0.RULE",
+                    "start_line": 1,
+                    "matched_text": "Apache 2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "spdx_license_id_apache-2.0_for_apache-2.0.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-d66ab77d-a5cc-7104-e702-dc7df61fe9e8",
+            "license_expression": "apache-2.0"
+        },
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_25.RULE",
+                    "start_line": 1,
+                    "matched_text": "http://www.apache.org/licenses/LICENSE-2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 8,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_25.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-e3a84133-3548-87fd-b873-d193344afada",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Apache 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0\n  comments:\n  distribution:\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.github.lookfirst/sardine@5.10?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.httpcomponents/httpclient@4.5.1",
+            "extracted_requirement": "4.5.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@2.3.2",
+            "extracted_requirement": "2.3.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.glassfish.jaxb/jaxb-runtime@2.3.2",
+            "extracted_requirement": "2.3.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.ant/ant@1.9.4",
+            "extracted_requirement": "1.9.4",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit@4.12",
+            "extracted_requirement": "4.12",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.mockito/mockito-all@1.10.19",
+            "extracted_requirement": "1.10.19",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/com.github.lookfirst/sardine@5.10?classifier=sources&uuid=2fb02395-6c4f-4970-b562-49289be81a5b",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.github.lookfirst/sardine@5.10?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/github/lookfirst/sardine/5.10/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/github/lookfirst/sardine/5.10/sardine-5.10-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/github/lookfirst/sardine/5.10/sardine-5.10.pom",
+    "file_references": []
+}

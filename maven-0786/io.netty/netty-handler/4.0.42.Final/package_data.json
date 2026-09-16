@@ -1,0 +1,136 @@
+{
+    "type": "maven",
+    "namespace": "io.netty",
+    "name": "netty-handler",
+    "version": "4.0.42.Final",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "d4b5a060-1412-4da8-92e9-03d5eb9725d8",
+            "packages": [
+                "pkg:maven/io.netty/netty-handler@4.0.42.Final?uuid=681e5579-2225-4a8e-8c48-ce1934b05a34",
+                "pkg:maven/io.netty/netty-handler@4.0.42.Final?classifier=sources&uuid=ad467186-df79-432d-901b-a0f0078bd365"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Netty/Handler",
+    "release_date": "2016-10-14T12:40:16Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "The Netty Project Contributors",
+            "email": "netty@googlegroups.com",
+            "url": "http://netty.io/"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Netty Project",
+            "email": null,
+            "url": "http://netty.io/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://nexus.sonatype.org/oss-repository-hosting.html",
+    "download_url": "https://repo1.maven.org/maven2/io/netty/netty-handler/4.0.42.Final/netty-handler-4.0.42.Final-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "05e6d1d0a18fa00e4f147eba1b8f76c8ee528087",
+    "sha256": "c6c07b50c3fb6bbcbfdf1632bfb6c0ebb4471125804bc3bc5c07577cf3c8c795",
+    "sha512": "f04a8b983a40e5fdfa352a3aa5360e2bef8fba59d7569f6d51f3d115de24d8ec26454f77d42db3adfbf45a7bd00ad512a48fc5d19dfa4eb53430d20500e04bac",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) The Netty Project",
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.netty/netty-handler@4.0.42.Final?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.sonatype.oss/oss-parent@9",
+            "Field `homepage_url` has been updated using values obtained from the parent POM pkg:maven/org.sonatype.oss/oss-parent@9",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.sonatype.oss/oss-parent@9",
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/io.netty/netty-parent@4.0.42.Final",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/io.netty/netty-parent@4.0.42.Final"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/io.netty/netty-buffer@4.0.42.Final",
+            "extracted_requirement": "4.0.42.Final",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.netty/netty-transport@4.0.42.Final",
+            "extracted_requirement": "4.0.42.Final",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.netty/netty-codec@4.0.42.Final",
+            "extracted_requirement": "4.0.42.Final",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.netty/%24%7Btcnative.artifactId%7D",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.bouncycastle/bcpkix-jdk15on",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.jetty.npn/npn-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.jetty.alpn/alpn-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/io.netty/netty-handler@4.0.42.Final?classifier=sources&uuid=ad467186-df79-432d-901b-a0f0078bd365",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/io.netty/netty-handler@4.0.42.Final?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/io/netty/netty-handler/4.0.42.Final/",
+    "repository_download_url": "https://repo1.maven.org/maven2/io/netty/netty-handler/4.0.42.Final/netty-handler-4.0.42.Final-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/io/netty/netty-handler/4.0.42.Final/netty-handler-4.0.42.Final.pom",
+    "file_references": []
+}

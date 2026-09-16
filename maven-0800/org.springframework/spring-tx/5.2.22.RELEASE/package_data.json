@@ -1,0 +1,88 @@
+{
+    "type": "maven",
+    "namespace": "org.springframework",
+    "name": "spring-tx",
+    "version": "5.2.22.RELEASE",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "f08d5ae6-5fc5-4fc1-9746-3881da60fcc0",
+            "packages": [
+                "pkg:maven/org.springframework/spring-tx@5.2.22.RELEASE?uuid=93b2f7e8-496b-4149-90fa-d3803863ef0f",
+                "pkg:maven/org.springframework/spring-tx@5.2.22.RELEASE?classifier=sources&uuid=d8297c87-6313-4c0c-bf95-5e8b84f36807",
+                "pkg:github/spring-projects/spring-framework@v5.2.22.RELEASE?uuid=63040aa0-7c66-422c-8649-15e344b6210d"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Spring Transaction",
+    "release_date": "2022-05-11T07:53:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Juergen Hoeller",
+            "email": "jhoeller@pivotal.io",
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Spring IO",
+            "email": null,
+            "url": "https://spring.io/projects/spring-framework"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/spring-projects/spring-framework",
+    "download_url": "https://repo1.maven.org/maven2/org/springframework/spring-tx/5.2.22.RELEASE/spring-tx-5.2.22.RELEASE-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "e236c4cfe7a139a90b5c818aa73db1d783df0229",
+    "sha256": "3a4e59a631e002599d13ce9ffe3f547ec43bbcb285b0ce690efd7f8084d98355",
+    "sha512": "181132c3c63668d489c0b11023ae5d2647930a0fd7d143788412f4e5399391524e9854615dfad73b73606d8bfa967823b15e178fc428c048635f4930200f2d6c",
+    "bug_tracking_url": "https://github.com/spring-projects/spring-framework/issues",
+    "code_view_url": "https://github.com/spring-projects/spring-framework",
+    "vcs_url": "git://github.com/spring-projects/spring-framework",
+    "copyright": "",
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": "[{'name': 'Apache License, Version 2.0', 'url': 'https://www.apache.org/licenses/LICENSE-2.0', 'comments': None, 'distribution': 'repo'}]",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.springframework/spring-tx@5.2.22.RELEASE?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.springframework/spring-beans@5.2.22.RELEASE",
+            "extracted_requirement": "5.2.22.RELEASE",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-core@5.2.22.RELEASE",
+            "extracted_requirement": "5.2.22.RELEASE",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.springframework/spring-tx@5.2.22.RELEASE?classifier=sources&uuid=d8297c87-6313-4c0c-bf95-5e8b84f36807",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.springframework/spring-tx@5.2.22.RELEASE?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

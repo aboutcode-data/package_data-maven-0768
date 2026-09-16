@@ -1,0 +1,96 @@
+{
+    "type": "maven",
+    "namespace": "com.liferay",
+    "name": "com.liferay.journal.taglib",
+    "version": "6.2.3",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "d4c1b4b4-3450-4ef9-b3ba-e8a26dc467a1",
+            "packages": [
+                "pkg:maven/com.liferay/com.liferay.journal.taglib@6.2.3?uuid=49d2706b-e33e-4ff0-8148-ab58e60381c9",
+                "pkg:maven/com.liferay/com.liferay.journal.taglib@6.2.3?classifier=sources&uuid=7210503c-e65b-4d88-b6c0-23333b245db2"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Liferay Journal Taglib",
+    "release_date": "2023-07-31T05:52:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Brian Wing Shun Chan",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.journal.taglib/6.2.3/com.liferay.journal.taglib-6.2.3-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "0b203e0756fa27163e8143c80d1ccdaa5606ae8d",
+    "sha256": "e296a2f745b72042fa799c0c4ca8b467ac797051e197d34ad10321246db412e5",
+    "sha512": "10e71fb7278d231cad0d866b623532ab1ead65d18a3d7a99e87efc56cc3cd3b905c0ca264f12c5a22365521b39742fb57d7fc96f8473dbf35e5a2b1c4b6c95cb",
+    "bug_tracking_url": null,
+    "code_view_url": "http://github.com/liferay/liferay-portal",
+    "vcs_url": "git+https://github.com/liferay/liferay-portal.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "lgpl-2.1",
+    "declared_license_expression_spdx": "LGPL-2.1-only",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_85.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: LGPL 2.1",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_85.RULE",
+                    "license_expression": "lgpl-2.1"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_37.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 11,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_37.RULE",
+                    "license_expression": "lgpl-2.1"
+                }
+            ],
+            "identifier": "lgpl_2_1-6893cb1b-4cad-db8f-2133-a48bc107078b",
+            "license_expression": "lgpl-2.1"
+        }
+    ],
+    "other_license_expression": "lgpl-2.1-plus OR unknown-spdx",
+    "other_license_expression_spdx": "LGPL-2.1-or-later OR LicenseRef-scancode-unknown-spdx",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: LGPL 2.1\n  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.liferay/com.liferay.journal.taglib@6.2.3?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [],
+    "package_uid": "pkg:maven/com.liferay/com.liferay.journal.taglib@6.2.3?classifier=sources&uuid=7210503c-e65b-4d88-b6c0-23333b245db2",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.liferay/com.liferay.journal.taglib@6.2.3?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

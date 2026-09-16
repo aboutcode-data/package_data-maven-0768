@@ -1,0 +1,121 @@
+{
+    "type": "maven",
+    "namespace": "org.jboss",
+    "name": "jboss-vfs",
+    "version": "3.1.0.Final",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "b05b07c4-cea9-49dc-926a-57bddd42ab47",
+            "packages": [
+                "pkg:maven/org.jboss/jboss-vfs@3.1.0.Final?uuid=08824d80-5ef0-4395-a79d-9f2ffd321fea",
+                "pkg:maven/org.jboss/jboss-vfs@3.1.0.Final?classifier=sources&uuid=2fd79e10-cf21-4967-bd35-102ed3d31d1e"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "JBoss VFS\nA VFS library",
+    "release_date": "2012-02-09T08:12:57Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "JBoss, A division of Red Hat, Inc",
+            "email": null,
+            "url": "http://www.jboss.org"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.jboss.org",
+    "download_url": "https://repo1.maven.org/maven2/org/jboss/jboss-vfs/3.1.0.Final/jboss-vfs-3.1.0.Final-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "9a7d9835a70481dd322601a8c173a83130490c1a",
+    "sha256": "26108bc24285d245fc6d885fa8469d7e2f197ea268610df1f44aeccff2f2a39d",
+    "sha512": "69d2857114ad21ff7fa5f0acd27a46059df1541ad721cd26c1e24c768d738e17a2584df3812e2a23986de86fa2f8bcda4b4b421e5c3f9ff6c4f2e33f7dec6bcc",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "lgpl-2.0-plus",
+    "declared_license_expression_spdx": "LGPL-2.0-or-later",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 75.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl_bare_single_word.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: lgpl",
+                    "match_coverage": 100.0,
+                    "matched_length": 1,
+                    "rule_relevance": 75,
+                    "rule_identifier": "lgpl_bare_single_word.RULE",
+                    "license_expression": "lgpl-2.0-plus"
+                },
+                {
+                    "score": 75.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl_bare_single_word.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://repository.jboss.org/licenses/lgpl.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 1,
+                    "rule_relevance": 75,
+                    "rule_identifier": "lgpl_bare_single_word.RULE",
+                    "license_expression": "lgpl-2.0-plus"
+                }
+            ],
+            "identifier": "lgpl_2_0_plus-10aa305b-de20-e6cc-d2a0-3f4e76b8a2f9",
+            "license_expression": "lgpl-2.0-plus"
+        }
+    ],
+    "other_license_expression": "lgpl-2.1-plus",
+    "other_license_expression_spdx": "LGPL-2.1-or-later",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: lgpl\n  url: http://repository.jboss.org/licenses/lgpl.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.jboss/jboss-vfs@3.1.0.Final?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.jboss.logging/jboss-logging@3.0.0.CR1",
+            "extracted_requirement": "3.0.0.CR1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.jboss.test/jboss-test@1.1.5.GA",
+            "extracted_requirement": "1.1.5.GA",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit@4.4",
+            "extracted_requirement": "4.4",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.jboss/jboss-vfs@3.1.0.Final?classifier=sources&uuid=2fd79e10-cf21-4967-bd35-102ed3d31d1e",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.jboss/jboss-vfs@3.1.0.Final?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/jboss/jboss-vfs/3.1.0.Final/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/jboss/jboss-vfs/3.1.0.Final/jboss-vfs-3.1.0.Final-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/jboss/jboss-vfs/3.1.0.Final/jboss-vfs-3.1.0.Final.pom",
+    "file_references": []
+}

@@ -1,0 +1,160 @@
+{
+    "type": "maven",
+    "namespace": "org.dashbuilder",
+    "name": "dashbuilder-displayer-editor",
+    "version": "0.6.0.Final",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Dashbuilder Displayer Editor Widgets",
+    "release_date": "2017-05-18T05:49:13Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/dashbuilder/dashbuilder-displayer-editor/0.6.0.Final/dashbuilder-displayer-editor-0.6.0.Final.jar",
+    "size": 14540,
+    "md5": null,
+    "sha1": "031a4c7acbba50f56c7b96b065a56e410682e082",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.dashbuilder/dashbuilder-displayer-editor@0.6.0.Final?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.uberfire/uberfire-client-all",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.uberfire/uberfire-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.uberfire/uberfire-workbench-client",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.uberfire/uberfire-layout-editor-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.uberfire/uberfire-layout-editor-client",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.uberfire/uberfire-runtime-plugins-client",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.errai/errai-common",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.errai/errai-ioc",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.gwtbootstrap3/gwtbootstrap3",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.dashbuilder/dashbuilder-common-client",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.dashbuilder/dashbuilder-displayer-client",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.dashbuilder/dashbuilder-displayer-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.dashbuilder/dashbuilder-displayer-screen",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.gwt/gwt-user",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.dashbuilder/dashbuilder-displayer-editor@0.6.0.Final?uuid=45d97d09-3854-430f-aa02-683d1e03d933",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.dashbuilder/dashbuilder-displayer-editor@0.6.0.Final",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/dashbuilder/dashbuilder-displayer-editor/0.6.0.Final/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/dashbuilder/dashbuilder-displayer-editor/0.6.0.Final/dashbuilder-displayer-editor-0.6.0.Final.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/dashbuilder/dashbuilder-displayer-editor/0.6.0.Final/dashbuilder-displayer-editor-0.6.0.Final.pom",
+    "file_references": []
+}

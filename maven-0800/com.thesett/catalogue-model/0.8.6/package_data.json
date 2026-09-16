@@ -1,0 +1,112 @@
+{
+    "type": "maven",
+    "namespace": "com.thesett",
+    "name": "catalogue-model",
+    "version": "0.8.6",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "catalogue-model\nA catalogue which is confugurable at the knowledge level to catalogue and organise any type of data and to provide structured access to it, free text querying of it and automatic data warehousing of events relating to it.",
+    "release_date": "2014-09-12T08:58:29Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": "http://www.thesett.com/catalogue-model",
+    "download_url": "https://repo1.maven.org/maven2/com/thesett/catalogue-model/0.8.6/catalogue-model-0.8.6.jar",
+    "size": 28545,
+    "md5": null,
+    "sha1": "32c37397be0ab45b88e02e9d924f049337853d69",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.thesett/catalogue-model@0.8.6?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.thesett/common",
+            "extracted_requirement": "0.8.6",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.thesett/configurator",
+            "extracted_requirement": "0.8.6",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.thesett/power_model",
+            "extracted_requirement": "0.8.6",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.thesett/prolog",
+            "extracted_requirement": "0.8.6",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.thesett/index",
+            "extracted_requirement": "0.8.6",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.hibernate/hibernate-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.thesett/junit-toolkit",
+            "extracted_requirement": "0.8.6",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.thesett/base",
+            "extracted_requirement": "0.8.6",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/com.thesett/catalogue-model@0.8.6?uuid=4722b325-c750-4eb7-ab13-d2dc48d2982d",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.thesett/catalogue-model@0.8.6",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/thesett/catalogue-model/0.8.6/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/thesett/catalogue-model/0.8.6/catalogue-model-0.8.6.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/thesett/catalogue-model/0.8.6/catalogue-model-0.8.6.pom",
+    "file_references": []
+}

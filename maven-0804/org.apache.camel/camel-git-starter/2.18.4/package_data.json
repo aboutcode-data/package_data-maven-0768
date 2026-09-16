@@ -1,0 +1,80 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.camel",
+    "name": "camel-git-starter",
+    "version": "2.18.4",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Spring-Boot Starter :: Camel :: Git\nSpring-Boot Starter for Camel Components",
+    "release_date": "2017-05-20T21:14:09Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/apache/camel/camel-git-starter/2.18.4/camel-git-starter-2.18.4.jar",
+    "size": 13221,
+    "md5": null,
+    "sha1": "7a3b5301307c37ea37cc3d36e13142f2f692c905",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.camel/camel-git-starter@2.18.4?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.springframework.boot/spring-boot-starter",
+            "extracted_requirement": "${spring-boot-version}",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.camel/camel-git",
+            "extracted_requirement": "2.18.4",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.camel/camel-core-starter",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.camel/camel-spring-boot-starter",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.camel/camel-git-starter@2.18.4?uuid=c414c1ca-5559-4667-a191-910458935681",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.apache.camel/camel-git-starter@2.18.4",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/camel/camel-git-starter/2.18.4/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/camel/camel-git-starter/2.18.4/camel-git-starter-2.18.4.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/camel/camel-git-starter/2.18.4/camel-git-starter-2.18.4.pom",
+    "file_references": []
+}

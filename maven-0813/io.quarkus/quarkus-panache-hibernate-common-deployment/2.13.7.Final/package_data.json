@@ -1,0 +1,104 @@
+{
+    "type": "maven",
+    "namespace": "io.quarkus",
+    "name": "quarkus-panache-hibernate-common-deployment",
+    "version": "2.13.7.Final",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "2263f849-ef91-47a4-80be-31ab588c8999",
+            "packages": [
+                "pkg:maven/io.quarkus/quarkus-panache-hibernate-common-deployment@2.13.7.Final?uuid=0396f5a7-9923-4a13-af04-e42d77a7cb59",
+                "pkg:maven/io.quarkus/quarkus-panache-hibernate-common-deployment@2.13.7.Final?classifier=sources&uuid=8e1c2f13-af1b-4c0f-9a6a-df0dcd7f2568"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Quarkus - Panache - Hibernate - Common - Deployment",
+    "release_date": "2023-01-19T10:21:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Quarkus Community",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/quarkusio/quarkus",
+    "download_url": "https://repo1.maven.org/maven2/io/quarkus/quarkus-panache-hibernate-common-deployment/2.13.7.Final/quarkus-panache-hibernate-common-deployment-2.13.7.Final-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "3979a14b5b2d03d6aa4b2d22bc5ae615e2c9aa0a",
+    "sha256": "f9b4d2feed29a1c664e93ce53019818471eb710fbfa3e618b9c066107856b188",
+    "sha512": "32af3bb1091fdb316cbb6b63c0e51acf48fa8c421a9f49d304e395a6eb50e67810a54bcb77c0da0e129224f6699b96d7d8cef58266cf13f663924959871fe531",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.quarkus/quarkus-panache-hibernate-common-deployment@2.13.7.Final?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/io.quarkus/quarkus-panache-hibernate-common",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.quarkus/quarkus-panache-common-deployment",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.quarkus/quarkus-arc-deployment",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss/jandex",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.ow2.asm/asm",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/io.quarkus/quarkus-panache-hibernate-common-deployment@2.13.7.Final?classifier=sources&uuid=8e1c2f13-af1b-4c0f-9a6a-df0dcd7f2568",
+    "datasource_id": null,
+    "purl": "pkg:maven/io.quarkus/quarkus-panache-hibernate-common-deployment@2.13.7.Final?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

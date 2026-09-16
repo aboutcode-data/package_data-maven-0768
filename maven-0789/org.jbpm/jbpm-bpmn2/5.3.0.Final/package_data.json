@@ -1,0 +1,198 @@
+{
+    "type": "maven",
+    "namespace": "org.jbpm",
+    "name": "jbpm-bpmn2",
+    "version": "5.3.0.Final",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "c35ba270-808e-4964-9be7-797e056a7918",
+            "packages": [
+                "pkg:maven/org.jbpm/jbpm-bpmn2@5.3.0.Final?uuid=4b567139-d0c5-4ec4-a843-18c6794bc8a8",
+                "pkg:maven/org.jbpm/jbpm-bpmn2@5.3.0.Final?classifier=sources&uuid=165092b2-63d6-4383-9893-becf54aad14b"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "jBPM :: BPMN2\njBPM BPMN2",
+    "release_date": "2012-05-12T14:58:59Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "All developers are listed on the team website",
+            "email": null,
+            "url": "http://www.jboss.org/drools/team"
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "All contributors are listed on the team website",
+            "email": null,
+            "url": "http://www.jboss.org/drools/team"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "JBoss by Red Hat",
+            "email": null,
+            "url": "http://www.jboss.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.jboss.org/drools",
+    "download_url": "https://repo1.maven.org/maven2/org/jbpm/jbpm-bpmn2/5.3.0.Final/jbpm-bpmn2-5.3.0.Final-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "470504f042e8f8d85c7e4dca4740cfb28b74ee9b",
+    "sha256": "7ee1760351d26bf5d229e302a11204e6d928165037f95c91de1d24ab71d00a27",
+    "sha512": "162aed669dbf49f8e4eda4d3dc69a705753ce53e6597bcf4ee6dbb5e6fedf08d0bec6d2dc1d40a6a95ec3f87b5f1ac2f66ef2832546a1d9c37fc5d4518ff8a4d",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.jbpm/jbpm-bpmn2@5.3.0.Final?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.jbpm/jbpm-flow-builder",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.felix/org.osgi.core",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.felix/org.osgi.compendium",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jbpm/jbpm-persistence-jpa",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.drools/drools-persistence-jpa",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jbpm/jbpm-bam",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.hibernate.javax.persistence/hibernate-jpa-2.0-api",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.transaction/jta",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.hibernate/hibernate-entitymanager",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.h2database/h2",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.codehaus.btm/btm",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-log4j12",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/dom4j/dom4j",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.javassist/javassist",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/xmlunit/xmlunit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.jbpm/jbpm-bpmn2@5.3.0.Final?classifier=sources&uuid=165092b2-63d6-4383-9893-becf54aad14b",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.jbpm/jbpm-bpmn2@5.3.0.Final?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/jbpm/jbpm-bpmn2/5.3.0.Final/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/jbpm/jbpm-bpmn2/5.3.0.Final/jbpm-bpmn2-5.3.0.Final-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/jbpm/jbpm-bpmn2/5.3.0.Final/jbpm-bpmn2-5.3.0.Final.pom",
+    "file_references": []
+}

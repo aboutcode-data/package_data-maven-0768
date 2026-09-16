@@ -1,0 +1,336 @@
+{
+    "type": "maven",
+    "namespace": "org.opendaylight.netconf",
+    "name": "restconf-nb-bierman02",
+    "version": "3.0.2",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "ab556bf7-6c98-4291-bfea-61cb4262d9d4",
+            "packages": [
+                "pkg:maven/org.opendaylight.netconf/restconf-nb-bierman02@3.0.2?uuid=eb2b5399-0358-4a72-ace4-c9c5f145b655",
+                "pkg:maven/org.opendaylight.netconf/restconf-nb-bierman02@3.0.2?classifier=sources&uuid=f4e2de70-691a-4663-b708-c644a68f45d0"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": null,
+    "release_date": "2022-04-25T08:04:00Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/opendaylight/netconf/restconf-nb-bierman02/3.0.2/restconf-nb-bierman02-3.0.2-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "94ea8ec33bffa1cccc8c4432b2c35d63bd29be57",
+    "sha256": "0599e2dc065cda7a0c3af8e697da464928aafb0dbbac5efade3ed197d9409ac3",
+    "sha512": "bc273647cb3b5698773f3267c0a78290b16a7a6f728dc764073fad926fe74a7e94267215b7b944341ee1a6b7125709e8477262083746b7634dbe7bb02f87296a",
+    "bug_tracking_url": null,
+    "code_view_url": "https://git.opendaylight.org/gerrit/gitweb?p=netconf.git;a=summary",
+    "vcs_url": "git+ssh://git.opendaylight.org:29418/netconf.git",
+    "copyright": "Copyright (c) Cisco Systems, Inc. and others",
+    "holder": null,
+    "declared_license_expression": "epl-1.0",
+    "declared_license_expression_spdx": "EPL-1.0",
+    "license_detections": [],
+    "other_license_expression": "bsd-new",
+    "other_license_expression_spdx": "BSD-3-Clause",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.opendaylight.netconf/restconf-nb-bierman02@3.0.2?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/javax.annotation/javax.annotation-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.guicedee.services/javax.inject",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.opendaylight.netconf/restconf-common-models",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.opendaylight.netconf/restconf-common",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.opendaylight.mdsal/mdsal-dom-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.opendaylight.mdsal/mdsal-dom-spi",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.code.gson/gson",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.netty/netty-codec-http",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.opendaylight.controller/sal-common-util",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.opendaylight.yangtools/yang-data-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.opendaylight.yangtools/yang-data-impl",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.opendaylight.yangtools/yang-model-util",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.opendaylight.yangtools/yang-data-codec-gson",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.opendaylight.yangtools/yang-data-codec-xml",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.opendaylight.yangtools/yang-model-export",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.opendaylight.mdsal.binding.model.ietf/rfc6991-ietf-inet-types",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.opendaylight.mdsal.binding.model.ietf/rfc6991-ietf-yang-types",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.opendaylight.netconf/netconf-util",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/net.java.dev.stax-utils/stax-utils",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.json/json@20131018",
+            "extracted_requirement": "20131018",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.opendaylight.aaa.web/web-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.opendaylight.aaa.web/servlet-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.opendaylight.aaa/aaa-filterchain",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.guava/guava-testlib",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.skyscreamer/jsonassert",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.opendaylight.yangtools/yang-test-util",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.glassfish.jersey.inject/jersey-hk2",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/ch.qos.logback/logback-classic",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.glassfish.jersey.test-framework.providers/jersey-test-framework-provider-grizzly2",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.opendaylight.aaa/aaa-shiro-api",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.opendaylight.yangtools/testutils",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.opendaylight.mdsal/mdsal-binding-test-utils",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.opendaylight.mdsal/mdsal-binding-dom-adapter",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.opendaylight.aaa.web/testutils",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.opendaylight.infrautils/inject.guice.testutils",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.opendaylight.netconf/restconf-nb-bierman02@3.0.2?classifier=sources&uuid=f4e2de70-691a-4663-b708-c644a68f45d0",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.opendaylight.netconf/restconf-nb-bierman02@3.0.2?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

@@ -1,0 +1,96 @@
+{
+    "type": "maven",
+    "namespace": "io.gravitee.am.gateway",
+    "name": "gravitee-am-gateway-jetty",
+    "version": "1.1.0",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Gravitee IO - Access Management - Gateway - Jetty",
+    "release_date": "2017-05-18T22:15:16Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/io/gravitee/am/gateway/gravitee-am-gateway-jetty/1.1.0/gravitee-am-gateway-jetty-1.1.0.jar",
+    "size": 17372,
+    "md5": null,
+    "sha1": "d35e4166f5939c775f163c876ffaf513e9156fac",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.gravitee.am.gateway/gravitee-am-gateway-jetty@1.1.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/io.gravitee.common/gravitee-common",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.gravitee.am.model/gravitee-am-model",
+            "extracted_requirement": "1.1.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.gravitee.am.gateway/gravitee-am-gateway-core",
+            "extracted_requirement": "1.1.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-webapp",
+            "extracted_requirement": "${jetty.version}",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-servlets",
+            "extracted_requirement": "${jetty.version}",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.jetty/jetty-jmx",
+            "extracted_requirement": "${jetty.version}",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/io.gravitee.am.gateway/gravitee-am-gateway-jetty@1.1.0?uuid=763287c2-0cc0-4e6d-86f7-c9abcf673992",
+    "datasource_id": null,
+    "purl": "pkg:maven/io.gravitee.am.gateway/gravitee-am-gateway-jetty@1.1.0",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/io/gravitee/am/gateway/gravitee-am-gateway-jetty/1.1.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/io/gravitee/am/gateway/gravitee-am-gateway-jetty/1.1.0/gravitee-am-gateway-jetty-1.1.0.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/io/gravitee/am/gateway/gravitee-am-gateway-jetty/1.1.0/gravitee-am-gateway-jetty-1.1.0.pom",
+    "file_references": []
+}

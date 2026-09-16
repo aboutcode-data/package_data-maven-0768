@@ -1,0 +1,118 @@
+{
+    "type": "maven",
+    "namespace": "com.canoo.dolphin-platform",
+    "name": "dolphin-platform-spring-controller-tester",
+    "version": "0.13.0",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "dolphin-platform-spring-controller-tester\nThe Dolphin Platform is a framework that implements the presentation model pattern and provides amodern way to create enterprise applications. The Platform provides several client implementations that all canbe used in combination with a general sever API.",
+    "release_date": "2017-05-17T12:09:05Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Hendrik Ebbers",
+            "email": "hendrik.ebbers@canoo.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Michael Heinrichs",
+            "email": "michael.heinrichs@canoo.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Andres Almiray",
+            "email": "andres.almiray@canoo.com",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/canoo/dolphin-platform",
+    "download_url": "https://repo1.maven.org/maven2/com/canoo/dolphin-platform/dolphin-platform-spring-controller-tester/0.13.0/dolphin-platform-spring-controller-tester-0.13.0.jar",
+    "size": 23112,
+    "md5": null,
+    "sha1": "8316a21f5fd7add6291c9afffc78729b59412ddf",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "The Apache Software License, Version 2.0\nhttp://www.apache.org/licenses/LICENSE-2.0.txt",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.canoo.dolphin-platform/dolphin-platform-spring-controller-tester@0.13.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-api",
+            "extracted_requirement": "1.7.21",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.canoo.dolphin-platform/dolphin-platform-server-spring",
+            "extracted_requirement": "0.13.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.canoo.dolphin-platform/dolphin-platform-client",
+            "extracted_requirement": "0.13.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.canoo.dolphin-platform/dolphin-remoting-combined",
+            "extracted_requirement": "0.13.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.springframework.boot/spring-boot-starter-test",
+            "extracted_requirement": "1.3.6.RELEASE",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.testng/testng",
+            "extracted_requirement": "6.9.10",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/com.canoo.dolphin-platform/dolphin-platform-spring-controller-tester@0.13.0?uuid=705eee5b-d305-4e4a-ba13-e770139029bb",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.canoo.dolphin-platform/dolphin-platform-spring-controller-tester@0.13.0",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/canoo/dolphin-platform/dolphin-platform-spring-controller-tester/0.13.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/canoo/dolphin-platform/dolphin-platform-spring-controller-tester/0.13.0/dolphin-platform-spring-controller-tester-0.13.0.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/canoo/dolphin-platform/dolphin-platform-spring-controller-tester/0.13.0/dolphin-platform-spring-controller-tester-0.13.0.pom",
+    "file_references": []
+}

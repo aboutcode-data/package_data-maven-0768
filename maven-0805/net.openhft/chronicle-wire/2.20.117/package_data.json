@@ -1,0 +1,203 @@
+{
+    "type": "maven",
+    "namespace": "net.openhft",
+    "name": "chronicle-wire",
+    "version": "2.20.117",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "dd59aca9-e6cc-4810-8404-9a5095b5e3ed",
+            "packages": [
+                "pkg:maven/net.openhft/chronicle-wire@2.20.117?uuid=82bf80e5-2450-4d62-916a-e1d18b444bb6",
+                "pkg:maven/net.openhft/chronicle-wire@2.20.117?classifier=sources&uuid=fdb212e5-e164-4604-b70b-50b064682993"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "OpenHFT/Chronicle-Wire\nChronicle-Wire",
+    "release_date": "2020-12-16T23:57:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Peter Lawrey",
+            "email": "peter.lawrey@chronicle.software",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Rob Austin",
+            "email": "rob.austin@chronicle.software",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Dmitry Pisklov",
+            "email": "dmitry.pisklov@chronicle.software",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Roger Simmons",
+            "email": "roger.simmons@chronicle.software",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Jerry Shea",
+            "email": "jerry.shea@chronicle.software",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Per Minborg",
+            "email": "per.minborg@chronicle.software",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://chronicle.software",
+    "download_url": "https://repo1.maven.org/maven2/net/openhft/chronicle-wire/2.20.117/chronicle-wire-2.20.117-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "4e07ea5dfeaa2e0d2c8d206620d3845e78cadadd",
+    "sha256": "3c520833c1a88ecbfcbd485380dc9240fa9706c4ca72ddd8b609a3660b849805",
+    "sha512": "b531482a76b6bc0affc468931bb52ea3e555fe4134fd7ecd91bcfecd09424573a187e84e062afdc2ee6ea62229c4a575e924d320bec2a3f80b88fd71baadf7b1",
+    "bug_tracking_url": null,
+    "code_view_url": "https://github.com/scm:git:git@github.com:OpenHFT/Chronicle-Wire.git",
+    "vcs_url": "git+https://github.com/OpenHFT/Chronicle-Wire.git",
+    "copyright": "Copyright (c) chronicle.software",
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/net.openhft/chronicle-wire@2.20.117?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/net.openhft/third-party-bom@3.19.4",
+            "extracted_requirement": "3.19.4",
+            "scope": "import",
+            "is_runtime": false,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/net.openhft/chronicle-bom@2.20.209",
+            "extracted_requirement": "2.20.209",
+            "scope": "import",
+            "is_runtime": false,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/net.openhft/chronicle-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/net.openhft/chronicle-bytes",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/net.openhft/chronicle-threads",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/net.openhft/compiler",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-simple",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.easymock/easymock",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.yaml/snakeyaml@1.26",
+            "extracted_requirement": "1.26",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/net.openhft/third-party-bom@3.19.4",
+            "extracted_requirement": "3.19.4",
+            "scope": "dependencymanagement",
+            "is_runtime": false,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/net.openhft/chronicle-bom@2.20.209",
+            "extracted_requirement": "2.20.209",
+            "scope": "dependencymanagement",
+            "is_runtime": false,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.yaml/snakeyaml@1.26",
+            "extracted_requirement": "1.26",
+            "scope": "dependencymanagement",
+            "is_runtime": false,
+            "is_optional": false,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/net.openhft/chronicle-wire@2.20.117?classifier=sources&uuid=fdb212e5-e164-4604-b70b-50b064682993",
+    "datasource_id": null,
+    "purl": "pkg:maven/net.openhft/chronicle-wire@2.20.117?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

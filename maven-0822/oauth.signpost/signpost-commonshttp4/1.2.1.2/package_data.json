@@ -1,0 +1,103 @@
+{
+    "type": "maven",
+    "namespace": "oauth.signpost",
+    "name": "signpost-commonshttp4",
+    "version": "1.2.1.2",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "d9e1cddc-d40f-473d-aef6-2ca87f4fd355",
+            "packages": [
+                "pkg:maven/oauth.signpost/signpost-commonshttp4@1.2.1.2?uuid=e1e9d338-bfb8-44b7-8277-f1078d9f85c5",
+                "pkg:maven/oauth.signpost/signpost-commonshttp4@1.2.1.2?classifier=sources&uuid=a8cac416-dda2-4a6a-ab2f-c1ce39cf0063"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "signpost-commonshttp4",
+    "release_date": "2012-02-26T08:16:24Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Matthias K\u00c3\u00a4ppler",
+            "email": "matthias@qype.com",
+            "url": "http://matthiaskaeppler.de"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://code.google.com/p/oauth-signpost/",
+    "download_url": "https://repo1.maven.org/maven2/oauth/signpost/signpost-commonshttp4/1.2.1.2/signpost-commonshttp4-1.2.1.2-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "800090917f3bc70acf695986c95245e80c13e06f",
+    "sha256": "b03070193e08401d7b13e6010796b0c96a6fc9a2f03dddf8b6f365e9a040217d",
+    "sha512": "2e4e58a5d390f0ef673d80a5828bb6cdecce8786729edda7c95e9f719e73de64ab9033c02a32fff0e4a41280c51772c76219bb7368cfcf8420ed7d27a040024b",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/oauth.signpost/signpost-commonshttp4@1.2.1.2?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/oauth.signpost/oauth-signpost@1.2.1.2",
+            "Field `homepage_url` has been updated using values obtained from the parent POM pkg:maven/oauth.signpost/oauth-signpost@1.2.1.2",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/oauth.signpost/oauth-signpost@1.2.1.2"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/oauth.signpost/signpost-core@1.2.1.2",
+            "extracted_requirement": "1.2.1.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.httpcomponents/httpcore@4.0.1",
+            "extracted_requirement": "4.0.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.httpcomponents/httpclient@4.0.1",
+            "extracted_requirement": "4.0.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/oauth.signpost/signpost-core@1.2.1.2",
+            "extracted_requirement": "1.2.1.2",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/oauth.signpost/signpost-commonshttp4@1.2.1.2?classifier=sources&uuid=a8cac416-dda2-4a6a-ab2f-c1ce39cf0063",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/oauth.signpost/signpost-commonshttp4@1.2.1.2?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/oauth/signpost/signpost-commonshttp4/1.2.1.2/",
+    "repository_download_url": "https://repo1.maven.org/maven2/oauth/signpost/signpost-commonshttp4/1.2.1.2/signpost-commonshttp4-1.2.1.2-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/oauth/signpost/signpost-commonshttp4/1.2.1.2/signpost-commonshttp4-1.2.1.2.pom",
+    "file_references": []
+}

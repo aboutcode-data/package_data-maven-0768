@@ -1,0 +1,96 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.camel",
+    "name": "camel-example-gauth",
+    "version": "2.11.3",
+    "qualifiers": "type=war",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Camel :: Example :: GAuth\nDemonstrates how to implement Camel's OAuth support for GAE",
+    "release_date": "2014-01-07T23:17:45Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/apache/camel/camel-example-gauth/2.11.3/camel-example-gauth-2.11.3.war",
+    "size": 44159757,
+    "md5": null,
+    "sha1": "3a2bcfec79e3d028a03d331f83b2d3d7fed53c57",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.camel/camel-example-gauth@2.11.3?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.camel/camel-gae",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.openengsb.wrapped/com.google.gdata-calendar",
+            "extracted_requirement": "${google-gdata-version}",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-web",
+            "extracted_requirement": "${spring-version}",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-webmvc",
+            "extracted_requirement": "${spring-version}",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.geronimo.specs/geronimo-servlet_2.5_spec",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.camel/camel-example-gauth@2.11.3?type=war&uuid=7c3babac-a5b2-4a52-8180-8d8f2afb7447",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.apache.camel/camel-example-gauth@2.11.3?type=war",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/camel/camel-example-gauth/2.11.3/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/camel/camel-example-gauth/2.11.3/camel-example-gauth-2.11.3.war",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/camel/camel-example-gauth/2.11.3/camel-example-gauth-2.11.3.pom",
+    "file_references": []
+}

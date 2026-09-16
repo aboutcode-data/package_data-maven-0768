@@ -1,0 +1,184 @@
+{
+    "type": "maven",
+    "namespace": "net.jadler",
+    "name": "jadler-all",
+    "version": "1.1.1",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "jadler-all\nThis module contains all jadler sub-modules. By including jadler-all to a project a complete Jadler\n    library will be included automatically.",
+    "release_date": "2014-06-07T08:39:25Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Jan Dudek",
+            "email": "jan.dudek.jr@gmail.com",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://jadler.net",
+    "download_url": "https://repo1.maven.org/maven2/net/jadler/jadler-all/1.1.1/jadler-all-1.1.1.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "cd636de99acbc8e66a709f41a99e91d1c719fb79",
+    "sha256": "0ffd6809f2fd0840b711f3240d0cd56ee96692b9a65f83f79f80d178fb73b41a",
+    "sha512": "accba78a946691855c1281463180b654d5a6e9b1128ad05e7f80b20d65f88ea9248f07495d639136fd12a53be32cab9f20e08ca05edbe425ca47d925aff579aa",
+    "bug_tracking_url": null,
+    "code_view_url": "https://github.com/jadler-mocking/jadler",
+    "vcs_url": "git+https://github.com/jadler-mocking/jadler.git",
+    "copyright": "Copyright (c) Jadler contributors",
+    "holder": null,
+    "declared_license_expression": "mit",
+    "declared_license_expression_spdx": "MIT",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/mit_1106.RULE",
+                    "from_file": null,
+                    "start_line": 1,
+                    "matched_text": "- name: MIT license",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "mit_1106.RULE",
+                    "license_expression": "mit",
+                    "spdx_license_expression": "MIT"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/mit_237.RULE",
+                    "from_file": null,
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.opensource.org/licenses/mit-license.php",
+                    "match_coverage": 100.0,
+                    "matched_length": 8,
+                    "rule_relevance": 100,
+                    "rule_identifier": "mit_237.RULE",
+                    "license_expression": "mit",
+                    "spdx_license_expression": "MIT"
+                }
+            ],
+            "identifier": "mit-16ea740c-efb8-e768-96f1-0de6cf2edb04",
+            "license_expression": "mit",
+            "license_expression_spdx": "MIT"
+        }
+    ],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: MIT license\n  url: http://www.opensource.org/licenses/mit-license.php\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/net.jadler/jadler-all@1.1.1?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 5
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/net.jadler/jadler-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/net.jadler/jadler-jetty",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/net.jadler/jadler-junit",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-log4j12",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/log4j/log4j",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/commons-httpclient/commons-httpclient",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/commons-io/commons-io",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.hamcrest/hamcrest-core",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.hamcrest/hamcrest-library",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/net.jadler/jadler-all@1.1.1?uuid=122e7139-c66d-4578-82cf-16476f26294b",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/net.jadler/jadler-all@1.1.1",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/net/jadler/jadler-all/1.1.1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/net/jadler/jadler-all/1.1.1/jadler-all-1.1.1.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/net/jadler/jadler-all/1.1.1/jadler-all-1.1.1.pom",
+    "file_references": []
+}

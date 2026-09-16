@@ -1,0 +1,177 @@
+{
+    "type": "maven",
+    "namespace": "org.eclipse.xtext",
+    "name": "org.eclipse.xtext.ide",
+    "version": "2.12.0",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Xtext IDE Library\nPlatform-independent language support.",
+    "release_date": "2017-05-19T14:17:02Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Sven Efftinge",
+            "email": "sven.efftinge@typefox.io",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Sebastian Benz",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Lorenzo Bettini",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Michael Clay",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Christian Dietrich",
+            "email": "christian.dietrich@itemis.de",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Moritz Eysholdt",
+            "email": "moritz.eysholdt@typefox.io",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Dennis H\u00fcbner",
+            "email": "dennis.huebner@typefox.io",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Jan K\u00f6hnlein",
+            "email": "jan.koehnlein@typefox.io",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Anton Kosyakov",
+            "email": "anton.kosyakov@typefox.io",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Stefan Oehme",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Holger Schill",
+            "email": "holger.schill@itemis.de",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Christian Schneider",
+            "email": "christian.schneider@typefox.io",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Miro Sp\u00f6nemann",
+            "email": "miro.spoenemann@typefox.io",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Karsten Thoms",
+            "email": "karsten.thoms@itemis.de",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Knut Wannheden",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Sebastian Zarnekow",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://www.eclipse.org/Xtext/",
+    "download_url": "https://repo1.maven.org/maven2/org/eclipse/xtext/org.eclipse.xtext.ide/2.12.0/org.eclipse.xtext.ide-2.12.0.jar",
+    "size": 307018,
+    "md5": null,
+    "sha1": "1b0216a56495979a047c07ddc48134b641079d81",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "epl-1.0 AND unknown",
+    "declared_license_expression_spdx": "EPL-1.0 AND LicenseRef-scancode-unknown",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "Eclipse Public License, Version 1.0\nhttp://www.eclipse.org/legal/epl-v10.html",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.eclipse.xtext/org.eclipse.xtext.ide@2.12.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.eclipse.xtext/org.eclipse.xtext",
+            "extracted_requirement": "2.12.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.lsp4j/org.eclipse.lsp4j",
+            "extracted_requirement": "[0.2.0,0.3)",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.eclipse.xtext/org.eclipse.xtext.ide@2.12.0?uuid=82b0983b-42d5-485e-abfb-c3c1e642c9ee",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.eclipse.xtext/org.eclipse.xtext.ide@2.12.0",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/eclipse/xtext/org.eclipse.xtext.ide/2.12.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/eclipse/xtext/org.eclipse.xtext.ide/2.12.0/org.eclipse.xtext.ide-2.12.0.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/eclipse/xtext/org.eclipse.xtext.ide/2.12.0/org.eclipse.xtext.ide-2.12.0.pom",
+    "file_references": []
+}

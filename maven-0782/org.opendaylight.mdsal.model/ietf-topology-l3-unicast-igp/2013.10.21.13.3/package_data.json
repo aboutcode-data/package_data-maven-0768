@@ -1,0 +1,64 @@
+{
+    "type": "maven",
+    "namespace": "org.opendaylight.mdsal.model",
+    "name": "ietf-topology-l3-unicast-igp",
+    "version": "2013.10.21.13.3",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "639a87cf-ebd2-4e91-aed5-ec495007ef28",
+            "packages": [
+                "pkg:maven/org.opendaylight.mdsal.model/ietf-topology-l3-unicast-igp@2013.10.21.13.3?uuid=cf698f4f-f30d-408d-89a1-204ae2d1c23c",
+                "pkg:maven/org.opendaylight.mdsal.model/ietf-topology-l3-unicast-igp@2013.10.21.13.3?classifier=sources&uuid=72666788-ff68-4b22-b867-d6c4425215dd"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "ietf-topology-l3-unicast-igp",
+    "release_date": "2019-06-13T04:04:21Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/opendaylight/mdsal/model/ietf-topology-l3-unicast-igp/2013.10.21.13.3/ietf-topology-l3-unicast-igp-2013.10.21.13.3-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "7ae85221d30c43f4a3bce218c4c44a2e672821f3",
+    "sha256": "a994a273621afed94e783a96e0ee21dcb24fdff3d3e75518037ace5018e32a8e",
+    "sha512": "3bba14c1c8c1c909cdcd27d2725b29e06f87145c9c5c2a3997f7aa2ea9ff451671dfe706ed2e3d5a816483cfd80472a0b85d582f20c098293e34d2c722443ef7",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) Cisco Systems, Inc. and others",
+    "holder": null,
+    "declared_license_expression": "epl-1.0",
+    "declared_license_expression_spdx": "EPL-1.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.opendaylight.mdsal.model/ietf-topology-l3-unicast-igp@2013.10.21.13.3?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.opendaylight.mdsal.model/ietf-topology",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.opendaylight.mdsal.model/ietf-topology-l3-unicast-igp@2013.10.21.13.3?classifier=sources&uuid=72666788-ff68-4b22-b867-d6c4425215dd",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.opendaylight.mdsal.model/ietf-topology-l3-unicast-igp@2013.10.21.13.3?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/opendaylight/mdsal/model/ietf-topology-l3-unicast-igp/2013.10.21.13.3/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/opendaylight/mdsal/model/ietf-topology-l3-unicast-igp/2013.10.21.13.3/ietf-topology-l3-unicast-igp-2013.10.21.13.3-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/opendaylight/mdsal/model/ietf-topology-l3-unicast-igp/2013.10.21.13.3/ietf-topology-l3-unicast-igp-2013.10.21.13.3.pom",
+    "file_references": []
+}

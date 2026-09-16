@@ -1,0 +1,96 @@
+{
+    "type": "maven",
+    "namespace": "com.liferay",
+    "name": "com.liferay.portal.search.spi",
+    "version": "3.0.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "715a106d-d6ab-417b-afd4-554f8bacb5af",
+            "packages": [
+                "pkg:maven/com.liferay/com.liferay.portal.search.spi@3.0.0?uuid=7d159b12-df86-432c-86d9-b58aa9d0d3f2",
+                "pkg:maven/com.liferay/com.liferay.portal.search.spi@3.0.0?classifier=sources&uuid=10e40e30-5c3f-4473-89cf-30589c344fc4"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Liferay Portal Search SPI",
+    "release_date": "2019-04-25T07:43:55Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Brian Wing Shun Chan",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.portal.search.spi/3.0.0/com.liferay.portal.search.spi-3.0.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "46340e0953bd5634547ca38adcfcba9125f4a759",
+    "sha256": "7417e7143efeb37b2bc4c23e7941bd613ae0c00455e14f08e6fe576c3d9580c5",
+    "sha512": "3668630ee0ba07297874feb2ac947e91b97e5e8d034be4427336ebd02bdc46fcd44e02a0061f31a7a7b39de9d8204e34179884e415e91a2f293629e66d6d4dc2",
+    "bug_tracking_url": null,
+    "code_view_url": "http://github.com/liferay/liferay-portal",
+    "vcs_url": "git+https://github.com/liferay/liferay-portal.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "lgpl-2.1",
+    "declared_license_expression_spdx": "LGPL-2.1-only",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_85.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: LGPL 2.1",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_85.RULE",
+                    "license_expression": "lgpl-2.1"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_37.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 11,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_37.RULE",
+                    "license_expression": "lgpl-2.1"
+                }
+            ],
+            "identifier": "lgpl_2_1-6893cb1b-4cad-db8f-2133-a48bc107078b",
+            "license_expression": "lgpl-2.1"
+        }
+    ],
+    "other_license_expression": "lgpl-2.1-plus",
+    "other_license_expression_spdx": "LGPL-2.1-or-later",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: LGPL 2.1\n  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.liferay/com.liferay.portal.search.spi@3.0.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [],
+    "package_uid": "pkg:maven/com.liferay/com.liferay.portal.search.spi@3.0.0?classifier=sources&uuid=10e40e30-5c3f-4473-89cf-30589c344fc4",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.liferay/com.liferay.portal.search.spi@3.0.0?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.portal.search.spi/3.0.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.portal.search.spi/3.0.0/com.liferay.portal.search.spi-3.0.0-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.portal.search.spi/3.0.0/com.liferay.portal.search.spi-3.0.0.pom",
+    "file_references": []
+}

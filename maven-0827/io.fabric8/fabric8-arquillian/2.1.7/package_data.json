@@ -1,0 +1,144 @@
+{
+    "type": "maven",
+    "namespace": "io.fabric8",
+    "name": "fabric8-arquillian",
+    "version": "2.1.7",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Fabric8 :: Arquillian Extension",
+    "release_date": "2015-06-03T16:56:05Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/io/fabric8/fabric8-arquillian/2.1.7/fabric8-arquillian-2.1.7.jar",
+    "size": 49445,
+    "md5": null,
+    "sha1": "3dadbc47e8e1821e699ecb6fdb74312b502f50b4",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.fabric8/fabric8-arquillian@2.1.7?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/io.fabric8/fabric8-annotations",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.fabric8/kubernetes-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.fabric8/kubernetes-assertions",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.fabric8/jolokia-assertions",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.fabric8/kubernetes-jolokia",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.ops4j.pax.url/pax-url-aether",
+            "extracted_requirement": "${pax.url.version}",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.fusesource.jansi/jansi",
+            "extracted_requirement": "${jansi.version}",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.arquillian.container/arquillian-container-spi",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.arquillian.container/arquillian-container-test-spi",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.arquillian.test/arquillian-test-impl-base",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.shrinkwrap.resolver/shrinkwrap-resolver-depchain",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/io.fabric8/fabric8-arquillian@2.1.7?uuid=a0bb01c6-2731-42fb-8cbb-b197316d1b53",
+    "datasource_id": null,
+    "purl": "pkg:maven/io.fabric8/fabric8-arquillian@2.1.7",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/io/fabric8/fabric8-arquillian/2.1.7/",
+    "repository_download_url": "https://repo1.maven.org/maven2/io/fabric8/fabric8-arquillian/2.1.7/fabric8-arquillian-2.1.7.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/io/fabric8/fabric8-arquillian/2.1.7/fabric8-arquillian-2.1.7.pom",
+    "file_references": []
+}

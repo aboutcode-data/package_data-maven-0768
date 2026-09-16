@@ -1,0 +1,120 @@
+{
+    "type": "maven",
+    "namespace": "org.hawkular.agent",
+    "name": "hawkular-wildfly-agent-itest-util",
+    "version": "1.0.0.CR5",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Hawkular Agent: Agent Integration Tests Utility Classes\nHawkular Agent: Agent utility classes for use in integration tests",
+    "release_date": "2017-05-23T20:59:30Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/hawkular/agent/hawkular-wildfly-agent-itest-util/1.0.0.CR5/hawkular-wildfly-agent-itest-util-1.0.0.CR5.jar",
+    "size": 15936,
+    "md5": null,
+    "sha1": "33911f4044e38095ccb833b15c95cefef7cf0ee9",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.hawkular.agent/hawkular-wildfly-agent-itest-util@1.0.0.CR5?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.hawkular.agent/hawkular-wildfly-agent-installer",
+            "extracted_requirement": "1.0.0.CR5",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.squareup.okhttp3/okhttp-ws",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.testng/testng",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.hawkular.agent/hawkular-wildfly-agent-itest-feature-pack",
+            "extracted_requirement": "1.0.0.CR5",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.hawkular.agent/hawkular-dmr-client",
+            "extracted_requirement": "1.0.0.CR5",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.hawkular.commons/hawkular-inventory-paths",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.wildfly.core/wildfly-controller",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.hawkular.agent/hawkular-agent-itest-util",
+            "extracted_requirement": "1.0.0.CR5",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.hawkular.agent/hawkular-wildfly-agent-itest-util@1.0.0.CR5?uuid=8fc99c5c-7bb2-441b-b0f8-4f1fa98d369a",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.hawkular.agent/hawkular-wildfly-agent-itest-util@1.0.0.CR5",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/hawkular/agent/hawkular-wildfly-agent-itest-util/1.0.0.CR5/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/hawkular/agent/hawkular-wildfly-agent-itest-util/1.0.0.CR5/hawkular-wildfly-agent-itest-util-1.0.0.CR5.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/hawkular/agent/hawkular-wildfly-agent-itest-util/1.0.0.CR5/hawkular-wildfly-agent-itest-util-1.0.0.CR5.pom",
+    "file_references": []
+}

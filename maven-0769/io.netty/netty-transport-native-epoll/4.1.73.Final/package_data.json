@@ -1,0 +1,143 @@
+{
+    "type": "maven",
+    "namespace": "io.netty",
+    "name": "netty-transport-native-epoll",
+    "version": "4.1.73.Final",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "01093877-5941-45ba-962e-dd8401238cc7",
+            "packages": [
+                "pkg:maven/io.netty/netty-transport-native-epoll@4.1.73.Final?uuid=ba9bf4b3-eae3-4aa7-b1d8-e7a2fe6bfc10",
+                "pkg:maven/io.netty/netty-transport-native-epoll@4.1.73.Final?classifier=sources&uuid=f9ba442b-664f-4130-8e8a-3112148c7748"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Netty/Transport/Native/Epoll",
+    "release_date": "2022-01-12T07:39:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "The Netty Project Contributors",
+            "email": "netty@googlegroups.com",
+            "url": "https://netty.io/"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Netty Project",
+            "email": null,
+            "url": "https://netty.io/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://netty.io/",
+    "download_url": "https://repo1.maven.org/maven2/io/netty/netty-transport-native-epoll/4.1.73.Final/netty-transport-native-epoll-4.1.73.Final-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "b7e10499bdc81de72a48c3bf5df6bf606bbd142d",
+    "sha256": "4f394a9867e2b99171fca1d026d2b2144fdd2d2b21e0d497af811f030a7865d1",
+    "sha512": "ac0abddc743e8dbfb4a731a3f3e65203f3bee2f8ac3b737ddeb5ede26eeeb1d902ce517a8ee943abd882d4f95e2b8e1d0e4a4a7a20cbdec3fbd2aaf0088a6a73",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) The Netty Project",
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.netty/netty-transport-native-epoll@4.1.73.Final?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/io.netty/netty-common@4.1.73.Final",
+            "extracted_requirement": "4.1.73.Final",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.netty/netty-buffer@4.1.73.Final",
+            "extracted_requirement": "4.1.73.Final",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.netty/netty-transport@4.1.73.Final",
+            "extracted_requirement": "4.1.73.Final",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.netty/netty-transport-native-unix-common@4.1.73.Final",
+            "extracted_requirement": "4.1.73.Final",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.netty/netty-transport-classes-epoll@4.1.73.Final",
+            "extracted_requirement": "4.1.73.Final",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.netty/netty-testsuite@4.1.73.Final",
+            "extracted_requirement": "4.1.73.Final",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.netty/netty-transport-native-unix-common-tests@4.1.73.Final",
+            "extracted_requirement": "4.1.73.Final",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.netty/%24%7Btcnative.artifactId%7D",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.github.artsok/rerunner-jupiter",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/io.netty/netty-transport-native-epoll@4.1.73.Final?classifier=sources&uuid=f9ba442b-664f-4130-8e8a-3112148c7748",
+    "datasource_id": null,
+    "purl": "pkg:maven/io.netty/netty-transport-native-epoll@4.1.73.Final?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

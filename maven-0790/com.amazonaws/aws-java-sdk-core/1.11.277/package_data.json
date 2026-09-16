@@ -1,0 +1,190 @@
+{
+    "type": "maven",
+    "namespace": "com.amazonaws",
+    "name": "aws-java-sdk-core",
+    "version": "1.11.277",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "f9151677-4b29-4b71-9f53-17a170a0ba20",
+            "packages": [
+                "pkg:maven/com.amazonaws/aws-java-sdk-core@1.11.277?uuid=0b67acb6-f637-4d45-bf85-3d5470e120e4",
+                "pkg:maven/com.amazonaws/aws-java-sdk-core@1.11.277?classifier=sources&uuid=af2628f9-5676-49de-ad55-044f6dac0d82"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "AWS SDK for Java - Core\nThe AWS SDK for Java - Core module holds the classes that are used by the individual service clients to interact with Amazon Web Services. Users need to depend on aws-java-sdk artifact for accessing individual client classes.",
+    "release_date": "2018-02-14T00:38:54Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": null,
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://aws.amazon.com/sdkforjava",
+    "download_url": "https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-core/1.11.277/aws-java-sdk-core-1.11.277-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "ce8948442ad222b0e831fdbc727a45512f91de72",
+    "sha256": "43fe1bf0cc3670cacad64a4ddc5f205ceab4b9906a7c426ac71b4ad8db22dda1",
+    "sha512": "cb0e0b9c2a5f0905ebc83f0fd6f5efa2df855d71f3530c86d31b539c6e43d32b05e6c455bb06faf83683a19aa18c03b54a90b4a4356d19dec89a9a672e149b12",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.amazonaws/aws-java-sdk-core@1.11.277?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/com.amazonaws/aws-java-sdk-pom@1.11.277",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/com.amazonaws/aws-java-sdk-pom@1.11.277"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/commons-logging/commons-logging",
+            "extracted_requirement": "${commons.logging.version}",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.httpcomponents/httpclient",
+            "extracted_requirement": "${httpcomponents.httpclient.version}",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/software.amazon.ion/ion-java",
+            "extracted_requirement": "${ion.java.version}",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind",
+            "extracted_requirement": "${jackson.databind.version}",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-cbor",
+            "extracted_requirement": "${jackson.version}",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/joda-time/joda-time",
+            "extracted_requirement": "${jodatime.version}",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": "${junit.version}",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.github.tomakehurst/wiremock",
+            "extracted_requirement": "${wiremock.version}",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/log4j/log4j",
+            "extracted_requirement": "${log4j.version}",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.hamcrest/hamcrest-all",
+            "extracted_requirement": "${hamcrest.all.version}",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.easymock/easymock",
+            "extracted_requirement": "${easymock.version}",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/commons-io/commons-io",
+            "extracted_requirement": "${commons.io.version}",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.mockito/mockito-all",
+            "extracted_requirement": "${mockito.all.version}",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/nl.jqno.equalsverifier/equalsverifier",
+            "extracted_requirement": "${equalsverifier.version}",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.unitils/unitils-core",
+            "extracted_requirement": "${unitils.version}",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/com.amazonaws/aws-java-sdk-core@1.11.277?classifier=sources&uuid=af2628f9-5676-49de-ad55-044f6dac0d82",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/com.amazonaws/aws-java-sdk-core@1.11.277?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-core/1.11.277/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-core/1.11.277/aws-java-sdk-core-1.11.277-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-core/1.11.277/aws-java-sdk-core-1.11.277.pom",
+    "file_references": []
+}

@@ -1,0 +1,214 @@
+{
+    "type": "maven",
+    "namespace": "net.snowflake",
+    "name": "spark-snowflake_2.10",
+    "version": "2.2.2-spark_2.0",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "spark-snowflake",
+    "release_date": "2017-05-18T19:11:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Marcin Zukowski",
+            "email": null,
+            "url": "https://github.com/MarcinZukowski"
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Edward Ma",
+            "email": null,
+            "url": "https://github.com/etduwx"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "net.snowflake",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/snowflakedb/spark-snowflake",
+    "download_url": "https://repo1.maven.org/maven2/net/snowflake/spark-snowflake_2.10/2.2.2-spark_2.0/spark-snowflake_2.10-2.2.2-spark_2.0.jar",
+    "size": 457826,
+    "md5": null,
+    "sha1": "e14965089a533c129a77472eccef33063d1e2166",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0 AND apache-2.0 AND apache-2.0 AND apache-2.0 AND unknown",
+    "declared_license_expression_spdx": "Apache-2.0 AND Apache-2.0 AND Apache-2.0 AND Apache-2.0 AND LicenseRef-scancode-unknown",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "Apache-2.0\nhttp://opensource.org/licenses/Apache-2.0\nApache-2.0\nhttp://www.apache.org/licenses/LICENSE-2.0",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/net.snowflake/spark-snowflake_2.10@2.2.2-spark_2.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.scala-lang/scala-library",
+            "extracted_requirement": "2.10.5",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-api",
+            "extracted_requirement": "1.7.5",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/net.snowflake/snowflake-jdbc",
+            "extracted_requirement": "[3.0.17,)",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.scoverage/scalac-scoverage-runtime_2.10",
+            "extracted_requirement": "1.1.0",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.scoverage/scalac-scoverage-plugin_2.10",
+            "extracted_requirement": "1.1.0",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.spark/spark-sql_2.10",
+            "extracted_requirement": "2.0.2",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.spark/spark-hive_2.10",
+            "extracted_requirement": "2.0.2",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.amazonaws/aws-java-sdk-core",
+            "extracted_requirement": "1.10.22",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.amazonaws/aws-java-sdk-s3",
+            "extracted_requirement": "1.10.22",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.spark/spark-sql_2.10",
+            "extracted_requirement": "2.0.2",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.spark/spark-hive_2.10",
+            "extracted_requirement": "2.0.2",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.amazonaws/aws-java-sdk-sts",
+            "extracted_requirement": "1.10.22",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.guava/guava",
+            "extracted_requirement": "14.0.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.scalatest/scalatest_2.10",
+            "extracted_requirement": "2.2.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.mockito/mockito-core",
+            "extracted_requirement": "1.10.19",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.hadoop/hadoop-client",
+            "extracted_requirement": "2.2.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.hadoop/hadoop-common",
+            "extracted_requirement": "2.2.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.spark/spark-core_2.10",
+            "extracted_requirement": "2.0.2",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/net.snowflake/spark-snowflake_2.10@2.2.2-spark_2.0?uuid=7f795416-1ae6-47b7-b6e3-d004614b0427",
+    "datasource_id": null,
+    "purl": "pkg:maven/net.snowflake/spark-snowflake_2.10@2.2.2-spark_2.0",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/net/snowflake/spark-snowflake_2.10/2.2.2-spark_2.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/net/snowflake/spark-snowflake_2.10/2.2.2-spark_2.0/spark-snowflake_2.10-2.2.2-spark_2.0.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/net/snowflake/spark-snowflake_2.10/2.2.2-spark_2.0/spark-snowflake_2.10-2.2.2-spark_2.0.pom",
+    "file_references": []
+}

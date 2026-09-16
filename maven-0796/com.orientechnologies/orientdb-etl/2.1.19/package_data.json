@@ -1,0 +1,96 @@
+{
+    "type": "maven",
+    "namespace": "com.orientechnologies",
+    "name": "orientdb-etl",
+    "version": "2.1.19",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "OrientDB ETL\nETL tools for OrientDB NoSQL document graph dbms",
+    "release_date": "2016-06-01T12:21:07Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/com/orientechnologies/orientdb-etl/2.1.19/orientdb-etl-2.1.19.jar",
+    "size": 153312,
+    "md5": null,
+    "sha1": "e14fa22a491f49ec83ec6f58f6bf69281ff6768f",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.orientechnologies/orientdb-etl@2.1.19?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.orientechnologies/orientdb-test-commons",
+            "extracted_requirement": "2.1.19",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.commons/commons-csv",
+            "extracted_requirement": "1.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.orientechnologies/orientdb-core",
+            "extracted_requirement": "2.1.19",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.orientechnologies/orientdb-client",
+            "extracted_requirement": "2.1.19",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.orientechnologies/orientdb-enterprise",
+            "extracted_requirement": "2.1.19",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.orientechnologies/orientdb-graphdb",
+            "extracted_requirement": "2.1.19",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/com.orientechnologies/orientdb-etl@2.1.19?uuid=022c0d02-394f-48ca-aa33-fbee3ac1ffc8",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.orientechnologies/orientdb-etl@2.1.19",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/orientechnologies/orientdb-etl/2.1.19/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/orientechnologies/orientdb-etl/2.1.19/orientdb-etl-2.1.19.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/orientechnologies/orientdb-etl/2.1.19/orientdb-etl-2.1.19.pom",
+    "file_references": []
+}

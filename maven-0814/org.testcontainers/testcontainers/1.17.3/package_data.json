@@ -1,0 +1,151 @@
+{
+    "type": "maven",
+    "namespace": "org.testcontainers",
+    "name": "testcontainers",
+    "version": "1.17.3",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "2008d679-e0bd-4468-b444-5cd80096fa19",
+            "packages": [
+                "pkg:maven/org.testcontainers/testcontainers@1.17.3?uuid=a0f18515-69dd-45b3-92c7-e6b1b340ff5c",
+                "pkg:maven/org.testcontainers/testcontainers@1.17.3?classifier=sources&uuid=3796545e-3b41-4abc-b03e-65fe6cb9a1bf"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Testcontainers Core\nIsolated container management for Java code testing",
+    "release_date": "2022-06-29T07:28:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Richard North",
+            "email": "rich.north@gmail.com",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://testcontainers.org",
+    "download_url": "https://repo1.maven.org/maven2/org/testcontainers/testcontainers/1.17.3/testcontainers-1.17.3-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "0d9d0375c559548331133a6b245e9e242e682ef6",
+    "sha256": "80ff106e4a589808c27e4520e3aa94c789e2ef2d8a87c60f1fa59a9a20831a84",
+    "sha512": "86394dcff3b085a453a738bca24963c5b0229cb41d642505b5bda06b02117a9648f1e42748d6d1251461567a37e393d92016dfae24a66b1ef8db9a674da409de",
+    "bug_tracking_url": "https://github.com/testcontainers/testcontainers-java/issues",
+    "code_view_url": "https://github.com/testcontainers/testcontainers-java/",
+    "vcs_url": "git://github.com/testcontainers/testcontainers-java.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "mit",
+    "declared_license_expression_spdx": "MIT",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-spdx-id",
+                    "end_line": 1,
+                    "rule_url": null,
+                    "start_line": 1,
+                    "matched_text": "MIT",
+                    "match_coverage": 100.0,
+                    "matched_length": 1,
+                    "rule_relevance": 100,
+                    "rule_identifier": "spdx-license-identifier-mit-5da48780aba670b0860c46d899ed42a0f243ff06",
+                    "license_expression": "mit"
+                }
+            ],
+            "identifier": "mit-a822f434-d61f-f2b1-c792-8b8cb9e7b9bf",
+            "license_expression": "mit"
+        },
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/mit_82.RULE",
+                    "start_line": 1,
+                    "matched_text": "http://opensource.org/licenses/MIT",
+                    "match_coverage": 100.0,
+                    "matched_length": 5,
+                    "rule_relevance": 100,
+                    "rule_identifier": "mit_82.RULE",
+                    "license_expression": "mit"
+                }
+            ],
+            "identifier": "mit-ed4b10a1-dee4-8c47-62ce-3459c82174bc",
+            "license_expression": "mit"
+        }
+    ],
+    "other_license_expression": "unknown-license-reference",
+    "other_license_expression_spdx": "LicenseRef-scancode-unknown-license-reference",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: MIT\n  url: http://opensource.org/licenses/MIT\n  comments:\n  distribution:\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.testcontainers/testcontainers@1.17.3?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/junit/junit@4.13.2",
+            "extracted_requirement": "4.13.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-api@1.7.36",
+            "extracted_requirement": "1.7.36",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.commons/commons-compress@1.21",
+            "extracted_requirement": "1.21",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.rnorth.duct-tape/duct-tape@1.0.8",
+            "extracted_requirement": "1.0.8",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.github.docker-java/docker-java-api@3.2.13",
+            "extracted_requirement": "3.2.13",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.github.docker-java/docker-java-transport-zerodep@3.2.13",
+            "extracted_requirement": "3.2.13",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.testcontainers/testcontainers@1.17.3?classifier=sources&uuid=3796545e-3b41-4abc-b03e-65fe6cb9a1bf",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.testcontainers/testcontainers@1.17.3?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

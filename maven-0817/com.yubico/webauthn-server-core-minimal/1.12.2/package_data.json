@@ -1,0 +1,177 @@
+{
+    "type": "maven",
+    "namespace": "com.yubico",
+    "name": "webauthn-server-core-minimal",
+    "version": "1.12.2",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "2f93a5c4-c31e-4297-b009-9375a04a0969",
+            "packages": [
+                "pkg:maven/com.yubico/webauthn-server-core-minimal@1.12.2?uuid=b68d1608-ca1e-4118-8a58-6d98c7be7e05",
+                "pkg:maven/com.yubico/webauthn-server-core-minimal@1.12.2?classifier=sources&uuid=339ec7f9-73d4-421e-acd4-6581f47bee17"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "webauthn-server-core-minimal\nYubico WebAuthn server core API (fewer dependencies)",
+    "release_date": "2022-01-28T17:30:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Emil Lundberg",
+            "email": "emil@yubico.com",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://developers.yubico.com/java-webauthn-server/",
+    "download_url": "https://repo1.maven.org/maven2/com/yubico/webauthn-server-core-minimal/1.12.2/webauthn-server-core-minimal-1.12.2-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "7e5878e2273c9f1190c137b4760fcd53f3e094ac",
+    "sha256": "b034e62714f0a397d2f6d80738ae850c9889c99c10bd86dd21bd73dbca44d380",
+    "sha512": "1e94d75f72d545ce3ba1349cf5b649755ef7954354af06fce95e6dca21cd7c3e6f2fc18213a83a41abb772d13676ba02c724adb749afe648d594442a213ffdf5",
+    "bug_tracking_url": null,
+    "code_view_url": "scm:git:git://github.com/Yubico/java-webauthn-server.git",
+    "vcs_url": "git://github.com/Yubico/java-webauthn-server.git",
+    "copyright": "Copyright (c) Yubico AB",
+    "holder": null,
+    "declared_license_expression": "bsd-simplified AND unknown",
+    "declared_license_expression_spdx": "BSD-2-Clause AND LicenseRef-scancode-unknown",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 16.13,
+                    "matcher": "3-seq",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/bsd-simplified_114.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: BSD-license\n  comments: Revised 2-clause BSD license",
+                    "match_coverage": 16.13,
+                    "matched_length": 5,
+                    "rule_relevance": 100,
+                    "rule_identifier": "bsd-simplified_114.RULE",
+                    "license_expression": "bsd-simplified"
+                }
+            ],
+            "identifier": null,
+            "license_expression": "bsd-simplified"
+        },
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "5-undetected",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/package-manifest-unknown-f9d4d102cea63201039d3d0149bc95a96db252bd",
+                    "start_line": 1,
+                    "matched_text": "license - name: BSD-license\n  comments: Revised 2-clause BSD license",
+                    "match_coverage": 100.0,
+                    "matched_length": 10,
+                    "rule_relevance": 100,
+                    "rule_identifier": "package-manifest-unknown-f9d4d102cea63201039d3d0149bc95a96db252bd",
+                    "license_expression": "unknown"
+                }
+            ],
+            "identifier": "unknown-c1d073a7-61d2-d092-9e8e-39b2c14287a9",
+            "license_expression": "unknown"
+        }
+    ],
+    "other_license_expression": "bsd-simplified AND bsd-new",
+    "other_license_expression_spdx": "BSD-2-Clause AND BSD-3-Clause",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: BSD-license\n  comments: Revised 2-clause BSD license\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.yubico/webauthn-server-core-minimal@1.12.2?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.yubico/webauthn-server-parent@1.12.2",
+            "extracted_requirement": "1.12.2",
+            "scope": "import",
+            "is_runtime": false,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.yubico/yubico-util@1.12.2",
+            "extracted_requirement": "1.12.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.augustcellars.cose/cose-java",
+            "extracted_requirement": null,
+            "scope": "runtime",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.guava/guava",
+            "extracted_requirement": null,
+            "scope": "runtime",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind",
+            "extracted_requirement": null,
+            "scope": "runtime",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.upokecenter/cbor",
+            "extracted_requirement": null,
+            "scope": "runtime",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.httpcomponents/httpclient",
+            "extracted_requirement": null,
+            "scope": "runtime",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-api",
+            "extracted_requirement": null,
+            "scope": "runtime",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.yubico/webauthn-server-parent@1.12.2",
+            "extracted_requirement": "1.12.2",
+            "scope": "dependencymanagement",
+            "is_runtime": false,
+            "is_optional": false,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/com.yubico/webauthn-server-core-minimal@1.12.2?classifier=sources&uuid=339ec7f9-73d4-421e-acd4-6581f47bee17",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/com.yubico/webauthn-server-core-minimal@1.12.2?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/yubico/webauthn-server-core-minimal/1.12.2/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/yubico/webauthn-server-core-minimal/1.12.2/webauthn-server-core-minimal-1.12.2-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/yubico/webauthn-server-core-minimal/1.12.2/webauthn-server-core-minimal-1.12.2.pom",
+    "file_references": []
+}

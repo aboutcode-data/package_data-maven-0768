@@ -1,0 +1,95 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.xmlgraphics",
+    "name": "batik-test",
+    "version": "1.16",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "31d35212-426a-4395-be48-b2db873538c1",
+            "packages": [
+                "pkg:maven/org.apache.xmlgraphics/batik-test@1.16?uuid=5963821c-2d6c-490b-bfc8-769df163d0c0",
+                "pkg:maven/org.apache.xmlgraphics/batik-test@1.16?classifier=sources&uuid=fb07e74c-22d5-415b-b468-3fb635918dab"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "org.apache.xmlgraphics:batik-test\nBatik Test Harness",
+    "release_date": "2022-10-14T11:26:00Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Apache Software Foundation",
+            "email": null,
+            "url": "http://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://xmlgraphics.apache.org/batik/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-test/1.16/batik-test-1.16-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "649fb94466e31d7bb393db3e6daaaaf36aab6cda",
+    "sha256": "6b551c3bb1cdc79e7b24c057e1165b07c561e8ded6ac74f6f21f6933527f2ed3",
+    "sha512": "6159dc074fb534839d14ffd9b690568c8882ccf9d80117b7d73c9e3540d56bc90441f98def3b6590589e23d3695f4be081f4ff73c6bfbfafc8d3ab9d926f860e",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.xmlgraphics/batik-test@1.16?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.apache.xmlgraphics/batik@1.16",
+            "Field `homepage_url` has been updated using values obtained from the parent POM pkg:maven/org.apache.xmlgraphics/batik@1.16",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.apache.xmlgraphics/batik@1.16"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.xmlgraphics/batik-constants@1.16",
+            "extracted_requirement": "1.16",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.xmlgraphics/batik-i18n@1.16",
+            "extracted_requirement": "1.16",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.xmlgraphics/batik-shared-resources@1.16",
+            "extracted_requirement": "1.16",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.xmlgraphics/batik-test@1.16?classifier=sources&uuid=fb07e74c-22d5-415b-b468-3fb635918dab",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.apache.xmlgraphics/batik-test@1.16?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-test/1.16/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-test/1.16/batik-test-1.16-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-test/1.16/batik-test-1.16.pom",
+    "file_references": []
+}

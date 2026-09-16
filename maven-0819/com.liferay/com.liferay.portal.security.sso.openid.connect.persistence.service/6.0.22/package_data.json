@@ -1,0 +1,98 @@
+{
+    "type": "maven",
+    "namespace": "com.liferay",
+    "name": "com.liferay.portal.security.sso.openid.connect.persistence.service",
+    "version": "6.0.22",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "dc147dc3-6232-4977-8512-07849a61bf8b",
+            "packages": [
+                "pkg:maven/com.liferay/com.liferay.portal.security.sso.openid.connect.persistence.service@6.0.22?uuid=442c6b87-ca9d-4f61-8bef-05560756b2be",
+                "pkg:maven/com.liferay/com.liferay.portal.security.sso.openid.connect.persistence.service@6.0.22?classifier=sources&uuid=e51e6832-2c2a-408c-b694-184949f90496"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Liferay Portal Security SSO OpenID Connect Persistence Service",
+    "release_date": "2023-05-19T00:14:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Brian Wing Shun Chan",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.portal.security.sso.openid.connect.persistence.service/6.0.22/com.liferay.portal.security.sso.openid.connect.persistence.service-6.0.22-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "305c6c32ccf7d21fe8c6ff73ce086320192ee0d1",
+    "sha256": "44ec78e9e13e18079f9d3aa85ca90b5fd14662d4bfec8310e951447a4b939d97",
+    "sha512": "2591b7be7de4a123f5014395ef354bcc87e7596f3ff7c93c9ea64be4216efe98777067ba6bb1c2d48c0fe9c568ceceef59da59c5f9778e168fe284602d3b4ebc",
+    "bug_tracking_url": null,
+    "code_view_url": "http://github.com/liferay/liferay-portal",
+    "vcs_url": "git+https://github.com/liferay/liferay-portal.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "lgpl-2.1",
+    "declared_license_expression_spdx": "LGPL-2.1-only",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_85.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: LGPL 2.1",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_85.RULE",
+                    "license_expression": "lgpl-2.1"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_37.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 11,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_37.RULE",
+                    "license_expression": "lgpl-2.1"
+                }
+            ],
+            "identifier": "lgpl_2_1-6893cb1b-4cad-db8f-2133-a48bc107078b",
+            "license_expression": "lgpl-2.1"
+        }
+    ],
+    "other_license_expression": "apache-2.0 AND lgpl-2.1-plus",
+    "other_license_expression_spdx": "Apache-2.0 AND LGPL-2.1-or-later",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: LGPL 2.1\n  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.liferay/com.liferay.portal.security.sso.openid.connect.persistence.service@6.0.22?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [],
+    "package_uid": "pkg:maven/com.liferay/com.liferay.portal.security.sso.openid.connect.persistence.service@6.0.22?classifier=sources&uuid=e51e6832-2c2a-408c-b694-184949f90496",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/com.liferay/com.liferay.portal.security.sso.openid.connect.persistence.service@6.0.22?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.portal.security.sso.openid.connect.persistence.service/6.0.22/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.portal.security.sso.openid.connect.persistence.service/6.0.22/com.liferay.portal.security.sso.openid.connect.persistence.service-6.0.22-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.portal.security.sso.openid.connect.persistence.service/6.0.22/com.liferay.portal.security.sso.openid.connect.persistence.service-6.0.22.pom",
+    "file_references": []
+}

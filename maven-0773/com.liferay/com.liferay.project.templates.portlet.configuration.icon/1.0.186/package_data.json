@@ -1,0 +1,96 @@
+{
+    "type": "maven",
+    "namespace": "com.liferay",
+    "name": "com.liferay.project.templates.portlet.configuration.icon",
+    "version": "1.0.186",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "4ea5088c-6922-4566-b2ec-f2dedc0bca19",
+            "packages": [
+                "pkg:maven/com.liferay/com.liferay.project.templates.portlet.configuration.icon@1.0.186?uuid=70575b40-e1e6-4438-aa3e-cb1371c8ce7a",
+                "pkg:maven/com.liferay/com.liferay.project.templates.portlet.configuration.icon@1.0.186?classifier=sources&uuid=68f929ab-9324-401a-ad34-3ce038395ced"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Creates a Liferay module project that customizes a Liferay portlet's configuration icon.",
+    "release_date": null,
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Brian Wing Shun Chan",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.project.templates.portlet.configuration.icon/1.0.186/com.liferay.project.templates.portlet.configuration.icon-1.0.186-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "5caafc8fd9375baf0d9ab9278c92800616d63609",
+    "sha256": "d1eadcc15e82d542cf59350a7386e10fd25a0507c7a7f83d7121e4f43b2156ad",
+    "sha512": "1eb658bf32c02811ed77067a8f19f7252caa550d44f5e98acadad64ec66ed2e60aee9c822f64a0b5b189a2bb744d04d4c1f642a84f1eaf2d2bb3aa9082cf5c6b",
+    "bug_tracking_url": null,
+    "code_view_url": "http://github.com/liferay/liferay-portal",
+    "vcs_url": "git+https://github.com/liferay/liferay-portal.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "lgpl-2.1",
+    "declared_license_expression_spdx": "LGPL-2.1-only",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_85.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: LGPL 2.1",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_85.RULE",
+                    "license_expression": "lgpl-2.1"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_37.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 11,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_37.RULE",
+                    "license_expression": "lgpl-2.1"
+                }
+            ],
+            "identifier": "lgpl_2_1-6893cb1b-4cad-db8f-2133-a48bc107078b",
+            "license_expression": "lgpl-2.1"
+        }
+    ],
+    "other_license_expression": "lgpl-2.1-plus OR liferay-dxp-eula-2.0.0-2023-06",
+    "other_license_expression_spdx": "LGPL-2.1-or-later OR LicenseRef-Liferay-DXP-EULA-2.0.0-2023-06",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: LGPL 2.1\n  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.liferay/com.liferay.project.templates.portlet.configuration.icon@1.0.186?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [],
+    "package_uid": "pkg:maven/com.liferay/com.liferay.project.templates.portlet.configuration.icon@1.0.186?classifier=sources&uuid=68f929ab-9324-401a-ad34-3ce038395ced",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.liferay/com.liferay.project.templates.portlet.configuration.icon@1.0.186?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

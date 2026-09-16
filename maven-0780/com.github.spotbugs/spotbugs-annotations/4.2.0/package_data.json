@@ -1,0 +1,154 @@
+{
+    "type": "maven",
+    "namespace": "com.github.spotbugs",
+    "name": "spotbugs-annotations",
+    "version": "4.2.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "f32a018c-8646-4f34-ba7c-595b46f8c85c",
+            "packages": [
+                "pkg:maven/com.github.spotbugs/spotbugs-annotations@4.2.0?uuid=4ad60f15-43fe-459a-9ffb-3f29d63b7cdb",
+                "pkg:maven/com.github.spotbugs/spotbugs-annotations@4.2.0?classifier=sources&uuid=0dfa1ea0-6c27-43b9-a3a4-795fcde222f0"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "SpotBugs Annotations\nAnnotations the SpotBugs tool supports",
+    "release_date": "2020-11-28T06:09:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Juan Mart\u00c3\u00adn Sotuyo Dodero",
+            "email": null,
+            "url": "https://github.com/jsotuyod"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Dave Brosius",
+            "email": "dbrosius@mebigfatguy.com",
+            "url": "http://www.jroller.com/dbrosius/"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": null,
+            "email": null,
+            "url": "https://github.com/henrik242"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Kengo TODA",
+            "email": "skypencil@gmail.com",
+            "url": "https://github.com/KengoTODA/"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Andrey Loskutov",
+            "email": "loskutov@gmx.de",
+            "url": "https://plus.google.com/+AndreyLoskutov"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": null,
+            "email": null,
+            "url": "https://github.com/ThrawnCA"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Andreas Sewe",
+            "email": "andreas.sewe@codetrails.com",
+            "url": "https://github.com/sewe"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://spotbugs.github.io/",
+    "download_url": "https://repo1.maven.org/maven2/com/github/spotbugs/spotbugs-annotations/4.2.0/spotbugs-annotations-4.2.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "f0b58a97c071884943ad5c48747a915f474f8fe6",
+    "sha256": "b338136e3e82d585348cde58a8fe3a678e16f51a35c31c1463e05fefef557aad",
+    "sha512": "0e550663906a731deb927c648a00256745b99bec928922ebebfafdcb519c51dcb09c2060b9d412c47c6e59fcb0bad284bf5ed7597b969990b9e9e6330fbdeef6",
+    "bug_tracking_url": null,
+    "code_view_url": "https://github.com/spotbugs/spotbugs/",
+    "vcs_url": "git+https://github.com/spotbugs/spotbugs.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "lgpl-2.1",
+    "declared_license_expression_spdx": "LGPL-2.1-only",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_36.RULE",
+                    "from_file": null,
+                    "start_line": 1,
+                    "matched_text": "- name: GNU LESSER GENERAL PUBLIC LICENSE, Version 2.1",
+                    "match_coverage": 100.0,
+                    "matched_length": 8,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_36.RULE",
+                    "license_expression": "lgpl-2.1",
+                    "license_expression_spdx": "LGPL-2.1-only"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_163.RULE",
+                    "from_file": null,
+                    "start_line": 2,
+                    "matched_text": "  url: https://www.gnu.org/licenses/old-licenses/lgpl-2.1.en.html",
+                    "match_coverage": 100.0,
+                    "matched_length": 12,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_163.RULE",
+                    "license_expression": "lgpl-2.1",
+                    "license_expression_spdx": "LGPL-2.1-only"
+                }
+            ],
+            "identifier": "lgpl_2_1-81a548b2-2e79-0c72-0652-c134cea6dff2",
+            "license_expression": "lgpl-2.1",
+            "license_expression_spdx": "LGPL-2.1-only"
+        }
+    ],
+    "other_license_expression": "lgpl-2.1-plus",
+    "other_license_expression_spdx": "LGPL-2.1-or-later",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: GNU LESSER GENERAL PUBLIC LICENSE, Version 2.1\n  url: https://www.gnu.org/licenses/old-licenses/lgpl-2.1.en.html\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.github.spotbugs/spotbugs-annotations@4.2.0?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.google.code.findbugs/jsr305@3.0.2",
+            "extracted_requirement": "3.0.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/com.github.spotbugs/spotbugs-annotations@4.2.0?classifier=sources&uuid=0dfa1ea0-6c27-43b9-a3a4-795fcde222f0",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/com.github.spotbugs/spotbugs-annotations@4.2.0?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/github/spotbugs/spotbugs-annotations/4.2.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/github/spotbugs/spotbugs-annotations/4.2.0/spotbugs-annotations-4.2.0-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/github/spotbugs/spotbugs-annotations/4.2.0/spotbugs-annotations-4.2.0.pom",
+    "file_references": []
+}

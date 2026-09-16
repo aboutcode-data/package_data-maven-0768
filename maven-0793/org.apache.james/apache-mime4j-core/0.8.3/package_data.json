@@ -1,0 +1,87 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.james",
+    "name": "apache-mime4j-core",
+    "version": "0.8.3",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "c25ddaf6-e0cd-4fcc-aee1-5471f2309c62",
+            "packages": [
+                "pkg:maven/org.apache.james/apache-mime4j-core@0.8.3?uuid=b6e7f57b-9bd9-43e3-9c9e-411ef0b944a3",
+                "pkg:maven/org.apache.james/apache-mime4j-core@0.8.3?classifier=sources&uuid=904e24f0-7e00-4ffa-9205-cbd773017ff5"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Apache James :: Mime4j :: Core",
+    "release_date": "2019-03-14T04:46:47Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "https://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://www.apache.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/james/apache-mime4j-core/0.8.3/apache-mime4j-core-0.8.3-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "80d2d56ce6531fc1e161d8365bb55e4c7993b5dc",
+    "sha256": "583975b63378880a993ed6ab069f622a86ea3d32b8545362c783386b250cc011",
+    "sha512": "e50b7578b1f72ee280fdc427f6cb282a20dfcd5e120a3b1dcb4b4da644608c0dfe175ecb50b7fb10fcb253bf83131647dd802f82fab0d148b6496fd42096f25c",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) The Apache Software Foundation",
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.james/apache-mime4j-core@0.8.3?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@18",
+            "Field `homepage_url` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@18",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@18"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/commons-io/commons-io",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.james/apache-mime4j-core@0.8.3?classifier=sources&uuid=904e24f0-7e00-4ffa-9205-cbd773017ff5",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.apache.james/apache-mime4j-core@0.8.3?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/james/apache-mime4j-core/0.8.3/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/james/apache-mime4j-core/0.8.3/apache-mime4j-core-0.8.3-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/james/apache-mime4j-core/0.8.3/apache-mime4j-core-0.8.3.pom",
+    "file_references": []
+}

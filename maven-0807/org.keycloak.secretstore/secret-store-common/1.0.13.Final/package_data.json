@@ -1,0 +1,152 @@
+{
+    "type": "maven",
+    "namespace": "org.keycloak.secretstore",
+    "name": "secret-store-common",
+    "version": "1.0.13.Final",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Secret Store - Commons\nUseful code for the Secret Store in general.",
+    "release_date": "2016-02-09T13:33:38Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/keycloak/secretstore/secret-store-common/1.0.13.Final/secret-store-common-1.0.13.Final.jar",
+    "size": 21991,
+    "md5": null,
+    "sha1": "ab67a337057145e837727f4505a84e049bb85c06",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.keycloak.secretstore/secret-store-common@1.0.13.Final?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.jboss.spec.javax.servlet/jboss-servlet-api_3.1_spec",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.spec.javax.json/jboss-json-api_1.0_spec",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.enterprise/cdi-api",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.spec.javax.ejb/jboss-ejb-api_3.2_spec",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.spec.javax.enterprise.concurrent/jboss-concurrency-api_1.0_spec",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.spec.javax.annotation/jboss-annotations-api_1.2_spec",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.datastax.cassandra/cassandra-driver-core",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.keycloak/keycloak-core",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.logging/jboss-logging",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.logging/jboss-logging-annotations",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.logging/jboss-logging-processor",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.mockito/mockito-core",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.keycloak.secretstore/secret-store-common@1.0.13.Final?uuid=46bc48ab-3963-4f25-8ce5-89614e20abf3",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.keycloak.secretstore/secret-store-common@1.0.13.Final",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/keycloak/secretstore/secret-store-common/1.0.13.Final/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/keycloak/secretstore/secret-store-common/1.0.13.Final/secret-store-common-1.0.13.Final.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/keycloak/secretstore/secret-store-common/1.0.13.Final/secret-store-common-1.0.13.Final.pom",
+    "file_references": []
+}

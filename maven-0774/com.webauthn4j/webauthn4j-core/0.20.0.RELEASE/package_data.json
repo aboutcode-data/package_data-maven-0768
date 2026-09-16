@@ -1,0 +1,215 @@
+{
+    "type": "maven",
+    "namespace": "com.webauthn4j",
+    "name": "webauthn4j-core",
+    "version": "0.20.0.RELEASE",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "54ee5494-0803-4f86-89e0-a6b9324ac8aa",
+            "packages": [
+                "pkg:maven/com.webauthn4j/webauthn4j-core@0.20.0.RELEASE?uuid=1fcc95a0-36fc-4683-a581-db8f161b010b",
+                "pkg:maven/com.webauthn4j/webauthn4j-core@0.20.0.RELEASE?classifier=sources&uuid=e3086d6d-fc39-497d-9266-f101562cea59"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "webauthn4j-core\nWebAuthn4J Core library",
+    "release_date": "2022-06-01T08:51:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Yoshikazu Nojima",
+            "email": "mail@ynojima.net",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/webauthn4j/webauthn4j",
+    "download_url": "https://repo1.maven.org/maven2/com/webauthn4j/webauthn4j-core/0.20.0.RELEASE/webauthn4j-core-0.20.0.RELEASE-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "490870edeea22b3e324c5ed087ce09e368a15668",
+    "sha256": "19f4636e8e8d234bc61083ca5d3516b1d53eab2f1b9e60fe0e6f10395ec1b7e5",
+    "sha512": "186fdbd44b39da1886d1bf351cd0a077e1926c7db3df6cb6d9ae06241c16851b890c5562520962ed251e81d848f93448aefb10f0073e15d92f80554616600607",
+    "bug_tracking_url": null,
+    "code_view_url": "https://github.com/webauthn4j/webauthn4j",
+    "vcs_url": "https://github.com/webauthn4j/webauthn4j",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0 AND unknown-license-reference",
+    "declared_license_expression_spdx": "Apache-2.0 AND LicenseRef-scancode-unknown-license-reference",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_5.RULE",
+                    "start_line": 1,
+                    "matched_text": "The Apache Software License, Version 2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 7,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_5.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-daaaee76-1395-c8c8-e06a-3f3f76e079b1",
+            "license_expression": "apache-2.0"
+        },
+        {
+            "matches": [
+                {
+                    "score": 80.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/unknown-license-reference_333.RULE",
+                    "start_line": 1,
+                    "matched_text": "http://www.apache.org/license/LICENSE-2.0.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 80,
+                    "rule_identifier": "unknown-license-reference_333.RULE",
+                    "license_expression": "unknown-license-reference"
+                }
+            ],
+            "identifier": "unknown_license_reference-d83d399b-8082-9e11-7de0-457e01a4f3be",
+            "license_expression": "unknown-license-reference"
+        }
+    ],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: The Apache Software License, Version 2.0\n  url: http://www.apache.org/license/LICENSE-2.0.txt\n  comments:\n  distribution: repo\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.webauthn4j/webauthn4j-core@0.20.0.RELEASE?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.webauthn4j/webauthn4j-util@0.20.0.RELEASE",
+            "extracted_requirement": "0.20.0.RELEASE",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-api@1.7.36",
+            "extracted_requirement": "1.7.36",
+            "scope": "runtime",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.kerby/kerby-asn1@2.0.2",
+            "extracted_requirement": "2.0.2",
+            "scope": "runtime",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.13.3",
+            "extracted_requirement": "2.13.3",
+            "scope": "runtime",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-cbor@2.13.3",
+            "extracted_requirement": "2.13.3",
+            "scope": "runtime",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.checkerframework/checker-qual@3.22.0",
+            "extracted_requirement": "3.22.0",
+            "scope": "runtime",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.13.3",
+            "extracted_requirement": "2.13.3",
+            "scope": "dependencymanagement",
+            "is_runtime": false,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-cbor@2.13.3",
+            "extracted_requirement": "2.13.3",
+            "scope": "dependencymanagement",
+            "is_runtime": false,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-jsr310@2.13.3",
+            "extracted_requirement": "2.13.3",
+            "scope": "dependencymanagement",
+            "is_runtime": false,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.kerby/kerby-asn1@2.0.2",
+            "extracted_requirement": "2.0.2",
+            "scope": "dependencymanagement",
+            "is_runtime": false,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-api@1.7.36",
+            "extracted_requirement": "1.7.36",
+            "scope": "dependencymanagement",
+            "is_runtime": false,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.checkerframework/checker-qual@3.22.0",
+            "extracted_requirement": "3.22.0",
+            "scope": "dependencymanagement",
+            "is_runtime": false,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.bouncycastle/bcprov-jdk15on@1.70",
+            "extracted_requirement": "1.70",
+            "scope": "dependencymanagement",
+            "is_runtime": false,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.bouncycastle/bcpkix-jdk15on@1.70",
+            "extracted_requirement": "1.70",
+            "scope": "dependencymanagement",
+            "is_runtime": false,
+            "is_optional": false,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/com.webauthn4j/webauthn4j-core@0.20.0.RELEASE?classifier=sources&uuid=e3086d6d-fc39-497d-9266-f101562cea59",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.webauthn4j/webauthn4j-core@0.20.0.RELEASE?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

@@ -1,0 +1,133 @@
+{
+    "type": "maven",
+    "namespace": "ch.qos.logback",
+    "name": "logback-core",
+    "version": "1.2.10",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "02449823-b786-450c-ac42-56d6122b308e",
+            "packages": [
+                "pkg:maven/ch.qos.logback/logback-core@1.2.10?uuid=6de73e02-ef59-40d7-8a59-eca40227585a",
+                "pkg:maven/ch.qos.logback/logback-core@1.2.10?classifier=sources&uuid=8b5484f9-4bd4-47c1-ae21-91be4b21993e"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Logback Core Module\nlogback-core module",
+    "release_date": "2021-12-23T10:09:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Ceki Gulcu",
+            "email": "ceki@qos.ch",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Joern Huxhorn",
+            "email": "huxi@undisclosed.org",
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "QOS.ch",
+            "email": null,
+            "url": "http://www.qos.ch"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://logback.qos.ch",
+    "download_url": "https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.10/logback-core-1.2.10-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "63dc43165f77fedf926b2bcf72212f3755c87fba",
+    "sha256": "83844eb4639fd0a267b74641371a651b070439c243fa49ed71480dc0459014af",
+    "sha512": "9b6fdb46d2f6ce376f34ed85063b3afdc0e245a457db7ff4d51f01c1bcb84f9fd7f25e6c31421357ac77a5ec6ed3fae522e22bbbdfd3a2d84657176b1c21adb5",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "epl-1.0 AND lgpl-2.0-plus AND lgpl-2.1",
+    "declared_license_expression_spdx": "EPL-1.0 AND LGPL-2.0-or-later AND LGPL-2.1-only",
+    "license_detections": [],
+    "other_license_expression": "epl-1.0 OR lgpl-2.1",
+    "other_license_expression_spdx": "EPL-1.0 OR LGPL-2.1-only",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/ch.qos.logback/logback-core@1.2.10?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/ch.qos.logback/logback-parent@1.2.10",
+            "Field `homepage_url` has been updated using values obtained from the parent POM pkg:maven/ch.qos.logback/logback-parent@1.2.10",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/ch.qos.logback/logback-parent@1.2.10"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.codehaus.janino/janino",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.fusesource.jansi/jansi",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.mail/mail",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.servlet/javax.servlet-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.mockito/mockito-core",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/joda-time/joda-time",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/ch.qos.logback/logback-core@1.2.10?classifier=sources&uuid=8b5484f9-4bd4-47c1-ae21-91be4b21993e",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/ch.qos.logback/logback-core@1.2.10?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.10/",
+    "repository_download_url": "https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.10/logback-core-1.2.10-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.10/logback-core-1.2.10.pom",
+    "file_references": []
+}

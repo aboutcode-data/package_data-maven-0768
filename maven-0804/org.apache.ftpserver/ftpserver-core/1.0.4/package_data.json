@@ -1,0 +1,160 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.ftpserver",
+    "name": "ftpserver-core",
+    "version": "1.0.4",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "87da792f-c291-46f4-ac50-7421483bfe40",
+            "packages": [
+                "pkg:maven/org.apache.ftpserver/ftpserver-core@1.0.4?uuid=7093cfc5-d9e8-40d9-98a8-b258a8e46c3c",
+                "pkg:maven/org.apache.ftpserver/ftpserver-core@1.0.4?classifier=sources&uuid=f4d6c7de-39b2-4e8f-9177-7959cd0cf3e9"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Apache FtpServer Core",
+    "release_date": "2010-03-13T21:55:14Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "http://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.apache.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/ftpserver/ftpserver-core/1.0.4/ftpserver-core-1.0.4-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "a5ff3a62eb0d6b30c40e71501bf0f556c50d85ef",
+    "sha256": "583262de4f857d3eb436b8432a0bbb02693e85d62a18c4def85d07144a9b7b59",
+    "sha512": "3af211bb5147d52de2e6c1a82824e02dc14c415f0bd77ba63c9bed5cc15f75945033477d1fa77377d1b0fde131c03bbd0c35254eb195964d2d821314bba446aa",
+    "bug_tracking_url": null,
+    "code_view_url": "http://svn.apache.org/viewvc/mina/ftpserver/trunk/core",
+    "vcs_url": "svn+http://svn.apache.org/repos/asf/mina/ftpserver/trunk/core",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0 AND (apache-2.0 AND public-domain)",
+    "other_license_expression_spdx": "Apache-2.0 AND (Apache-2.0 AND LicenseRef-scancode-public-domain)",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.ftpserver/ftpserver-core@1.0.4?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.ftpserver/ftplet-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.mina/mina-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-context",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/jcl-over-slf4j",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/commons-net/commons-net",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-log4j12",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/log4j/log4j",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/commons-codec/commons-codec",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/oro/oro",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/hsqldb/hsqldb",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.ftpserver/ftpserver-core@1.0.4?classifier=sources&uuid=f4d6c7de-39b2-4e8f-9177-7959cd0cf3e9",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.apache.ftpserver/ftpserver-core@1.0.4?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/ftpserver/ftpserver-core/1.0.4/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/ftpserver/ftpserver-core/1.0.4/ftpserver-core-1.0.4-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/ftpserver/ftpserver-core/1.0.4/ftpserver-core-1.0.4.pom",
+    "file_references": []
+}

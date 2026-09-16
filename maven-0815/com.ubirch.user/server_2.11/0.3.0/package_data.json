@@ -1,0 +1,151 @@
+{
+    "type": "maven",
+    "namespace": "com.ubirch.user",
+    "name": "server_2.11",
+    "version": "0.3.0",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "server\nREST interface and Akka HTTP specific code",
+    "release_date": "2017-05-18T15:36:57Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "ubirch",
+            "email": "release@ubirch.com",
+            "url": "http://www.ubirch.com/"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "com.ubirch.user",
+            "email": null,
+            "url": "http://ubirch.com"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://ubirch.com",
+    "download_url": "https://repo1.maven.org/maven2/com/ubirch/user/server_2.11/0.3.0/server_2.11-0.3.0.jar",
+    "size": 305634,
+    "md5": null,
+    "sha1": "03d860ea15384313a25f13b43f2a091e10346d5c",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "unknown",
+    "declared_license_expression_spdx": "LicenseRef-scancode-unknown",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "Apache 2\nhttps://www.apache.org/licenses/LICENSE-2.0.txt",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.ubirch.user/server_2.11@0.3.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.scala-lang/scala-library",
+            "extracted_requirement": "2.11.8",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.ubirch.user/config_2.11",
+            "extracted_requirement": "0.3.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.ubirch.user/core_2.11",
+            "extracted_requirement": "0.3.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.ubirch.user/model-rest_2.11",
+            "extracted_requirement": "0.3.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.ubirch.user/util_2.11",
+            "extracted_requirement": "0.3.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.typesafe.akka/akka-slf4j_2.11",
+            "extracted_requirement": "2.4.18",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.typesafe.akka/akka-http_2.11",
+            "extracted_requirement": "10.0.6",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.ubirch.util/rest-akka-http_2.11",
+            "extracted_requirement": "0.3.6",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.ubirch.util/json-auto-convert_2.11",
+            "extracted_requirement": "0.3.4",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.ubirch.util/response-util_2.11",
+            "extracted_requirement": "0.1.4",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.ubirch.util/rest-akka-http-test_2.11",
+            "extracted_requirement": "0.3.6",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/com.ubirch.user/server_2.11@0.3.0?uuid=c93a60cd-1ae6-4181-bd37-895f1b4fd6fe",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.ubirch.user/server_2.11@0.3.0",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/ubirch/user/server_2.11/0.3.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/ubirch/user/server_2.11/0.3.0/server_2.11-0.3.0.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/ubirch/user/server_2.11/0.3.0/server_2.11-0.3.0.pom",
+    "file_references": []
+}

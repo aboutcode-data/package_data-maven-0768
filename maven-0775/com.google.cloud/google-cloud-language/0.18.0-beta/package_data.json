@@ -1,0 +1,152 @@
+{
+    "type": "maven",
+    "namespace": "com.google.cloud",
+    "name": "google-cloud-language",
+    "version": "0.18.0-beta",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Google Cloud Natural Language\nJava idiomatic client for Google Cloud Natural Language.",
+    "release_date": "2017-05-18T16:14:03Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": "https://github.com/GoogleCloudPlatform/google-cloud-java/tree/master/google-cloud-language",
+    "download_url": "https://repo1.maven.org/maven2/com/google/cloud/google-cloud-language/0.18.0-beta/google-cloud-language-0.18.0-beta.jar",
+    "size": 27220,
+    "md5": null,
+    "sha1": "db745046763ca3df870e5280fca7cd97b2e18d08",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.google.cloud/google-cloud-language@0.18.0-beta?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/io.netty/netty-tcnative-boringssl-static",
+            "extracted_requirement": "1.1.33.Fork26",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.cloud/google-cloud-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.cloud/google-cloud-core-grpc",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.api.grpc/proto-google-cloud-language-v1",
+            "extracted_requirement": "0.1.11",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.api.grpc/proto-google-cloud-language-v1beta2",
+            "extracted_requirement": "0.1.11",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.grpc/grpc-netty",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.grpc/grpc-stub",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.grpc/grpc-auth",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.cloud/google-cloud-core",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.easymock/easymock",
+            "extracted_requirement": "3.4",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.api.grpc/grpc-google-cloud-language-v1",
+            "extracted_requirement": "0.1.11",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.api.grpc/grpc-google-cloud-language-v1beta2",
+            "extracted_requirement": "0.1.11",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/com.google.cloud/google-cloud-language@0.18.0-beta?uuid=be810036-51f5-45da-a86f-ceb82c9ba3e1",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.google.cloud/google-cloud-language@0.18.0-beta",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/google/cloud/google-cloud-language/0.18.0-beta/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/google/cloud/google-cloud-language/0.18.0-beta/google-cloud-language-0.18.0-beta.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/google/cloud/google-cloud-language/0.18.0-beta/google-cloud-language-0.18.0-beta.pom",
+    "file_references": []
+}

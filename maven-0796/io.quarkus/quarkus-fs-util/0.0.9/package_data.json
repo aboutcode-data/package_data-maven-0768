@@ -1,0 +1,111 @@
+{
+    "type": "maven",
+    "namespace": "io.quarkus",
+    "name": "quarkus-fs-util",
+    "version": "0.0.9",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "35f2f980-8de0-4a5e-a29a-401b30e9c52c",
+            "packages": [
+                "pkg:maven/io.quarkus/quarkus-fs-util@0.0.9?uuid=8b890a36-9fcb-43fa-92fb-31272b4a13bc",
+                "pkg:maven/io.quarkus/quarkus-fs-util@0.0.9?classifier=sources&uuid=5671363e-05e4-4992-b679-38c6d59cde38"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Quarkus - FS Util\nQuarkus Filesystem Utils",
+    "release_date": "2022-02-15T09:53:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Quarkus Community",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://quarkus.io/",
+    "download_url": "https://repo1.maven.org/maven2/io/quarkus/quarkus-fs-util/0.0.9/quarkus-fs-util-0.0.9-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "64bfce38d7144b09b32ea623a8b809f4c2f60299",
+    "sha256": "249563aad66bb7f689697a06c54c73d8ecef19a20f6d89769a8609aa24ca93f5",
+    "sha512": "7b3ca834e4a6f99510623873c91f8494e363d6854a490ab61643cc9bb02ffb37ad8a0551c223195f8d060cab139cf24e3b05cb1e0f6cf6970fc72ef83fd1b9ac",
+    "bug_tracking_url": "https://github.com/quarkusio/quarkusfs-util/issues/",
+    "code_view_url": "https://github.com/quarkusio/quarkus-fs-util",
+    "vcs_url": "git+https://github.com/quarkusio/quarkus-fs-util.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_48.RULE",
+                    "start_line": 1,
+                    "matched_text": "Apache License, Version 2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 5,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_48.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-428c1364-ecb5-f806-7a2e-77d10737a7ce",
+            "license_expression": "apache-2.0"
+        },
+        {
+            "matches": [
+                {
+                    "score": 80.0,
+                    "matcher": "1-hash",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_42.RULE",
+                    "start_line": 1,
+                    "matched_text": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 9,
+                    "rule_relevance": 80,
+                    "rule_identifier": "apache-2.0_42.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-e6b67d43-b657-21c0-8d8b-17f617aef8ce",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Apache License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt\n  comments:\n  distribution: repo\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.quarkus/quarkus-fs-util@0.0.9?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.junit.jupiter/junit-jupiter@5.8.1",
+            "extracted_requirement": "5.8.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/io.quarkus/quarkus-fs-util@0.0.9?classifier=sources&uuid=5671363e-05e4-4992-b679-38c6d59cde38",
+    "datasource_id": null,
+    "purl": "pkg:maven/io.quarkus/quarkus-fs-util@0.0.9?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

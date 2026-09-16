@@ -1,0 +1,257 @@
+{
+    "type": "maven",
+    "namespace": "org.http4s",
+    "name": "http4s-scala-xml_2.11",
+    "version": "0.16.0-M3",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "scala-xml\nProvides scala-xml codecs for http4s",
+    "release_date": "2017-05-27T02:38:37Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Andr\u00e9 Rouel",
+            "email": null,
+            "url": "https://github.com/before"
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Brad Fritz",
+            "email": null,
+            "url": "https://github.com/bfritz"
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Bryce L. Anderson",
+            "email": "bryce.anderson22@gmail.com",
+            "url": "https://github.com/bryce-anderson"
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Ivan Porto Carrero",
+            "email": "ivan@flanders.co.nz",
+            "url": "https://github.com/casualjim"
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Carlos Encarnacion",
+            "email": null,
+            "url": "https://github.com/cencarnacion"
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Christopher Davenport",
+            "email": "chris@christopherdavenport.tech",
+            "url": "https://github.com/ChristopherDavenport"
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Carlos Quiroz",
+            "email": null,
+            "url": "https://github.com/cquiroz"
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Heikki Vesalainen",
+            "email": null,
+            "url": "https://github.com/hvesalai"
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Jean-R\u00e9mi Desjardins",
+            "email": null,
+            "url": "https://github.com/jedesah"
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Julien Truffaut",
+            "email": null,
+            "url": "https://github.com/julien-truffaut"
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Rodolfo Hansen",
+            "email": null,
+            "url": "https://github.com/kryptt"
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Simon Hafner",
+            "email": null,
+            "url": "https://github.com/reactormonk"
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Arya Irani",
+            "email": null,
+            "url": "https://github.com/refried"
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Ross A. Baker",
+            "email": "ross@rossabaker.com",
+            "url": "https://github.com/rossabaker"
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Sheng Chen",
+            "email": null,
+            "url": "https://github.com/shengc"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "org.http4s",
+            "email": null,
+            "url": "http://http4s.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://http4s.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/http4s/http4s-scala-xml_2.11/0.16.0-M3/http4s-scala-xml_2.11-0.16.0-M3.jar",
+    "size": 9234,
+    "md5": null,
+    "sha1": "073b3985fe9ef939f34b7548e335c6685a275d21",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0 AND apache-2.0 AND unknown",
+    "declared_license_expression_spdx": "Apache-2.0 AND Apache-2.0 AND LicenseRef-scancode-unknown",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "Apache-2.0\nhttps://www.apache.org/licenses/LICENSE-2.0.html",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.http4s/http4s-scala-xml_2.11@0.16.0-M3?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.typelevel/scala-library",
+            "extracted_requirement": "2.11.8",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.http4s/http4s-core_2.11",
+            "extracted_requirement": "0.16.0-M3",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.scala-lang.modules/scala-xml_2.11",
+            "extracted_requirement": "1.0.6",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.http4s/http4s-testing_2.11",
+            "extracted_requirement": "0.16.0-M3",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.scalatest/scalatest_2.11",
+            "extracted_requirement": "3.0.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.scalacheck/scalacheck_2.11",
+            "extracted_requirement": "1.13.4",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.typelevel/discipline_2.11",
+            "extracted_requirement": "0.7.3",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/ch.qos.logback/logback-classic",
+            "extracted_requirement": "1.2.3",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.scalaz/scalaz-scalacheck-binding_2.11",
+            "extracted_requirement": "7.1.13",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.specs2/specs2-core_2.11",
+            "extracted_requirement": "3.8.6-scalaz-7.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.specs2/specs2-matcher-extra_2.11",
+            "extracted_requirement": "3.8.6-scalaz-7.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.specs2/specs2-scalacheck_2.11",
+            "extracted_requirement": "3.8.6-scalaz-7.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.http4s/http4s-scala-xml_2.11@0.16.0-M3?uuid=8609ac86-08c1-41c3-bce7-455abff6b692",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.http4s/http4s-scala-xml_2.11@0.16.0-M3",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/http4s/http4s-scala-xml_2.11/0.16.0-M3/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/http4s/http4s-scala-xml_2.11/0.16.0-M3/http4s-scala-xml_2.11-0.16.0-M3.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/http4s/http4s-scala-xml_2.11/0.16.0-M3/http4s-scala-xml_2.11-0.16.0-M3.pom",
+    "file_references": []
+}

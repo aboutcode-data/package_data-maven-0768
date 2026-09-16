@@ -1,0 +1,125 @@
+{
+    "type": "maven",
+    "namespace": "org.typelevel",
+    "name": "cats-effect_2.12",
+    "version": "0.3-d37204d",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "cats-effect",
+    "release_date": "2017-05-21T03:47:47Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Daniel Spiewak",
+            "email": null,
+            "url": "http://www.codecommit.com"
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Michael Pilquist",
+            "email": null,
+            "url": "https://github.com/mpilquist"
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Alexandru Nedelcu",
+            "email": null,
+            "url": "https://alexn.org"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "org.typelevel",
+            "email": null,
+            "url": "https://github.com/typelevel/cats-effect"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/typelevel/cats-effect",
+    "download_url": "https://repo1.maven.org/maven2/org/typelevel/cats-effect_2.12/0.3-d37204d/cats-effect_2.12-0.3-d37204d.jar",
+    "size": 285124,
+    "md5": null,
+    "sha1": "ff38ac5289a548d647919ae3e600deaf9abba51d",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0 AND apache-2.0 AND unknown",
+    "declared_license_expression_spdx": "Apache-2.0 AND Apache-2.0 AND LicenseRef-scancode-unknown",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "Apache-2.0\nhttp://www.apache.org/licenses/",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.typelevel/cats-effect_2.12@0.3-d37204d?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.scala-lang/scala-library",
+            "extracted_requirement": "2.12.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.typelevel/cats-core_2.12",
+            "extracted_requirement": "0.9.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.typelevel/cats-laws_2.12",
+            "extracted_requirement": "0.9.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.scalatest/scalatest_2.12",
+            "extracted_requirement": "3.0.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.scalacheck/scalacheck_2.12",
+            "extracted_requirement": "1.13.4",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.typelevel/discipline_2.12",
+            "extracted_requirement": "0.7.3",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.typelevel/cats-effect_2.12@0.3-d37204d?uuid=ad5f32eb-aa1a-4aae-84e7-c2c0d6996856",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.typelevel/cats-effect_2.12@0.3-d37204d",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/typelevel/cats-effect_2.12/0.3-d37204d/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/typelevel/cats-effect_2.12/0.3-d37204d/cats-effect_2.12-0.3-d37204d.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/typelevel/cats-effect_2.12/0.3-d37204d/cats-effect_2.12-0.3-d37204d.pom",
+    "file_references": []
+}

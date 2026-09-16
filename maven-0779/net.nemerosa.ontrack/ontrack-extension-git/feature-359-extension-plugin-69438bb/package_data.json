@@ -1,0 +1,176 @@
+{
+    "type": "maven",
+    "namespace": "net.nemerosa.ontrack",
+    "name": "ontrack-extension-git",
+    "version": "feature-359-extension-plugin-69438bb",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "ontrack-extension-git\nnull",
+    "release_date": "2016-03-03T08:39:27Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Damien Coraboeuf",
+            "email": "damien.coraboeuf@gmail.com",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://nemerosa.github.io/ontrack",
+    "download_url": "https://repo1.maven.org/maven2/net/nemerosa/ontrack/ontrack-extension-git/feature-359-extension-plugin-69438bb/ontrack-extension-git-feature-359-extension-plugin-69438bb.jar",
+    "size": 146503,
+    "md5": null,
+    "sha1": "004db76eda06164ebc22bab8b8d72cc182e7577e",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "mit AND unknown",
+    "declared_license_expression_spdx": "MIT AND LicenseRef-scancode-unknown",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "The MIT License (MIT)\nhttp://opensource.org/licenses/MIT",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/net.nemerosa.ontrack/ontrack-extension-git@feature-359-extension-plugin-69438bb?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.springframework.boot/spring-boot-starter-web",
+            "extracted_requirement": "1.3.0.RELEASE",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/net.nemerosa.ontrack/ontrack-it-utils",
+            "extracted_requirement": "feature-359-extension-plugin-69438bb",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": "4.11",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.codehaus.groovy/groovy-all",
+            "extracted_requirement": "2.4.4",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/net.nemerosa.ontrack/ontrack-service",
+            "extracted_requirement": "feature-359-extension-plugin-69438bb",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/net.nemerosa.ontrack/ontrack-repository-impl",
+            "extracted_requirement": "feature-359-extension-plugin-69438bb",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/net.nemerosa.ontrack/ontrack-extension-issues",
+            "extracted_requirement": "feature-359-extension-plugin-69438bb",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.mockito/mockito-core",
+            "extracted_requirement": "1.9.5",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/net.nemerosa.ontrack/ontrack-extension-scm",
+            "extracted_requirement": "feature-359-extension-plugin-69438bb",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-tx",
+            "extracted_requirement": "4.2.3.RELEASE",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/commons-io/commons-io",
+            "extracted_requirement": "2.4",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/net.nemerosa.ontrack/ontrack-git",
+            "extracted_requirement": "feature-359-extension-plugin-69438bb",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.jgit/org.eclipse.jgit",
+            "extracted_requirement": "3.5.1.201410131835-r",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.projectlombok/lombok",
+            "extracted_requirement": "1.14.4",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/net.nemerosa.ontrack/ontrack-tx",
+            "extracted_requirement": "feature-359-extension-plugin-69438bb",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/net.nemerosa.ontrack/ontrack-extension-git@feature-359-extension-plugin-69438bb?uuid=49edbce4-526e-496e-ba61-66760bde513c",
+    "datasource_id": null,
+    "purl": "pkg:maven/net.nemerosa.ontrack/ontrack-extension-git@feature-359-extension-plugin-69438bb",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/net/nemerosa/ontrack/ontrack-extension-git/feature-359-extension-plugin-69438bb/",
+    "repository_download_url": "https://repo1.maven.org/maven2/net/nemerosa/ontrack/ontrack-extension-git/feature-359-extension-plugin-69438bb/ontrack-extension-git-feature-359-extension-plugin-69438bb.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/net/nemerosa/ontrack/ontrack-extension-git/feature-359-extension-plugin-69438bb/ontrack-extension-git-feature-359-extension-plugin-69438bb.pom",
+    "file_references": []
+}

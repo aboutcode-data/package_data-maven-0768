@@ -1,0 +1,88 @@
+{
+    "type": "maven",
+    "namespace": "com.amazonaws",
+    "name": "aws-java-sdk-mq",
+    "version": "1.11.271",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "94742531-90d1-4830-aeff-da475fe4f50f",
+            "packages": [
+                "pkg:maven/com.amazonaws/aws-java-sdk-mq@1.11.271?uuid=b24a9189-1e05-4756-8dee-7fbe668c4cf9",
+                "pkg:maven/com.amazonaws/aws-java-sdk-mq@1.11.271?classifier=sources&uuid=7bcd2490-fe46-4700-8643-7ea5aca971ee"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "AWS Java SDK for AmazonMQ\nThe AWS Java SDK for AmazonMQ module holds the client classes that are used for communicating with AmazonMQ Service",
+    "release_date": "2018-01-27T00:04:59Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": null,
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://aws.amazon.com/sdkforjava",
+    "download_url": "https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-mq/1.11.271/aws-java-sdk-mq-1.11.271-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "65738a904de031651ebdcea09c4ab12b9bebd772",
+    "sha256": "51a336dd44dac4f57ddfe61e95694ce0a69e4ae1cffff30476420b83976abe85",
+    "sha512": "7db7a967eab7c5df8e90aa005114d726eb248b2188926073bf7099193f9ce3365fabf06bf58cd881a00b375a60a883cd27aeb1a936a64fcf4dcf40e22c56637f",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.amazonaws/aws-java-sdk-mq@1.11.271?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.amazonaws/aws-java-sdk-core",
+            "extracted_requirement": "${awsjavasdk.version}",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.amazonaws/jmespath-java",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.amazonaws/aws-java-sdk-test-utils",
+            "extracted_requirement": "${awsjavasdk.version}",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/com.amazonaws/aws-java-sdk-mq@1.11.271?classifier=sources&uuid=7bcd2490-fe46-4700-8643-7ea5aca971ee",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.amazonaws/aws-java-sdk-mq@1.11.271?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-mq/1.11.271/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-mq/1.11.271/aws-java-sdk-mq-1.11.271-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-mq/1.11.271/aws-java-sdk-mq-1.11.271.pom",
+    "file_references": []
+}

@@ -1,0 +1,96 @@
+{
+    "type": "maven",
+    "namespace": "com.liferay",
+    "name": "com.liferay.social.bookmark.twitter",
+    "version": "4.0.13",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "f06a66d5-01e8-4a96-9e04-aab56408a6d1",
+            "packages": [
+                "pkg:maven/com.liferay/com.liferay.social.bookmark.twitter@4.0.13?uuid=36e0b1ab-8db1-4467-8b0a-497eebc8f135",
+                "pkg:maven/com.liferay/com.liferay.social.bookmark.twitter@4.0.13?classifier=sources&uuid=7b7f0750-ff66-4447-b125-feaff84fe698"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Liferay Social Bookmark Twitter",
+    "release_date": "2023-02-25T12:28:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Brian Wing Shun Chan",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.social.bookmark.twitter/4.0.13/com.liferay.social.bookmark.twitter-4.0.13-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "dd477a9ebf3de2bd8595f4ffa549184bf89fe157",
+    "sha256": "0aefb9ce8001a0587bab808976aa8f9c61f4c7c663db620525667ea8cabb48c5",
+    "sha512": "8c6287ca88f51d9fc2aa1aefa0f8944754b6ce2aecd119acfc4d7423899a1470e2016ca1196895153b8db3438742efe40021b23357d1631c83871e548ddd5bf0",
+    "bug_tracking_url": null,
+    "code_view_url": "http://github.com/liferay/liferay-portal",
+    "vcs_url": "git+https://github.com/liferay/liferay-portal.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "lgpl-2.1",
+    "declared_license_expression_spdx": "LGPL-2.1-only",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_85.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: LGPL 2.1",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_85.RULE",
+                    "license_expression": "lgpl-2.1"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_37.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 11,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_37.RULE",
+                    "license_expression": "lgpl-2.1"
+                }
+            ],
+            "identifier": "lgpl_2_1-6893cb1b-4cad-db8f-2133-a48bc107078b",
+            "license_expression": "lgpl-2.1"
+        }
+    ],
+    "other_license_expression": "lgpl-2.1-plus",
+    "other_license_expression_spdx": "LGPL-2.1-or-later",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: LGPL 2.1\n  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.liferay/com.liferay.social.bookmark.twitter@4.0.13?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [],
+    "package_uid": "pkg:maven/com.liferay/com.liferay.social.bookmark.twitter@4.0.13?classifier=sources&uuid=7b7f0750-ff66-4447-b125-feaff84fe698",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.liferay/com.liferay.social.bookmark.twitter@4.0.13?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

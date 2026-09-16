@@ -1,0 +1,72 @@
+{
+    "type": "maven",
+    "namespace": "com.github.drapostolos",
+    "name": "type-parser",
+    "version": "0.5.0",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "type-parser\nThis is a lightweigth library that does nothing but parse a string to a given type. Supports most of the java classes, such as Integer, File, Enum, Float and also generic types as well, such as List<Integer>, Set<File> etc. Also possible to register your own parsers.",
+    "release_date": "2014-08-09T10:49:17Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Alexander Poulikakos",
+            "email": "type-parser@labelscans.com",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://maven.apache.org",
+    "download_url": "https://repo1.maven.org/maven2/com/github/drapostolos/type-parser/0.5.0/type-parser-0.5.0.jar",
+    "size": 57549,
+    "md5": null,
+    "sha1": "957d08f836f435ee9eb5599a4d516bc974204990",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "mit AND unknown",
+    "declared_license_expression_spdx": "MIT AND LicenseRef-scancode-unknown",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "The MIT License (MIT)\nhttp://opensource.org/licenses/MIT",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.github.drapostolos/type-parser@0.5.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": "4.11",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.assertj/assertj-core",
+            "extracted_requirement": "1.5.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/com.github.drapostolos/type-parser@0.5.0?uuid=12bc60cf-42ff-4111-9659-910b2607703c",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.github.drapostolos/type-parser@0.5.0",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/github/drapostolos/type-parser/0.5.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/github/drapostolos/type-parser/0.5.0/type-parser-0.5.0.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/github/drapostolos/type-parser/0.5.0/type-parser-0.5.0.pom",
+    "file_references": []
+}

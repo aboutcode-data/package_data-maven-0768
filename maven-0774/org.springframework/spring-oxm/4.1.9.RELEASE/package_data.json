@@ -1,0 +1,141 @@
+{
+    "type": "maven",
+    "namespace": "org.springframework",
+    "name": "spring-oxm",
+    "version": "4.1.9.RELEASE",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "2cabb40c-0440-41df-9104-ed00184529f4",
+            "packages": [
+                "pkg:maven/org.springframework/spring-oxm@4.1.9.RELEASE?uuid=d33f752d-96a1-4b9c-89fb-3cdf433e7927",
+                "pkg:maven/org.springframework/spring-oxm@4.1.9.RELEASE?classifier=sources&uuid=17e5235c-4e24-48a1-9cbb-6f9c21efc70d"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Spring Object/XML Marshalling",
+    "release_date": "2015-12-17T09:07:09Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Juergen Hoeller",
+            "email": "jhoeller@pivotal.io",
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Spring IO",
+            "email": null,
+            "url": "http://projects.spring.io/spring-framework"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/spring-projects/spring-framework",
+    "download_url": "https://repo1.maven.org/maven2/org/springframework/spring-oxm/4.1.9.RELEASE/spring-oxm-4.1.9.RELEASE-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "36fab19d7639e34a80884137235cdd15edb85fa4",
+    "sha256": "bbeee74d7e4f22259ac9eda4c0dc2d0dbe047dcc4dcfe16d95e27eabfe5e198a",
+    "sha512": "877f1b7983dd757436f2153f81265c10018d4efa81dd1a99cd276f3ab9464790e50ed75bbc36e18047c20ab1ef1f9ab9226f000a9b53ef8f65932ecf8b24e3d9",
+    "bug_tracking_url": "https://jira.springsource.org/browse/SPR",
+    "code_view_url": "https://github.com/spring-projects/spring-framework",
+    "vcs_url": "git://github.com/spring-projects/spring-framework",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_40.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: The Apache Software License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 18,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_40.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-bfa9e97a-62d3-0076-c881-8443e5e95192",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: The Apache Software License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.springframework/spring-oxm@4.1.9.RELEASE?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.thoughtworks.xstream/xstream@1.4.7",
+            "extracted_requirement": "1.4.7",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.xmlbeans/xmlbeans@2.6.0",
+            "extracted_requirement": "2.6.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.codehaus.castor/castor-xml@1.3.3",
+            "extracted_requirement": "1.3.3",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.jibx/jibx-run@1.2.6",
+            "extracted_requirement": "1.2.6",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-beans@4.1.9.RELEASE",
+            "extracted_requirement": "4.1.9.RELEASE",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-core@4.1.9.RELEASE",
+            "extracted_requirement": "4.1.9.RELEASE",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.springframework/spring-oxm@4.1.9.RELEASE?classifier=sources&uuid=17e5235c-4e24-48a1-9cbb-6f9c21efc70d",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.springframework/spring-oxm@4.1.9.RELEASE?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/springframework/spring-oxm/4.1.9.RELEASE/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/springframework/spring-oxm/4.1.9.RELEASE/spring-oxm-4.1.9.RELEASE-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/springframework/spring-oxm/4.1.9.RELEASE/spring-oxm-4.1.9.RELEASE.pom",
+    "file_references": []
+}

@@ -1,0 +1,80 @@
+{
+    "type": "maven",
+    "namespace": "org.opendaylight.netconf",
+    "name": "netconf-notifications-api",
+    "version": "3.0.2",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "3024cb3c-c873-440b-b9e1-1c12f7fbd44e",
+            "packages": [
+                "pkg:maven/org.opendaylight.netconf/netconf-notifications-api@3.0.2?uuid=f049ec97-0bed-4de9-a643-112d54861408",
+                "pkg:maven/org.opendaylight.netconf/netconf-notifications-api@3.0.2?classifier=sources&uuid=b9d29946-f4d6-4a66-bd4e-73d13c3d8ac5"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": null,
+    "release_date": "2022-04-25T08:04:00Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/opendaylight/netconf/netconf-notifications-api/3.0.2/netconf-notifications-api-3.0.2-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "1664a968370371dc0846d93d265bd71e73f9c55b",
+    "sha256": "71a2aed37224b732791a0ec866fc2e99db1fef3590ec79ebe461835e9c740025",
+    "sha512": "fd3214a689d2b321255eb00851a6c1c35d6097a29e2c139faffa53c86cb88ebd815b101d2efc67c3f0453d1497ddc3a6d307ac6d9c78a2de4afe370941d8b2bd",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) Cisco Systems, Inc. and others",
+    "holder": null,
+    "declared_license_expression": "epl-1.0",
+    "declared_license_expression_spdx": "EPL-1.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.opendaylight.netconf/netconf-notifications-api@3.0.2?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.opendaylight.netconf/netconf-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.opendaylight.netconf/ietf-netconf-notifications",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.opendaylight.mdsal.binding.model.ietf/rfc8525",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.opendaylight.netconf/netconf-notifications-api@3.0.2?classifier=sources&uuid=b9d29946-f4d6-4a66-bd4e-73d13c3d8ac5",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.opendaylight.netconf/netconf-notifications-api@3.0.2?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

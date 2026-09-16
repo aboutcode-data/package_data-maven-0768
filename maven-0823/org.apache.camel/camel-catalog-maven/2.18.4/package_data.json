@@ -1,0 +1,104 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.camel",
+    "name": "camel-catalog-maven",
+    "version": "2.18.4",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Camel :: Platforms :: Catalog :: Maven\nCamel Catalog Maven",
+    "release_date": "2017-05-20T22:16:05Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/apache/camel/camel-catalog-maven/2.18.4/camel-catalog-maven-2.18.4.jar",
+    "size": 14346,
+    "md5": null,
+    "sha1": "0c7a16b5c6f18fef4467ffd831aad3df4901b027",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.camel/camel-catalog-maven@2.18.4?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.camel/camel-catalog",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.codehaus.groovy/groovy",
+            "extracted_requirement": "${groovy-version}",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.ivy/ivy",
+            "extracted_requirement": "${ivy-version}",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.logging.log4j/log4j-api",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.logging.log4j/log4j-core",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.logging.log4j/log4j-slf4j-impl",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.camel/camel-catalog-maven@2.18.4?uuid=54d55c27-3ccc-4b85-82d3-344807b44f1d",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.apache.camel/camel-catalog-maven@2.18.4",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/camel/camel-catalog-maven/2.18.4/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/camel/camel-catalog-maven/2.18.4/camel-catalog-maven-2.18.4.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/camel/camel-catalog-maven/2.18.4/camel-catalog-maven-2.18.4.pom",
+    "file_references": []
+}

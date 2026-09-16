@@ -1,0 +1,95 @@
+{
+    "type": "maven",
+    "namespace": "com.beachape",
+    "name": "diesel-core_2.11",
+    "version": "0.2.6",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "diesel-core",
+    "release_date": "2017-05-19T16:05:17Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Lloyd Chan",
+            "email": null,
+            "url": "https://beachape.com"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "com.beachape",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/lloydmeta/freast",
+    "download_url": "https://repo1.maven.org/maven2/com/beachape/diesel-core_2.11/0.2.6/diesel-core_2.11-0.2.6.jar",
+    "size": 145801,
+    "md5": null,
+    "sha1": "534ef5ad99b9e4d7d26789998666c1eeeff225a9",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "mit",
+    "declared_license_expression_spdx": "MIT",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "MIT\nhttp://opensource.org/licenses/MIT",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.beachape/diesel-core_2.11@0.2.6?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.scala-lang/scala-library",
+            "extracted_requirement": "2.11.11",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.scalameta/scalameta_2.11",
+            "extracted_requirement": "1.7.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.scalatest/scalatest_2.11",
+            "extracted_requirement": "3.2.0-SNAP4",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.typelevel/cats-core_2.11",
+            "extracted_requirement": "0.9.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/com.beachape/diesel-core_2.11@0.2.6?uuid=8bb5fed0-7df3-441f-ae4d-b9827ca9cd64",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.beachape/diesel-core_2.11@0.2.6",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/beachape/diesel-core_2.11/0.2.6/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/beachape/diesel-core_2.11/0.2.6/diesel-core_2.11-0.2.6.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/beachape/diesel-core_2.11/0.2.6/diesel-core_2.11-0.2.6.pom",
+    "file_references": []
+}

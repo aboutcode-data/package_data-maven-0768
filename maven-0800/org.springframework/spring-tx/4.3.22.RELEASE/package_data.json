@@ -1,0 +1,170 @@
+{
+    "type": "maven",
+    "namespace": "org.springframework",
+    "name": "spring-tx",
+    "version": "4.3.22.RELEASE",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "bc183a7d-a2ab-48e9-b3d3-6fa24cb3b287",
+            "packages": [
+                "pkg:maven/org.springframework/spring-tx@4.3.22.RELEASE?uuid=de47b5d6-bf5b-4f14-997e-fe80317b941b",
+                "pkg:maven/org.springframework/spring-tx@4.3.22.RELEASE?classifier=sources&uuid=519e2d6e-f569-4401-bfe2-3a7433ad9de4"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Spring Transaction",
+    "release_date": "2019-01-09T09:45:40Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Juergen Hoeller",
+            "email": "jhoeller@pivotal.io",
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Spring IO",
+            "email": null,
+            "url": "http://projects.spring.io/spring-framework"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/spring-projects/spring-framework",
+    "download_url": "https://repo1.maven.org/maven2/org/springframework/spring-tx/4.3.22.RELEASE/spring-tx-4.3.22.RELEASE-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "bc458770ef4ce721f6d203779fdd8421ddc482f0",
+    "sha256": "e0c614f338dd8035a0d0e2d639d086998746401d9053fd4581fc922509bd386e",
+    "sha512": "091670d2402bba3a721f43ab207b162aaf95d7fbf2f199530034eea40f7e10898359ac764912edaa7bbdb903d00d1c9b2af353f497965a8ac98230166d3888b3",
+    "bug_tracking_url": "https://jira.springsource.org/browse/SPR",
+    "code_view_url": "https://github.com/spring-projects/spring-framework",
+    "vcs_url": "git://github.com/spring-projects/spring-framework",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_48.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: Apache License, Version 2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 5,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_48.RULE",
+                    "license_expression": "apache-2.0"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_25.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.apache.org/licenses/LICENSE-2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 8,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_25.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-7d19d6db-5271-9183-f2fe-699732078833",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Apache License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.springframework/spring-tx@4.3.22.RELEASE?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.ibm.websphere/uow@6.0.2.17",
+            "extracted_requirement": "6.0.2.17",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/javax.ejb/ejb-api@3.0",
+            "extracted_requirement": "3.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/javax.resource/connector-api@1.5",
+            "extracted_requirement": "1.5",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/javax.transaction/javax.transaction-api@1.2",
+            "extracted_requirement": "1.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-aop@4.3.22.RELEASE",
+            "extracted_requirement": "4.3.22.RELEASE",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-beans@4.3.22.RELEASE",
+            "extracted_requirement": "4.3.22.RELEASE",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-context@4.3.22.RELEASE",
+            "extracted_requirement": "4.3.22.RELEASE",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-core@4.3.22.RELEASE",
+            "extracted_requirement": "4.3.22.RELEASE",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.springframework/spring-tx@4.3.22.RELEASE?classifier=sources&uuid=519e2d6e-f569-4401-bfe2-3a7433ad9de4",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.springframework/spring-tx@4.3.22.RELEASE?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/springframework/spring-tx/4.3.22.RELEASE/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/springframework/spring-tx/4.3.22.RELEASE/spring-tx-4.3.22.RELEASE-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/springframework/spring-tx/4.3.22.RELEASE/spring-tx-4.3.22.RELEASE.pom",
+    "file_references": []
+}

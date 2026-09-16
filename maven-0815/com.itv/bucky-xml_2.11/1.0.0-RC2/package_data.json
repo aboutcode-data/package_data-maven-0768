@@ -1,0 +1,160 @@
+{
+    "type": "maven",
+    "namespace": "com.itv",
+    "name": "bucky-xml_2.11",
+    "version": "1.0.0-RC2",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "itv",
+    "release_date": "2017-05-19T08:59:50Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Jamie Wilson",
+            "email": null,
+            "url": "https://github.com/jfwilson"
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Beni Villa Fernandez",
+            "email": null,
+            "url": "https://github.com/BeniVF"
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Stuart Leneghan",
+            "email": null,
+            "url": "https://github.com/leneghan"
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Caoilte O'Connor",
+            "email": null,
+            "url": "https://github.com/caoilte"
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Andrew Gee",
+            "email": null,
+            "url": "https://github.com/andrewgee"
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Lee Smith",
+            "email": null,
+            "url": "https://github.com/smithleej"
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Sofia Cole",
+            "email": null,
+            "url": "https://github.com/sofiaaacole"
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Martin Carolan",
+            "email": null,
+            "url": "https://mcarolan.net/"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "com.itv",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/ITV/bucky",
+    "download_url": "https://repo1.maven.org/maven2/com/itv/bucky-xml_2.11/1.0.0-RC2/bucky-xml_2.11-1.0.0-RC2.jar",
+    "size": 5443,
+    "md5": null,
+    "sha1": "0a9407bc6592dec5ae442fb75aa9539d7639be22",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "unknown",
+    "declared_license_expression_spdx": "LicenseRef-scancode-unknown",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "ITV-OSS\nhttp://itv.com/itv-oss-licence-v1.0",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.itv/bucky-xml_2.11@1.0.0-RC2?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.scala-lang/scala-library",
+            "extracted_requirement": "2.11.8",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.itv/bucky-core_2.11",
+            "extracted_requirement": "1.0.0-RC2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.scala-lang.modules/scala-xml_2.11",
+            "extracted_requirement": "1.0.6",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.typesafe.scala-logging/scala-logging_2.11",
+            "extracted_requirement": "3.5.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.itv/bucky-test_2.11",
+            "extracted_requirement": "1.0.0-RC2",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.scalatest/scalatest_2.11",
+            "extracted_requirement": "3.0.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/com.itv/bucky-xml_2.11@1.0.0-RC2?uuid=ab05a461-9daf-435b-86d5-c7bc427590b5",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.itv/bucky-xml_2.11@1.0.0-RC2",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/itv/bucky-xml_2.11/1.0.0-RC2/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/itv/bucky-xml_2.11/1.0.0-RC2/bucky-xml_2.11-1.0.0-RC2.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/itv/bucky-xml_2.11/1.0.0-RC2/bucky-xml_2.11-1.0.0-RC2.pom",
+    "file_references": []
+}

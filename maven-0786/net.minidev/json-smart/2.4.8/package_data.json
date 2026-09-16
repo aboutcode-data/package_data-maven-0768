@@ -1,0 +1,150 @@
+{
+    "type": "maven",
+    "namespace": "net.minidev",
+    "name": "json-smart",
+    "version": "2.4.8",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "eb266efb-05c7-491c-abbd-f88bba9422a5",
+            "packages": [
+                "pkg:maven/net.minidev/json-smart@2.4.8?uuid=7904f65e-a2d9-44f3-a062-817ccfeeeaea",
+                "pkg:maven/net.minidev/json-smart@2.4.8?classifier=sources&uuid=448eb452-445e-429a-a7d5-eb2767ac617c",
+                "pkg:github/netplex/json-smart-v2@2.4.8?uuid=233c640b-cf1e-421b-a511-c8083349876c"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "JSON Small and Fast Parser\nJSON (JavaScript Object Notation) is a lightweight data-interchange format. It is easy for humans to read and write. It is easy for machines to parse and generate. It is based on a subset of the JavaScript Programming Language, Standard ECMA-262 3rd Edition - December 1999. JSON is a text format that is completely language independent but uses conventions that are familiar to programmers of the C-family of languages, including C, C++, C#, Java, JavaScript, Perl, Python, and many others. These properties make JSON an ideal data-interchange language.",
+    "release_date": "2022-02-13T07:37:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Uriel Chemouni",
+            "email": "uchemouni@gmail.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Eitan Raviv",
+            "email": "adoneitan@gmail.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "ZhangJian He",
+            "email": "shoothzj@gmail.com",
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Chemouni Uriel",
+            "email": null,
+            "url": "https://urielch.github.io/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://urielch.github.io/",
+    "download_url": "https://repo1.maven.org/maven2/net/minidev/json-smart/2.4.8/json-smart-2.4.8-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "399ee58414b3686be3d4f3b59f6bc11d30d2309e",
+    "sha256": "b02ffce19420554a200c853b88c6f8b45ec48c1f43573dbe9414918e4c09c616",
+    "sha512": "d38ef32475b5e1422d5b43b8e79b692a27a50b12efd7a726da4485f05467e69cc51f18db4bf54ce5bafee396b548c736b32b34b4fd07f17191eecb4c0c8b96ad",
+    "bug_tracking_url": null,
+    "code_view_url": "https://github.com/netplex/json-smart-v2",
+    "vcs_url": "git+https://github.com/netplex/json-smart-v2.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_40.RULE",
+                    "from_file": null,
+                    "start_line": 1,
+                    "matched_text": "- name: The Apache Software License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 18,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_40.RULE",
+                    "license_expression": "apache-2.0",
+                    "license_expression_spdx": "Apache-2.0"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 3,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_1226.RULE",
+                    "from_file": null,
+                    "start_line": 3,
+                    "matched_text": "  comments: All files under Apache 2",
+                    "match_coverage": 100.0,
+                    "matched_length": 5,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_1226.RULE",
+                    "license_expression": "apache-2.0",
+                    "license_expression_spdx": "Apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-60bfa7b3-adf1-b8cc-9b8b-72d2c7b6fd75",
+            "license_expression": "apache-2.0",
+            "license_expression_spdx": "Apache-2.0"
+        }
+    ],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: The Apache Software License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt\n  comments: All files under Apache 2\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/net.minidev/json-smart@2.4.8?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.junit.jupiter/junit-jupiter-api@5.7.1",
+            "extracted_requirement": "5.7.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.junit.jupiter/junit-jupiter-params@5.7.1",
+            "extracted_requirement": "5.7.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/net.minidev/accessors-smart@2.4.8",
+            "extracted_requirement": "2.4.8",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/net.minidev/json-smart@2.4.8?classifier=sources&uuid=448eb452-445e-429a-a7d5-eb2767ac617c",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/net.minidev/json-smart@2.4.8?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/net/minidev/json-smart/2.4.8/",
+    "repository_download_url": "https://repo1.maven.org/maven2/net/minidev/json-smart/2.4.8/json-smart-2.4.8-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/net/minidev/json-smart/2.4.8/json-smart-2.4.8.pom",
+    "file_references": []
+}

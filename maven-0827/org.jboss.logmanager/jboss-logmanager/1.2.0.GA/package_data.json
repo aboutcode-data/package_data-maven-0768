@@ -1,0 +1,79 @@
+{
+    "type": "maven",
+    "namespace": "org.jboss.logmanager",
+    "name": "jboss-logmanager",
+    "version": "1.2.0.GA",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "e65dbaa5-ebbc-467a-8d98-062fa4309abe",
+            "packages": [
+                "pkg:maven/org.jboss.logmanager/jboss-logmanager@1.2.0.GA?uuid=0b1448ab-5ea2-4edf-8593-49ef026d1c0e",
+                "pkg:maven/org.jboss.logmanager/jboss-logmanager@1.2.0.GA?classifier=sources&uuid=8bb156d2-e947-47f1-b4fb-4a69db7abc19"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "JBoss Log Manager\nAn implementation of java.util.logging.LogManager",
+    "release_date": "2011-07-05T19:05:39Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "JBoss.org Developers",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "JBoss, a division of Red Hat, Inc.",
+            "email": null,
+            "url": "http://www.jboss.org"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.jboss.org",
+    "download_url": "https://repo1.maven.org/maven2/org/jboss/logmanager/jboss-logmanager/1.2.0.GA/jboss-logmanager-1.2.0.GA-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "4a9f48126ef64ba2abee2fdc682f80189e8f3304",
+    "sha256": "6f8884bf4e96152b04cb9aba7f335984187860269e03fb33e071171cdd28383d",
+    "sha512": "0b4bdb80ae31ab8f520983ce1f58ac4fab0c2f7d3076be722e32c864db25df52abb77dc275886f6288faca37677d523e3f9f5855880e664eb4958aa3e16085f6",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "lgpl-2.0-plus AND lgpl-2.1",
+    "declared_license_expression_spdx": "LGPL-2.0-or-later AND LGPL-2.1-only",
+    "license_detections": [],
+    "other_license_expression": "lgpl-2.1-plus AND cc-pd",
+    "other_license_expression_spdx": "LGPL-2.1-or-later AND CC-PDDC",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.jboss.logmanager/jboss-logmanager@1.2.0.GA?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.testng/testng@5.8",
+            "extracted_requirement": "5.8",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.jboss.logmanager/jboss-logmanager@1.2.0.GA?classifier=sources&uuid=8bb156d2-e947-47f1-b4fb-4a69db7abc19",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.jboss.logmanager/jboss-logmanager@1.2.0.GA?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/jboss/logmanager/jboss-logmanager/1.2.0.GA/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/jboss/logmanager/jboss-logmanager/1.2.0.GA/jboss-logmanager-1.2.0.GA-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/jboss/logmanager/jboss-logmanager/1.2.0.GA/jboss-logmanager-1.2.0.GA.pom",
+    "file_references": []
+}

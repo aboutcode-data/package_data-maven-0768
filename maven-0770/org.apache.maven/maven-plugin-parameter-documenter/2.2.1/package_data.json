@@ -1,0 +1,80 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.maven",
+    "name": "maven-plugin-parameter-documenter",
+    "version": "2.2.1",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "0532f83f-62ae-4a1e-9748-9d693031bbcc",
+            "packages": [
+                "pkg:maven/org.apache.maven/maven-plugin-parameter-documenter@2.2.1?uuid=b86d1d74-6898-42bb-b55f-65564b25ac7b",
+                "pkg:maven/org.apache.maven/maven-plugin-parameter-documenter@2.2.1?classifier=sources&uuid=064a6268-64e2-4be0-8474-691a0989e91d"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Maven Plugin Parameter Documenter API",
+    "release_date": "2009-08-06T19:13:59Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "http://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.apache.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-parameter-documenter/2.2.1/maven-plugin-parameter-documenter-2.2.1-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "1a69a872cb34780a96fcd47ba87849fd87a79092",
+    "sha256": "6ba475ad4bc09c7c31db35e82b01591ab1abc25a1d619472cd9fbf976e763f3b",
+    "sha512": "797b765ccf8d735b011542bae1c1a36da1ac29c3ea0dc63afda8190d3336e615a85dfe0130ecefc7fa3138edb292773156f098aa5aef88feb444d8c207835030",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.maven/maven-plugin-parameter-documenter@2.2.1?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.codehaus.plexus/plexus-utils",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.codehaus.plexus/plexus-container-default",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.maven/maven-plugin-parameter-documenter@2.2.1?classifier=sources&uuid=064a6268-64e2-4be0-8474-691a0989e91d",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.apache.maven/maven-plugin-parameter-documenter@2.2.1?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-parameter-documenter/2.2.1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-parameter-documenter/2.2.1/maven-plugin-parameter-documenter-2.2.1-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-parameter-documenter/2.2.1/maven-plugin-parameter-documenter-2.2.1.pom",
+    "file_references": []
+}

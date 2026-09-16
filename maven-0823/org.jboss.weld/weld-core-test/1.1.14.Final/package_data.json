@@ -1,0 +1,192 @@
+{
+    "type": "maven",
+    "namespace": "org.jboss.weld",
+    "name": "weld-core-test",
+    "version": "1.1.14.Final",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Weld Integration Tests - JBoss Test Harness (JBoss AS)\nTests for Weld, not including the CDI and AtInject TCKs",
+    "release_date": "2013-07-30T15:31:40Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": "http://www.seamframework.org/Weld",
+    "download_url": "https://repo1.maven.org/maven2/org/jboss/weld/weld-core-test/1.1.14.Final/weld-core-test-1.1.14.Final.jar",
+    "size": 37515,
+    "md5": null,
+    "sha1": "e08c0179220a6cd5a9348bbb7526e37792b1468e",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0 AND apache-2.0 AND unknown",
+    "declared_license_expression_spdx": "Apache-2.0 AND Apache-2.0 AND LicenseRef-scancode-unknown",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "Apache License, Version 2.0\nhttp://www.apache.org/licenses/LICENSE-2.0.html",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.jboss.weld/weld-core-test@1.1.14.Final?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.testng/testng",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.arquillian.container/arquillian-container-spi",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.el/el-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.glassfish.web/el-impl",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.spec.javax.servlet/jboss-servlet-api_3.0_spec",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.weld/weld-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.weld/weld-spi",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.weld/weld-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.spec.javax.interceptor/jboss-interceptors-api_1.1_spec",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.spec.javax.ejb/jboss-ejb-api_3.1_spec",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.jms/jms",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.transaction/jta",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.persistence/persistence-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.validation/validation-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.faces/jsf-api",
+            "extracted_requirement": "2.0.2-FCS",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/net.sourceforge.htmlunit/htmlunit",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-simple",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.arquillian.container/arquillian-weld-ee-embedded-1.1",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.jboss.weld/weld-core-test@1.1.14.Final?uuid=9a4fc59d-4306-4876-94f8-f7adf4497918",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.jboss.weld/weld-core-test@1.1.14.Final",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/jboss/weld/weld-core-test/1.1.14.Final/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/jboss/weld/weld-core-test/1.1.14.Final/weld-core-test-1.1.14.Final.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/jboss/weld/weld-core-test/1.1.14.Final/weld-core-test-1.1.14.Final.pom",
+    "file_references": []
+}

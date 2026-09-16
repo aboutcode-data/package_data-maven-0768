@@ -1,0 +1,164 @@
+{
+    "type": "maven",
+    "namespace": "com.github.java-json-tools",
+    "name": "btf",
+    "version": "1.3",
+    "qualifiers": "classifier=sources&type=jar",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "45a9aa41-33f0-4458-8d9d-7ad0aa87baae",
+            "packages": [
+                "pkg:maven/com.github.java-json-tools/btf@1.3?type=jar&uuid=caf3adcf-5008-4ebc-b2d6-1b04d3697541",
+                "pkg:maven/com.github.java-json-tools/btf@1.3?classifier=sources&type=jar&uuid=aa834e25-d8b8-444c-abb1-bf19311e1af2"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "btf\nGeneric interfaces to the classical builder pattern and the less classical \"freeze/thaw\" pattern",
+    "release_date": "2020-01-04T13:21:39Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "John Huffaker",
+            "email": "jhuffaker+java-json-tools@gmail.com",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/java-json-tools/btf",
+    "download_url": "https://repo1.maven.org/maven2/com/github/java-json-tools/btf/1.3/btf-1.3-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "fa5853cafdc25ac00731726888fb01ded4ad0f82",
+    "sha256": "97f8bfb9a8876534bf2832a5be4b913b695d72c6ff6f9c8c6719bd38fd4aeb73",
+    "sha512": "297d555d0baaed0d48fedeebd8a2e52795e163add3ef6b88b0bcf819bc6e9f7c2e1b05d352fa5ab1d3a4e1d19ccaaf8292312abb998844d25c24f111bd7c94b5",
+    "bug_tracking_url": null,
+    "code_view_url": "https://github.com/java-json-tools/btf.git",
+    "vcs_url": "git@github.com:java-json-tools/btf.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "(lgpl-2.1-plus AND gpl-3.0 AND lgpl-2.0-plus) AND apache-2.0",
+    "declared_license_expression_spdx": "(LGPL-2.1-or-later AND GPL-3.0-only AND LGPL-2.0-or-later) AND Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1-plus_162.RULE",
+                    "from_file": null,
+                    "start_line": 1,
+                    "matched_text": "name: Lesser General Public License, version 3 or greater",
+                    "match_coverage": 100.0,
+                    "matched_length": 4,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1-plus_162.RULE",
+                    "license_expression": "lgpl-2.1-plus",
+                    "license_expression_spdx": "LGPL-2.1-or-later"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/gpl-3.0_88.RULE",
+                    "from_file": null,
+                    "start_line": 1,
+                    "matched_text": "name: Lesser General Public License, version 3 or greater",
+                    "match_coverage": 100.0,
+                    "matched_length": 5,
+                    "rule_relevance": 100,
+                    "rule_identifier": "gpl-3.0_88.RULE",
+                    "license_expression": "gpl-3.0",
+                    "license_expression_spdx": "GPL-3.0-only"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl_3.RULE",
+                    "from_file": null,
+                    "start_line": 2,
+                    "matched_text": "url: http://www.gnu.org/licenses/lgpl.html",
+                    "match_coverage": 100.0,
+                    "matched_length": 7,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl_3.RULE",
+                    "license_expression": "lgpl-2.0-plus",
+                    "license_expression_spdx": "LGPL-2.0-or-later"
+                }
+            ],
+            "identifier": "lgpl_2_1_plus_and_gpl_3_0_and_lgpl_2_0_plus-24074501-3a98-284b-ff5f-8530d4a66361",
+            "license_expression": "lgpl-2.1-plus AND gpl-3.0 AND lgpl-2.0-plus",
+            "license_expression_spdx": "LGPL-2.1-or-later AND GPL-3.0-only AND LGPL-2.0-or-later"
+        },
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_220.RULE",
+                    "from_file": null,
+                    "start_line": 1,
+                    "matched_text": "name: Apache Software License, version 2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 6,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_220.RULE",
+                    "license_expression": "apache-2.0",
+                    "license_expression_spdx": "Apache-2.0"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_25.RULE",
+                    "from_file": null,
+                    "start_line": 2,
+                    "matched_text": "url: http://www.apache.org/licenses/LICENSE-2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 8,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_25.RULE",
+                    "license_expression": "apache-2.0",
+                    "license_expression_spdx": "Apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-156e761f-c962-1080-1904-0826d4b8932f",
+            "license_expression": "apache-2.0",
+            "license_expression_spdx": "Apache-2.0"
+        }
+    ],
+    "other_license_expression": "(gpl-1.0-plus AND lgpl-3.0 AND apache-2.0) AND apache-2.0 AND lgpl-3.0",
+    "other_license_expression_spdx": "(GPL-1.0-or-later AND LGPL-3.0-only AND Apache-2.0) AND Apache-2.0 AND LGPL-3.0-only",
+    "other_license_detections": [],
+    "extracted_license_statement": "- license:\n    name: Lesser General Public License, version 3 or greater\n    url: http://www.gnu.org/licenses/lgpl.html\n- license:\n    name: Apache Software License, version 2.0\n    url: http://www.apache.org/licenses/LICENSE-2.0\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.github.java-json-tools/btf@1.3?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.google.code.findbugs/jsr305@2.0.1",
+            "extracted_requirement": "2.0.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/com.github.java-json-tools/btf@1.3?classifier=sources&type=jar&uuid=aa834e25-d8b8-444c-abb1-bf19311e1af2",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/com.github.java-json-tools/btf@1.3?classifier=sources&type=jar",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/github/java-json-tools/btf/1.3/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/github/java-json-tools/btf/1.3/btf-1.3-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/github/java-json-tools/btf/1.3/btf-1.3.pom",
+    "file_references": []
+}

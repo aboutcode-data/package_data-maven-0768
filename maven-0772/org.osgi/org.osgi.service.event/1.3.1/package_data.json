@@ -1,0 +1,105 @@
+{
+    "type": "maven",
+    "namespace": "org.osgi",
+    "name": "org.osgi.service.event",
+    "version": "1.3.1",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "da82caac-36be-4486-9729-d7a3b7af737d",
+            "packages": [
+                "pkg:maven/org.osgi/org.osgi.service.event@1.3.1?uuid=68dade1d-19cb-42a5-b97c-8ccc51b26d75",
+                "pkg:maven/org.osgi/org.osgi.service.event@1.3.1?classifier=sources&uuid=74e15539-607b-49e8-87a0-f6392bb5bf79"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "org.osgi:org.osgi.service.event\nOSGi Companion Code for org.osgi.service.event Version 1.3.1.",
+    "release_date": "2015-08-18T13:33:47Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "OSGi Alliance",
+            "email": "info@osgi.org",
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "OSGi Alliance",
+            "email": null,
+            "url": "http://www.osgi.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.osgi.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/osgi/org.osgi.service.event/1.3.1/org.osgi.service.event-1.3.1-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "51e0550fd2c318084082698d7b9094f0f14e9ba9",
+    "sha256": "b56313cd38383d82e6df1bae4f108f62577fede29f49cbfc2aa77afed4a3d0db",
+    "sha512": "fa0bcdf346a08acf398b5f354d215023cf4b5ac261269e58e7eb34134cd4ccb77d9e9a0c28100e5e8607971770b01aea0b0b94f81cf9b0fff53bbb430dc01c61",
+    "bug_tracking_url": null,
+    "code_view_url": "https://osgi.org/git/build.git",
+    "vcs_url": "git+https://osgi.org/git/build.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_48.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: Apache License, Version 2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 5,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_48.RULE",
+                    "license_expression": "apache-2.0"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_21.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://opensource.org/licenses/apache2.0.php",
+                    "match_coverage": 100.0,
+                    "matched_length": 7,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_21.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-6f1c5964-77d1-4506-c727-fce1750f75be",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Apache License, Version 2.0\n  url: http://opensource.org/licenses/apache2.0.php\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.osgi/org.osgi.service.event@1.3.1?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [],
+    "package_uid": "pkg:maven/org.osgi/org.osgi.service.event@1.3.1?classifier=sources&uuid=74e15539-607b-49e8-87a0-f6392bb5bf79",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.osgi/org.osgi.service.event@1.3.1?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/osgi/org.osgi.service.event/1.3.1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/osgi/org.osgi.service.event/1.3.1/org.osgi.service.event-1.3.1-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/osgi/org.osgi.service.event/1.3.1/org.osgi.service.event-1.3.1.pom",
+    "file_references": []
+}

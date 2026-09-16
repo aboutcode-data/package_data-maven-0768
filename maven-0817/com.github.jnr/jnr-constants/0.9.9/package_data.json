@@ -1,0 +1,101 @@
+{
+    "type": "maven",
+    "namespace": "com.github.jnr",
+    "name": "jnr-constants",
+    "version": "0.9.9",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "a42e2891-8ad2-4911-9d88-76f43e6d7f17",
+            "packages": [
+                "pkg:maven/com.github.jnr/jnr-constants@0.9.9?uuid=5e64c248-ec4e-4fdd-af6a-48740d44ab1c",
+                "pkg:maven/com.github.jnr/jnr-constants@0.9.9?classifier=sources&uuid=3ef8b771-2a28-437c-b58d-8265ac48b653"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "jnr-constants\nA set of platform constants (e.g. errno values)",
+    "release_date": "2017-03-24T15:29:51Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Wayne Meissner",
+            "email": "wmeissner@gmail.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Charles Oliver Nutter",
+            "email": "headius@headius.com",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://github.com/jnr/jnr-constants",
+    "download_url": "https://repo1.maven.org/maven2/com/github/jnr/jnr-constants/0.9.9/jnr-constants-0.9.9-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "c044f06c9a3bd97a989c4ae744351b9f76e094cc",
+    "sha256": "3ccbb488bae6c8534a0666ca50aac683c8b2f8fb3a0d3ba7cd28813ac838e44d",
+    "sha512": "c8294dc13ff0ae8c45f16e1a73b408a9027d81a4dcc523d41e4a47235204bac49631e36119b77ae8d3568f1dcda98144119344b943154bbb1aebf632077ddaed",
+    "bug_tracking_url": null,
+    "code_view_url": "https://github.com/jnr/jnr-constants.git",
+    "vcs_url": "git+https://github.com/jnr/jnr-constants.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_40.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: The Apache Software License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 18,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_40.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-bfa9e97a-62d3-0076-c881-8443e5e95192",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: The Apache Software License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.github.jnr/jnr-constants@0.9.9?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/junit/junit@4.8.2",
+            "extracted_requirement": "4.8.2",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/com.github.jnr/jnr-constants@0.9.9?classifier=sources&uuid=3ef8b771-2a28-437c-b58d-8265ac48b653",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/com.github.jnr/jnr-constants@0.9.9?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/github/jnr/jnr-constants/0.9.9/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/github/jnr/jnr-constants/0.9.9/jnr-constants-0.9.9-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/github/jnr/jnr-constants/0.9.9/jnr-constants-0.9.9.pom",
+    "file_references": []
+}

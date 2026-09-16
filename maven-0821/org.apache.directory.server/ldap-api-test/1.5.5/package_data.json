@@ -1,0 +1,128 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.directory.server",
+    "name": "ldap-api-test",
+    "version": "1.5.5",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "LDAP API unit test\nLDAP API testing framework for Apache Directory Server.",
+    "release_date": "2009-08-18T06:17:27Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/apache/directory/server/ldap-api-test/1.5.5/ldap-api-test-1.5.5.jar",
+    "size": 7312,
+    "md5": null,
+    "sha1": "015decc843e2ca9744fdb63b81c683d8565e9561",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.directory.server/ldap-api-test@1.5.5?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/commons-io/commons-io",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/commons-net/commons-net",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.directory.server/apacheds-server-jndi",
+            "extracted_requirement": "1.5.5",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.directory.server/apacheds-server-integ",
+            "extracted_requirement": "1.5.5",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.directory.server/apacheds-interceptor-kerberos",
+            "extracted_requirement": "1.5.5",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.directory.server/apacheds-core-integ",
+            "extracted_requirement": "1.5.5",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.directory.server/apacheds-schema-extras",
+            "extracted_requirement": "1.5.5",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.directory.shared/shared-client-api",
+            "extracted_requirement": "${org.apache.directory.shared.version}",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.directory.server/apacheds-bootstrap-partition",
+            "extracted_requirement": "1.5.5",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.directory.server/ldap-api-test@1.5.5?uuid=1edf53af-bd9a-499b-b6ee-623c94ec9ed7",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.apache.directory.server/ldap-api-test@1.5.5",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/directory/server/ldap-api-test/1.5.5/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/directory/server/ldap-api-test/1.5.5/ldap-api-test-1.5.5.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/directory/server/ldap-api-test/1.5.5/ldap-api-test-1.5.5.pom",
+    "file_references": []
+}

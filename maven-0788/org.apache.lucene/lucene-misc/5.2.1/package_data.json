@@ -1,0 +1,88 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.lucene",
+    "name": "lucene-misc",
+    "version": "5.2.1",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "dd0e91ab-e414-4285-80fe-0bb2fdb31398",
+            "packages": [
+                "pkg:maven/org.apache.lucene/lucene-misc@5.2.1?uuid=51598ee1-7351-42de-9d33-c761c630f14f",
+                "pkg:maven/org.apache.lucene/lucene-misc@5.2.1?classifier=sources&uuid=552b12ab-8083-45fe-b1e8-e82f37e9fdf0"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Lucene Miscellaneous\nMiscellaneous Lucene extensions",
+    "release_date": "2015-06-14T22:11:08Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "http://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.apache.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/lucene/lucene-misc/5.2.1/lucene-misc-5.2.1-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "68d1ce168d18394a4a60031ba7aa7feb8e774148",
+    "sha256": "e17d1666fcc77c8debb2796d2e6b6a01bd8fa0ed1c21fc75a27ee9b0a7f50ffa",
+    "sha512": "43e5f4739f2271aafc36e7bc0804fa90260ead2b883741de7e333bfe22986219c550d3fff2902a174fcefba3183bf3db448069df68aa180d48a7f5393e8848c5",
+    "bug_tracking_url": null,
+    "code_view_url": "/lucene/misc",
+    "vcs_url": "svn+/lucene/misc",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0 AND bsd-new AND (apache-2.0 AND cpl-1.0 AND bsd-new) AND bsd-simplified AND (lgpl-2.0-plus AND cc-by-sa-3.0 AND other-copyleft) AND (mit AND unicode AND bsd-new) AND (mit AND x11) AND naist-2003 AND python AND (unicode AND bsd-new AND (lgpl-2.0-plus AND cc-by-sa-3.0 AND other-copyleft) AND cddl-1.0) AND unicode-mappings AND warranty-disclaimer AND x11",
+    "other_license_expression_spdx": "Apache-2.0 AND BSD-3-Clause AND (Apache-2.0 AND CPL-1.0 AND BSD-3-Clause) AND BSD-2-Clause AND (LGPL-2.0-or-later AND CC-BY-SA-3.0 AND LicenseRef-scancode-other-copyleft) AND (MIT AND LicenseRef-scancode-unicode AND BSD-3-Clause) AND (MIT AND ICU) AND NAIST-2003 AND Python-2.0 AND (LicenseRef-scancode-unicode AND BSD-3-Clause AND (LGPL-2.0-or-later AND CC-BY-SA-3.0 AND LicenseRef-scancode-other-copyleft) AND CDDL-1.0) AND LicenseRef-scancode-unicode-mappings AND LicenseRef-scancode-warranty-disclaimer AND ICU",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.lucene/lucene-misc@5.2.1?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.lucene/lucene-test-framework",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.lucene/lucene-codecs",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.lucene/lucene-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.lucene/lucene-misc@5.2.1?classifier=sources&uuid=552b12ab-8083-45fe-b1e8-e82f37e9fdf0",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.apache.lucene/lucene-misc@5.2.1?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/lucene/lucene-misc/5.2.1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/lucene/lucene-misc/5.2.1/lucene-misc-5.2.1-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/lucene/lucene-misc/5.2.1/lucene-misc-5.2.1.pom",
+    "file_references": []
+}

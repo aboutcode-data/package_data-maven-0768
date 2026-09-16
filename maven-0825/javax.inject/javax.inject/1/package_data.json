@@ -1,0 +1,80 @@
+{
+    "type": "maven",
+    "namespace": "javax.inject",
+    "name": "javax.inject",
+    "version": "1",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "30368504-baa0-4855-b5ca-13a5b9703671",
+            "packages": [
+                "pkg:maven/javax.inject/javax.inject@1?uuid=732a0a69-5974-4c95-a54a-bfcbb03b8a5b",
+                "pkg:maven/javax.inject/javax.inject@1?classifier=sources&uuid=e0bf1cf9-b682-429c-a1de-678352179de2"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "javax.inject\nThe javax.inject API",
+    "release_date": "2009-10-13T23:35:00Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": "http://code.google.com/p/atinject/",
+    "download_url": "https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "a00123f261762a7c5e0ec916a2c7c8298d29c400",
+    "sha256": "c4b87ee2911c139c3daf498a781967f1eb2e75bc1a8529a2e7b328a15d0e433e",
+    "sha512": "8bcfae4933073c212c3370a36cdacbff0474648720766df5d0acfc2dafd3307a514b7fb49c08762d32bfca9d8afce47cbfe1eba7399b459b6543472ac9de715b",
+    "bug_tracking_url": null,
+    "code_view_url": "http://code.google.com/p/atinject/source/checkout",
+    "vcs_url": "http://code.google.com/p/atinject/source/checkout",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_40.RULE",
+                    "from_file": null,
+                    "start_line": 1,
+                    "matched_text": "- name: The Apache Software License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 18,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_40.RULE",
+                    "license_expression": "apache-2.0",
+                    "license_expression_spdx": "Apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-bfa9e97a-62d3-0076-c881-8443e5e95192",
+            "license_expression": "apache-2.0",
+            "license_expression_spdx": "Apache-2.0"
+        }
+    ],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: The Apache Software License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/javax.inject/javax.inject@1?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [],
+    "package_uid": "pkg:maven/javax.inject/javax.inject@1?classifier=sources&uuid=e0bf1cf9-b682-429c-a1de-678352179de2",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/javax.inject/javax.inject@1?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/javax/inject/javax.inject/1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.pom",
+    "file_references": []
+}

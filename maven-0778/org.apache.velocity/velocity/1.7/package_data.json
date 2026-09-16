@@ -1,0 +1,193 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.velocity",
+    "name": "velocity",
+    "version": "1.7",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "fdf16421-fbbd-49e2-88f1-5ebcba5d79dd",
+            "packages": [
+                "pkg:maven/org.apache.velocity/velocity@1.7?uuid=eb8ff23a-6f2a-4ee1-8dc3-7039be8d76e6",
+                "pkg:maven/org.apache.velocity/velocity@1.7?classifier=sources&uuid=5a115a5f-4ad7-4d0c-9003-5a7e6bb793f9"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Apache Velocity\nApache Velocity is a general purpose template engine.",
+    "release_date": "2010-11-29T19:28:15Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Will Glass-Husain",
+            "email": "wglass@forio.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Geir Magnusson Jr.",
+            "email": "geirm@optonline.net",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Daniel Rall",
+            "email": "dlr@finemaltcoding.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Henning P. Schmiedehausen",
+            "email": "hps@intermeta.de",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Nathan Bubna",
+            "email": "nathan@esha.com",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://velocity.apache.org/engine/devel/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/velocity/velocity/1.7/velocity-1.7-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "eb11eb70171ed64842b2e5216d5904e21ed162ac",
+    "sha256": "fb8079077f7ef9b4ee406b893d0e919f97fa468b3aa45782b341519f3ccbc2c2",
+    "sha512": "9501d0cc42bc80a695b6eeef30b2b6eaddad7609847f956d9b1d29e212df03e5b96385399f18dbe2eab713ed6aabe538e44c7c7a18c123aa3d148dd5d62b647c",
+    "bug_tracking_url": "https://issues.apache.org/jira/browse/VELOCITY",
+    "code_view_url": "http://svn.apache.org/viewvc/velocity/engine/trunk",
+    "vcs_url": "svn+http://svn.apache.org/repos/asf/velocity/engine/trunk",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.velocity/velocity@1.7?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@4"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/logkit/logkit@2.0",
+            "extracted_requirement": "2.0",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/commons-collections/commons-collections@3.2.1",
+            "extracted_requirement": "3.2.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/commons-lang/commons-lang@2.4",
+            "extracted_requirement": "2.4",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/oro/oro@2.0.8",
+            "extracted_requirement": "2.0.8",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/jdom/jdom@1.0",
+            "extracted_requirement": "1.0",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/commons-logging/commons-logging@1.1",
+            "extracted_requirement": "1.1",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/log4j/log4j@1.2.12",
+            "extracted_requirement": "1.2.12",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/javax.servlet/servlet-api@2.3",
+            "extracted_requirement": "2.3",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/ant/ant@1.6",
+            "extracted_requirement": "1.6",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/werken-xpath/werken-xpath@0.9.4",
+            "extracted_requirement": "0.9.4",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit@3.8.1",
+            "extracted_requirement": "3.8.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/hsqldb/hsqldb@1.7.1",
+            "extracted_requirement": "1.7.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.velocity/velocity@1.7?classifier=sources&uuid=5a115a5f-4ad7-4d0c-9003-5a7e6bb793f9",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.apache.velocity/velocity@1.7?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/velocity/velocity/1.7/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/velocity/velocity/1.7/velocity-1.7-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/velocity/velocity/1.7/velocity-1.7.pom",
+    "file_references": []
+}

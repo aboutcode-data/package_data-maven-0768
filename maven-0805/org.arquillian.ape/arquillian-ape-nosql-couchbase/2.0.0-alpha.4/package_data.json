@@ -1,0 +1,88 @@
+{
+    "type": "maven",
+    "namespace": "org.arquillian.ape",
+    "name": "arquillian-ape-nosql-couchbase",
+    "version": "2.0.0-alpha.4",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Arquillian Ape NoSQL Couchbase",
+    "release_date": "2017-05-26T12:43:19Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/arquillian/ape/arquillian-ape-nosql-couchbase/2.0.0-alpha.4/arquillian-ape-nosql-couchbase-2.0.0-alpha.4.jar",
+    "size": 11191,
+    "md5": null,
+    "sha1": "72d1a4fc4635b82889346c67082a9b156f42c495",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.arquillian.ape/arquillian-ape-nosql-couchbase@2.0.0-alpha.4?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.lordofthejars/nosqlunit-couchbase",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.couchbase.client/java-client",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.arquillian.ape/arquillian-ape-junit-rule",
+            "extracted_requirement": "2.0.0-alpha.4",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.arquillian.ape/arquillian-ape-nosql-core",
+            "extracted_requirement": "2.0.0-alpha.4",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.arquillian.ape/arquillian-ape-nosql-couchbase@2.0.0-alpha.4?uuid=efbebaf7-2a65-434e-8631-b83d873537c8",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.arquillian.ape/arquillian-ape-nosql-couchbase@2.0.0-alpha.4",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/arquillian/ape/arquillian-ape-nosql-couchbase/2.0.0-alpha.4/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/arquillian/ape/arquillian-ape-nosql-couchbase/2.0.0-alpha.4/arquillian-ape-nosql-couchbase-2.0.0-alpha.4.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/arquillian/ape/arquillian-ape-nosql-couchbase/2.0.0-alpha.4/arquillian-ape-nosql-couchbase-2.0.0-alpha.4.pom",
+    "file_references": []
+}

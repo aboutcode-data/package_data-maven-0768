@@ -1,0 +1,79 @@
+{
+    "type": "maven",
+    "namespace": "org.antlr",
+    "name": "antlr-runtime",
+    "version": "3.1.3",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "a237168a-a713-4b97-bd28-6b88e20403d1",
+            "packages": [
+                "pkg:maven/org.antlr/antlr-runtime@3.1.3?uuid=54afbb15-461a-40e1-a96f-dffddf7b53f9",
+                "pkg:maven/org.antlr/antlr-runtime@3.1.3?classifier=sources&uuid=37bc1b2d-99b7-4adc-aabf-e82b9b762d5d"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Antlr 3 Runtime\nA framework for constructing recognizers, compilers, and translators from grammatical descriptions containing Java, C#, C++, or Python actions.",
+    "release_date": "2009-03-24T17:07:50Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Terence Parr",
+            "email": "parrt@antlr.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Jim Idle",
+            "email": "jimi@temporal-wave.com",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.antlr.org",
+    "download_url": "https://repo1.maven.org/maven2/org/antlr/antlr-runtime/3.1.3/antlr-runtime-3.1.3-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "800e3735965f177289e0edc1958863b3e25272c4",
+    "sha256": "8e63feeb0454b27b37cd773b307c1be5f0d2ae7ff540e8d3f2275dee86ab994a",
+    "sha512": "eaea3052d6bf3365ec2409a11e7f8f19e44015d0ec6f7d5388babce74302c0534502189089c8f836cf6d6cd1ff9c3b45fbf37b6e3d9ea77017370cfcccef166b",
+    "bug_tracking_url": null,
+    "code_view_url": "http://fisheye2.cenqua.com/browse/antlr",
+    "vcs_url": "http://fisheye2.cenqua.com/browse/antlr",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": "bsd-new",
+    "other_license_expression_spdx": "BSD-3-Clause",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.antlr/antlr-runtime@3.1.3?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.antlr/stringtemplate@3.2",
+            "extracted_requirement": "3.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.antlr/antlr-runtime@3.1.3?classifier=sources&uuid=37bc1b2d-99b7-4adc-aabf-e82b9b762d5d",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.antlr/antlr-runtime@3.1.3?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/antlr/antlr-runtime/3.1.3/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/antlr/antlr-runtime/3.1.3/antlr-runtime-3.1.3-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/antlr/antlr-runtime/3.1.3/antlr-runtime-3.1.3.pom",
+    "file_references": []
+}

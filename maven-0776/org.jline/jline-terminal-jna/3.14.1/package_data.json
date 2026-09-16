@@ -1,0 +1,97 @@
+{
+    "type": "maven",
+    "namespace": "org.jline",
+    "name": "jline-terminal-jna",
+    "version": "3.14.1",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "628a4031-f407-4110-a2a2-6535ea7ac3b7",
+            "packages": [
+                "pkg:maven/org.jline/jline-terminal-jna@3.14.1?uuid=e9c434e8-cc45-432a-b1d0-f823db7eb416",
+                "pkg:maven/org.jline/jline-terminal-jna@3.14.1?classifier=sources&uuid=15b76d6b-55f6-4a43-8567-069abc6e6f81"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "JLine JNA Terminal",
+    "release_date": "2020-04-08T12:17:36Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Guillaume Nodet",
+            "email": "gnodet@gmail.com",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://nexus.sonatype.org/oss-repository-hosting.html",
+    "download_url": "https://repo1.maven.org/maven2/org/jline/jline-terminal-jna/3.14.1/jline-terminal-jna-3.14.1-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "97bed9a09616dacff7757d693cd78341853fedee",
+    "sha256": "8e7afd0f14c44faf0c8e9d48fb2a8232a9af72a46604cb6a4d88729a37d50d0c",
+    "sha512": "de298fef3431cd803266a99ae5dbe7a4643d0b5c924dbd92535b3322484716d28af55714251eb986001d7b7ceabd4024ded939b56c00e1b97cf76120b142802e",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) the original author or authors",
+    "holder": null,
+    "declared_license_expression": "bsd-new",
+    "declared_license_expression_spdx": "BSD-3-Clause",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.jline/jline-terminal-jna@3.14.1?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.sonatype.oss/oss-parent@9",
+            "Field `homepage_url` has been updated using values obtained from the parent POM pkg:maven/org.sonatype.oss/oss-parent@9",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.sonatype.oss/oss-parent@9",
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.jline/jline-parent@3.14.1",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.jline/jline-parent@3.14.1"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/net.java.dev.jna/jna",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jline/jline-terminal",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.jline/jline-terminal-jna@3.14.1?classifier=sources&uuid=15b76d6b-55f6-4a43-8567-069abc6e6f81",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.jline/jline-terminal-jna@3.14.1?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/jline/jline-terminal-jna/3.14.1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/jline/jline-terminal-jna/3.14.1/jline-terminal-jna-3.14.1-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/jline/jline-terminal-jna/3.14.1/jline-terminal-jna-3.14.1.pom",
+    "file_references": []
+}

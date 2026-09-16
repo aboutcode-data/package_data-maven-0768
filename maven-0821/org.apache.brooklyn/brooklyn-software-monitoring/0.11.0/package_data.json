@@ -1,0 +1,152 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.brooklyn",
+    "name": "brooklyn-software-monitoring",
+    "version": "0.11.0",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Brooklyn Monitoring Software Entities\nBrooklyn entities for monitoring processes",
+    "release_date": "2017-05-12T15:10:30Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/apache/brooklyn/brooklyn-software-monitoring/0.11.0/brooklyn-software-monitoring-0.11.0.jar",
+    "size": 41128,
+    "md5": null,
+    "sha1": "a898378446f93e7f7c5356d54448d6039f2fe25d",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.brooklyn/brooklyn-software-monitoring@0.11.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.brooklyn/brooklyn-software-base",
+            "extracted_requirement": "0.11.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.brooklyn/brooklyn-api",
+            "extracted_requirement": "0.11.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.brooklyn/brooklyn-core",
+            "extracted_requirement": "0.11.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.brooklyn/brooklyn-utils-common",
+            "extracted_requirement": "0.11.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.brooklyn/brooklyn-utils-groovy",
+            "extracted_requirement": "0.11.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.guava/guava",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.testng/testng",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.brooklyn/brooklyn-test-support",
+            "extracted_requirement": "0.11.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.brooklyn/brooklyn-core",
+            "extracted_requirement": "0.11.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.brooklyn/brooklyn-software-base",
+            "extracted_requirement": "0.11.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.brooklyn/brooklyn-software-database",
+            "extracted_requirement": "0.11.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.brooklyn/brooklyn-locations-jclouds",
+            "extracted_requirement": "0.11.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.brooklyn/brooklyn-software-monitoring@0.11.0?uuid=29a267b3-b6b5-44ea-ae3c-8df1aa6ad4d0",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.apache.brooklyn/brooklyn-software-monitoring@0.11.0",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/brooklyn/brooklyn-software-monitoring/0.11.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/brooklyn/brooklyn-software-monitoring/0.11.0/brooklyn-software-monitoring-0.11.0.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/brooklyn/brooklyn-software-monitoring/0.11.0/brooklyn-software-monitoring-0.11.0.pom",
+    "file_references": []
+}

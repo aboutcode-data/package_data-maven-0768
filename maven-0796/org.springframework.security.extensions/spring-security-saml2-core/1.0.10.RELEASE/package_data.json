@@ -1,0 +1,298 @@
+{
+    "type": "maven",
+    "namespace": "org.springframework.security.extensions",
+    "name": "spring-security-saml2-core",
+    "version": "1.0.10.RELEASE",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "d52fd214-bb79-466b-b6b3-2c35d0369895",
+            "packages": [
+                "pkg:maven/org.springframework.security.extensions/spring-security-saml2-core@1.0.10.RELEASE?uuid=29337318-97e5-46d1-99be-2ae17d1d54d8",
+                "pkg:maven/org.springframework.security.extensions/spring-security-saml2-core@1.0.10.RELEASE?classifier=sources&uuid=c631d29c-d313-42cb-8bb4-1f7c2d3eeead"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Spring Security SAML v2 library",
+    "release_date": "2019-11-16T01:38:17Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Vladimir Schafer",
+            "email": "vladimir.schafer at gmail.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Mandus Elfvingr",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Rob Moore",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Jonathan Tellier",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Wade Dorrell",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "SpringSource",
+            "email": null,
+            "url": "https://projects.spring.io/spring-security-saml"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/SpringSource/spring-security-saml",
+    "download_url": "https://repo1.maven.org/maven2/org/springframework/security/extensions/spring-security-saml2-core/1.0.10.RELEASE/spring-security-saml2-core-1.0.10.RELEASE-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "01667fd18d4c625ccf0ba9483a0b15684dc37751",
+    "sha256": "9d5d10963ec5e56df1ac04ed7fcd33bf3b08d2759c7b9c1765a483ff18f30a5a",
+    "sha512": "4996a5ff02b8b0e3de4efbf8e69f5f18116be26d1c4eba0b71e24946e7c044edaea5d79909582751a883bb35629e71bb515e83e502c4a0829fbef4f349d95a8c",
+    "bug_tracking_url": "https://jira.springsource.org/browse/SES",
+    "code_view_url": "https://github.com/SpringSource/spring-security-saml",
+    "vcs_url": "git://github.com/SpringSource/spring-security-saml",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_5.RULE",
+                    "start_line": 1,
+                    "matched_text": "The Apache Software License, Version 2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 7,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_5.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-daaaee76-1395-c8c8-e06a-3f3f76e079b1",
+            "license_expression": "apache-2.0"
+        },
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_216.RULE",
+                    "start_line": 1,
+                    "matched_text": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 9,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_216.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-cb92a9c9-c5a5-5d61-20d0-95d854e3e244",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: The Apache Software License, Version 2.0\n  url: https://www.apache.org/licenses/LICENSE-2.0.txt\n  comments:\n  distribution: repo\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.springframework.security.extensions/spring-security-saml2-core@1.0.10.RELEASE?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.narupley/not-going-to-be-commons-ssl@0.3.20",
+            "extracted_requirement": "0.3.20",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.santuario/xmlsec@1.5.8",
+            "extracted_requirement": "1.5.8",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.velocity/velocity-engine-core@2.0",
+            "extracted_requirement": "2.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.bouncycastle/bcpkix-jdk15on@1.64",
+            "extracted_requirement": "1.64",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.bouncycastle/bcprov-jdk15on@1.64",
+            "extracted_requirement": "1.64",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.opensaml/opensaml@2.6.6",
+            "extracted_requirement": "2.6.6",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.owasp.esapi/esapi@2.2.0.0",
+            "extracted_requirement": "2.2.0.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-api@1.7.29",
+            "extracted_requirement": "1.7.29",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.springframework.security/spring-security-config@4.2.13.RELEASE",
+            "extracted_requirement": "4.2.13.RELEASE",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.springframework.security/spring-security-core@4.2.13.RELEASE",
+            "extracted_requirement": "4.2.13.RELEASE",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.springframework.security/spring-security-web@4.2.13.RELEASE",
+            "extracted_requirement": "4.2.13.RELEASE",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/xalan/xalan@2.7.2",
+            "extracted_requirement": "2.7.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/xml-apis/xml-apis@1.4.01",
+            "extracted_requirement": "1.4.01",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/javax.servlet/javax.servlet-api@3.0.1",
+            "extracted_requirement": "3.0.1",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/commons-logging/commons-logging@1.2",
+            "extracted_requirement": "1.2",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit@4.12",
+            "extracted_requirement": "4.12",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.easymock/easymock@3.5.1",
+            "extracted_requirement": "3.5.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-simple@1.7.29",
+            "extracted_requirement": "1.7.29",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-test@4.3.25.RELEASE",
+            "extracted_requirement": "4.3.25.RELEASE",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/xmlunit/xmlunit@1.6",
+            "extracted_requirement": "1.6",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.springframework.security.extensions/spring-security-saml2-core@1.0.10.RELEASE?classifier=sources&uuid=c631d29c-d313-42cb-8bb4-1f7c2d3eeead",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.springframework.security.extensions/spring-security-saml2-core@1.0.10.RELEASE?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/springframework/security/extensions/spring-security-saml2-core/1.0.10.RELEASE/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/springframework/security/extensions/spring-security-saml2-core/1.0.10.RELEASE/spring-security-saml2-core-1.0.10.RELEASE-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/springframework/security/extensions/spring-security-saml2-core/1.0.10.RELEASE/spring-security-saml2-core-1.0.10.RELEASE.pom",
+    "file_references": []
+}

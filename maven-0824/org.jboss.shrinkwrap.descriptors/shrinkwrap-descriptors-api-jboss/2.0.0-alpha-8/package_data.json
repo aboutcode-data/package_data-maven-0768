@@ -1,0 +1,87 @@
+{
+    "type": "maven",
+    "namespace": "org.jboss.shrinkwrap.descriptors",
+    "name": "shrinkwrap-descriptors-api-jboss",
+    "version": "2.0.0-alpha-8",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "e938df98-e7a9-4eaa-987d-baafdc4d6f7b",
+            "packages": [
+                "pkg:maven/org.jboss.shrinkwrap.descriptors/shrinkwrap-descriptors-api-jboss@2.0.0-alpha-8?uuid=880526b0-acce-400c-9d80-97fd13e3e7b8",
+                "pkg:maven/org.jboss.shrinkwrap.descriptors/shrinkwrap-descriptors-api-jboss@2.0.0-alpha-8?classifier=sources&uuid=058ca845-f558-4895-84a3-21aedc726572"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "ShrinkWrap Descriptors Generated JBoss API\nClient View of the JBoss related ShrinkWrap Descriptors Project",
+    "release_date": "2015-09-29T19:48:52Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "JBoss.org Community",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "JBoss by Red Hat",
+            "email": null,
+            "url": "http://www.jboss.org"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.jboss.org",
+    "download_url": "https://repo1.maven.org/maven2/org/jboss/shrinkwrap/descriptors/shrinkwrap-descriptors-api-jboss/2.0.0-alpha-8/shrinkwrap-descriptors-api-jboss-2.0.0-alpha-8-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "ed13e83301942204ad8429d7d791b77efeaabbf5",
+    "sha256": "b3726708d2c942ac7fcad3965a1cf7fbf1c803b78e4bff985c7f363dafaff49b",
+    "sha512": "71e657168d831e4b80db197079510757018bd9c6a7585917bfa9e7ec2ed7a6b34dd15f524bb85040cefebe5b03c8dad1f936a3b06c67fc13630c2f55e822aa60",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "public-domain AND cc0-1.0",
+    "declared_license_expression_spdx": "LicenseRef-scancode-public-domain AND CC0-1.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.jboss.shrinkwrap.descriptors/shrinkwrap-descriptors-api-jboss@2.0.0-alpha-8?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.jboss.shrinkwrap.descriptors/shrinkwrap-descriptors-api-javaee@2.0.0-alpha-8",
+            "extracted_requirement": "2.0.0-alpha-8",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.jboss.shrinkwrap.descriptors/shrinkwrap-descriptors-gen@2.0.0-alpha-8",
+            "extracted_requirement": "2.0.0-alpha-8",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.jboss.shrinkwrap.descriptors/shrinkwrap-descriptors-api-jboss@2.0.0-alpha-8?classifier=sources&uuid=058ca845-f558-4895-84a3-21aedc726572",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.jboss.shrinkwrap.descriptors/shrinkwrap-descriptors-api-jboss@2.0.0-alpha-8?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/jboss/shrinkwrap/descriptors/shrinkwrap-descriptors-api-jboss/2.0.0-alpha-8/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/jboss/shrinkwrap/descriptors/shrinkwrap-descriptors-api-jboss/2.0.0-alpha-8/shrinkwrap-descriptors-api-jboss-2.0.0-alpha-8-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/jboss/shrinkwrap/descriptors/shrinkwrap-descriptors-api-jboss/2.0.0-alpha-8/shrinkwrap-descriptors-api-jboss-2.0.0-alpha-8.pom",
+    "file_references": []
+}

@@ -1,0 +1,80 @@
+{
+    "type": "maven",
+    "namespace": "org.modeshape",
+    "name": "modeshape-jbossas-cmis-war",
+    "version": "4.0.0.Alpha2",
+    "qualifiers": "type=war",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "ModeShape CMIS Service for JBoss AS\nModeShape servlet that provides CMIS bridge to repositories in a JBoss AS",
+    "release_date": "2014-04-22T22:53:38Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": "http://www.modeshape.org",
+    "download_url": "https://repo1.maven.org/maven2/org/modeshape/modeshape-jbossas-cmis-war/4.0.0.Alpha2/modeshape-jbossas-cmis-war-4.0.0.Alpha2.war",
+    "size": 7134774,
+    "md5": null,
+    "sha1": "308c679a459a025d19764e66f229f01846342e62",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.modeshape/modeshape-jbossas-cmis-war@4.0.0.Alpha2?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/javax.jcr/jcr",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.modeshape/modeshape-common",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.modeshape/modeshape-jcr-api",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.modeshape/modeshape-web-cmis",
+            "extracted_requirement": "4.0.0.Alpha2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.modeshape/modeshape-jbossas-cmis-war@4.0.0.Alpha2?type=war&uuid=ace7686a-4ceb-4eac-a834-40efb5c08fe7",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.modeshape/modeshape-jbossas-cmis-war@4.0.0.Alpha2?type=war",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/modeshape/modeshape-jbossas-cmis-war/4.0.0.Alpha2/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/modeshape/modeshape-jbossas-cmis-war/4.0.0.Alpha2/modeshape-jbossas-cmis-war-4.0.0.Alpha2.war",
+    "api_data_url": "https://repo1.maven.org/maven2/org/modeshape/modeshape-jbossas-cmis-war/4.0.0.Alpha2/modeshape-jbossas-cmis-war-4.0.0.Alpha2.pom",
+    "file_references": []
+}

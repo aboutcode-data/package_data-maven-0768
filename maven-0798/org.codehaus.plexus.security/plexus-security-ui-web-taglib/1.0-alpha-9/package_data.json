@@ -1,0 +1,104 @@
+{
+    "type": "maven",
+    "namespace": "org.codehaus.plexus.security",
+    "name": "plexus-security-ui-web-taglib",
+    "version": "1.0-alpha-9",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Plexus Security :: UI Web :: Taglib",
+    "release_date": "2007-01-15T20:17:46Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/codehaus/plexus/security/plexus-security-ui-web-taglib/1.0-alpha-9/plexus-security-ui-web-taglib-1.0-alpha-9.jar",
+    "size": 7640,
+    "md5": null,
+    "sha1": "361cb4644edb7c20ea12c40b72c597b3293d02ff",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.codehaus.plexus.security/plexus-security-ui-web-taglib@1.0-alpha-9?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.codehaus.plexus.security/plexus-security-ui-web-integration",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.codehaus.plexus.security/plexus-security-system",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.codehaus.plexus/plexus-xwork-integration",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/taglibs/standard",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.servlet/jstl",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.servlet/servlet-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.servlet/jsp-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.codehaus.plexus.security/plexus-security-ui-web-taglib@1.0-alpha-9?uuid=fa4f12e2-2281-4c95-9597-d761cc0f69a3",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.codehaus.plexus.security/plexus-security-ui-web-taglib@1.0-alpha-9",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/codehaus/plexus/security/plexus-security-ui-web-taglib/1.0-alpha-9/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/codehaus/plexus/security/plexus-security-ui-web-taglib/1.0-alpha-9/plexus-security-ui-web-taglib-1.0-alpha-9.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/codehaus/plexus/security/plexus-security-ui-web-taglib/1.0-alpha-9/plexus-security-ui-web-taglib-1.0-alpha-9.pom",
+    "file_references": []
+}

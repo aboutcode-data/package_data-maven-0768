@@ -1,0 +1,79 @@
+{
+    "type": "maven",
+    "namespace": "com.sun.mail",
+    "name": "gimap",
+    "version": "1.4.7",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "9c9ea3b5-2230-4143-93b9-ecbd6bcf2807",
+            "packages": [
+                "pkg:maven/com.sun.mail/gimap@1.4.7?uuid=18cc622f-0b05-4142-96ce-e03b8a46a63d",
+                "pkg:maven/com.sun.mail/gimap@1.4.7?classifier=sources&uuid=31b9c318-183a-479a-8c8c-398367bc7418"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "JavaMail API Gmail IMAP provider",
+    "release_date": "2013-03-09T01:37:37Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Bill Shannon",
+            "email": "bill.shannon@oracle.com",
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Oracle",
+            "email": null,
+            "url": "http://www.oracle.com"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://java.net/",
+    "download_url": "https://repo1.maven.org/maven2/com/sun/mail/gimap/1.4.7/gimap-1.4.7-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "f9d0a382f5812c6d5e39a90b700cb80c1339bc18",
+    "sha256": "a157ce4145bd5cce0ab4b1f0b0de37073d4077736be8c2f3c75848c01fa66686",
+    "sha512": "45923df163637614f24f694fb12e0b4f61fdc0e77806b3591ece5aa1da32be4c24ed43b79e71343d4f2829c8523227c7d10e06a4b0d6317713396d9b7186cde9",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) Oracle and/or its affiliates",
+    "holder": null,
+    "declared_license_expression": "cddl-1.0 AND gpl-2.0 WITH classpath-exception-2.0 AND (cddl-1.1 OR gpl-2.0 WITH classpath-exception-2.0) AND gpl-2.0 AND classpath-exception-2.0",
+    "declared_license_expression_spdx": "CDDL-1.0 AND GPL-2.0-only WITH Classpath-exception-2.0 AND (CDDL-1.1 OR GPL-2.0-only WITH Classpath-exception-2.0) AND GPL-2.0-only AND Classpath-exception-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.sun.mail/gimap@1.4.7?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.sun.mail/javax.mail",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/com.sun.mail/gimap@1.4.7?classifier=sources&uuid=31b9c318-183a-479a-8c8c-398367bc7418",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.sun.mail/gimap@1.4.7?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/sun/mail/gimap/1.4.7/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/sun/mail/gimap/1.4.7/gimap-1.4.7-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/sun/mail/gimap/1.4.7/gimap-1.4.7.pom",
+    "file_references": []
+}

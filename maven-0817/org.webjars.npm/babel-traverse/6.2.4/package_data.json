@@ -1,0 +1,136 @@
+{
+    "type": "maven",
+    "namespace": "org.webjars.npm",
+    "name": "babel-traverse",
+    "version": "6.2.4",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "babel-traverse\nWebJar for babel-traverse",
+    "release_date": "2015-11-30T00:39:55Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": null,
+            "email": null,
+            "url": "http://webjars.org"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://webjars.org",
+    "download_url": "https://repo1.maven.org/maven2/org/webjars/npm/babel-traverse/6.2.4/babel-traverse-6.2.4.jar",
+    "size": 55867,
+    "md5": null,
+    "sha1": "c2c645d291885648301b4eb62b738752ebb53acf",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "unknown",
+    "declared_license_expression_spdx": "LicenseRef-scancode-unknown",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "MIT\nhttps://spdx.org/licenses/MIT#licenseText",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.webjars.npm/babel-traverse@6.2.4?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.webjars.npm/repeating",
+            "extracted_requirement": "[1.1.3,2)",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.webjars.npm/babel-runtime",
+            "extracted_requirement": "[5.0.0,6)",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.webjars.npm/babel-code-frame",
+            "extracted_requirement": "[6.2.4,7)",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.webjars.npm/debug",
+            "extracted_requirement": "[2.2.0,3)",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.webjars.npm/babylon",
+            "extracted_requirement": "[6.2.4,7)",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.webjars.npm/babel-messages",
+            "extracted_requirement": "[6.2.4,7)",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.webjars.npm/babel-types",
+            "extracted_requirement": "[6.2.4,7)",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.webjars.npm/globals",
+            "extracted_requirement": "[8.3.0,9)",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.webjars.npm/invariant",
+            "extracted_requirement": "[2.2.0,3)",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.webjars.npm/lodash",
+            "extracted_requirement": "[3.10.1,4)",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.webjars.npm/babel-traverse@6.2.4?uuid=a9bd3614-b46f-4ba5-8878-1b0450d3180f",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.webjars.npm/babel-traverse@6.2.4",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/webjars/npm/babel-traverse/6.2.4/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/webjars/npm/babel-traverse/6.2.4/babel-traverse-6.2.4.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/webjars/npm/babel-traverse/6.2.4/babel-traverse-6.2.4.pom",
+    "file_references": []
+}

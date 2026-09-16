@@ -1,0 +1,95 @@
+{
+    "type": "maven",
+    "namespace": "com.graphql-java",
+    "name": "graphql-java-extended-scalars",
+    "version": "17.1",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "08c53fd5-8cb9-4c18-89f3-f52d57543b50",
+            "packages": [
+                "pkg:maven/com.graphql-java/graphql-java-extended-scalars@17.1?uuid=c40137b7-4877-4664-802f-30b2c383db6c",
+                "pkg:maven/com.graphql-java/graphql-java-extended-scalars@17.1?classifier=sources&uuid=2e776e93-015c-4cb1-91a0-2bda06bc38f2",
+                "pkg:github/graphql-java/graphql-java-extended-scalars@17.1?uuid=a2b1a0a2-4db9-4c95-8c22-eccf40c4e5c9"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "graphql-java-extended-scalars\nA library fo extended scalars for graphql-java",
+    "release_date": "2022-09-19T05:40:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Brad Baker",
+            "email": "bbakerman@gmail.com",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/graphql-java/graphql-java-extended-scalars",
+    "download_url": "https://repo1.maven.org/maven2/com/graphql-java/graphql-java-extended-scalars/17.1/graphql-java-extended-scalars-17.1-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "1a5afc8d2982a01e41fecc55893c7bff3a83e549",
+    "sha256": "35cfb3290f8a4bd3ba5bffded14dc5c92d4457390ff8ae101ebbf832b380ceb4",
+    "sha512": "30426258c8f6f75932edd0d100ac57736f3942b5cb54c7a865b1e07e0a49cde35e6105aad11371bf8c4e0dea226a5508851306679057307bfb923c00b74c2347",
+    "bug_tracking_url": null,
+    "code_view_url": "https://github.com/graphql-java/graphql-java-extended-scalars",
+    "vcs_url": "git@github.com+https://github.com/graphql-java/graphql-java-extended-scalars.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "mit",
+    "declared_license_expression_spdx": "MIT",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/mit_1160.RULE",
+                    "start_line": 1,
+                    "matched_text": "license - name: MIT",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "mit_1160.RULE",
+                    "license_expression": "mit"
+                }
+            ],
+            "identifier": "mit-d9e3f4a1-d310-01d5-c705-8088549acd7c",
+            "license_expression": "mit"
+        }
+    ],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: MIT\n  url: https://github.com/graphql-java/graphql-java/blob/master/LICENSE.md\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.graphql-java/graphql-java-extended-scalars@17.1?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.graphql-java/graphql-java@17.4",
+            "extracted_requirement": "17.4",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/com.graphql-java/graphql-java-extended-scalars@17.1?classifier=sources&uuid=2e776e93-015c-4cb1-91a0-2bda06bc38f2",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/com.graphql-java/graphql-java-extended-scalars@17.1?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/graphql-java/graphql-java-extended-scalars/17.1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/graphql-java/graphql-java-extended-scalars/17.1/graphql-java-extended-scalars-17.1-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/graphql-java/graphql-java-extended-scalars/17.1/graphql-java-extended-scalars-17.1.pom",
+    "file_references": []
+}

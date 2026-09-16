@@ -1,0 +1,119 @@
+{
+    "type": "maven",
+    "namespace": "com.typesafe.netty",
+    "name": "netty-reactive-streams-http",
+    "version": "2.0.5",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "b9b6ee68-50af-487c-8bf0-7fd34c4841c1",
+            "packages": [
+                "pkg:maven/com.typesafe.netty/netty-reactive-streams-http@2.0.5?uuid=ce8c872a-be0c-4776-9ea1-c2d12453f7e7",
+                "pkg:maven/com.typesafe.netty/netty-reactive-streams-http@2.0.5?classifier=sources&uuid=fc54eb96-01da-4623-8728-ea7ec931f466",
+                "pkg:github/playframework/netty-reactive-streams@netty-reactive-streams-parent-2.0.5?uuid=17412035-2ddc-4629-9e59-2dccc3009a92"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Netty Reactive Streams HTTP support",
+    "release_date": "2020-10-13T21:03:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "James Roper",
+            "email": "james@typesafe.com",
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Typesafe",
+            "email": null,
+            "url": "http://typesafe.com/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/playframework/netty-reactive-streams",
+    "download_url": "https://repo1.maven.org/maven2/com/typesafe/netty/netty-reactive-streams-http/2.0.5/netty-reactive-streams-http-2.0.5-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "ed1ae857a3368758c7d3c75b30d11b83153d7c71",
+    "sha256": "8afd6c5b2ad7fc731ed831d119b13dfab57bb211b240c4193b6dac6cd61dae56",
+    "sha512": "a7ea4e549228bdd7977791c0d897211c838523437b14eb18b2e36ecd6fd608d58de25ebfb81ee4234ea50f09c4869b165dd6895537c4aca950f7312e0f2fde77",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.typesafe.netty/netty-reactive-streams-http@2.0.5?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/com.typesafe.netty/netty-reactive-streams-parent@2.0.5",
+            "Field `homepage_url` has been updated using values obtained from the parent POM pkg:maven/com.typesafe.netty/netty-reactive-streams-parent@2.0.5",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/com.typesafe.netty/netty-reactive-streams-parent@2.0.5"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.typesafe.netty/netty-reactive-streams@2.0.5",
+            "extracted_requirement": "2.0.5",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.netty/netty-codec-http",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.reactivestreams/reactive-streams-tck",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.testng/testng",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.typesafe.akka/akka-stream_2.12",
+            "extracted_requirement": "${akka-stream.version}",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/com.typesafe.netty/netty-reactive-streams-http@2.0.5?classifier=sources&uuid=fc54eb96-01da-4623-8728-ea7ec931f466",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/com.typesafe.netty/netty-reactive-streams-http@2.0.5?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/typesafe/netty/netty-reactive-streams-http/2.0.5/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/typesafe/netty/netty-reactive-streams-http/2.0.5/netty-reactive-streams-http-2.0.5-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/typesafe/netty/netty-reactive-streams-http/2.0.5/netty-reactive-streams-http-2.0.5.pom",
+    "file_references": []
+}

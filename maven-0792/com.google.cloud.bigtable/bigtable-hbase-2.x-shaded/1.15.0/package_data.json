@@ -1,0 +1,128 @@
+{
+    "type": "maven",
+    "namespace": "com.google.cloud.bigtable",
+    "name": "bigtable-hbase-2.x-shaded",
+    "version": "1.15.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "b6a50414-a191-4c43-b868-7d5604c9ab59",
+            "packages": [
+                "pkg:maven/com.google.cloud.bigtable/bigtable-hbase-2.x-shaded@1.15.0?uuid=fd03f5a9-5733-46ba-9db6-e123a5c36adf",
+                "pkg:maven/com.google.cloud.bigtable/bigtable-hbase-2.x-shaded@1.15.0?classifier=sources&uuid=06701d65-4b0e-4689-8bf4-b5176b83f6ec"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Please use bigtable-hbase-2.x or bigtable-hbase-2.x-hadoop. Bigtable\n    connector compatible with HBase 2.x. It exposes the minimal set of\n    dependencies. Its mainly intended to be used by dataflow 2.x to avoid\n    version conflicts with grpc & protobuf. Prefer to use bigtable-hbase-2.x\n    in general and bigtable-hbase-2.x-hadoop for hadoop classpath compatible\n    applications.",
+    "release_date": "2020-07-16T22:51:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": null,
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://cloud.google.com/bigtable/",
+    "download_url": "https://repo1.maven.org/maven2/com/google/cloud/bigtable/bigtable-hbase-2.x-shaded/1.15.0/bigtable-hbase-2.x-shaded-1.15.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "0af18b48c95e3eed14942f11241be5c5384b1518",
+    "sha256": "6096d00b69b0c1180da26bb37eb1e0c4e2aec119ef8986184282e61da6305298",
+    "sha512": "bb40f932da13e0ed388d7d2efe805ceb8d51ec5fc8eb5f5fe90df61e10a87494d0d8a421f729bf451ccc3c52e60c2a31d1ed6bc08ff799153a811bd8ed0ced6d",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) Google",
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.google.cloud.bigtable/bigtable-hbase-2.x-shaded@1.15.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.google.cloud/google-cloud-bigtable-bom",
+            "extracted_requirement": "${bigtable.version}",
+            "scope": "import",
+            "is_runtime": false,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.cloud/google-cloud-bigtable-deps-bom",
+            "extracted_requirement": "${bigtable.version}",
+            "scope": "import",
+            "is_runtime": false,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.hbase/hbase-shaded-client@2.2.3",
+            "extracted_requirement": "2.2.3",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.google.code.findbugs/jsr305@3.0.2",
+            "extracted_requirement": "3.0.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/commons-logging/commons-logging@1.2",
+            "extracted_requirement": "1.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.dropwizard.metrics/metrics-core@3.2.6",
+            "extracted_requirement": "3.2.6",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.google.cloud/google-cloud-bigtable-bom",
+            "extracted_requirement": "${bigtable.version}",
+            "scope": "dependencymanagement",
+            "is_runtime": false,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.cloud/google-cloud-bigtable-deps-bom",
+            "extracted_requirement": "${bigtable.version}",
+            "scope": "dependencymanagement",
+            "is_runtime": false,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/com.google.cloud.bigtable/bigtable-hbase-2.x-shaded@1.15.0?classifier=sources&uuid=06701d65-4b0e-4689-8bf4-b5176b83f6ec",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.google.cloud.bigtable/bigtable-hbase-2.x-shaded@1.15.0?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/google/cloud/bigtable/bigtable-hbase-2.x-shaded/1.15.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/google/cloud/bigtable/bigtable-hbase-2.x-shaded/1.15.0/bigtable-hbase-2.x-shaded-1.15.0-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/google/cloud/bigtable/bigtable-hbase-2.x-shaded/1.15.0/bigtable-hbase-2.x-shaded-1.15.0.pom",
+    "file_references": []
+}

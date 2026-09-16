@@ -1,0 +1,103 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.lucene",
+    "name": "lucene-spatial-extras",
+    "version": "8.11.1",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "0c7adcac-c53b-4f70-9d6e-bd9a253009c0",
+            "packages": [
+                "pkg:maven/org.apache.lucene/lucene-spatial-extras@8.11.1?uuid=5ed87b74-dee0-4404-b90b-c9509e0414c1",
+                "pkg:maven/org.apache.lucene/lucene-spatial-extras@8.11.1?classifier=sources&uuid=f9e9747a-8941-4f36-ac1d-1b55c3710a35"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Lucene Spatial Extras\nAdvanced Spatial Shape Strategies for Apache Lucene",
+    "release_date": "2021-12-16T08:28:00Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "https://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://www.apache.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/lucene/lucene-spatial-extras/8.11.1/lucene-spatial-extras-8.11.1-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "f7d673a23ff1dbe31245f3e0b8a0240e5cf52ef4",
+    "sha256": "2b319879f2a1384c39135113fd8f954d7ef84d47904cc8e2be748f80ceb61839",
+    "sha512": "fd1802e352c22e6db71010aef6579fbe5068ae750ddc7f402122102871240d909e01c09c573b33a7e4d7293a5ad9d04333d593ed50e79fa78998dfce25b8c670",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0 AND (apache-2.0 AND (mit AND unicode AND bsd-new) AND (apache-2.0 AND bsd-simplified AND cpl-1.0 AND bsd-new) AND bsd-new AND (unicode AND bsd-new AND (lgpl-2.0-plus AND cc-by-sa-3.0 AND other-copyleft) AND cddl-1.0) AND naist-2003) AND (apache-2.0 AND unicode-mappings AND python AND bsd-new AND (mit AND x11) AND x11 AND (lgpl-2.0-plus AND cc-by-sa-3.0 AND other-copyleft) AND bsd-simplified)",
+    "other_license_expression_spdx": "Apache-2.0 AND (Apache-2.0 AND (MIT AND LicenseRef-scancode-unicode AND BSD-3-Clause) AND (Apache-2.0 AND BSD-2-Clause AND CPL-1.0 AND BSD-3-Clause) AND BSD-3-Clause AND (LicenseRef-scancode-unicode AND BSD-3-Clause AND (LGPL-2.0-or-later AND CC-BY-SA-3.0 AND LicenseRef-scancode-other-copyleft) AND CDDL-1.0) AND NAIST-2003) AND (Apache-2.0 AND LicenseRef-scancode-unicode-mappings AND Python-2.0 AND BSD-3-Clause AND (MIT AND ICU) AND ICU AND (LGPL-2.0-or-later AND CC-BY-SA-3.0 AND LicenseRef-scancode-other-copyleft) AND BSD-2-Clause)",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.lucene/lucene-spatial-extras@8.11.1?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@23",
+            "Field `homepage_url` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@23",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@23"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.lucene/lucene-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.lucene/lucene-spatial3d",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.sgr/s2-geometry-library-java",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.locationtech.spatial4j/spatial4j",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.lucene/lucene-spatial-extras@8.11.1?classifier=sources&uuid=f9e9747a-8941-4f36-ac1d-1b55c3710a35",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.apache.lucene/lucene-spatial-extras@8.11.1?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/lucene/lucene-spatial-extras/8.11.1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/lucene/lucene-spatial-extras/8.11.1/lucene-spatial-extras-8.11.1-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/lucene/lucene-spatial-extras/8.11.1/lucene-spatial-extras-8.11.1.pom",
+    "file_references": []
+}

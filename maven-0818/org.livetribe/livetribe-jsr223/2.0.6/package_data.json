@@ -1,0 +1,92 @@
+{
+    "type": "maven",
+    "namespace": "org.livetribe",
+    "name": "livetribe-jsr223",
+    "version": "2.0.6",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "LiveTribe :: JSR 223",
+    "release_date": "2009-08-28T17:39:39Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Alan D. Cabrera",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Jeff Genender",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Matt Hogstrom",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Simone Bordet",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "LiveTribe",
+            "email": null,
+            "url": "http://livetribe.codehaus.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://livetribe.codehaus.org",
+    "download_url": "https://repo1.maven.org/maven2/org/livetribe/livetribe-jsr223/2.0.6/livetribe-jsr223-2.0.6.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "cb880c12ab0b81d7544a75d09b12302604ff35f7",
+    "sha256": "14d7d415bef184a2d58f8cb5269080f811f6f7cf4b3b1fc8579cb0a28a172cee",
+    "sha512": "b610be068c2fd65f01afd9053304aa6d1ee9cbf7cbe448bbe540092f5e0fef6e146c732b6949c18cefb5585241aa75636f44f925591c9b42d2556beb3e1fb869",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.livetribe/livetribe-jsr223@2.0.6?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/junit/junit@4.5",
+            "extracted_requirement": "4.5",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.livetribe/livetribe-jsr223@2.0.6?uuid=f89351fc-53c9-49f6-a386-e45eebe7b44a",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.livetribe/livetribe-jsr223@2.0.6",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/livetribe/livetribe-jsr223/2.0.6/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/livetribe/livetribe-jsr223/2.0.6/livetribe-jsr223-2.0.6.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/livetribe/livetribe-jsr223/2.0.6/livetribe-jsr223-2.0.6.pom",
+    "file_references": []
+}

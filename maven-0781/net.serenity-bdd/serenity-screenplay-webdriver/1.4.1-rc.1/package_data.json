@@ -1,0 +1,184 @@
+{
+    "type": "maven",
+    "namespace": "net.serenity-bdd",
+    "name": "serenity-screenplay-webdriver",
+    "version": "1.4.1-rc.1",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "serenity-screenplay-webdriver\nWebdriver integration for the User Journey pattern in Serenity",
+    "release_date": "2017-05-21T21:03:22Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "John Ferguson Smart",
+            "email": "john.smart@wakaleo.com",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/serenity-bdd/serenity-core",
+    "download_url": "https://repo1.maven.org/maven2/net/serenity-bdd/serenity-screenplay-webdriver/1.4.1-rc.1/serenity-screenplay-webdriver-1.4.1-rc.1.jar",
+    "size": 129013,
+    "md5": null,
+    "sha1": "825e89e749efc8f214917f52e95906a40ed4eb2a",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0 AND unknown",
+    "declared_license_expression_spdx": "Apache-2.0 AND LicenseRef-scancode-unknown",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "The Apache Software License, Version 2.0\nhttp://www.apache.org/license/LICENSE-2.0.txt",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/net.serenity-bdd/serenity-screenplay-webdriver@1.4.1-rc.1?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.google.guava/guava",
+            "extracted_requirement": "21.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.code.findbugs/jsr305",
+            "extracted_requirement": "3.0.1",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.inject/guice",
+            "extracted_requirement": "3.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/cglib/cglib",
+            "extracted_requirement": "3.1",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.ow2.asm/asm",
+            "extracted_requirement": "5.0.3",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/commons-codec/commons-codec",
+            "extracted_requirement": "1.10",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.objenesis/objenesis",
+            "extracted_requirement": "2.1",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-api",
+            "extracted_requirement": "1.7.21",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/xml-apis/xml-apis",
+            "extracted_requirement": "1.4.01",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/info.cukes/cucumber-core",
+            "extracted_requirement": "1.2.5",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/commons-logging/commons-logging",
+            "extracted_requirement": "1.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": "4.12",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.mockito/mockito-core",
+            "extracted_requirement": "1.10.19",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/net.bytebuddy/byte-buddy",
+            "extracted_requirement": "1.6.12",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/net.serenity-bdd/serenity-core",
+            "extracted_requirement": "1.4.1-rc.1",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/net.serenity-bdd/serenity-screenplay",
+            "extracted_requirement": "1.4.1-rc.1",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/net.serenity-bdd/serenity-screenplay-webdriver@1.4.1-rc.1?uuid=509d6bdd-6afa-4198-beda-94a30db5b2c9",
+    "datasource_id": null,
+    "purl": "pkg:maven/net.serenity-bdd/serenity-screenplay-webdriver@1.4.1-rc.1",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/net/serenity-bdd/serenity-screenplay-webdriver/1.4.1-rc.1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/net/serenity-bdd/serenity-screenplay-webdriver/1.4.1-rc.1/serenity-screenplay-webdriver-1.4.1-rc.1.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/net/serenity-bdd/serenity-screenplay-webdriver/1.4.1-rc.1/serenity-screenplay-webdriver-1.4.1-rc.1.pom",
+    "file_references": []
+}

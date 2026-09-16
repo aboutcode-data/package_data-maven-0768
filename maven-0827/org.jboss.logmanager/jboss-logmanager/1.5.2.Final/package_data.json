@@ -1,0 +1,94 @@
+{
+    "type": "maven",
+    "namespace": "org.jboss.logmanager",
+    "name": "jboss-logmanager",
+    "version": "1.5.2.Final",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "41a910b3-9608-4842-862a-e938b3e40b74",
+            "packages": [
+                "pkg:maven/org.jboss.logmanager/jboss-logmanager@1.5.2.Final?uuid=63116070-6d82-4b64-8f74-eee71acf5226",
+                "pkg:maven/org.jboss.logmanager/jboss-logmanager@1.5.2.Final?classifier=sources&uuid=0bee85f5-a402-4d20-a044-6e28a28798fe"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "JBoss Log Manager\nAn implementation of java.util.logging.LogManager",
+    "release_date": "2014-01-08T19:15:41Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "JBoss.org Community",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "JBoss by Red Hat",
+            "email": null,
+            "url": "http://www.jboss.org"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.jboss.org",
+    "download_url": "https://repo1.maven.org/maven2/org/jboss/logmanager/jboss-logmanager/1.5.2.Final/jboss-logmanager-1.5.2.Final-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "1b3d628a05a44fa95d39846bc6486671d0dea7a0",
+    "sha256": "38d9acf613353710620cfa7ac1bf2b5769f17bbe7fc230ec699f0fd4f4094267",
+    "sha512": "0169ab6596df405fbd114762d1cedba7c6346f8fabfe221ac87c24c742365d2b1ca31597a09d7f17e2baf60e26fdfac919ae33c51d920480b5e1c003986e7251",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "public-domain AND cc0-1.0",
+    "declared_license_expression_spdx": "LicenseRef-scancode-public-domain AND CC0-1.0",
+    "license_detections": [],
+    "other_license_expression": "lgpl-2.1-plus AND cc-pd",
+    "other_license_expression_spdx": "LGPL-2.1-or-later AND CC-PDDC",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.jboss.logmanager/jboss-logmanager@1.5.2.Final?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.jboss/jboss-parent@11",
+            "Field `homepage_url` has been updated using values obtained from the parent POM pkg:maven/org.jboss/jboss-parent@11",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.jboss/jboss-parent@11"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.jboss.modules/jboss-modules@1.1.0.GA",
+            "extracted_requirement": "1.1.0.GA",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit@4.11",
+            "extracted_requirement": "4.11",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.jboss.logmanager/jboss-logmanager@1.5.2.Final?classifier=sources&uuid=0bee85f5-a402-4d20-a044-6e28a28798fe",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.jboss.logmanager/jboss-logmanager@1.5.2.Final?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/jboss/logmanager/jboss-logmanager/1.5.2.Final/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/jboss/logmanager/jboss-logmanager/1.5.2.Final/jboss-logmanager-1.5.2.Final-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/jboss/logmanager/jboss-logmanager/1.5.2.Final/jboss-logmanager-1.5.2.Final.pom",
+    "file_references": []
+}

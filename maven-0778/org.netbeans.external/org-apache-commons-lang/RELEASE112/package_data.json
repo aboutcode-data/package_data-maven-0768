@@ -1,0 +1,62 @@
+{
+    "type": "maven",
+    "namespace": "org.netbeans.external",
+    "name": "org-apache-commons-lang",
+    "version": "RELEASE112",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": null,
+    "release_date": "2019-10-21T11:49:00Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "https://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://www.apache.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/netbeans/external/org-apache-commons-lang/RELEASE112/org-apache-commons-lang-RELEASE112.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "0ce1edb914c94ebc388f086c6827e8bdeec71ac2",
+    "sha256": "50f11b09f877c294d56f24463f47d28f929cf5044f648661c0f0cfbae9a2f49c",
+    "sha512": "4a5a3dbe4941c645e2cca068cca5c1882cfe988b02e7cd981d1e51784900767d1deab0e0e0566f559c9fcabb4a180e436d5bb948902d4f4106f37360466afb42",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) The Apache Software Foundation",
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.netbeans.external/org-apache-commons-lang@RELEASE112?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@21",
+            "Field `homepage_url` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@21",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@21"
+        ],
+        "package_content": 5
+    },
+    "dependencies": [],
+    "package_uid": "pkg:maven/org.netbeans.external/org-apache-commons-lang@RELEASE112?uuid=aecc7507-f8cc-4dfa-8031-b7c64f77aa33",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.netbeans.external/org-apache-commons-lang@RELEASE112",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/netbeans/external/org-apache-commons-lang/RELEASE112/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/netbeans/external/org-apache-commons-lang/RELEASE112/org-apache-commons-lang-RELEASE112.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/netbeans/external/org-apache-commons-lang/RELEASE112/org-apache-commons-lang-RELEASE112.pom",
+    "file_references": []
+}

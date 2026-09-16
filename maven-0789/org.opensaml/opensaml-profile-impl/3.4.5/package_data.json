@@ -1,0 +1,200 @@
+{
+    "type": "maven",
+    "namespace": "org.opensaml",
+    "name": "opensaml-profile-impl",
+    "version": "3.4.5",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "35d2a9b8-e1c7-4414-8bf1-48c133c7329a",
+            "packages": [
+                "pkg:maven/org.opensaml/opensaml-profile-impl@3.4.5?uuid=da6d9366-aeea-456d-8ae3-2b7955290adb",
+                "pkg:maven/org.opensaml/opensaml-profile-impl@3.4.5?classifier=sources&uuid=33fde9f0-a7e3-4dbd-ac17-68408e27bef7"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "OpenSAML :: Profile Implementations\nProfile Implementations",
+    "release_date": "2020-03-18T16:55:23Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Ian Young",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Chad La Joie",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Brent Putman",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Rod Widdowson",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Scott Cantor",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Daniel Fisher",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Nathan Klingenstein",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Shibboleth Consortium",
+            "email": null,
+            "url": "https://shibboleth.net"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://shibboleth.net/",
+    "download_url": "https://repo1.maven.org/maven2/org/opensaml/opensaml-profile-impl/3.4.5/opensaml-profile-impl-3.4.5-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "2412268d89fb1422fcf4901d1cf787033d387fff",
+    "sha256": "05a601cfebecd0a3b857718771ab97194f82f95a32399f98c41e4d7d7efe8441",
+    "sha512": "b44d1baaaa40916a3392cc89ff55ebca6284e17eb26435a0f4d3d5f68720f27130b3f681a51897a5bb09073c338786b1761e12e8b6b4b6cd219f7265e91463ca",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.opensaml/opensaml-profile-impl@3.4.5?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/net.shibboleth/parent@7.11.0",
+            "Field `homepage_url` has been updated using values obtained from the parent POM pkg:maven/net.shibboleth/parent@7.11.0",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/net.shibboleth/parent@7.11.0"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.opensaml/opensaml-profile-api@3.4.5",
+            "extracted_requirement": "3.4.5",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.opensaml/opensaml-messaging-api@3.4.5",
+            "extracted_requirement": "3.4.5",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.opensaml/opensaml-xmlsec-api@3.4.5",
+            "extracted_requirement": "3.4.5",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.opensaml/opensaml-xmlsec-impl@3.4.5",
+            "extracted_requirement": "3.4.5",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/javax.servlet/javax.servlet-api",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.opensaml/opensaml-core@3.4.5",
+            "extracted_requirement": "3.4.5",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.opensaml/opensaml-profile-api@3.4.5",
+            "extracted_requirement": "3.4.5",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/%24%7Bspring.groupId%7D/spring-core",
+            "extracted_requirement": "${spring.version}",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/%24%7Bspring.groupId%7D/spring-test",
+            "extracted_requirement": "${spring.version}",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/%24%7Bspring.groupId%7D/spring-web",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.opensaml/opensaml-profile-impl@3.4.5?classifier=sources&uuid=33fde9f0-a7e3-4dbd-ac17-68408e27bef7",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.opensaml/opensaml-profile-impl@3.4.5?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/opensaml/opensaml-profile-impl/3.4.5/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/opensaml/opensaml-profile-impl/3.4.5/opensaml-profile-impl-3.4.5-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/opensaml/opensaml-profile-impl/3.4.5/opensaml-profile-impl-3.4.5.pom",
+    "file_references": []
+}

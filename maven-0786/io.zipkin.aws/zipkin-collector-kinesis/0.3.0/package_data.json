@@ -1,0 +1,80 @@
+{
+    "type": "maven",
+    "namespace": "io.zipkin.aws",
+    "name": "zipkin-collector-kinesis",
+    "version": "0.3.0",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Zipkin Collector: AWS Kinesis",
+    "release_date": "2017-05-17T03:27:50Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/io/zipkin/aws/zipkin-collector-kinesis/0.3.0/zipkin-collector-kinesis-0.3.0.jar",
+    "size": 7414,
+    "md5": null,
+    "sha1": "9495fff6d2890eae75d579a6f89b7a2e5d1357d5",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.zipkin.aws/zipkin-collector-kinesis@0.3.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/io.zipkin.java/zipkin",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.amazonaws/amazon-kinesis-client",
+            "extracted_requirement": "1.7.3",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.awaitility/awaitility",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.zipkin.aws/zipkin-aws-junit",
+            "extracted_requirement": "0.3.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/io.zipkin.aws/zipkin-collector-kinesis@0.3.0?uuid=dd6981fd-1654-492c-901e-0eafa2ff9790",
+    "datasource_id": null,
+    "purl": "pkg:maven/io.zipkin.aws/zipkin-collector-kinesis@0.3.0",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/io/zipkin/aws/zipkin-collector-kinesis/0.3.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/io/zipkin/aws/zipkin-collector-kinesis/0.3.0/zipkin-collector-kinesis-0.3.0.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/io/zipkin/aws/zipkin-collector-kinesis/0.3.0/zipkin-collector-kinesis-0.3.0.pom",
+    "file_references": []
+}

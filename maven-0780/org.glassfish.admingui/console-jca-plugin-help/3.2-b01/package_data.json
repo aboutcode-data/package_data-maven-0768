@@ -1,0 +1,70 @@
+{
+    "type": "maven",
+    "namespace": "org.glassfish.admingui",
+    "name": "console-jca-plugin-help",
+    "version": "3.2-b01",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "bc0dc1ff-868e-4519-b305-2fc5a6df3f65",
+            "packages": [
+                "pkg:maven/org.glassfish.admingui/console-jca-plugin-help@3.2-b01?uuid=b4597264-9abc-4ee5-a4d0-7ab2e444a797",
+                "pkg:maven/org.glassfish.admingui/console-jca-plugin-help@3.2-b01?classifier=sources&uuid=aa71ea6d-15ba-4595-bd7a-1b73a30ba91d"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Administration Console Connectors Help Content\nOnline help content for the console-jca-plugin bundle.",
+    "release_date": "2011-06-16T19:00:33Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Paul Davies",
+            "email": null,
+            "url": "http://blogs.sun.com/techscribe"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Kim Haase",
+            "email": null,
+            "url": "http://blogs.sun.com/appserverwriters"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/glassfish/admingui/console-jca-plugin-help/3.2-b01/console-jca-plugin-help-3.2-b01-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "dc691734960f8b9908bb693a945ec5ffb4d08b8a",
+    "sha256": "ae2a489b7bf1adea6af5b5c700df972c91be518686d69203d53583f83e06d96e",
+    "sha512": "b33b4c9845f730d631e8eae65a205d8032aeb7dcf67378684eeb6404e2dc6bdaee1c1a3277a6f311ffcfc4678ce0d651a18d2da9c0829c64b3b8b2cf4ab85032",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": "apache-2.0 AND generic-trademark AND proprietary-license",
+    "other_license_expression_spdx": "Apache-2.0 AND LicenseRef-scancode-generic-trademark AND LicenseRef-scancode-proprietary-license",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.glassfish.admingui/console-jca-plugin-help@3.2-b01?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [],
+    "package_uid": "pkg:maven/org.glassfish.admingui/console-jca-plugin-help@3.2-b01?classifier=sources&uuid=aa71ea6d-15ba-4595-bd7a-1b73a30ba91d",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.glassfish.admingui/console-jca-plugin-help@3.2-b01?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/glassfish/admingui/console-jca-plugin-help/3.2-b01/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/glassfish/admingui/console-jca-plugin-help/3.2-b01/console-jca-plugin-help-3.2-b01-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/glassfish/admingui/console-jca-plugin-help/3.2-b01/console-jca-plugin-help-3.2-b01.pom",
+    "file_references": []
+}

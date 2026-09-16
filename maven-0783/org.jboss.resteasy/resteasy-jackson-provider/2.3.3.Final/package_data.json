@@ -1,0 +1,164 @@
+{
+    "type": "maven",
+    "namespace": "org.jboss.resteasy",
+    "name": "resteasy-jackson-provider",
+    "version": "2.3.3.Final",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "7c9e3b9d-f18f-45c7-859d-b519f041432c",
+            "packages": [
+                "pkg:maven/org.jboss.resteasy/resteasy-jackson-provider@2.3.3.Final?uuid=2c908730-de9a-45b6-baf1-f67cf46a6fb0",
+                "pkg:maven/org.jboss.resteasy/resteasy-jackson-provider@2.3.3.Final?classifier=sources&uuid=90faaa85-9028-4a9a-bdfd-16cbedcbed5d"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Resteasy Jackson Provider",
+    "release_date": "2012-04-30T23:47:15Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Ryan J. McDonough",
+            "email": "ryan@damnhandy.com",
+            "url": "http://damnhandy.com"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Bill Burke",
+            "email": "bill@burkecentral.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Heiko Braun",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Martin Algesten",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://rest-easy.org",
+    "download_url": "https://repo1.maven.org/maven2/org/jboss/resteasy/resteasy-jackson-provider/2.3.3.Final/resteasy-jackson-provider-2.3.3.Final-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "d1dd506937148b0f56f13a7e19024c7640b48756",
+    "sha256": "2ac6a16e9c746ad805f9d6a2b7c90dac0900733f93f1eef59dc25f0e894ce4c1",
+    "sha512": "4ef90ab6de3d8915ad7ae1296829140f29b9ea7a2b8eb6e1e83a31196ea245b6785b0e1348fe320ab430b1c0bf823d09fdddb9795a73193dbdc45eef663e63ad",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.jboss.resteasy/resteasy-jackson-provider@2.3.3.Final?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.jboss.resteasy/resteasy-jaxrs-all@2.3.3.Final",
+            "Field `homepage_url` has been updated using values obtained from the parent POM pkg:maven/org.jboss.resteasy/resteasy-jaxrs-all@2.3.3.Final",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.jboss.resteasy/resteasy-jaxrs-all@2.3.3.Final"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.jboss.resteasy/resteasy-jaxrs@2.3.3.Final",
+            "extracted_requirement": "2.3.3.Final",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.jboss.resteasy/resteasy-jettison-provider@2.3.3.Final",
+            "extracted_requirement": "2.3.3.Final",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/javax.servlet/servlet-api",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.resteasy/tjws@2.3.3.Final",
+            "extracted_requirement": "2.3.3.Final",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.codehaus.jackson/jackson-core-asl",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.codehaus.jackson/jackson-mapper-asl",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.codehaus.jackson/jackson-jaxrs",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.codehaus.jackson/jackson-xc",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.jboss.resteasy/resteasy-jackson-provider@2.3.3.Final?classifier=sources&uuid=90faaa85-9028-4a9a-bdfd-16cbedcbed5d",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.jboss.resteasy/resteasy-jackson-provider@2.3.3.Final?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/jboss/resteasy/resteasy-jackson-provider/2.3.3.Final/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/jboss/resteasy/resteasy-jackson-provider/2.3.3.Final/resteasy-jackson-provider-2.3.3.Final-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/jboss/resteasy/resteasy-jackson-provider/2.3.3.Final/resteasy-jackson-provider-2.3.3.Final.pom",
+    "file_references": []
+}

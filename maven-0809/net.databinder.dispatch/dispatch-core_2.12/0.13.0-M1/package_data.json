@@ -1,0 +1,95 @@
+{
+    "type": "maven",
+    "namespace": "net.databinder.dispatch",
+    "name": "dispatch-core_2.12",
+    "version": "0.13.0-M1",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "dispatch-core\nCore Dispatch module wrapping async-http-client",
+    "release_date": "2017-05-27T13:14:10Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Nathan Hamblen",
+            "email": null,
+            "url": "http://twitter.com/n8han"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "net.databinder.dispatch",
+            "email": null,
+            "url": "http://dispatch.databinder.net/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://dispatch.databinder.net/",
+    "download_url": "https://repo1.maven.org/maven2/net/databinder/dispatch/dispatch-core_2.12/0.13.0-M1/dispatch-core_2.12-0.13.0-M1.jar",
+    "size": 178389,
+    "md5": null,
+    "sha1": "33daf3501c6f25ce49bf36facab3e3823d766188",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "lgpl-2.0-plus AND (gpl-1.0-plus AND lgpl-2.1-plus) AND unknown",
+    "declared_license_expression_spdx": "LGPL-2.0-or-later AND (GPL-1.0-or-later AND LGPL-2.1-or-later) AND LicenseRef-scancode-unknown",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "LGPL v3\nhttp://www.gnu.org/licenses/lgpl.txt",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/net.databinder.dispatch/dispatch-core_2.12@0.13.0-M1?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.scala-lang/scala-library",
+            "extracted_requirement": "2.12.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.scala-lang.modules/scala-xml_2.12",
+            "extracted_requirement": "1.0.6",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.asynchttpclient/async-http-client",
+            "extracted_requirement": "2.0.32",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/ufcheck/ufcheck_2.12",
+            "extracted_requirement": "0.1-SNAPSHOT",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/net.databinder.dispatch/dispatch-core_2.12@0.13.0-M1?uuid=a655e4b9-da87-4956-bacc-678a641a4c9c",
+    "datasource_id": null,
+    "purl": "pkg:maven/net.databinder.dispatch/dispatch-core_2.12@0.13.0-M1",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/net/databinder/dispatch/dispatch-core_2.12/0.13.0-M1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/net/databinder/dispatch/dispatch-core_2.12/0.13.0-M1/dispatch-core_2.12-0.13.0-M1.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/net/databinder/dispatch/dispatch-core_2.12/0.13.0-M1/dispatch-core_2.12-0.13.0-M1.pom",
+    "file_references": []
+}

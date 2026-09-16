@@ -1,0 +1,118 @@
+{
+    "type": "maven",
+    "namespace": "net.hydromatic",
+    "name": "eigenbase-properties",
+    "version": "1.1.5",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "0174ada8-f4c0-43ac-a958-234c0524bf44",
+            "packages": [
+                "pkg:maven/net.hydromatic/eigenbase-properties@1.1.5?uuid=0d7cd9e4-3825-44a5-a88b-26cfc2fb1596",
+                "pkg:maven/net.hydromatic/eigenbase-properties@1.1.5?classifier=sources&uuid=9b443892-3898-4fea-b5de-1a2aff3a90e0"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "eigenbase-properties\nType-safe access to Java system properties",
+    "release_date": "2015-03-06T01:28:49Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Julian Hyde",
+            "email": "jhyde@apache.org",
+            "url": "https://github.com/julianhyde"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Julian Hyde",
+            "email": null,
+            "url": "http://www.hydromatic.net"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://github.com/julianhyde/eigenbase-properties",
+    "download_url": "https://repo1.maven.org/maven2/net/hydromatic/eigenbase-properties/1.1.5/eigenbase-properties-1.1.5-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "d2ef6f3a0083a8746ba317695a411a232bb3db00",
+    "sha256": "c0d311ebd313673007b59e44b26daa899b0f03a4cedb892a16e5f97d66ef293b",
+    "sha512": "ed351338af094cc9a69f5a33d471dbaff5ca30ede32fc19c27c00b02f64e8f60025fe018ac685e17ec40a722052b111c3b1f8a12052e7efe99d64d9462d0c952",
+    "bug_tracking_url": "https://github.com/julianhyde/eigenbase-properties/issues",
+    "code_view_url": "scm:git:git://github.com/julianhyde/eigenbase-properties.git",
+    "vcs_url": "git://github.com/julianhyde/eigenbase-properties.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_48.RULE",
+                    "start_line": 1,
+                    "matched_text": "Apache License, Version 2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 5,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_48.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-428c1364-ecb5-f806-7a2e-77d10737a7ce",
+            "license_expression": "apache-2.0"
+        },
+        {
+            "matches": [
+                {
+                    "score": 80.0,
+                    "matcher": "1-hash",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_42.RULE",
+                    "start_line": 1,
+                    "matched_text": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 9,
+                    "rule_relevance": 80,
+                    "rule_identifier": "apache-2.0_42.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-e6b67d43-b657-21c0-8d8b-17f617aef8ce",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Apache License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt\n  comments:\n  distribution:\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/net.hydromatic/eigenbase-properties@1.1.5?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/junit/junit@4.11",
+            "extracted_requirement": "4.11",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/net.hydromatic/eigenbase-properties@1.1.5?classifier=sources&uuid=9b443892-3898-4fea-b5de-1a2aff3a90e0",
+    "datasource_id": null,
+    "purl": "pkg:maven/net.hydromatic/eigenbase-properties@1.1.5?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/net/hydromatic/eigenbase-properties/1.1.5/",
+    "repository_download_url": "https://repo1.maven.org/maven2/net/hydromatic/eigenbase-properties/1.1.5/eigenbase-properties-1.1.5-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/net/hydromatic/eigenbase-properties/1.1.5/eigenbase-properties-1.1.5.pom",
+    "file_references": []
+}

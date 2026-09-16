@@ -1,0 +1,104 @@
+{
+    "type": "maven",
+    "namespace": "dk.brics",
+    "name": "automaton",
+    "version": "1.12-1",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "9539d3ac-cf7c-4d86-8c91-4e1d3797ea65",
+            "packages": [
+                "pkg:maven/dk.brics/automaton@1.12-1?uuid=cc131628-6872-49c7-8ca8-fff68f47474b",
+                "pkg:maven/dk.brics/automaton@1.12-1?classifier=sources&uuid=4f52a220-2dc0-48e0-9638-322aab011f68"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "dk.brics.automaton\nThis package contains a full DFA/NFA implementation with Unicode\n    alphabet and support for all standard regular expression operations.",
+    "release_date": "2017-07-04T09:14:31Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Anders M\u00c3\u00b8ller",
+            "email": "amoeller@cs.au.dk",
+            "url": "http://cs.au.dk/~amoeller"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.brics.dk/automaton",
+    "download_url": "https://repo1.maven.org/maven2/dk/brics/automaton/1.12-1/automaton-1.12-1-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "0a7add82c2ef1811ad7deb1d2530eabdd436ff8d",
+    "sha256": "861956f2845f449949f92fc141171c4e41d4215e02f3264806e7b1b89d9c28c2",
+    "sha512": "3295df8efa515a4bb8b42c7629e41cc34eb9b0d10e146443e0a760ede263d93d36244362982afe469204eb09143fbfda2fba60931559e9dc555f6f8b959aeaad",
+    "bug_tracking_url": null,
+    "code_view_url": "https://github.com/cs-au-dk/dk.brics.automaton",
+    "vcs_url": "git://github.com/cs-au-dk/dk.brics.automaton.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "bsd-new",
+    "declared_license_expression_spdx": "BSD-3-Clause",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 99.0,
+                    "matcher": "1-hash",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/bsd-new_89.RULE",
+                    "start_line": 1,
+                    "matched_text": "license BSD",
+                    "match_coverage": 100.0,
+                    "matched_length": 2,
+                    "rule_relevance": 99,
+                    "rule_identifier": "bsd-new_89.RULE",
+                    "license_expression": "bsd-new"
+                }
+            ],
+            "identifier": "bsd_new-261898a0-0118-87c4-7092-14e4ff134882",
+            "license_expression": "bsd-new"
+        },
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/bsd-new_30.RULE",
+                    "start_line": 1,
+                    "matched_text": "http://www.opensource.org/licenses/bsd-license.php",
+                    "match_coverage": 100.0,
+                    "matched_length": 8,
+                    "rule_relevance": 100,
+                    "rule_identifier": "bsd-new_30.RULE",
+                    "license_expression": "bsd-new"
+                }
+            ],
+            "identifier": "bsd_new-ab7c4703-8fa7-2dfd-3201-6711c9cd7d94",
+            "license_expression": "bsd-new"
+        }
+    ],
+    "other_license_expression": "bsd-new",
+    "other_license_expression_spdx": "BSD-3-Clause",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: BSD\n  url: http://www.opensource.org/licenses/bsd-license.php\n  comments:\n  distribution:\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/dk.brics/automaton@1.12-1?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [],
+    "package_uid": "pkg:maven/dk.brics/automaton@1.12-1?classifier=sources&uuid=4f52a220-2dc0-48e0-9638-322aab011f68",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/dk.brics/automaton@1.12-1?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/dk/brics/automaton/1.12-1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/dk/brics/automaton/1.12-1/automaton-1.12-1-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/dk/brics/automaton/1.12-1/automaton-1.12-1.pom",
+    "file_references": []
+}

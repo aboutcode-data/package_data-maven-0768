@@ -1,0 +1,98 @@
+{
+    "type": "maven",
+    "namespace": "com.liferay",
+    "name": "com.liferay.portlet.configuration.web",
+    "version": "5.0.55",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "00108d36-b008-4550-8443-393b70b2672d",
+            "packages": [
+                "pkg:maven/com.liferay/com.liferay.portlet.configuration.web@5.0.55?uuid=f021b162-5d41-4846-a1f3-6c7c641e7bc0",
+                "pkg:maven/com.liferay/com.liferay.portlet.configuration.web@5.0.55?classifier=sources&uuid=71f40bff-f6d4-4ff8-ae9e-7e9fba8067f3"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Liferay Portlet Configuration Web",
+    "release_date": "2023-06-01T18:13:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Brian Wing Shun Chan",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.portlet.configuration.web/5.0.55/com.liferay.portlet.configuration.web-5.0.55-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "affc39e401c4de782b3bec7f64a100aff3afdaf3",
+    "sha256": "fb8287078544c08bfe1ceb8ce214173f37455f76034ec3c3e817e57d2afa16b1",
+    "sha512": "e64395d74eeb960bbdb7f63a096d8270b28861976ecd491939de4ac9f3684ae65447c937db6bf30ac29d48fc0ec6e846e367ea2ea1d010ba7aa6f12e813e6d10",
+    "bug_tracking_url": null,
+    "code_view_url": "http://github.com/liferay/liferay-portal",
+    "vcs_url": "git+https://github.com/liferay/liferay-portal.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "lgpl-2.1",
+    "declared_license_expression_spdx": "LGPL-2.1-only",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_85.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: LGPL 2.1",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_85.RULE",
+                    "license_expression": "lgpl-2.1"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_37.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 11,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_37.RULE",
+                    "license_expression": "lgpl-2.1"
+                }
+            ],
+            "identifier": "lgpl_2_1-6893cb1b-4cad-db8f-2133-a48bc107078b",
+            "license_expression": "lgpl-2.1"
+        }
+    ],
+    "other_license_expression": "lgpl-2.1-plus",
+    "other_license_expression_spdx": "LGPL-2.1-or-later",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: LGPL 2.1\n  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.liferay/com.liferay.portlet.configuration.web@5.0.55?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [],
+    "package_uid": "pkg:maven/com.liferay/com.liferay.portlet.configuration.web@5.0.55?classifier=sources&uuid=71f40bff-f6d4-4ff8-ae9e-7e9fba8067f3",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/com.liferay/com.liferay.portlet.configuration.web@5.0.55?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.portlet.configuration.web/5.0.55/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.portlet.configuration.web/5.0.55/com.liferay.portlet.configuration.web-5.0.55-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.portlet.configuration.web/5.0.55/com.liferay.portlet.configuration.web-5.0.55.pom",
+    "file_references": []
+}

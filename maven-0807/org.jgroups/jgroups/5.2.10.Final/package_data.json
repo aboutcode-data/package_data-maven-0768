@@ -1,0 +1,158 @@
+{
+    "type": "maven",
+    "namespace": "org.jgroups",
+    "name": "jgroups",
+    "version": "5.2.10.Final",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "7e964833-5f37-47bc-b0ad-63dd651ff448",
+            "packages": [
+                "pkg:maven/org.jgroups/jgroups@5.2.10.Final?uuid=ad87c657-26cc-45e7-ad01-b54fb0966c1a",
+                "pkg:maven/org.jgroups/jgroups@5.2.10.Final?classifier=sources&uuid=45fa7af3-d7c2-49fc-8960-eb0f14e354f0"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "JGroups\nReliable cluster communication toolkit",
+    "release_date": "2022-11-25T10:03:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Bela Ban",
+            "email": "belaban@gmail.com",
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "JBoss, a division of Red Hat",
+            "email": null,
+            "url": "http://www.jboss.org"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.jgroups.org",
+    "download_url": "https://repo1.maven.org/maven2/org/jgroups/jgroups/5.2.10.Final/jgroups-5.2.10.Final-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "1dc980b1e19ee6661a31773a2a588ec7a6c6bb64",
+    "sha256": "a2b524404b8bdb89536b2828ee48329ee59527e44838ca48d489df2bd0a01e36",
+    "sha512": "e95894a0c7a31fbe7cfb33708f612991c5c04c538e108da6a17c5d700470c044b64f58dc29e14fdc04724c1ac439a16780eafc714cce5f07e27dc9c8f3739bd0",
+    "bug_tracking_url": "https://issues.redhat.com/browse/JGRP",
+    "code_view_url": "https://github.com/belaban/JGroups",
+    "vcs_url": "git://github.com/belaban/JGroups.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 50.0,
+                    "matcher": "1-hash",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_3.RULE",
+                    "start_line": 1,
+                    "matched_text": "Apache License 2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 4,
+                    "rule_relevance": 50,
+                    "rule_identifier": "apache-2.0_3.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-f5c95478-417b-051d-2a73-0f3b1cc66568",
+            "license_expression": "apache-2.0"
+        },
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_20.RULE",
+                    "start_line": 1,
+                    "matched_text": "http://www.apache.org/licenses/LICENSE-2.0.html",
+                    "match_coverage": 100.0,
+                    "matched_length": 9,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_20.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-9a5226a4-0901-7d18-06ae-49c1887ecbd7",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": "cc-by-2.5 AND public-domain-disclaimer",
+    "other_license_expression_spdx": "CC-BY-2.5 AND LicenseRef-scancode-public-domain-disclaimer",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Apache License 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.html\n  comments:\n  distribution:\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.jgroups/jgroups@5.2.10.Final?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.logging.log4j/log4j-core@2.19.0",
+            "extracted_requirement": "2.19.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.logging.log4j/log4j-api@2.19.0",
+            "extracted_requirement": "2.19.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-api@2.0.3",
+            "extracted_requirement": "2.0.3",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.jboss.byteman/byteman-bmunit@4.0.20",
+            "extracted_requirement": "4.0.20",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.testng/testng@6.14.3",
+            "extracted_requirement": "6.14.3",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.wildfly.security/wildfly-elytron@2.0.0.Final",
+            "extracted_requirement": "2.0.0.Final",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.jgroups/jgroups@5.2.10.Final?classifier=sources&uuid=45fa7af3-d7c2-49fc-8960-eb0f14e354f0",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.jgroups/jgroups@5.2.10.Final?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

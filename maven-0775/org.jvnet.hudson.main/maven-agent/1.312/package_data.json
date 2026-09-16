@@ -1,0 +1,80 @@
+{
+    "type": "maven",
+    "namespace": "org.jvnet.hudson.main",
+    "name": "maven-agent",
+    "version": "1.312",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Hudson Maven CLI agent\nCode that boots up Maven2 with Hudson's remoting support in place.\n    Used for the native m2 support.",
+    "release_date": "2009-06-23T21:08:39Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/jvnet/hudson/main/maven-agent/1.312/maven-agent-1.312.jar",
+    "size": 8594,
+    "md5": null,
+    "sha1": "1c8539d9e52720109604633cb349de3ff17186df",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.jvnet.hudson.main/maven-agent@1.312?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.jvnet.hudson.main/maven-interceptor",
+            "extracted_requirement": "1.312",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/classworlds/classworlds",
+            "extracted_requirement": "1.1",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.maven/maven-core",
+            "extracted_requirement": "${maven.version}",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jvnet.hudson.main/remoting",
+            "extracted_requirement": "1.312",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.jvnet.hudson.main/maven-agent@1.312?uuid=71f6dab4-8069-494d-ba2f-914d94130c39",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.jvnet.hudson.main/maven-agent@1.312",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/jvnet/hudson/main/maven-agent/1.312/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/jvnet/hudson/main/maven-agent/1.312/maven-agent-1.312.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/jvnet/hudson/main/maven-agent/1.312/maven-agent-1.312.pom",
+    "file_references": []
+}

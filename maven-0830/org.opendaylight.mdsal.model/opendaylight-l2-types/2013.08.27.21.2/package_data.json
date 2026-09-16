@@ -1,0 +1,55 @@
+{
+    "type": "maven",
+    "namespace": "org.opendaylight.mdsal.model",
+    "name": "opendaylight-l2-types",
+    "version": "2013.08.27.21.2",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "c46efcff-107a-4a87-b200-7bbca3445467",
+            "packages": [
+                "pkg:maven/org.opendaylight.mdsal.model/opendaylight-l2-types@2013.08.27.21.2?uuid=146a537a-8941-4fca-ae78-34cfda905d40",
+                "pkg:maven/org.opendaylight.mdsal.model/opendaylight-l2-types@2013.08.27.21.2?classifier=sources&uuid=e0445162-cbc3-4c04-88d1-d46568870e51"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": null,
+    "release_date": "2022-04-14T08:13:00Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/opendaylight/mdsal/model/opendaylight-l2-types/2013.08.27.21.2/opendaylight-l2-types-2013.08.27.21.2-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "efd99274922070536cd0f24d0c49b63ea98a1f8f",
+    "sha256": "40ac8e7651a1e12912cea1f723edbd9a6ee92fed5bc14fe6ff87f4a79ca49214",
+    "sha512": "440fe73c25d19e1a5d050681b367922ee20da3c965aeea68168373202c38549782a8d0e83505faa5eecd87fdff7aa79743d03af8a7a197435af87c507fae4275",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) Cisco Systems, Inc. and others",
+    "holder": null,
+    "declared_license_expression": "epl-1.0",
+    "declared_license_expression_spdx": "EPL-1.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.opendaylight.mdsal.model/opendaylight-l2-types@2013.08.27.21.2?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [],
+    "package_uid": "pkg:maven/org.opendaylight.mdsal.model/opendaylight-l2-types@2013.08.27.21.2?classifier=sources&uuid=e0445162-cbc3-4c04-88d1-d46568870e51",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.opendaylight.mdsal.model/opendaylight-l2-types@2013.08.27.21.2?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

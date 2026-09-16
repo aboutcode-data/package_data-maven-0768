@@ -1,0 +1,62 @@
+{
+    "type": "maven",
+    "namespace": "com.unboundid",
+    "name": "unboundid-ldapsdk-commercial-edition",
+    "version": "3.1.1",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "UnboundID LDAP SDK for Java Commercial Edition\nThe UnboundID LDAP SDK for Java is a fast, comprehensive, and easy-to-use\n      Java API for communicating with LDAP directory servers and performing\n      related tasks like reading and writing LDIF, encoding and decoding data\n      using base64 and ASN.1 BER, and performing secure communication.  This\n      package contains the Commercial Edition of the LDAP SDK, which includes\n      all of the general-purpose functionality contained in the Standard\n      Edition, plus additional functionality specific to UnboundID server\n      products.",
+    "release_date": "2016-03-25T16:22:08Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Neil Wilson",
+            "email": "neil.wilson@unboundid.com",
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "UnboundID Corp.",
+            "email": null,
+            "url": "http://www.unboundid.com"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://www.ldap.com/unboundid-ldap-sdk-for-java",
+    "download_url": "https://repo1.maven.org/maven2/com/unboundid/unboundid-ldapsdk-commercial-edition/3.1.1/unboundid-ldapsdk-commercial-edition-3.1.1.jar",
+    "size": 2921904,
+    "md5": null,
+    "sha1": "0bfc44c5fabd56a3e9bb4a60e2f40d17f9592d7a",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "gpl-2.0 AND gpl-2.0 AND gpl-2.0 AND lgpl-2.1 AND lgpl-2.1 AND unknown",
+    "declared_license_expression_spdx": "GPL-2.0-only AND GPL-2.0-only AND GPL-2.0-only AND LGPL-2.1-only AND LGPL-2.1-only AND LicenseRef-scancode-unknown",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "GNU General Public License version 2 (GPLv2)\nhttp://www.gnu.org/licenses/gpl-2.0.html\nGNU Lesser General Public License version 2.1 (LGPLv2.1)\nhttp://www.gnu.org/licenses/lgpl-2.1.html\nUnboundID LDAP SDK Free Use License\nhttps://docs.ldap.com/ldap-sdk/docs/LICENSE-UnboundID-LDAPSDK.txt\nThis license is available from the UnboundID website.",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.unboundid/unboundid-ldapsdk-commercial-edition@3.1.1?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [],
+    "package_uid": "pkg:maven/com.unboundid/unboundid-ldapsdk-commercial-edition@3.1.1?uuid=28bc7f56-f1e1-4833-b7ad-0a687a97a30d",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.unboundid/unboundid-ldapsdk-commercial-edition@3.1.1",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/unboundid/unboundid-ldapsdk-commercial-edition/3.1.1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/unboundid/unboundid-ldapsdk-commercial-edition/3.1.1/unboundid-ldapsdk-commercial-edition-3.1.1.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/unboundid/unboundid-ldapsdk-commercial-edition/3.1.1/unboundid-ldapsdk-commercial-edition-3.1.1.pom",
+    "file_references": []
+}

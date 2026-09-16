@@ -1,0 +1,107 @@
+{
+    "type": "maven",
+    "namespace": "com.liferay",
+    "name": "com.ibm.icu4j",
+    "version": "54.1.1.LIFERAY-PATCHED-2",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "329d5b65-3fb2-4f70-8cb0-ecf97b15c165",
+            "packages": [
+                "pkg:maven/com.liferay/com.ibm.icu4j@54.1.1.LIFERAY-PATCHED-2?uuid=f7a8db6f-8a90-43c1-a528-8bb97cf91600",
+                "pkg:maven/com.liferay/com.ibm.icu4j@54.1.1.LIFERAY-PATCHED-2?classifier=sources&uuid=022823c5-5031-4a5b-842f-64eb1b9478d2"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": null,
+    "release_date": "2017-04-17T16:42:17Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Brian Wing Shun Chan",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/com/liferay/com.ibm.icu4j/54.1.1.LIFERAY-PATCHED-2/com.ibm.icu4j-54.1.1.LIFERAY-PATCHED-2-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "02a46a6ad7db3a267a478e3b5d045b17845694e9",
+    "sha256": "cbffb7dbc952fcfd73580cc5a3b5d35479894f543f6fa77137a854275cca0c06",
+    "sha512": "940883a86f08422a0ff42c57aa1586e4b23aabb8a8ec3ff7526ec7fd680e1492b1ff153b23539b4c40ead385b17cea83f2026e4d8840ad4664f01db1fc6cb24a",
+    "bug_tracking_url": null,
+    "code_view_url": "http://github.com/liferay/liferay-plugins",
+    "vcs_url": "git+https://github.com/liferay/liferay-plugins.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "lgpl-2.1",
+    "declared_license_expression_spdx": "LGPL-2.1-only",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_85.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: LGPL 2.1",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_85.RULE",
+                    "license_expression": "lgpl-2.1"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_37.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 11,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_37.RULE",
+                    "license_expression": "lgpl-2.1"
+                }
+            ],
+            "identifier": "lgpl_2_1-6893cb1b-4cad-db8f-2133-a48bc107078b",
+            "license_expression": "lgpl-2.1"
+        }
+    ],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: LGPL 2.1\n  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.liferay/com.ibm.icu4j@54.1.1.LIFERAY-PATCHED-2?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.ibm.icu/icu4j@54.1.1",
+            "extracted_requirement": "54.1.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/com.liferay/com.ibm.icu4j@54.1.1.LIFERAY-PATCHED-2?classifier=sources&uuid=022823c5-5031-4a5b-842f-64eb1b9478d2",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/com.liferay/com.ibm.icu4j@54.1.1.LIFERAY-PATCHED-2?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/liferay/com.ibm.icu4j/54.1.1.LIFERAY-PATCHED-2/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/liferay/com.ibm.icu4j/54.1.1.LIFERAY-PATCHED-2/com.ibm.icu4j-54.1.1.LIFERAY-PATCHED-2-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/liferay/com.ibm.icu4j/54.1.1.LIFERAY-PATCHED-2/com.ibm.icu4j-54.1.1.LIFERAY-PATCHED-2.pom",
+    "file_references": []
+}

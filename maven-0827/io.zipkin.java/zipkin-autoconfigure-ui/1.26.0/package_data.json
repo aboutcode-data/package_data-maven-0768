@@ -1,0 +1,72 @@
+{
+    "type": "maven",
+    "namespace": "io.zipkin.java",
+    "name": "zipkin-autoconfigure-ui",
+    "version": "1.26.0",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Auto Configuration: Ui",
+    "release_date": "2017-05-17T09:54:42Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/io/zipkin/java/zipkin-autoconfigure-ui/1.26.0/zipkin-autoconfigure-ui-1.26.0.jar",
+    "size": 6431,
+    "md5": null,
+    "sha1": "748a5e05ae2138979578be42a146977ad7fabcac",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.zipkin.java/zipkin-autoconfigure-ui@1.26.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.springframework.boot/spring-boot-dependencies",
+            "extracted_requirement": "${spring-boot.version}",
+            "scope": "import",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.springframework.boot/spring-boot-starter-web",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.zipkin.java/zipkin-ui",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/io.zipkin.java/zipkin-autoconfigure-ui@1.26.0?uuid=74d57937-ade8-45db-aff9-3816e94bcfc3",
+    "datasource_id": null,
+    "purl": "pkg:maven/io.zipkin.java/zipkin-autoconfigure-ui@1.26.0",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/io/zipkin/java/zipkin-autoconfigure-ui/1.26.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/io/zipkin/java/zipkin-autoconfigure-ui/1.26.0/zipkin-autoconfigure-ui-1.26.0.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/io/zipkin/java/zipkin-autoconfigure-ui/1.26.0/zipkin-autoconfigure-ui-1.26.0.pom",
+    "file_references": []
+}

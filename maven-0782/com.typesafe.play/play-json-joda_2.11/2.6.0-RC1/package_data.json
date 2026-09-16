@@ -1,0 +1,95 @@
+{
+    "type": "maven",
+    "namespace": "com.typesafe.play",
+    "name": "play-json-joda_2.11",
+    "version": "2.6.0-RC1",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "play-json-joda",
+    "release_date": "2017-05-19T03:49:22Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Play Framework Team",
+            "email": null,
+            "url": "https://github.com/playframework"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "com.typesafe.play",
+            "email": null,
+            "url": "https://github.com/playframework/play-json"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/playframework/play-json",
+    "download_url": "https://repo1.maven.org/maven2/com/typesafe/play/play-json-joda_2.11/2.6.0-RC1/play-json-joda_2.11-2.6.0-RC1.jar",
+    "size": 28889,
+    "md5": null,
+    "sha1": "c76b0778bb222f2d0f5c852951f2af07ad1fc2a5",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0 AND apache-2.0 AND unknown",
+    "declared_license_expression_spdx": "Apache-2.0 AND Apache-2.0 AND LicenseRef-scancode-unknown",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "Apache-2.0\nhttp://www.apache.org/licenses/LICENSE-2.0.html",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.typesafe.play/play-json-joda_2.11@2.6.0-RC1?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.scala-lang/scala-library",
+            "extracted_requirement": "2.11.11",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.typesafe.play/play-json_2.11",
+            "extracted_requirement": "2.6.0-RC1",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/joda-time/joda-time",
+            "extracted_requirement": "2.9.9",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.specs2/specs2-core_2.11",
+            "extracted_requirement": "3.8.9",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/com.typesafe.play/play-json-joda_2.11@2.6.0-RC1?uuid=bf807994-1325-4c52-87da-3bff79821cac",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.typesafe.play/play-json-joda_2.11@2.6.0-RC1",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/typesafe/play/play-json-joda_2.11/2.6.0-RC1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/typesafe/play/play-json-joda_2.11/2.6.0-RC1/play-json-joda_2.11-2.6.0-RC1.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/typesafe/play/play-json-joda_2.11/2.6.0-RC1/play-json-joda_2.11-2.6.0-RC1.pom",
+    "file_references": []
+}

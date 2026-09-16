@@ -1,0 +1,80 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.hadoop",
+    "name": "hadoop-mapreduce-client-shuffle",
+    "version": "3.0.0-alpha3",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Apache Hadoop MapReduce Shuffle",
+    "release_date": "2017-05-26T20:42:54Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-shuffle/3.0.0-alpha3/hadoop-mapreduce-client-shuffle-3.0.0-alpha3.jar",
+    "size": 95722,
+    "md5": null,
+    "sha1": "cf7dc3060bad4294b39d4dd48ab2e5e36b4c9a75",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.hadoop/hadoop-mapreduce-client-shuffle@3.0.0-alpha3?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.hadoop/hadoop-yarn-server-common",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.hadoop/hadoop-yarn-server-nodemanager",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.hadoop/hadoop-mapreduce-client-common",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.fusesource.leveldbjni/leveldbjni-all",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.hadoop/hadoop-mapreduce-client-shuffle@3.0.0-alpha3?uuid=66c6268f-eb6b-4a67-b168-293596ed757c",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.apache.hadoop/hadoop-mapreduce-client-shuffle@3.0.0-alpha3",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-shuffle/3.0.0-alpha3/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-shuffle/3.0.0-alpha3/hadoop-mapreduce-client-shuffle-3.0.0-alpha3.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-shuffle/3.0.0-alpha3/hadoop-mapreduce-client-shuffle-3.0.0-alpha3.pom",
+    "file_references": []
+}

@@ -1,0 +1,231 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.cxf",
+    "name": "cxf-rt-rs-client",
+    "version": "3.2.5",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "e7f961ea-cec5-42ff-93b7-0ec1e7d926af",
+            "packages": [
+                "pkg:maven/org.apache.cxf/cxf-rt-rs-client@3.2.5?uuid=979d7e76-5da6-4a77-b11c-c86a3272a026",
+                "pkg:maven/org.apache.cxf/cxf-rt-rs-client@3.2.5?classifier=sources&uuid=c110d82a-1991-4c49-9650-7db677473040"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Apache CXF JAX-RS Client",
+    "release_date": "2018-06-18T20:47:10Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "The Apache CXF Team",
+            "email": "dev@cxf.apache.org",
+            "url": "http://cxf.apache.org"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "http://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://cxf.apache.org",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/cxf/cxf-rt-rs-client/3.2.5/cxf-rt-rs-client-3.2.5-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "247c2af69abca7fcaba50a9364a41d89955d009b",
+    "sha256": "776b785f4715cdedcf812c6d5debe4641f269d3f9cd87d0f45b7be7a6871ec9a",
+    "sha512": "aefaf01826c2ace15cf5246556add6604b663900f82c87aaccc6b1f656348a4e854052a523c55adac3c75a5c925f166d18c1b1621ee6da0b4402489b5760b9a8",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) The Apache Software Foundation",
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0 AND bsd-new AND (cddl-1.0 OR gpl-2.0 WITH classpath-exception-2.0) AND cddl-1.1 AND (gpl-2.0 WITH classpath-exception-2.0 OR cddl-1.1) AND gpl-2.0 WITH classpath-exception-2.0",
+    "other_license_expression_spdx": "Apache-2.0 AND BSD-3-Clause AND (CDDL-1.0 OR GPL-2.0-only WITH Classpath-exception-2.0) AND CDDL-1.1 AND (GPL-2.0-only WITH Classpath-exception-2.0 OR CDDL-1.1) AND GPL-2.0-only WITH Classpath-exception-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.cxf/cxf-rt-rs-client@3.2.5?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.aries.blueprint/org.apache.aries.blueprint.core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.osgi/org.osgi.core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.cxf/cxf-rt-transports-http@3.2.5",
+            "extracted_requirement": "3.2.5",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.cxf/cxf-core@3.2.5",
+            "extracted_requirement": "3.2.5",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.cxf/cxf-rt-frontend-jaxrs@3.2.5",
+            "extracted_requirement": "3.2.5",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.aries.blueprint/blueprint-parser",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.geronimo.specs/geronimo-jcache_1.0_spec@1.0-alpha-1",
+            "extracted_requirement": "1.0-alpha-1",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-core",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-context",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.cxf/cxf-rt-transports-local@3.2.5",
+            "extracted_requirement": "3.2.5",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.cxf/cxf-rt-features-logging@3.2.5",
+            "extracted_requirement": "3.2.5",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.easymock/easymock",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/cglib/cglib-nodep",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/%24%7Bcxf.servlet-api.group%7D/%24%7Bcxf.servlet-api.artifact%7D",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/jcl-over-slf4j",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-jdk14",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.cxf/cxf-rt-databinding-jaxb@3.2.5",
+            "extracted_requirement": "3.2.5",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.commons/commons-jcs-jcache@2.1",
+            "extracted_requirement": "2.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.awaitility/awaitility",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.cxf/cxf-rt-rs-client@3.2.5?classifier=sources&uuid=c110d82a-1991-4c49-9650-7db677473040",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.apache.cxf/cxf-rt-rs-client@3.2.5?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/cxf/cxf-rt-rs-client/3.2.5/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/cxf/cxf-rt-rs-client/3.2.5/cxf-rt-rs-client-3.2.5-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/cxf/cxf-rt-rs-client/3.2.5/cxf-rt-rs-client-3.2.5.pom",
+    "file_references": []
+}

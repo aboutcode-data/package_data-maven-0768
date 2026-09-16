@@ -1,0 +1,112 @@
+{
+    "type": "maven",
+    "namespace": "org.noggit",
+    "name": "noggit",
+    "version": "0.8",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "e73405b2-cee7-4a1f-85a1-efcaaaaf54ca",
+            "packages": [
+                "pkg:maven/org.noggit/noggit@0.8?uuid=4f8824e0-b2c6-45f8-a674-4e369b834b5e",
+                "pkg:maven/org.noggit/noggit@0.8?classifier=sources&uuid=b4fd5a5f-38ac-444e-9d75-002b26a9e374"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Noggit\nNoggit is the world's fastest streaming JSON parser for Java.",
+    "release_date": "2017-05-25T03:51:29Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Yonik Seeley",
+            "email": "yseeley@gmail.com",
+            "url": "https://github.com/yonik"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://github.com/yonik/noggit",
+    "download_url": "https://repo1.maven.org/maven2/org/noggit/noggit/0.8/noggit-0.8-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "5b56cc7f36ee1d2e2a6a50eabb1e32ff3ec2aca1",
+    "sha256": "f5398fe1996fd6c9730310345c806a3302fbdfcf32fcfa73781d7b085aae3dda",
+    "sha512": "71db708a43b923d3402165a1992655f47e74008000a3521e70d3ec1f5183b8c244c9bd5c65b956fb9b99da16450b9aedfa4b2dd6e5f00b29625a821918d9dce9",
+    "bug_tracking_url": null,
+    "code_view_url": "https://github.com/yonik/noggit.git",
+    "vcs_url": "git+https://github.com/yonik/noggit.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_48.RULE",
+                    "from_file": null,
+                    "start_line": 1,
+                    "matched_text": "- name: Apache License, Version 2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 5,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_48.RULE",
+                    "license_expression": "apache-2.0",
+                    "spdx_license_expression": "Apache-2.0"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_42.RULE",
+                    "from_file": null,
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.apache.org/licenses/LICENSE-2.0.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 9,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_42.RULE",
+                    "license_expression": "apache-2.0",
+                    "spdx_license_expression": "Apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-efc1b129-3bcc-a9c0-71ea-964bc53d5512",
+            "license_expression": "apache-2.0",
+            "license_expression_spdx": "Apache-2.0"
+        }
+    ],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Apache License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.noggit/noggit@0.8?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/junit/junit@3.8.1",
+            "extracted_requirement": "3.8.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.noggit/noggit@0.8?classifier=sources&uuid=b4fd5a5f-38ac-444e-9d75-002b26a9e374",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.noggit/noggit@0.8?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/noggit/noggit/0.8/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/noggit/noggit/0.8/noggit-0.8-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/noggit/noggit/0.8/noggit-0.8.pom",
+    "file_references": []
+}

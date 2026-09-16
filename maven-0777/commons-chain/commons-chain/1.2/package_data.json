@@ -1,0 +1,167 @@
+{
+    "type": "maven",
+    "namespace": "commons-chain",
+    "name": "commons-chain",
+    "version": "1.2",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "a7e4e683-7637-4c25-97cc-8ab17d1d5f56",
+            "packages": [
+                "pkg:maven/commons-chain/commons-chain@1.2?uuid=8b1e13fb-4dfe-40f7-937a-bb2e8de32a21",
+                "pkg:maven/commons-chain/commons-chain@1.2?classifier=sources&uuid=9790ef84-05f7-4f3b-9a07-05f3bf3144f3"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Commons Chain\nAn implementation of the GoF Chain of Responsibility pattern",
+    "release_date": "2008-05-29T17:46:46Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Craig McClanahan",
+            "email": "craigmcc at apache.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Ted Husted",
+            "email": "husted at apache.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Martin Cooper",
+            "email": "martinc at apache.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Don Brown",
+            "email": "mrdon at apache.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "James Mitchell",
+            "email": "jmitchell at apache.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Joe Germuska",
+            "email": "germuska at apache.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Niall Pemberton",
+            "email": "niallp at apache.org",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://commons.apache.org/chain/",
+    "download_url": "https://repo1.maven.org/maven2/commons-chain/commons-chain/1.2/commons-chain-1.2-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "4426e62ce0be6af2fded124b67c5d07a9eb5a2f8",
+    "sha256": "6049e8830fa2ed388e5966fa346e0bc3914a6428993893ea9212d853efea6975",
+    "sha512": "dac42021db9fdcb4faab980376017441f3041e96a7a93ccfc002e5d7597797d92875d7357248b0573f54092520b2ac064f5dfcb784997c13236f2a16ac5e10f8",
+    "bug_tracking_url": "http://issues.apache.org/jira/browse/CHAIN",
+    "code_view_url": "http://svn.apache.org/viewvc/commons/proper/chain/trunk/",
+    "vcs_url": "svn+http://svn.apache.org/repos/asf/commons/proper/chain/trunk/",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/commons-chain/commons-chain@1.2?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@4"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/commons-beanutils/commons-beanutils@1.7.0",
+            "extracted_requirement": "1.7.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/commons-digester/commons-digester@1.8",
+            "extracted_requirement": "1.8",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/commons-logging/commons-logging@1.1.1",
+            "extracted_requirement": "1.1.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/javax.servlet/servlet-api@2.3",
+            "extracted_requirement": "2.3",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/javax.portlet/portlet-api@1.0",
+            "extracted_requirement": "1.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/myfaces/myfaces-api@1.1.0",
+            "extracted_requirement": "1.1.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit@3.8.1",
+            "extracted_requirement": "3.8.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/commons-chain/commons-chain@1.2?classifier=sources&uuid=9790ef84-05f7-4f3b-9a07-05f3bf3144f3",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/commons-chain/commons-chain@1.2?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/commons-chain/commons-chain/1.2/",
+    "repository_download_url": "https://repo1.maven.org/maven2/commons-chain/commons-chain/1.2/commons-chain-1.2-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/commons-chain/commons-chain/1.2/commons-chain-1.2.pom",
+    "file_references": []
+}

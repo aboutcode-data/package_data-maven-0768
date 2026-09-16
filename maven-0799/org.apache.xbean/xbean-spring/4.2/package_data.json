@@ -1,0 +1,119 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.xbean",
+    "name": "xbean-spring",
+    "version": "4.2",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "369ed56e-5ff5-47e7-a5ee-1f5313bbce26",
+            "packages": [
+                "pkg:maven/org.apache.xbean/xbean-spring@4.2?uuid=a1caacaa-64ee-4537-aaf3-8364c642489b",
+                "pkg:maven/org.apache.xbean/xbean-spring@4.2?classifier=sources&uuid=65a420d7-824a-4046-84d7-e83866ae51e6"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Apache XBean :: Spring\nxbean-spring provides a schema-driven proprietary namespace handler for spring contexts",
+    "release_date": "2015-03-25T10:15:50Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "http://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.apache.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/xbean/xbean-spring/4.2/xbean-spring-4.2-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "182417c14cd8981c1596e237fac2a0acb926ac7b",
+    "sha256": "20d661af363381507891773cd838b8cee36756c9215819de98734b8b801f1484",
+    "sha512": "0eaa68901e694ae841566c6edd260a759ae2aee07f0cf953731a499c92a9a119cb7ad7621eeaac3c87bc3c974776d20891ebed1ad33d182336c2c164e95e54d5",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.xbean/xbean-spring@4.2?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@13",
+            "Field `homepage_url` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@13",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@13"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/commons-logging/commons-logging",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-web",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.thoughtworks.qdox/qdox",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/ant/ant",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-beans",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-context",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.xbean/xbean-spring@4.2?classifier=sources&uuid=65a420d7-824a-4046-84d7-e83866ae51e6",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.apache.xbean/xbean-spring@4.2?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/xbean/xbean-spring/4.2/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/xbean/xbean-spring/4.2/xbean-spring-4.2-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/xbean/xbean-spring/4.2/xbean-spring-4.2.pom",
+    "file_references": []
+}

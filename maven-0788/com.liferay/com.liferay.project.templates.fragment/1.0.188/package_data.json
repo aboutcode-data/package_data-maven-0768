@@ -1,0 +1,96 @@
+{
+    "type": "maven",
+    "namespace": "com.liferay",
+    "name": "com.liferay.project.templates.fragment",
+    "version": "1.0.188",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "e7e5544d-def7-4404-b84f-5aea9248ff81",
+            "packages": [
+                "pkg:maven/com.liferay/com.liferay.project.templates.fragment@1.0.188?uuid=1e8881b2-79cf-4e80-ae74-27639dd7505f",
+                "pkg:maven/com.liferay/com.liferay.project.templates.fragment@1.0.188?classifier=sources&uuid=9b4825a3-57c0-448b-9b54-6ea30f104421"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Creates a Liferay fragment module project that customizes existing Liferay modules.",
+    "release_date": null,
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Brian Wing Shun Chan",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.project.templates.fragment/1.0.188/com.liferay.project.templates.fragment-1.0.188-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "067a9f26b4c59087d0e10834241f07f60c480fcf",
+    "sha256": "f25423c741b87d068cfdf7b1b7d9295bf6fa0f36fda0d91feb9840dc3143a217",
+    "sha512": "075c6c3da564feb8be5285b56ffbdaf727604221c3b3cbd90e0f484d0bce9f28bf1bf80a50194aacceca78d27d30a8499da5728c7cdeeea1be0f7865b9e93753",
+    "bug_tracking_url": null,
+    "code_view_url": "http://github.com/liferay/liferay-portal",
+    "vcs_url": "git+https://github.com/liferay/liferay-portal.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "lgpl-2.1",
+    "declared_license_expression_spdx": "LGPL-2.1-only",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_85.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: LGPL 2.1",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_85.RULE",
+                    "license_expression": "lgpl-2.1"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_37.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 11,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_37.RULE",
+                    "license_expression": "lgpl-2.1"
+                }
+            ],
+            "identifier": "lgpl_2_1-6893cb1b-4cad-db8f-2133-a48bc107078b",
+            "license_expression": "lgpl-2.1"
+        }
+    ],
+    "other_license_expression": "lgpl-2.1-plus OR liferay-dxp-eula-2.0.0-2023-06",
+    "other_license_expression_spdx": "LGPL-2.1-or-later OR LicenseRef-Liferay-DXP-EULA-2.0.0-2023-06",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: LGPL 2.1\n  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.liferay/com.liferay.project.templates.fragment@1.0.188?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [],
+    "package_uid": "pkg:maven/com.liferay/com.liferay.project.templates.fragment@1.0.188?classifier=sources&uuid=9b4825a3-57c0-448b-9b54-6ea30f104421",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.liferay/com.liferay.project.templates.fragment@1.0.188?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

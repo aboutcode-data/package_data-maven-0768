@@ -1,0 +1,109 @@
+{
+    "type": "maven",
+    "namespace": "com.twelvemonkeys.imageio",
+    "name": "imageio-pict",
+    "version": "3.3.2",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "7ef23946-726c-43b2-a5db-bf001ff27103",
+            "packages": [
+                "pkg:maven/com.twelvemonkeys.imageio/imageio-pict@3.3.2?uuid=faaccf7a-0c60-439a-8657-2b843c7d6bd0",
+                "pkg:maven/com.twelvemonkeys.imageio/imageio-pict@3.3.2?classifier=sources&uuid=d336c505-f355-4028-b82e-ed6e6632b6d7"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "TwelveMonkeys :: ImageIO :: PICT plugin\nImageIO plugin for Apple Mac Paint Picture (PICT) format.",
+    "release_date": "2017-02-02T20:41:16Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Harald Kuhr",
+            "email": "harald.kuhr@gmail.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Erlend Hamnaberg",
+            "email": "erlend@hamnaberg.net",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Oliver Schmidtmer",
+            "email": "mail@trek7891.de",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Jason Palmer",
+            "email": "jpalmer@itemmaster.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Hermann Kroll",
+            "email": "dev.hkroll@gmail.com",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://nexus.sonatype.org/oss-repository-hosting.html",
+    "download_url": "https://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-pict/3.3.2/imageio-pict-3.3.2-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "1bd2550370fbbdcc95511ce3c7d25220b79313dc",
+    "sha256": "e5e7eb26d33bc23419a4fcaa207c323bed7293abffdce11df4052034f56d0c2e",
+    "sha512": "f8e8564ea306f0805eabcdb7d65689ae2c62f60eb066ab36c59eccc52cd97ed76f09bb260e32deec764d7b3f545709a936421b97fbda9f01e2f77c55958a161d",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "bsd-new",
+    "declared_license_expression_spdx": "BSD-3-Clause",
+    "license_detections": [],
+    "other_license_expression": "bsd-new",
+    "other_license_expression_spdx": "BSD-3-Clause",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.twelvemonkeys.imageio/imageio-pict@3.3.2?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.sonatype.oss/oss-parent@9",
+            "Field `homepage_url` has been updated using values obtained from the parent POM pkg:maven/org.sonatype.oss/oss-parent@9",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.sonatype.oss/oss-parent@9",
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/com.twelvemonkeys/twelvemonkeys@3.3.2",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/com.twelvemonkeys/twelvemonkeys@3.3.2"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.twelvemonkeys.imageio/imageio-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/com.twelvemonkeys.imageio/imageio-pict@3.3.2?classifier=sources&uuid=d336c505-f355-4028-b82e-ed6e6632b6d7",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/com.twelvemonkeys.imageio/imageio-pict@3.3.2?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-pict/3.3.2/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-pict/3.3.2/imageio-pict-3.3.2-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/twelvemonkeys/imageio/imageio-pict/3.3.2/imageio-pict-3.3.2.pom",
+    "file_references": []
+}

@@ -1,0 +1,70 @@
+{
+    "type": "maven",
+    "namespace": "ch.qos.cal10n",
+    "name": "cal10n-api",
+    "version": "0.8.1",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "39c73d31-f396-4d8b-9aa2-f3bcb694fb39",
+            "packages": [
+                "pkg:maven/ch.qos.cal10n/cal10n-api@0.8.1?uuid=b759c421-6cc6-4c26-bc5c-6ab43079b11f",
+                "pkg:maven/ch.qos.cal10n/cal10n-api@0.8.1?classifier=sources&uuid=058a1022-dfb4-4d0a-9db7-f2d965134b96"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Compiler assisted localization library (CAL10N) - API",
+    "release_date": "2013-04-13T13:07:20Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Ceki Gulcu",
+            "email": "ceki@qos.ch",
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "QOS.ch",
+            "email": null,
+            "url": "http://www.qos.ch"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://cal10n.qos.ch",
+    "download_url": "https://repo1.maven.org/maven2/ch/qos/cal10n/cal10n-api/0.8.1/cal10n-api-0.8.1-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "820729e98a180fc71939f806a426e8d005fb193e",
+    "sha256": "d0343194580289dc879d4cae27dad115a5bb120ad2b8128136727ac7b6804682",
+    "sha512": "b6bb8ee7744fb878da1968a6524fa2b95d55c55e0f5e7413e7afd854eae226050cd4209e7489ce4f1fae6f2adb501781048f75ddcb2ad8c6b69595ff053422a7",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "mit",
+    "declared_license_expression_spdx": "MIT",
+    "license_detections": [],
+    "other_license_expression": "mit",
+    "other_license_expression_spdx": "MIT",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/ch.qos.cal10n/cal10n-api@0.8.1?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [],
+    "package_uid": "pkg:maven/ch.qos.cal10n/cal10n-api@0.8.1?classifier=sources&uuid=058a1022-dfb4-4d0a-9db7-f2d965134b96",
+    "datasource_id": null,
+    "purl": "pkg:maven/ch.qos.cal10n/cal10n-api@0.8.1?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/ch/qos/cal10n/cal10n-api/0.8.1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/ch/qos/cal10n/cal10n-api/0.8.1/cal10n-api-0.8.1-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/ch/qos/cal10n/cal10n-api/0.8.1/cal10n-api-0.8.1.pom",
+    "file_references": []
+}

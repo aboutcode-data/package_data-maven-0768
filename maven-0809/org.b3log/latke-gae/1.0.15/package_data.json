@@ -1,0 +1,112 @@
+{
+    "type": "maven",
+    "namespace": "org.b3log",
+    "name": "latke-gae",
+    "version": "1.0.15",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Latke GAE\nLatke implementation for GAE.",
+    "release_date": "2014-07-18T04:26:11Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Liang Ding",
+            "email": "DL88250@gmail.com",
+            "url": "http://88250.b3log.org"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/b3log/latke-gae/1.0.15/latke-gae-1.0.15.jar",
+    "size": 31577,
+    "md5": null,
+    "sha1": "386835cf8459ea3535940974698e2f5cc2be4ba4",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.b3log/latke-gae@1.0.15?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/javax.servlet/servlet-api",
+            "extracted_requirement": "${servlet.version}",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.b3log/latke",
+            "extracted_requirement": "1.0.15",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.appengine/appengine-api-1.0-sdk",
+            "extracted_requirement": "1.7.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.testng/testng",
+            "extracted_requirement": "${testng.version}",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.appengine/appengine-api-labs",
+            "extracted_requirement": "1.7.2",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.appengine/appengine-api-stubs",
+            "extracted_requirement": "1.7.2",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.appengine/appengine-testing",
+            "extracted_requirement": "1.7.2",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.b3log/latke-gae@1.0.15?uuid=172fe819-bb58-4a6f-869d-ea6bf9e13fe3",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.b3log/latke-gae@1.0.15",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/b3log/latke-gae/1.0.15/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/b3log/latke-gae/1.0.15/latke-gae-1.0.15.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/b3log/latke-gae/1.0.15/latke-gae-1.0.15.pom",
+    "file_references": []
+}

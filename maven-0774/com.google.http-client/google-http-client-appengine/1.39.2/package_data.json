@@ -1,0 +1,119 @@
+{
+    "type": "maven",
+    "namespace": "com.google.http-client",
+    "name": "google-http-client-appengine",
+    "version": "1.39.2",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "7d7f7108-c78f-49cc-892d-6a1f410531b3",
+            "packages": [
+                "pkg:maven/com.google.http-client/google-http-client-appengine@1.39.2?uuid=0f829149-135b-4f93-b40c-12b1f1a4cf1d",
+                "pkg:maven/com.google.http-client/google-http-client-appengine@1.39.2?classifier=sources&uuid=918d7365-699d-4770-857a-9c836d2f7c16"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Google App Engine extensions to the Google HTTP Client Library for Java.",
+    "release_date": "2021-04-09T05:26:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Jeff Ching",
+            "email": "chingor@google.com",
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Google",
+            "email": null,
+            "url": "https://www.google.com/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/googleapis/google-http-java-client",
+    "download_url": "https://repo1.maven.org/maven2/com/google/http-client/google-http-client-appengine/1.39.2/google-http-client-appengine-1.39.2-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "3a9ddaecf00d5a6c40a5188bcd1b2bd365a03bf3",
+    "sha256": "19886f930139b518ad1eac4353734c20e7f9b2f9c955d9299f5d22fa0f530693",
+    "sha512": "c1e0fffc0e9f20c946681ed2d690edeedd5d32e42005165325f1452c098f9fe4c5356ef5c014eee464b86b4fc35351a8590cacafdbaffed8d5efff00e146eb04",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.google.http-client/google-http-client-appengine@1.39.2?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.google.http-client/google-http-client",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.http-client/google-http-client-test",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.appengine/appengine-testing",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.appengine/appengine-api-stubs",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.appengine/appengine-api-1.0-sdk",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/com.google.http-client/google-http-client-appengine@1.39.2?classifier=sources&uuid=918d7365-699d-4770-857a-9c836d2f7c16",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.google.http-client/google-http-client-appengine@1.39.2?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

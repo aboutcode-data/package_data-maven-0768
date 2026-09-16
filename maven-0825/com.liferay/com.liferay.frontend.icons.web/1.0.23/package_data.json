@@ -1,0 +1,98 @@
+{
+    "type": "maven",
+    "namespace": "com.liferay",
+    "name": "com.liferay.frontend.icons.web",
+    "version": "1.0.23",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "128c911b-2575-4ff7-ab77-56e50e8cfe17",
+            "packages": [
+                "pkg:maven/com.liferay/com.liferay.frontend.icons.web@1.0.23?uuid=acae8c65-52c1-444c-a65a-c013bbfe86b9",
+                "pkg:maven/com.liferay/com.liferay.frontend.icons.web@1.0.23?classifier=sources&uuid=ae552ac2-0d6b-48aa-90ec-12a4d199c207"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Liferay Frontend Icons Web",
+    "release_date": "2023-07-31T04:51:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Brian Wing Shun Chan",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.frontend.icons.web/1.0.23/com.liferay.frontend.icons.web-1.0.23-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "db850383a6910acf960687dad29034a7ae925237",
+    "sha256": "764078235a9f1930d80477628539a64d51146142a15c94aca3563d96cdfce7c7",
+    "sha512": "339d8d963cc7a12c9b0864a8123eeb3d8425d1236424d4ff1313654b42d0e3659368c9d1e9fb5b7d85b2a86ce0e681629e43d58fc2842b141fe23229617327a8",
+    "bug_tracking_url": null,
+    "code_view_url": "http://github.com/liferay/liferay-portal",
+    "vcs_url": "git+https://github.com/liferay/liferay-portal.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "lgpl-2.1",
+    "declared_license_expression_spdx": "LGPL-2.1-only",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_85.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: LGPL 2.1",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_85.RULE",
+                    "license_expression": "lgpl-2.1"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_37.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 11,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_37.RULE",
+                    "license_expression": "lgpl-2.1"
+                }
+            ],
+            "identifier": "lgpl_2_1-6893cb1b-4cad-db8f-2133-a48bc107078b",
+            "license_expression": "lgpl-2.1"
+        }
+    ],
+    "other_license_expression": "lgpl-2.1-plus OR unknown-spdx",
+    "other_license_expression_spdx": "LGPL-2.1-or-later OR LicenseRef-scancode-unknown-spdx",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: LGPL 2.1\n  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.liferay/com.liferay.frontend.icons.web@1.0.23?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [],
+    "package_uid": "pkg:maven/com.liferay/com.liferay.frontend.icons.web@1.0.23?classifier=sources&uuid=ae552ac2-0d6b-48aa-90ec-12a4d199c207",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/com.liferay/com.liferay.frontend.icons.web@1.0.23?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.frontend.icons.web/1.0.23/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.frontend.icons.web/1.0.23/com.liferay.frontend.icons.web-1.0.23-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.frontend.icons.web/1.0.23/com.liferay.frontend.icons.web-1.0.23.pom",
+    "file_references": []
+}

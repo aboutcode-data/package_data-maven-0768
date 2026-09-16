@@ -1,0 +1,64 @@
+{
+    "type": "maven",
+    "namespace": "org.jvnet",
+    "name": "tiger-types",
+    "version": "1.4",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "762b406b-5ae3-4b63-b039-5c9744767b95",
+            "packages": [
+                "pkg:maven/org.jvnet/tiger-types@1.4?uuid=00aff59a-86c2-43ec-af2f-7f8d2e6ef9ad",
+                "pkg:maven/org.jvnet/tiger-types@1.4?classifier=sources&uuid=be74da2c-2c3f-4894-9c98-5390c72da789"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Type arithmetic library for Java5",
+    "release_date": "2011-06-06T12:26:18Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": "http://java.net/",
+    "download_url": "https://repo1.maven.org/maven2/org/jvnet/tiger-types/1.4/tiger-types-1.4-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "3ee0fb831e883a546d7e678aa4fa8ffbce8e7d53",
+    "sha256": "5d18f899523423b0b20a4f987a021c60157aa41a9c88b6c7420f3a32eb9b218a",
+    "sha512": "9bc009a5427d564e2e64c762f205145cbc6e28dc398058ad8952cd8e700c7794a5493be73f7d34a02c0ba66b46e077e6ac9dd1e8a6edeb31cf3eee30b44839be",
+    "bug_tracking_url": null,
+    "code_view_url": "http://java.net/projects/tiger-types/sources/svn/show/tags/tiger-types-1.4",
+    "vcs_url": "svn+https://svn.java.net/svn/tiger-types~svn/tags/tiger-types-1.4",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": "cddl-1.1 OR gpl-2.0 WITH classpath-exception-2.0",
+    "other_license_expression_spdx": "CDDL-1.1 OR GPL-2.0-only WITH Classpath-exception-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.jvnet/tiger-types@1.4?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/junit/junit@3.8.1",
+            "extracted_requirement": "3.8.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.jvnet/tiger-types@1.4?classifier=sources&uuid=be74da2c-2c3f-4894-9c98-5390c72da789",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.jvnet/tiger-types@1.4?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/jvnet/tiger-types/1.4/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/jvnet/tiger-types/1.4/tiger-types-1.4-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/jvnet/tiger-types/1.4/tiger-types-1.4.pom",
+    "file_references": []
+}

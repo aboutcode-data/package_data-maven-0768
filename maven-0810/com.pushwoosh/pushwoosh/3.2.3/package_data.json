@@ -1,0 +1,69 @@
+{
+    "type": "maven",
+    "namespace": "com.pushwoosh",
+    "name": "pushwoosh",
+    "version": "3.2.3",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Pushwoosh\nPushwoosh push notifications SDK for Android",
+    "release_date": "2015-12-28T12:43:38Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Max Konev",
+            "email": "max@pushwoosh.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Blinov Alexander",
+            "email": "xanderblinov@gmail.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Shmakov Yuri",
+            "email": "shmakov@arello-mobile.com",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://www.pushwoosh.com/",
+    "download_url": "https://repo1.maven.org/maven2/com/pushwoosh/pushwoosh/3.2.3/pushwoosh-3.2.3.jar",
+    "size": 252336,
+    "md5": null,
+    "sha1": "bf6e89a1f018dd4cbcce36ce5ec8843a86c7bfd7",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "unknown",
+    "declared_license_expression_spdx": "LicenseRef-scancode-unknown",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "Pushwoosh License\nhttps://github.com/Pushwoosh/push-notifications-sdk/blob/master/LICENSE.txt",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.pushwoosh/pushwoosh@3.2.3?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [],
+    "package_uid": "pkg:maven/com.pushwoosh/pushwoosh@3.2.3?uuid=5c132037-81e9-4c21-aa59-0d2022c2a1a0",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.pushwoosh/pushwoosh@3.2.3",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/pushwoosh/pushwoosh/3.2.3/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/pushwoosh/pushwoosh/3.2.3/pushwoosh-3.2.3.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/pushwoosh/pushwoosh/3.2.3/pushwoosh-3.2.3.pom",
+    "file_references": []
+}

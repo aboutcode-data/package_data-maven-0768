@@ -1,0 +1,72 @@
+{
+    "type": "maven",
+    "namespace": "org.xtend",
+    "name": "xtend-gradle-plugin",
+    "version": "0.4.8",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "xtend-gradle-plugin\nA Gradle Plugin for building Xtend projects",
+    "release_date": "2015-08-13T08:11:28Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "The Xtext team",
+            "email": "xtext@itemis.com",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/xtext/xtend-gradle-plugin",
+    "download_url": "https://repo1.maven.org/maven2/org/xtend/xtend-gradle-plugin/0.4.8/xtend-gradle-plugin-0.4.8.jar",
+    "size": 49953,
+    "md5": null,
+    "sha1": "86d0760f77a57e2e054b33ac162c3576116996e0",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "epl-1.0 AND unknown",
+    "declared_license_expression_spdx": "EPL-1.0 AND LicenseRef-scancode-unknown",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "Eclipse Public License, Version 1.0\nhttp://opensource.org/licenses/EPL-1.0",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.xtend/xtend-gradle-plugin@0.4.8?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.eclipse.xtend/org.eclipse.xtend.lib",
+            "extracted_requirement": "2.7.3",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.core/org.eclipse.core.runtime",
+            "extracted_requirement": "3.7.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.xtend/xtend-gradle-plugin@0.4.8?uuid=4c12fb2d-f7d5-410c-8286-55c2e9e10828",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.xtend/xtend-gradle-plugin@0.4.8",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/xtend/xtend-gradle-plugin/0.4.8/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/xtend/xtend-gradle-plugin/0.4.8/xtend-gradle-plugin-0.4.8.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/xtend/xtend-gradle-plugin/0.4.8/xtend-gradle-plugin-0.4.8.pom",
+    "file_references": []
+}

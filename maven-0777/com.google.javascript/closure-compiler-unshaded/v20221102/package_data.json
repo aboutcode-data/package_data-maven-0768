@@ -1,0 +1,159 @@
+{
+    "type": "maven",
+    "namespace": "com.google.javascript",
+    "name": "closure-compiler-unshaded",
+    "version": "v20221102",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "648905b5-ebda-43f9-8eb9-1f1ec317f7ef",
+            "packages": [
+                "pkg:maven/com.google.javascript/closure-compiler-unshaded@v20221102?uuid=f85a773c-a79f-4a9b-b53a-1e1beeee0bf1",
+                "pkg:maven/com.google.javascript/closure-compiler-unshaded@v20221102?classifier=sources&uuid=0eb29c01-8c61-401f-9bbe-acc6ab428842"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Closure Compiler Unshaded\nClosure Compiler is a JavaScript optimizing compiler. It parses your\n    JavaScript, analyzes it, removes dead code and rewrites and minimizes\n    what's left. It also checks syntax, variable references, and types, and\n    warns about common JavaScript pitfalls. It is used in many of Google's\n    JavaScript apps, including Gmail, Google Web Search, Google Maps, and\n    Google Docs.",
+    "release_date": null,
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Closure Compiler Authors",
+            "email": "closure-compiler-discuss@googlegroups.com",
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Google",
+            "email": null,
+            "url": "http://www.google.com"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://developers.google.com/closure/compiler/",
+    "download_url": "https://repo1.maven.org/maven2/com/google/javascript/closure-compiler-unshaded/v20221102/closure-compiler-unshaded-v20221102-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "f6ce546e63f7557a68a1b19dccd970bcfaec9af3",
+    "sha256": "be8b885e83f26243b8200a6a5685eb3554c0fd77c0b7d5ccf2ca783a611cea7c",
+    "sha512": "fa21ae3ec46ebd15351de134d700573a4627b58c1928c1fb51b5210829135b4110e36b7f870acb8a6e655419917cd740409f5716ab13264fb4b5491dca561633",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0 AND (mpl-1.1 OR gpl-2.0-plus) AND (mpl-1.1 AND gpl-2.0) AND (mpl-1.1 OR gpl-1.0-plus) AND warranty-disclaimer AND x11-lucent",
+    "other_license_expression_spdx": "Apache-2.0 AND (MPL-1.1 OR GPL-2.0-or-later) AND (MPL-1.1 AND GPL-2.0-only) AND (MPL-1.1 OR GPL-1.0-or-later) AND LicenseRef-scancode-warranty-disclaimer AND dtoa",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.google.javascript/closure-compiler-unshaded@v20221102?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/args4j/args4j@2.33",
+            "extracted_requirement": "2.33",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.google.auto.value/auto-value-annotations@1.6",
+            "extracted_requirement": "1.6",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.google.code.gson/gson@2.9.1",
+            "extracted_requirement": "2.9.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.google.errorprone/error_prone_annotations@2.15.0",
+            "extracted_requirement": "2.15.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.google.guava/failureaccess@1.0.1",
+            "extracted_requirement": "1.0.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.google.guava/guava@31.0.1-jre",
+            "extracted_requirement": "31.0.1-jre",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.google.protobuf/protobuf-java@3.19.3",
+            "extracted_requirement": "3.19.3",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.google.re2j/re2j@1.3",
+            "extracted_requirement": "1.3",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/javax.annotation/jsr250-api@1.0",
+            "extracted_requirement": "1.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.ant/ant@1.10.11",
+            "extracted_requirement": "1.10.11",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.jspecify/jspecify@0.2.0",
+            "extracted_requirement": "0.2.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/com.google.javascript/closure-compiler-unshaded@v20221102?classifier=sources&uuid=0eb29c01-8c61-401f-9bbe-acc6ab428842",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.google.javascript/closure-compiler-unshaded@v20221102?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

@@ -1,0 +1,69 @@
+{
+    "type": "maven",
+    "namespace": "org.jbpm",
+    "name": "jbpm-docs",
+    "version": "5.3.0.Final",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "jBPM documentation",
+    "release_date": "2012-05-12T15:08:23Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "All developers are listed on the team website",
+            "email": null,
+            "url": "http://www.jboss.org/drools/team"
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "All contributors are listed on the team website",
+            "email": null,
+            "url": "http://www.jboss.org/drools/team"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "JBoss by Red Hat",
+            "email": null,
+            "url": "http://www.jboss.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.jboss.org/drools",
+    "download_url": "https://repo1.maven.org/maven2/org/jbpm/jbpm-docs/5.3.0.Final/jbpm-docs-5.3.0.Final-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "7ea9451ee9efcea63e7784887cf238ba95dc76ca",
+    "sha256": "b81c0f28754674c57aa2462c9d64f3e65a9dc0cb2b5e1b0b92cf296395c8cbc5",
+    "sha512": "5f96f54651da4737e06e2355ce28eee74bbf74a104657db6f2974c06cac89ccb0405071a9bd2fcfe47ecf1e4fa96bf75dc741aba02481e56405fd208652289ad",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.jbpm/jbpm-docs@5.3.0.Final?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [],
+    "package_uid": "pkg:maven/org.jbpm/jbpm-docs@5.3.0.Final?classifier=sources&uuid=244925a5-a08c-41c8-b8e8-360237df8c60",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.jbpm/jbpm-docs@5.3.0.Final?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/jbpm/jbpm-docs/5.3.0.Final/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/jbpm/jbpm-docs/5.3.0.Final/jbpm-docs-5.3.0.Final-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/jbpm/jbpm-docs/5.3.0.Final/jbpm-docs-5.3.0.Final.pom",
+    "file_references": []
+}

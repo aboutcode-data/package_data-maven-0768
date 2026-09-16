@@ -1,0 +1,88 @@
+{
+    "type": "maven",
+    "namespace": "net.databinder",
+    "name": "dispatch-oauth_2.8.1",
+    "version": "0.8.5",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": null,
+    "release_date": "2011-08-06T17:01:30Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/net/databinder/dispatch-oauth_2.8.1/0.8.5/dispatch-oauth_2.8.1-0.8.5.jar",
+    "size": 34610,
+    "md5": null,
+    "sha1": "5c3b694680580c2f768e40781ca3bd6ddd77c9b7",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/net.databinder/dispatch-oauth_2.8.1@0.8.5?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/net.databinder/dispatch-core_2.8.1",
+            "extracted_requirement": "0.8.5",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/net.databinder/dispatch-http_2.8.1",
+            "extracted_requirement": "0.8.5",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.scala-lang/scala-library",
+            "extracted_requirement": "2.8.1",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.httpcomponents/httpclient",
+            "extracted_requirement": "4.1",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.scala-tools.testing/specs_2.8.1",
+            "extracted_requirement": "1.6.8",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/net.databinder/dispatch-oauth_2.8.1@0.8.5?uuid=70ee2781-1cab-4245-ab54-fa2a65bc5414",
+    "datasource_id": null,
+    "purl": "pkg:maven/net.databinder/dispatch-oauth_2.8.1@0.8.5",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/net/databinder/dispatch-oauth_2.8.1/0.8.5/",
+    "repository_download_url": "https://repo1.maven.org/maven2/net/databinder/dispatch-oauth_2.8.1/0.8.5/dispatch-oauth_2.8.1-0.8.5.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/net/databinder/dispatch-oauth_2.8.1/0.8.5/dispatch-oauth_2.8.1-0.8.5.pom",
+    "file_references": []
+}

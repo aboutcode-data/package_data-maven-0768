@@ -1,0 +1,154 @@
+{
+    "type": "maven",
+    "namespace": "org.http4s",
+    "name": "http4s-blaze-client_2.10",
+    "version": "0.9.2",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "blaze-client\nblaze implementation for http4s clients",
+    "release_date": "2015-08-27T01:01:24Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Ross A. Baker",
+            "email": "ross@rossabaker.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Ivan Porto Carrero",
+            "email": "ivan@flanders.co.nz",
+            "url": "http://flanders.co.nz"
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Bryce L. Anderson",
+            "email": "bryce.anderson22@gmail.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Andr\u00e9 Rou\u00e9l",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Julien Truffaut",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Rodolfo Hansen",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "org.http4s",
+            "email": null,
+            "url": "http://http4s.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://http4s.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/http4s/http4s-blaze-client_2.10/0.9.2/http4s-blaze-client_2.10-0.9.2.jar",
+    "size": 87530,
+    "md5": null,
+    "sha1": "5c8ef8789cf547df646de273b768abaeb36d2d8b",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0 AND apache-2.0 AND unknown",
+    "declared_license_expression_spdx": "Apache-2.0 AND Apache-2.0 AND LicenseRef-scancode-unknown",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "Apache License, Version 2.0\nhttp://www.apache.org/licenses/LICENSE-2.0.txt",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.http4s/http4s-blaze-client_2.10@0.9.2?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.scala-lang/scala-library",
+            "extracted_requirement": "2.10.5",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.http4s/http4s-blaze-core_2.10",
+            "extracted_requirement": "0.9.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.http4s/http4s-client_2.10",
+            "extracted_requirement": "0.9.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.storm-enroute/scalameter_2.10",
+            "extracted_requirement": "0.6",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.scalaz/scalaz-scalacheck-binding_2.10",
+            "extracted_requirement": "7.1.3",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.scalacheck/scalacheck_2.10",
+            "extracted_requirement": "1.12.4",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.typelevel/scalaz-specs2_2.10",
+            "extracted_requirement": "0.4.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.http4s/http4s-blaze-client_2.10@0.9.2?uuid=af9fd5e8-7f67-4c8d-afce-59f66e91c686",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.http4s/http4s-blaze-client_2.10@0.9.2",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/http4s/http4s-blaze-client_2.10/0.9.2/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/http4s/http4s-blaze-client_2.10/0.9.2/http4s-blaze-client_2.10-0.9.2.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/http4s/http4s-blaze-client_2.10/0.9.2/http4s-blaze-client_2.10-0.9.2.pom",
+    "file_references": []
+}

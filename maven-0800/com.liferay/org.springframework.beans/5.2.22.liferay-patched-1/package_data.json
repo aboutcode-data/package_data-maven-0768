@@ -1,0 +1,80 @@
+{
+    "type": "maven",
+    "namespace": "com.liferay",
+    "name": "org.springframework.beans",
+    "version": "5.2.22.liferay-patched-1",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": null,
+    "release_date": "2023-01-10T07:05:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Brian Wing Shun Chan",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/com/liferay/org.springframework.beans/5.2.22.LIFERAY-PATCHED-1/org.springframework.beans-5.2.22.LIFERAY-PATCHED-1.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "85e8f2bd8b56a65348a99ba36279e6e1e9b841c5",
+    "sha256": "f74a1ebd8c7ea3f2a76b72dd71f141b828ae829ff67fab1cc2e43defe45e9d00",
+    "sha512": "02fb737c34698689fc14614b2aa8218250d31483dec0e5592e379083138e37c8696c18294f24cb48185558eca68d3eb482e3ea4d2c674ccb0aa022a7535c3d94",
+    "bug_tracking_url": null,
+    "code_view_url": "http://github.com/liferay/liferay-portal",
+    "vcs_url": "git+https://github.com/liferay/liferay-portal.git",
+    "copyright": "Copyright (c) INRIA, France Telecom, OW2 Consortium, Joe Walnes, Henri Tremblay, Leonardo Mesquita, Pivotal, Inc.",
+    "holder": null,
+    "declared_license_expression": "apache-2.0 AND bsd-new AND (epl-1.0 AND other-copyleft)",
+    "declared_license_expression_spdx": "Apache-2.0 AND BSD-3-Clause AND (EPL-1.0 AND LicenseRef-scancode-other-copyleft)",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0 AND bsd-new AND (epl-1.0 AND other-copyleft)",
+    "other_license_expression_spdx": "Apache-2.0 AND BSD-3-Clause AND (EPL-1.0 AND LicenseRef-scancode-other-copyleft)",
+    "other_license_detections": [],
+    "extracted_license_statement": "[{'name': 'LGPL 2.1', 'url': 'http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt', 'comments': None, 'distribution': None}]",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.liferay/org.springframework.beans@5.2.22.LIFERAY-PATCHED-1?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/commons-logging/commons-logging@1.2",
+            "extracted_requirement": "1.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-beans@5.2.22.RELEASE",
+            "extracted_requirement": "5.2.22.RELEASE",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-core@5.2.22.RELEASE",
+            "extracted_requirement": "5.2.22.RELEASE",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/com.liferay/org.springframework.beans@5.2.22.liferay-patched-1?uuid=56308a3d-4ffa-479c-96a8-8c19d27ee1ab",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.liferay/org.springframework.beans@5.2.22.liferay-patched-1",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

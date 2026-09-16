@@ -1,0 +1,77 @@
+{
+    "type": "maven",
+    "namespace": "aopalliance",
+    "name": "aopalliance",
+    "version": "1.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "ddee0de4-1f88-439a-9827-a40b7128832e",
+            "packages": [
+                "pkg:maven/aopalliance/aopalliance@1.0?uuid=52855ba4-1ebd-483a-b9f3-687e4cf45f9a",
+                "pkg:maven/aopalliance/aopalliance@1.0?classifier=sources&uuid=c8d4d9d4-58b7-4206-a93e-5f7564f052f8"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "AOP alliance\nAOP Alliance",
+    "release_date": "2005-11-23T11:30:59Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": "http://aopalliance.sourceforge.net",
+    "download_url": "https://repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "4a4b6d692e17846a9f3da036438a7ac491d3c814",
+    "sha256": "e6ef91d439ada9045f419c77543ebe0416c3cdfc5b063448343417a3e4a72123",
+    "sha512": "828415b6823a16c5cc8aeafb1bdc1236fda7f7f1e78d9d0b77cd10836a51ea3355bb0bf8fcc8bd0f180a4561e629644987da2813dff65438c32b9618c5009285",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "public-domain",
+    "declared_license_expression_spdx": "LicenseRef-scancode-public-domain",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 70.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/public-domain_bare_words.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: Public Domain",
+                    "match_coverage": 100.0,
+                    "matched_length": 2,
+                    "rule_relevance": 70,
+                    "rule_identifier": "public-domain_bare_words.RULE",
+                    "license_expression": "public-domain"
+                }
+            ],
+            "identifier": "public_domain-3dd945ae-65df-7d90-6467-60f8ecf2eb77",
+            "license_expression": "public-domain"
+        }
+    ],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Public Domain\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/aopalliance/aopalliance@1.0?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [],
+    "package_uid": "pkg:maven/aopalliance/aopalliance@1.0?classifier=sources&uuid=c8d4d9d4-58b7-4206-a93e-5f7564f052f8",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/aopalliance/aopalliance@1.0?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/aopalliance/aopalliance/1.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.pom",
+    "file_references": []
+}

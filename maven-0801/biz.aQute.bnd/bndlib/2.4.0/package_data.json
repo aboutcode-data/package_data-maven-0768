@@ -1,0 +1,324 @@
+{
+    "type": "maven",
+    "namespace": "biz.aQute.bnd",
+    "name": "bndlib",
+    "version": "2.4.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "b50ec447-f3c0-4625-8705-dce6a67b75e2",
+            "packages": [
+                "pkg:maven/biz.aQute.bnd/bndlib@2.4.0?uuid=0cc8f61b-4654-44cf-8190-cda7cd21e4ff",
+                "pkg:maven/biz.aQute.bnd/bndlib@2.4.0?classifier=sources&uuid=94343966-3b3f-4e2d-8417-7f3a22ce3e29"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "A Swiss Army Knife for OSGi\nThe bndlib project is a general library to be used with OSGi bundles. It contains\n    lots of cool functionality that calculates dependencies, etc.",
+    "release_date": "2014-11-06T00:55:42Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Peter Kriens",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "BJ Hargrave",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Stuart McCulloch",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Neil Bartlett",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Ferry Huberts",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "PK S\u00f8reide",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Carter Smithhart",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Chabanois C\u00c3\u00a9dric",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Paul Bakker",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "David Jencks",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Rafa\u0142 Krzewski",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Xavier Fournet",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Casey Crabb",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "David Bosschaert",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Harald Wellmann",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Jan Willem Janssen",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Marcel Offermans",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Marian Grigoras",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Markus Wolf",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Nicolas Laleve\u00cc\u0081e",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Pierre Labiausse",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Raymond Auge",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Tim Ward",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Bram de Kruijff",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Tang Yong",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Gregory Amerson",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Guillaume Nodet",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Marc de Jonge",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Roman Shevchenko",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "aQute SARL",
+            "email": null,
+            "url": "http://www.aQute.biz"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.aQute.biz/Code/Bnd",
+    "download_url": "https://repo1.maven.org/maven2/biz/aQute/bnd/bndlib/2.4.0/bndlib-2.4.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "7b098d70eb95b675e54f124c4cd6b9b9e2f7dc22",
+    "sha256": "47ffa4e52fcf7ff83bd06412f6f02ce76be27b3f499c30102f0ee57725cb7cc2",
+    "sha512": "7bf26f798dbb9b826811508716b1a998e7d66a1266d179633914718aa72e57fe6c8e8bd476837d82691429388c99e17388447148fd8bd30c61a07a84fc19f568",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_322.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: Apache Software License 2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 5,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_322.RULE",
+                    "license_expression": "apache-2.0"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_1156.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.opensource.org/licenses/apache2.0.php",
+                    "match_coverage": 100.0,
+                    "matched_length": 8,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_1156.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-f6e73319-5be8-6b77-1f27-61c2c5585369",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": "apache-2.0 AND public-domain AND (apache-2.0 AND (lgpl-2.1 OR apache-2.0)) AND (apache-2.0 AND bsd-simplified AND bsd-new AND cddl-1.0 AND epl-1.0 AND gpl-2.0 AND gpl-3.0 AND lgpl-2.1 AND mpl-2.0) AND bsd-new AND (bsd-simplified AND bsd-2-clause-views AND bsd-new) AND (cddl-1.0 AND cddl-1.1) AND cpl-1.0 AND (cpl-1.0 AND free-unknown) AND (gpl-1.0-plus AND unknown-license-reference AND gpl-2.0) AND gpl-3.0 AND (josl-1.0 AND apache-2.0) AND mit AND mpl-2.0 AND unknown-license-reference AND (unknown-license-reference AND epl-1.0) AND (unknown-license-reference AND lgpl-2.1)",
+    "other_license_expression_spdx": "Apache-2.0 AND LicenseRef-scancode-public-domain AND (Apache-2.0 AND (LGPL-2.1-only OR Apache-2.0)) AND (Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND CDDL-1.0 AND EPL-1.0 AND GPL-2.0-only AND GPL-3.0-only AND LGPL-2.1-only AND MPL-2.0) AND BSD-3-Clause AND (BSD-2-Clause AND BSD-2-Clause-Views AND BSD-3-Clause) AND (CDDL-1.0 AND CDDL-1.1) AND CPL-1.0 AND (CPL-1.0 AND LicenseRef-scancode-free-unknown) AND (GPL-1.0-or-later AND LicenseRef-scancode-unknown-license-reference AND GPL-2.0-only) AND GPL-3.0-only AND (LicenseRef-scancode-josl-1.0 AND Apache-2.0) AND MIT AND MPL-2.0 AND LicenseRef-scancode-unknown-license-reference AND (LicenseRef-scancode-unknown-license-reference AND EPL-1.0) AND (LicenseRef-scancode-unknown-license-reference AND LGPL-2.1-only)",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Apache Software License 2.0\n  url: http://www.opensource.org/licenses/apache2.0.php\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/biz.aQute.bnd/bndlib@2.4.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.osgi/org.osgi.core@4.3.1",
+            "extracted_requirement": "4.3.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.osgi/org.osgi.compendium@4.3.1",
+            "extracted_requirement": "4.3.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit@3.8.2",
+            "extracted_requirement": "3.8.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/biz.aQute.bnd/bndlib@2.4.0?classifier=sources&uuid=94343966-3b3f-4e2d-8417-7f3a22ce3e29",
+    "datasource_id": null,
+    "purl": "pkg:maven/biz.aQute.bnd/bndlib@2.4.0?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/biz/aQute/bnd/bndlib/2.4.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/biz/aQute/bnd/bndlib/2.4.0/bndlib-2.4.0-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/biz/aQute/bnd/bndlib/2.4.0/bndlib-2.4.0.pom",
+    "file_references": []
+}

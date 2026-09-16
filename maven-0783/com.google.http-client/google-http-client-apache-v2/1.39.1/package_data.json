@@ -1,0 +1,119 @@
+{
+    "type": "maven",
+    "namespace": "com.google.http-client",
+    "name": "google-http-client-apache-v2",
+    "version": "1.39.1",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "14d308aa-8d61-4df4-bed2-05a4042e1b47",
+            "packages": [
+                "pkg:maven/com.google.http-client/google-http-client-apache-v2@1.39.1?uuid=9a24a794-34ce-43f6-be40-c9b578200225",
+                "pkg:maven/com.google.http-client/google-http-client-apache-v2@1.39.1?classifier=sources&uuid=7ed5205c-3036-439c-a3cc-b7620a41d483",
+                "pkg:github/googleapis/google-http-java-client@v1.39.1?uuid=f36eaad5-45dc-4c57-87e1-c6ec14bb75b1"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Apache HTTP transport v2 for the Google HTTP Client Library for Java.",
+    "release_date": "2021-03-15T17:57:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Jeff Ching",
+            "email": "chingor@google.com",
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Google",
+            "email": null,
+            "url": "https://www.google.com/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/googleapis/google-http-java-client",
+    "download_url": "https://repo1.maven.org/maven2/com/google/http-client/google-http-client-apache-v2/1.39.1/google-http-client-apache-v2-1.39.1-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "718ec444d5282388208c378baae825ba0b982c9c",
+    "sha256": "0f501d9d2b68687d49dcae95eb7ff59055b6cfe6c8a119de61f73857f4339c27",
+    "sha512": "478cd4b52c6db221ff88d9aea2fc1657d686494e0f42122f4d04bffbadd9cb32a3f81822ba74b58a413eff7ee98deecd55aea1374667ff6c08524aa0c1062f4f",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.google.http-client/google-http-client-apache-v2@1.39.1?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/com.google.http-client/google-http-client-parent@1.39.1",
+            "Field `homepage_url` has been updated using values obtained from the parent POM pkg:maven/com.google.http-client/google-http-client-parent@1.39.1",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/com.google.http-client/google-http-client-parent@1.39.1"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.google.http-client/google-http-client",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.httpcomponents/httpclient",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.httpcomponents/httpcore",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.mockito/mockito-all",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/com.google.http-client/google-http-client-apache-v2@1.39.1?classifier=sources&uuid=7ed5205c-3036-439c-a3cc-b7620a41d483",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/com.google.http-client/google-http-client-apache-v2@1.39.1?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/google/http-client/google-http-client-apache-v2/1.39.1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/google/http-client/google-http-client-apache-v2/1.39.1/google-http-client-apache-v2-1.39.1-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/google/http-client/google-http-client-apache-v2/1.39.1/google-http-client-apache-v2-1.39.1.pom",
+    "file_references": []
+}

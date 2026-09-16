@@ -1,0 +1,130 @@
+{
+    "type": "maven",
+    "namespace": "org.zeroturnaround",
+    "name": "zt-zip",
+    "version": "1.15",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "6e3ff614-6a42-4daf-8463-613add969fe5",
+            "packages": [
+                "pkg:maven/org.zeroturnaround/zt-zip@1.15?uuid=27375215-a471-489d-b9d3-0e811a40e065",
+                "pkg:maven/org.zeroturnaround/zt-zip@1.15?classifier=sources&uuid=f1c994e7-9add-45bf-933f-032c94a86d01"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "ZT Zip\nThe project is intended to have a small, easy and fast library to process ZIP archives. Either create, modify or explode them. On disk or in memory.",
+    "release_date": null,
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Rein",
+            "email": "rein@zeroturnaround.com",
+            "url": "http://www.linkedin.com/in/reinra"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Toomas",
+            "email": "toomas@zeroturnaround.com",
+            "url": "http://www.linkedin.com/in/toomasr"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "ZeroTurnaround",
+            "email": null,
+            "url": "http://zeroturnaround.com/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/zeroturnaround/zt-zip",
+    "download_url": "https://repo1.maven.org/maven2/org/zeroturnaround/zt-zip/1.15/zt-zip-1.15-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "8426780442957b8c520759959639ef72cfb03749",
+    "sha256": "7d10d1e02410cebe2e1a74e74c706b31290b13aa413cc49eebe2315c619f1124",
+    "sha512": "af49e3df5f9f8df4709659d38da486db62866d1dba622ac703acae7352c0b3b28893de1e23ab1ec43284b581d1ac0786be00d1536f016ccb549ceac4c77ab1f6",
+    "bug_tracking_url": null,
+    "code_view_url": "https://github.com/scm:git:git@github.com:zeroturnaround/zt-zip.git",
+    "vcs_url": "git+https://github.com/zeroturnaround/zt-zip.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 3,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_1277.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: The Apache Software License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt\n  comments: A business-friendly OSS license",
+                    "match_coverage": 100.0,
+                    "matched_length": 23,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_1277.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-a0cd95bb-90a3-a708-8b40-d282f4168353",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: The Apache Software License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt\n  comments: A business-friendly OSS license\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.zeroturnaround/zt-zip@1.15?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-api@1.6.6",
+            "extracted_requirement": "1.6.6",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit@4.12",
+            "extracted_requirement": "4.12",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-log4j12@1.6.6",
+            "extracted_requirement": "1.6.6",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/log4j/log4j@1.2.16",
+            "extracted_requirement": "1.2.16",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.zeroturnaround/zt-zip@1.15?classifier=sources&uuid=f1c994e7-9add-45bf-933f-032c94a86d01",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.zeroturnaround/zt-zip@1.15?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

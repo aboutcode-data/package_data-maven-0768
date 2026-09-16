@@ -1,0 +1,135 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.xmlgraphics",
+    "name": "batik-dom",
+    "version": "1.14",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "d5a188b4-e183-48df-ab18-6e8f62a25c49",
+            "packages": [
+                "pkg:maven/org.apache.xmlgraphics/batik-dom@1.14?uuid=c654b9fd-9882-4b6a-974e-63c89f63891a",
+                "pkg:maven/org.apache.xmlgraphics/batik-dom@1.14?classifier=sources&uuid=c0699067-bb4c-47c0-a35f-5a6f2dd2dfe2"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "org.apache.xmlgraphics:batik-dom\nBatik DOM implementation",
+    "release_date": "2021-01-12T13:29:00Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Apache Software Foundation",
+            "email": null,
+            "url": "http://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://xmlgraphics.apache.org/batik/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-dom/1.14/batik-dom-1.14-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "3f99e3cb4b888976dcaef843a07505309da680ed",
+    "sha256": "8b168ab1b4d82a8cc223ce580c32b2751aaa68ae213b35fd9003e281b05123c5",
+    "sha512": "efb46e559ee494e925e1ce2c89722fe07eee807b1c59742d1483205505215db3ef595a50cbc2d8707b9e54ce7a38876037cb696312343e920201cb6fb6cdc0ce",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "w3c",
+    "other_license_expression_spdx": "W3C",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.xmlgraphics/batik-dom@1.14?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.apache.xmlgraphics/batik@1.14",
+            "Field `homepage_url` has been updated using values obtained from the parent POM pkg:maven/org.apache.xmlgraphics/batik@1.14",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.apache.xmlgraphics/batik@1.14"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.xmlgraphics/batik-css@1.14",
+            "extracted_requirement": "1.14",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.xmlgraphics/batik-ext@1.14",
+            "extracted_requirement": "1.14",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.xmlgraphics/batik-shared-resources@1.14",
+            "extracted_requirement": "1.14",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.xmlgraphics/batik-util@1.14",
+            "extracted_requirement": "1.14",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.xmlgraphics/batik-xml@1.14",
+            "extracted_requirement": "1.14",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/xalan/xalan",
+            "extracted_requirement": "${xalan.version}",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/xml-apis/xml-apis",
+            "extracted_requirement": "${xmlapis.version}",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/xml-apis/xml-apis-ext",
+            "extracted_requirement": "${xmlapisext.version}",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.xmlgraphics/batik-dom@1.14?classifier=sources&uuid=c0699067-bb4c-47c0-a35f-5a6f2dd2dfe2",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.apache.xmlgraphics/batik-dom@1.14?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-dom/1.14/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-dom/1.14/batik-dom-1.14-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-dom/1.14/batik-dom-1.14.pom",
+    "file_references": []
+}

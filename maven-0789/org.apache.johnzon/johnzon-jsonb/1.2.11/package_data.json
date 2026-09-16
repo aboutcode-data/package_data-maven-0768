@@ -1,0 +1,152 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.johnzon",
+    "name": "johnzon-jsonb",
+    "version": "1.2.11",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "16c8fd94-d64b-4c15-8c26-1233f7680757",
+            "packages": [
+                "pkg:maven/org.apache.johnzon/johnzon-jsonb@1.2.11?uuid=c07c4e50-4cff-4da7-a9c9-003f0fcbfa25",
+                "pkg:maven/org.apache.johnzon/johnzon-jsonb@1.2.11?classifier=sources&uuid=1a476bf7-642f-4347-81ff-25cd9fc9dc5e"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Johnzon :: JSON-B Implementation",
+    "release_date": "2021-04-26T07:25:00Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "https://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://www.apache.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/johnzon/johnzon-jsonb/1.2.11/johnzon-jsonb-1.2.11-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "879ec0c7b5dd1a0b41ee6d19bf488b8cb27a6e5c",
+    "sha256": "a312cbe009b68772a274995c40aade03ed12b73fdd6280e39dc2f0fe5c0084de",
+    "sha512": "e8544ba3c6027f02ce5ba92ada48d54568a7c6eb6a8a765aaa2206da4d1580bd32348d6bfb35fa78722eb892cb4b5ba2c4cbdd461192449f0c738cd0091593ea",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.johnzon/johnzon-jsonb@1.2.11?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.geronimo.specs/geronimo-annotation_1.3_spec@1.1",
+            "extracted_requirement": "1.1",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.geronimo.specs/geronimo-jaxrs_2.1_spec@1.1",
+            "extracted_requirement": "1.1",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.geronimo.specs/geronimo-jcdi_2.0_spec@1.1",
+            "extracted_requirement": "1.1",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.geronimo.specs/geronimo-jsonb_1.0_spec",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.johnzon/johnzon-mapper@1.2.11",
+            "extracted_requirement": "1.2.11",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.cxf/cxf-rt-rs-client",
+            "extracted_requirement": "${cxf.version}",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.cxf/cxf-rt-frontend-jaxrs",
+            "extracted_requirement": "${cxf.version}",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.cxf/cxf-rt-transports-local",
+            "extracted_requirement": "${cxf.version}",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.geronimo.specs/geronimo-interceptor_1.2_spec@1.0",
+            "extracted_requirement": "1.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.geronimo.specs/geronimo-atinject_1.0_spec@1.0",
+            "extracted_requirement": "1.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.openwebbeans/openwebbeans-impl",
+            "extracted_requirement": "${owb.version}",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.johnzon/johnzon-jsonb@1.2.11?classifier=sources&uuid=1a476bf7-642f-4347-81ff-25cd9fc9dc5e",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.apache.johnzon/johnzon-jsonb@1.2.11?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

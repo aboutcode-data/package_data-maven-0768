@@ -1,0 +1,324 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.kafka",
+    "name": "kafka_2.12",
+    "version": "2.4.1",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "4e15327b-486f-47f0-9897-3dbe3935a2e1",
+            "packages": [
+                "pkg:maven/org.apache.kafka/kafka_2.12@2.4.1?uuid=24619242-3190-4c96-b868-7190bce287bf",
+                "pkg:maven/org.apache.kafka/kafka_2.12@2.4.1?classifier=sources&uuid=b5a51ba7-0710-4122-b723-33c8f5ac40f3"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Apache Kafka",
+    "release_date": "2020-03-03T01:30:57Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": "https://kafka.apache.org",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/kafka/kafka_2.12/2.4.1/kafka_2.12-2.4.1-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "74a1199f53713a8408247a89bfe3b4a28fd5e5aa",
+    "sha256": "2941b38dc81fe28845923223729ecc05b2a59cb7ab9bdc512dc1c3cfd3783004",
+    "sha512": "5179deecc6792c686e3db4e88978ea7d65f1c2a84ab8ed8af2028379c65d88ea1cd302d9c4b095cfbacfb94c0f93e4752836cf7e26a55a9c89bd1c4b67baabd6",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) Facebook, Inc., Luben Karavelov, The Apache Software Foundation",
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_884.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: The Apache Software License, Version 2.0\n  url: https://www.apache.org/licenses/LICENSE-2.0.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 18,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_884.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-1dbda71e-19ae-9130-098e-68c493ebaced",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": "(apache-2.0 AND cddl-1.0) AND (apache-2.0 AND cddl-1.0 AND cddl-1.1 AND bsd-new) AND (bsd-new AND bsd-simplified) AND bsd-simplified",
+    "other_license_expression_spdx": "(Apache-2.0 AND CDDL-1.0) AND (Apache-2.0 AND CDDL-1.0 AND CDDL-1.1 AND BSD-3-Clause) AND (BSD-3-Clause AND BSD-2-Clause) AND BSD-2-Clause",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: The Apache Software License, Version 2.0\n  url: https://www.apache.org/licenses/LICENSE-2.0.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.kafka/kafka_2.12@2.4.1?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-log4j12@1.7.28",
+            "extracted_requirement": "1.7.28",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.kafka/kafka-clients@2.4.1",
+            "extracted_requirement": "2.4.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.10.0",
+            "extracted_requirement": "2.10.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.fasterxml.jackson.module/jackson-module-scala_2.12@2.10.0",
+            "extracted_requirement": "2.10.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-csv@2.10.0",
+            "extracted_requirement": "2.10.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-jdk8@2.10.0",
+            "extracted_requirement": "2.10.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/net.sf.jopt-simple/jopt-simple@5.0.4",
+            "extracted_requirement": "5.0.4",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.yammer.metrics/metrics-core@2.2.0",
+            "extracted_requirement": "2.2.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.scala-lang.modules/scala-collection-compat_2.12@2.1.2",
+            "extracted_requirement": "2.1.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.scala-lang.modules/scala-java8-compat_2.12@0.9.0",
+            "extracted_requirement": "0.9.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.scala-lang/scala-library@2.12.10",
+            "extracted_requirement": "2.12.10",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.scala-lang/scala-reflect@2.12.10",
+            "extracted_requirement": "2.12.10",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.typesafe.scala-logging/scala-logging_2.12@3.9.2",
+            "extracted_requirement": "3.9.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-api@1.7.28",
+            "extracted_requirement": "1.7.28",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.zookeeper/zookeeper@3.5.7",
+            "extracted_requirement": "3.5.7",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/commons-cli/commons-cli@1.4",
+            "extracted_requirement": "1.4",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.bouncycastle/bcpkix-jdk15on@1.63",
+            "extracted_requirement": "1.63",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.mockito/mockito-core@3.0.0",
+            "extracted_requirement": "3.0.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.easymock/easymock@4.0.2",
+            "extracted_requirement": "4.0.2",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.directory.api/api-all@1.0.2",
+            "extracted_requirement": "1.0.2",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.directory.server/apacheds-core-api@2.0.0-M24",
+            "extracted_requirement": "2.0.0-M24",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.directory.server/apacheds-interceptor-kerberos@2.0.0-M24",
+            "extracted_requirement": "2.0.0-M24",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.directory.server/apacheds-protocol-shared@2.0.0-M24",
+            "extracted_requirement": "2.0.0-M24",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.directory.server/apacheds-protocol-kerberos@2.0.0-M24",
+            "extracted_requirement": "2.0.0-M24",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.directory.server/apacheds-protocol-ldap@2.0.0-M24",
+            "extracted_requirement": "2.0.0-M24",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.directory.server/apacheds-ldif-partition@2.0.0-M24",
+            "extracted_requirement": "2.0.0-M24",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.directory.server/apacheds-mavibot-partition@2.0.0-M24",
+            "extracted_requirement": "2.0.0-M24",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.directory.server/apacheds-jdbm-partition@2.0.0-M24",
+            "extracted_requirement": "2.0.0-M24",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit@4.13-beta-2",
+            "extracted_requirement": "4.13-beta-2",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.scalatest/scalatest_2.12@3.0.8",
+            "extracted_requirement": "3.0.8",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/jfreechart/jfreechart@1.0.0",
+            "extracted_requirement": "1.0.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.kafka/kafka_2.12@2.4.1?classifier=sources&uuid=b5a51ba7-0710-4122-b723-33c8f5ac40f3",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.apache.kafka/kafka_2.12@2.4.1?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/kafka/kafka_2.12/2.4.1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/kafka/kafka_2.12/2.4.1/kafka_2.12-2.4.1-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/kafka/kafka_2.12/2.4.1/kafka_2.12-2.4.1.pom",
+    "file_references": []
+}

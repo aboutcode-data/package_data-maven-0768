@@ -1,0 +1,107 @@
+{
+    "type": "maven",
+    "namespace": "com.liferay",
+    "name": "org.apache.velocity",
+    "version": "1.6.4.LIFERAY-PATCHED-1",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "528b7c50-75ba-4595-8b91-28a4a3036484",
+            "packages": [
+                "pkg:maven/com.liferay/org.apache.velocity@1.6.4.LIFERAY-PATCHED-1?uuid=c1d15654-791b-4d22-865e-1f7c4980cb22",
+                "pkg:maven/com.liferay/org.apache.velocity@1.6.4.LIFERAY-PATCHED-1?classifier=sources&uuid=8701c0f8-3aa6-473d-9699-dfa5165b4799"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": null,
+    "release_date": "2017-06-08T21:20:14Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Brian Wing Shun Chan",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/com/liferay/org.apache.velocity/1.6.4.LIFERAY-PATCHED-1/org.apache.velocity-1.6.4.LIFERAY-PATCHED-1-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "c14e80c7586ca8489d69f293c6ee8a75778d11d6",
+    "sha256": "329396e5cb650409c79dbfe022cca0e6170b6dc54f138c4ac587786687e3abed",
+    "sha512": "0659b49430daed55a423d87ede59d60ce9af6b3ae2320c3213568bc028527fb1ab40dde4b22baae03e4a98cf06e9a03234d890b390061b11b1756e58aa39cb7a",
+    "bug_tracking_url": null,
+    "code_view_url": "http://github.com/liferay/liferay-plugins",
+    "vcs_url": "git+https://github.com/liferay/liferay-plugins.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "lgpl-2.1",
+    "declared_license_expression_spdx": "LGPL-2.1-only",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_85.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: LGPL 2.1",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_85.RULE",
+                    "license_expression": "lgpl-2.1"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_37.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 11,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_37.RULE",
+                    "license_expression": "lgpl-2.1"
+                }
+            ],
+            "identifier": "lgpl_2_1-6893cb1b-4cad-db8f-2133-a48bc107078b",
+            "license_expression": "lgpl-2.1"
+        }
+    ],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: LGPL 2.1\n  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.liferay/org.apache.velocity@1.6.4.LIFERAY-PATCHED-1?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.velocity/velocity@1.6.4",
+            "extracted_requirement": "1.6.4",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/com.liferay/org.apache.velocity@1.6.4.LIFERAY-PATCHED-1?classifier=sources&uuid=8701c0f8-3aa6-473d-9699-dfa5165b4799",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/com.liferay/org.apache.velocity@1.6.4.LIFERAY-PATCHED-1?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/liferay/org.apache.velocity/1.6.4.LIFERAY-PATCHED-1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/liferay/org.apache.velocity/1.6.4.LIFERAY-PATCHED-1/org.apache.velocity-1.6.4.LIFERAY-PATCHED-1-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/liferay/org.apache.velocity/1.6.4.LIFERAY-PATCHED-1/org.apache.velocity-1.6.4.LIFERAY-PATCHED-1.pom",
+    "file_references": []
+}

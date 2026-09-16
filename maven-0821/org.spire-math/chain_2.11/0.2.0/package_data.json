@@ -1,0 +1,79 @@
+{
+    "type": "maven",
+    "namespace": "org.spire-math",
+    "name": "chain_2.11",
+    "version": "0.2.0",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "chain",
+    "release_date": "2017-05-24T02:48:39Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Erik Osheim",
+            "email": null,
+            "url": "http://github.com/non/"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "org.spire-math",
+            "email": null,
+            "url": "http://github.com/non/chain"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://github.com/non/chain",
+    "download_url": "https://repo1.maven.org/maven2/org/spire-math/chain_2.11/0.2.0/chain_2.11-0.2.0.jar",
+    "size": 29229,
+    "md5": null,
+    "sha1": "af4a8fabd3c8d732effd59ff19c0445b81b06295",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "mit",
+    "declared_license_expression_spdx": "MIT",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "MIT\nhttp://opensource.org/licenses/MIT",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.spire-math/chain_2.11@0.2.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.scala-lang/scala-library",
+            "extracted_requirement": "2.11.11",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.scalacheck/scalacheck_2.11",
+            "extracted_requirement": "1.13.5",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.spire-math/chain_2.11@0.2.0?uuid=5e9113eb-a8ef-4526-ae62-9884ded65254",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.spire-math/chain_2.11@0.2.0",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/spire-math/chain_2.11/0.2.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/spire-math/chain_2.11/0.2.0/chain_2.11-0.2.0.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/spire-math/chain_2.11/0.2.0/chain_2.11-0.2.0.pom",
+    "file_references": []
+}

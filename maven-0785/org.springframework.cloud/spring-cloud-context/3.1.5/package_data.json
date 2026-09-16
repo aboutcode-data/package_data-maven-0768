@@ -1,0 +1,221 @@
+{
+    "type": "maven",
+    "namespace": "org.springframework.cloud",
+    "name": "spring-cloud-context",
+    "version": "3.1.5",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "d599ab93-2614-4fd9-b29f-6c07a2d5e388",
+            "packages": [
+                "pkg:maven/org.springframework.cloud/spring-cloud-context@3.1.5?uuid=7020d5a0-ce75-4fed-a61f-5532f4a3fadb",
+                "pkg:maven/org.springframework.cloud/spring-cloud-context@3.1.5?classifier=sources&uuid=5cc95a44-69dc-4c06-9647-f11107eefdfa"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Spring Cloud Context",
+    "release_date": "2022-11-03T14:30:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Dave Syer",
+            "email": "dsyer at pivotal.io",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Spencer Gibb",
+            "email": "sgibb at pivotal.io",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Marcin Grzejszczak",
+            "email": "mgrzejszczak at pivotal.io",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Ryan Baxter",
+            "email": "rbaxter at pivotal.io",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Olga Maciaszek-Sharma",
+            "email": "omaciaszeksharma at pivotal.io",
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Pivotal Software, Inc.",
+            "email": null,
+            "url": "https://www.spring.io"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://projects.spring.io/spring-cloud/spring-cloud-context/",
+    "download_url": "https://repo1.maven.org/maven2/org/springframework/cloud/spring-cloud-context/3.1.5/spring-cloud-context-3.1.5-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "f9e1b88f60ef31e2013b98f3cf5ecba20478891f",
+    "sha256": "28c59f0877c3c0fc6b6bf4e3018236a8e56b359f5898628094a2f3e01e75fe31",
+    "sha512": "3444348e8c39f7d36067aa10059e6ac8e1043b6123ad0eeed805ad39a4151d420cd35b864001c0ec97b70be1ca6a20937380d95ab017816dc1b0b2d4b5b7e136",
+    "bug_tracking_url": null,
+    "code_view_url": "https://github.com/spring-cloud/spring-cloud-commons/spring-cloud-context",
+    "vcs_url": "git://github.com/spring-cloud/spring-cloud-commons.git/spring-cloud-context",
+    "copyright": "Copyright (c) the original author or authors",
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_48.RULE",
+                    "start_line": 1,
+                    "matched_text": "Apache License, Version 2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 5,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_48.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-428c1364-ecb5-f806-7a2e-77d10737a7ce",
+            "license_expression": "apache-2.0"
+        },
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_url_1.RULE",
+                    "start_line": 1,
+                    "matched_text": "https://www.apache.org/licenses/LICENSE-2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 8,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_url_1.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-94d22364-f545-7f7f-6e63-bddee6ac17fe",
+            "license_expression": "apache-2.0"
+        },
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 15,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_459.RULE",
+                    "start_line": 3,
+                    "matched_text": "\t\t\t\tLicensed under the Apache License, Version 2.0 (the \"License\");\n\t\t\t\tyou may not use this file except in compliance with the License.\n\t\t\t\tYou may obtain a copy of the License at\n\n\t\t\t\thttps://www.apache.org/licenses/LICENSE-2.0\n\n\t\t\t\tUnless required by applicable law or agreed to in writing, software\n\t\t\t\tdistributed under the License is distributed on an \"AS IS\" BASIS,\n\t\t\t\tWITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or\n\t\t\t\timplied.\n\n\t\t\t\tSee the License for the specific language governing permissions and\n\t\t\t\tlimitations under the License.",
+                    "match_coverage": 100.0,
+                    "matched_length": 85,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_459.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-d65998f3-37da-21de-05c3-d4b407334ac3",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Apache License, Version 2.0\n  url: https://www.apache.org/licenses/LICENSE-2.0\n  comments: \"Copyright 2014-2021 the original author or authors.\\n\\n\\t\\t\\t\\tLicensed under the\\\n    \\ Apache License, Version 2.0 (the \\\"License\\\");\\n\\t\\t\\t\\tyou may not use this file except\\\n    \\ in compliance with the License.\\n\\t\\t\\t\\tYou may obtain a copy of the License at\\n\\n\\t\\\n    \\t\\t\\thttps://www.apache.org/licenses/LICENSE-2.0\\n\\n\\t\\t\\t\\tUnless required by applicable\\\n    \\ law or agreed to in writing, software\\n\\t\\t\\t\\tdistributed under the License is distributed\\\n    \\ on an \\\"AS IS\\\" BASIS,\\n\\t\\t\\t\\tWITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express\\\n    \\ or\\n\\t\\t\\t\\timplied.\\n\\n\\t\\t\\t\\tSee the License for the specific language governing permissions\\\n    \\ and\\n\\t\\t\\t\\tlimitations under the License.\"\n  distribution:\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.springframework.cloud/spring-cloud-context@3.1.5?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.springframework.boot/spring-boot-configuration-processor@2.6.13",
+            "extracted_requirement": "2.6.13",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.springframework.boot/spring-boot-starter-actuator@2.6.13",
+            "extracted_requirement": "2.6.13",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.springframework.boot/spring-boot-starter-web@2.6.13",
+            "extracted_requirement": "2.6.13",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.springframework.boot/spring-boot-starter-aop@2.6.13",
+            "extracted_requirement": "2.6.13",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.springframework.security/spring-security-crypto@5.6.8",
+            "extracted_requirement": "5.6.8",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.springframework.security/spring-security-rsa@1.0.11.RELEASE",
+            "extracted_requirement": "1.0.11.RELEASE",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.springframework.integration/spring-integration-jmx@5.5.15",
+            "extracted_requirement": "5.5.15",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.springframework.boot/spring-boot-autoconfigure-processor@2.6.13",
+            "extracted_requirement": "2.6.13",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.springframework.cloud/spring-cloud-context@3.1.5?classifier=sources&uuid=5cc95a44-69dc-4c06-9647-f11107eefdfa",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.springframework.cloud/spring-cloud-context@3.1.5?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

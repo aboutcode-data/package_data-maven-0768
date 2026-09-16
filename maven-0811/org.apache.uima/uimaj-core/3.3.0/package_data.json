@@ -1,0 +1,174 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.uima",
+    "name": "uimaj-core",
+    "version": "3.3.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "07da18c2-6bcb-40e1-807d-7bbf2db6b7aa",
+            "packages": [
+                "pkg:maven/org.apache.uima/uimaj-core@3.3.0?uuid=c6ea5047-b8da-4bbf-ae47-4b1033284eec",
+                "pkg:maven/org.apache.uima/uimaj-core@3.3.0?classifier=sources&uuid=b5a679d0-b975-41da-938a-8d96959acffe"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Apache UIMA Base: uimaj-core\nThe core implementation of the UIMA Java Framework",
+    "release_date": "2022-04-29T16:39:00Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "https://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "${uimaWebsiteUrl}",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/uima/uimaj-core/3.3.0/uimaj-core-3.3.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "a2aec6dbf63570f32aa0af75e887aaa791005b3d",
+    "sha256": "61527d5190b3523d90295ae85d74da54cb26f2b047d93b70d7fa5973b681c91d",
+    "sha512": "8df4bdccafb5e3f607a1326fd86ed5510c4d0923a2b3867184cd9a8fa5b1487d6e0dfba5d156dd906806d0c7698e81d48c7c840a10d92d10699d0d21dd60edb8",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) The Apache Software Foundation, IBM Corporation",
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "proprietary-license AND public-domain AND (apache-2.0 AND mit) AND unknown-license-reference AND warranty-disclaimer",
+    "other_license_expression_spdx": "LicenseRef-scancode-proprietary-license AND LicenseRef-scancode-public-domain AND (Apache-2.0 AND MIT) AND LicenseRef-scancode-unknown-license-reference AND LicenseRef-scancode-warranty-disclaimer",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.uima/uimaj-core@3.3.0?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@23",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@23"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.logging.log4j/log4j-core",
+            "extracted_requirement": "${log4j-version}",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.logging.log4j/log4j-api",
+            "extracted_requirement": "${log4j-version}",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.logging.log4j/log4j-slf4j-impl",
+            "extracted_requirement": "${log4j-version}",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.bitbucket.mstrobel/procyon-compilertools@0.5.32",
+            "extracted_requirement": "0.5.32",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.bitbucket.mstrobel/procyon-core@0.5.32",
+            "extracted_requirement": "0.5.32",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.uima/uimaj-test-util@3.3.0",
+            "extracted_requirement": "3.3.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.junit.jupiter/junit-jupiter-engine",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.junit.jupiter/junit-jupiter-params",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.assertj/assertj-core",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/commons-io/commons-io@2.7",
+            "extracted_requirement": "2.7",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.commons/commons-csv@1.8",
+            "extracted_requirement": "1.8",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.commons/commons-lang3@3.12.0",
+            "extracted_requirement": "3.12.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.uima/uimaj-core@3.3.0?classifier=sources&uuid=b5a679d0-b975-41da-938a-8d96959acffe",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.apache.uima/uimaj-core@3.3.0?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/uima/uimaj-core/3.3.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/uima/uimaj-core/3.3.0/uimaj-core-3.3.0-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/uima/uimaj-core/3.3.0/uimaj-core-3.3.0.pom",
+    "file_references": []
+}

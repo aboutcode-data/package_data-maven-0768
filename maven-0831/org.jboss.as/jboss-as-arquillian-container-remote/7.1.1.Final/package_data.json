@@ -1,0 +1,119 @@
+{
+    "type": "maven",
+    "namespace": "org.jboss.as",
+    "name": "jboss-as-arquillian-container-remote",
+    "version": "7.1.1.Final",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "1659b853-20ae-4a8b-869f-29eba1a92939",
+            "packages": [
+                "pkg:maven/org.jboss.as/jboss-as-arquillian-container-remote@7.1.1.Final?uuid=252f44da-a19e-4608-8565-dda285cd1e29",
+                "pkg:maven/org.jboss.as/jboss-as-arquillian-container-remote@7.1.1.Final?classifier=sources&uuid=3644e394-1529-4f45-b438-3a51bbe4182b"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "JBoss Application Server: Arquillian Remote Container",
+    "release_date": "2012-03-10T07:40:42Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "JBoss.org Community",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "JBoss by Red Hat",
+            "email": null,
+            "url": "http://www.jboss.org"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.jboss.org",
+    "download_url": "https://repo1.maven.org/maven2/org/jboss/as/jboss-as-arquillian-container-remote/7.1.1.Final/jboss-as-arquillian-container-remote-7.1.1.Final-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "9860594a2ef146a8352691fb50cb70ca80ac5f95",
+    "sha256": "9b405e30553a5612cf2a77c1aa7b86703becf975c4f44a53f79809cb3375feec",
+    "sha512": "6fe33f26fb286d817091f2028877e2424b8399ab21dbec29bc009c1dece08f977c46a7cfe76471ccc44e2797cd48ca593fd5423151c070cf62ad1e031f2abeba",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "public-domain",
+    "declared_license_expression_spdx": "LicenseRef-scancode-public-domain",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.jboss.as/jboss-as-arquillian-container-remote@7.1.1.Final?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.jboss.as/jboss-as-arquillian-common",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.as/jboss-as-arquillian-protocol-jmx",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.marshalling/jboss-marshalling-river",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.arquillian.junit/arquillian-junit-container",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.inject/javax.inject",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.spec.javax.servlet/jboss-servlet-api_3.0_spec",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.jboss.as/jboss-as-arquillian-container-remote@7.1.1.Final?classifier=sources&uuid=3644e394-1529-4f45-b438-3a51bbe4182b",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.jboss.as/jboss-as-arquillian-container-remote@7.1.1.Final?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/jboss/as/jboss-as-arquillian-container-remote/7.1.1.Final/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/jboss/as/jboss-as-arquillian-container-remote/7.1.1.Final/jboss-as-arquillian-container-remote-7.1.1.Final-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/jboss/as/jboss-as-arquillian-container-remote/7.1.1.Final/jboss-as-arquillian-container-remote-7.1.1.Final.pom",
+    "file_references": []
+}

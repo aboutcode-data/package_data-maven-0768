@@ -1,0 +1,206 @@
+{
+    "type": "maven",
+    "namespace": "org.jresearch.commons.gwt",
+    "name": "org.jresearch.commons.gwt.base.srv",
+    "version": "1.0.34",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "JRESEARCH-COMMONS: GWT base, server related part\nJRS GWT commons",
+    "release_date": "2016-08-01T03:08:58Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Stanislav Spiridonov",
+            "email": "stas@jresearch.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Ekaterina Gorshkova",
+            "email": "ekaterina.gorshkova@jresearchsoft.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Dmitry Belov",
+            "email": "bel@jresearch.org",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://bitbucket.org/JRS/org.jresearch.commons.gwt.base.srv",
+    "download_url": "https://repo1.maven.org/maven2/org/jresearch/commons/gwt/org.jresearch.commons.gwt.base.srv/1.0.34/org.jresearch.commons.gwt.base.srv-1.0.34.jar",
+    "size": 33640,
+    "md5": null,
+    "sha1": "d90be1c195735e8cc3380fe7f0725a872dd80dc9",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0 AND unknown",
+    "declared_license_expression_spdx": "Apache-2.0 AND LicenseRef-scancode-unknown",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "The Apache License, Version 2.0\nhttp://www.apache.org/licenses/LICENSE-2.0.txt",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.jresearch.commons.gwt/org.jresearch.commons.gwt.base.srv@1.0.34?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/one.util/streamex",
+            "extracted_requirement": "0.6.1",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jresearch.commons.gwt/org.jresearch.commons.gwt.base.model",
+            "extracted_requirement": "1.0.34",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jresearch.flexess.client/org.jresearch.flexess.client.api",
+            "extracted_requirement": "[1.0.0,2.0.0)",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jresearch.flexess.client/org.jresearch.flexess.client.impl",
+            "extracted_requirement": "[1.0.0,2.0.0)",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.gwt/gwt-servlet",
+            "extracted_requirement": "2.7.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/joda-time/joda-time",
+            "extracted_requirement": "2.9.4",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-api",
+            "extracted_requirement": "1.7.21",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-core",
+            "extracted_requirement": "4.3.0.RELEASE",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-context",
+            "extracted_requirement": "4.3.0.RELEASE",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/commons-lang/commons-lang",
+            "extracted_requirement": "2.6",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/ma.glasnost.orika/orika-core",
+            "extracted_requirement": "1.4.5",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-webmvc",
+            "extracted_requirement": "4.3.0.RELEASE",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-beans",
+            "extracted_requirement": "4.3.0.RELEASE",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-web",
+            "extracted_requirement": "4.3.0.RELEASE",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.guava/guava",
+            "extracted_requirement": "19.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.code.findbugs/jsr305",
+            "extracted_requirement": "3.0.1",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.servlet/javax.servlet-api",
+            "extracted_requirement": "3.1.0",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.jresearch.commons.gwt/org.jresearch.commons.gwt.base.srv@1.0.34?uuid=67d081d4-a777-4df3-bb9f-3ed326555bb5",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.jresearch.commons.gwt/org.jresearch.commons.gwt.base.srv@1.0.34",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/jresearch/commons/gwt/org.jresearch.commons.gwt.base.srv/1.0.34/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/jresearch/commons/gwt/org.jresearch.commons.gwt.base.srv/1.0.34/org.jresearch.commons.gwt.base.srv-1.0.34.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/jresearch/commons/gwt/org.jresearch.commons.gwt.base.srv/1.0.34/org.jresearch.commons.gwt.base.srv-1.0.34.pom",
+    "file_references": []
+}

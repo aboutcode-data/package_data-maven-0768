@@ -1,0 +1,80 @@
+{
+    "type": "maven",
+    "namespace": "io.zipkin.aws",
+    "name": "zipkin-sender-sqs",
+    "version": "0.3.2",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Zipkin Sender: AWS SQS",
+    "release_date": "2017-05-18T16:50:41Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/io/zipkin/aws/zipkin-sender-sqs/0.3.2/zipkin-sender-sqs-0.3.2.jar",
+    "size": 8846,
+    "md5": null,
+    "sha1": "230dea42ccc390a3506a4166dca6b1fdde2eee9e",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.zipkin.aws/zipkin-sender-sqs@0.3.2?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/io.zipkin.reporter/zipkin-reporter",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.amazonaws/aws-java-sdk-sqs",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.zipkin.aws/zipkin-aws-junit",
+            "extracted_requirement": "0.3.2",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.elasticmq/elasticmq-server_2.11",
+            "extracted_requirement": "0.13.2",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/io.zipkin.aws/zipkin-sender-sqs@0.3.2?uuid=1b24f35e-56cd-41d2-97f4-aac7458b72c7",
+    "datasource_id": null,
+    "purl": "pkg:maven/io.zipkin.aws/zipkin-sender-sqs@0.3.2",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/io/zipkin/aws/zipkin-sender-sqs/0.3.2/",
+    "repository_download_url": "https://repo1.maven.org/maven2/io/zipkin/aws/zipkin-sender-sqs/0.3.2/zipkin-sender-sqs-0.3.2.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/io/zipkin/aws/zipkin-sender-sqs/0.3.2/zipkin-sender-sqs-0.3.2.pom",
+    "file_references": []
+}

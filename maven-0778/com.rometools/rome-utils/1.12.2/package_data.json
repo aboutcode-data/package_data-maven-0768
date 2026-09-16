@@ -1,0 +1,88 @@
+{
+    "type": "maven",
+    "namespace": "com.rometools",
+    "name": "rome-utils",
+    "version": "1.12.2",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "34aac050-acd9-44c3-9bf2-75ab37e8624a",
+            "packages": [
+                "pkg:maven/com.rometools/rome-utils@1.12.2?uuid=47b25778-6229-4f33-834a-4292b40658a6",
+                "pkg:maven/com.rometools/rome-utils@1.12.2?classifier=sources&uuid=a33ab81b-3a10-4225-9069-f0e6d7df3607"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "rome-utils\nUtility classes for ROME projects",
+    "release_date": "2019-09-17T07:13:22Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Patrick Gotthard",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://rometools.com",
+    "download_url": "https://repo1.maven.org/maven2/com/rometools/rome-utils/1.12.2/rome-utils-1.12.2-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "d27c01295ababef9a2d6266dec6d22b0ad137dce",
+    "sha256": "5aedbac475b6a4396166fc075f3dcfa90abb8713b86604a99c75666fb9207ac6",
+    "sha512": "bca927e9875b8681b2a80b55e422cb6235dd99b6a44c18ea47ab229a3d4bfc85abeb7fe104a1d6b745483043a395a98e04cf1b8cef75a91f5261cd62c15a0b94",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.rometools/rome-utils@1.12.2?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.hamcrest/hamcrest-library",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/com.rometools/rome-utils@1.12.2?classifier=sources&uuid=a33ab81b-3a10-4225-9069-f0e6d7df3607",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.rometools/rome-utils@1.12.2?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/rometools/rome-utils/1.12.2/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/rometools/rome-utils/1.12.2/rome-utils-1.12.2-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/rometools/rome-utils/1.12.2/rome-utils-1.12.2.pom",
+    "file_references": []
+}

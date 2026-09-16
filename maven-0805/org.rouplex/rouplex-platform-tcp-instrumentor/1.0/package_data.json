@@ -1,0 +1,72 @@
+{
+    "type": "maven",
+    "namespace": "org.rouplex",
+    "name": "rouplex-platform-tcp-instrumentor",
+    "version": "1.0",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": null,
+    "release_date": "2017-05-24T21:53:45Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/rouplex/rouplex-platform-tcp-instrumentor/1.0/rouplex-platform-tcp-instrumentor-1.0.jar",
+    "size": 45464,
+    "md5": null,
+    "sha1": "83175cb920eb322a1259ebc3ac875921125ec87a",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.rouplex/rouplex-platform-tcp-instrumentor@1.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.rouplex/rouplex-platform-tcp",
+            "extracted_requirement": "1.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.aspectj/aspectjrt",
+            "extracted_requirement": "1.8.9",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.dropwizard.metrics/metrics-core",
+            "extracted_requirement": "3.1.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.rouplex/rouplex-platform-tcp-instrumentor@1.0?uuid=592d7f37-90b1-4205-b8bd-295eb218ae74",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.rouplex/rouplex-platform-tcp-instrumentor@1.0",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/rouplex/rouplex-platform-tcp-instrumentor/1.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/rouplex/rouplex-platform-tcp-instrumentor/1.0/rouplex-platform-tcp-instrumentor-1.0.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/rouplex/rouplex-platform-tcp-instrumentor/1.0/rouplex-platform-tcp-instrumentor-1.0.pom",
+    "file_references": []
+}

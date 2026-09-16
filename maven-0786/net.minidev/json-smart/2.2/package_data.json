@@ -1,0 +1,94 @@
+{
+    "type": "maven",
+    "namespace": "net.minidev",
+    "name": "json-smart",
+    "version": "2.2",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "b87127ca-2092-436c-9964-8ca818d6b3a5",
+            "packages": [
+                "pkg:maven/net.minidev/json-smart@2.2?uuid=b2c6ce53-5a88-4b63-8a95-92adab0a856c",
+                "pkg:maven/net.minidev/json-smart@2.2?classifier=sources&uuid=c119be8b-1062-4559-a267-9a9b79b14a2c"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "JSON Small and Fast Parser\nJSON (JavaScript Object Notation) is a lightweight data-interchange format.\n    It is easy for humans to read and write. It is easy for machines to parse and generate.\n    It is based on a subset of the JavaScript Programming Language, Standard ECMA-262 3rd Edition\n    - December 1999. JSON is a text format that is completely language independent but uses\n    conventions that are familiar to programmers of the C-family of languages, including C, C++, C#,\n    Java, JavaScript, Perl, Python, and many others.\n    These properties make JSON an ideal data-interchange language.",
+    "release_date": "2015-07-29T16:54:35Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Uriel Chemouni",
+            "email": "uchemouni@gmail.com",
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Chemouni Uriel",
+            "email": null,
+            "url": "http://www.minidev.net/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.minidev.net/",
+    "download_url": "https://repo1.maven.org/maven2/net/minidev/json-smart/2.2/json-smart-2.2-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "36d8144ed59b98fe8a8d2f071fd22cc564bcf6e6",
+    "sha256": "25d4298eeeea14b3cb0160afd63212090efe98164db5c7a7dbc33e8a9a22ada8",
+    "sha512": "371e61d083cb26f412a85ca3139542571496d707d51cbed9b3d5f8ad6609cd827852811e25c520273005028e8f3d7e0225b360bbd2dfc43056321dd4b6e0b79e",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/net.minidev/json-smart@2.2?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/net.minidev/minidev-parent@2.2",
+            "Field `homepage_url` has been updated using values obtained from the parent POM pkg:maven/net.minidev/minidev-parent@2.2",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/net.minidev/minidev-parent@2.2"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/net.minidev/accessors-smart",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/net.minidev/json-smart@2.2?classifier=sources&uuid=c119be8b-1062-4559-a267-9a9b79b14a2c",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/net.minidev/json-smart@2.2?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/net/minidev/json-smart/2.2/",
+    "repository_download_url": "https://repo1.maven.org/maven2/net/minidev/json-smart/2.2/json-smart-2.2-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/net/minidev/json-smart/2.2/json-smart-2.2.pom",
+    "file_references": []
+}

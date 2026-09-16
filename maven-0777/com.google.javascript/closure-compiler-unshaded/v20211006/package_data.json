@@ -1,0 +1,70 @@
+{
+    "type": "maven",
+    "namespace": "com.google.javascript",
+    "name": "closure-compiler-unshaded",
+    "version": "v20211006",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "c7ef3ccd-2e40-46f8-8050-a29c7d5995ae",
+            "packages": [
+                "pkg:maven/com.google.javascript/closure-compiler-unshaded@v20211006?uuid=0a19951f-6633-437c-9e0f-af61d9830bd2",
+                "pkg:maven/com.google.javascript/closure-compiler-unshaded@v20211006?classifier=sources&uuid=28e5fbe7-9b3d-4f7f-bd5a-3af56c7dcef6"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Closure Compiler Unshaded\nClosure Compiler is a JavaScript optimizing compiler. It parses your\n    JavaScript, analyzes it, removes dead code and rewrites and minimizes\n    what's left. It also checks syntax, variable references, and types, and\n    warns about common JavaScript pitfalls. It is used in many of Google's\n    JavaScript apps, including Gmail, Google Web Search, Google Maps, and\n    Google Docs.",
+    "release_date": null,
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Closure Compiler Authors",
+            "email": "closure-compiler-discuss@googlegroups.com",
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Google",
+            "email": null,
+            "url": "http://www.google.com"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://developers.google.com/closure/compiler/",
+    "download_url": "https://repo1.maven.org/maven2/com/google/javascript/closure-compiler-unshaded/v20211006/closure-compiler-unshaded-v20211006-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "5997bd9638bfc680723226121678199bdbcb9f2c",
+    "sha256": "e57fe186fb9a576234012f4ea3404638062834d3b0d05609b30ba105a42e1241",
+    "sha512": "f70ab1f45323fab167fdb95f4905141c9d1ef6b056333265fdf24052f3fac46864421f7fa1045f558f91694c5b2221fba7650e9e6cd935c2b7d59a43f3c190e2",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0 AND (mpl-1.1 OR gpl-2.0-plus) AND (mpl-1.1 AND gpl-2.0) AND (mpl-1.1 OR gpl-1.0-plus) AND warranty-disclaimer AND x11-lucent",
+    "other_license_expression_spdx": "Apache-2.0 AND (MPL-1.1 OR GPL-2.0-or-later) AND (MPL-1.1 AND GPL-2.0-only) AND (MPL-1.1 OR GPL-1.0-or-later) AND LicenseRef-scancode-warranty-disclaimer AND dtoa",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.google.javascript/closure-compiler-unshaded@v20211006?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [],
+    "package_uid": "pkg:maven/com.google.javascript/closure-compiler-unshaded@v20211006?classifier=sources&uuid=28e5fbe7-9b3d-4f7f-bd5a-3af56c7dcef6",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.google.javascript/closure-compiler-unshaded@v20211006?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

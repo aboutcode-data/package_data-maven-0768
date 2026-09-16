@@ -1,0 +1,119 @@
+{
+    "type": "maven",
+    "namespace": "com.github.mifmif",
+    "name": "generex",
+    "version": "1.0.2",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "16305ba2-821d-4721-9bda-ffde3c92df0e",
+            "packages": [
+                "pkg:maven/com.github.mifmif/generex@1.0.2?uuid=7a319f4e-b2b3-43b5-8ffa-649b96eeba2a",
+                "pkg:maven/com.github.mifmif/generex@1.0.2?classifier=sources&uuid=5800266b-dfd0-4cd9-ba21-d9c616bb593b",
+                "pkg:github/mifmif/generex@1.0.2?uuid=cf65d337-bf25-4c4f-9bd1-1b20e0a84324",
+                "pkg:github/mifmif/generex@1.0.2?uuid=665593cb-8bfd-4fea-a2d5-5fa23605118a"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Generex\nGenerex A Java Library for regex to Strings generation",
+    "release_date": "2016-10-30T14:41:49Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "MIFRAH Youssef",
+            "email": "mifmif.com@gmail.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "mkolisnyk",
+            "email": "kolesnik.nickolay@gmail.com",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/mifmif/Generex/tree/master",
+    "download_url": "https://repo1.maven.org/maven2/com/github/mifmif/generex/1.0.2/generex-1.0.2-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "d1f52c4efe0b20154faf35f8df5c08a234dc41db",
+    "sha256": "541a99924bbdb1d6d897f82e7d9f526101d1ee7858173aaec17c0a70ab2165be",
+    "sha512": "3af19c4e2532419a814afc777dbb5ef655122a7146fee171a3217386a381becf3e2a70c9923df8ce3558e412e8ce7fa961dd07cf2e75d260f7b5af720aa0a6a0",
+    "bug_tracking_url": null,
+    "code_view_url": "https://github.com/mifmif/Generex.git",
+    "vcs_url": "git+https://github.com/mifmif/Generex.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_40.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: The Apache Software License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 18,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_40.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-bfa9e97a-62d3-0076-c881-8443e5e95192",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: The Apache Software License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.github.mifmif/generex@1.0.2?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/dk.brics.automaton/automaton@1.11-8",
+            "extracted_requirement": "1.11-8",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit@4.12",
+            "extracted_requirement": "4.12",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.hamcrest/hamcrest-junit@2.0.0.0",
+            "extracted_requirement": "2.0.0.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/com.github.mifmif/generex@1.0.2?classifier=sources&uuid=5800266b-dfd0-4cd9-ba21-d9c616bb593b",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/com.github.mifmif/generex@1.0.2?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/github/mifmif/generex/1.0.2/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/github/mifmif/generex/1.0.2/generex-1.0.2-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/github/mifmif/generex/1.0.2/generex-1.0.2.pom",
+    "file_references": []
+}

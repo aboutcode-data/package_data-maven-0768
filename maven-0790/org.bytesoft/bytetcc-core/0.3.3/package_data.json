@@ -1,0 +1,72 @@
+{
+    "type": "maven",
+    "namespace": "org.bytesoft",
+    "name": "bytetcc-core",
+    "version": "0.3.3",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "bytetcc-core\nThe bytetcc-core project is the core module of ByteTCC.",
+    "release_date": "2017-05-27T08:48:17Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": "http://www.bytesoft.org",
+    "download_url": "https://repo1.maven.org/maven2/org/bytesoft/bytetcc-core/0.3.3/bytetcc-core-0.3.3.jar",
+    "size": 84630,
+    "md5": null,
+    "sha1": "d64707da3248304913e217d0210b2e79acc0fb90",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.bytesoft/bytetcc-core@0.3.3?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.bytesoft/bytetcc-common",
+            "extracted_requirement": "0.3.3",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.bytesoft/bytejta-core",
+            "extracted_requirement": "0.3.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-api",
+            "extracted_requirement": "1.7.6",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.bytesoft/bytetcc-core@0.3.3?uuid=fabbb8fb-6455-40d2-b494-4f6ab7aff3ac",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.bytesoft/bytetcc-core@0.3.3",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/bytesoft/bytetcc-core/0.3.3/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/bytesoft/bytetcc-core/0.3.3/bytetcc-core-0.3.3.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/bytesoft/bytetcc-core/0.3.3/bytetcc-core-0.3.3.pom",
+    "file_references": []
+}

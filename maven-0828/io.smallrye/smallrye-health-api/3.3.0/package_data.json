@@ -1,0 +1,96 @@
+{
+    "type": "maven",
+    "namespace": "io.smallrye",
+    "name": "smallrye-health-api",
+    "version": "3.3.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "1451fe92-75a3-4cb7-b7b9-1967b2810c5a",
+            "packages": [
+                "pkg:maven/io.smallrye/smallrye-health-api@3.3.0?uuid=0e8e4dce-173a-4f50-8d17-15da3d4ba3e0",
+                "pkg:maven/io.smallrye/smallrye-health-api@3.3.0?classifier=sources&uuid=7cdbfefc-d8a9-4e24-a2ef-c1cd9eccab70"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "SmallRye Health: API\nThe feature API for the testing of features to be included in the specification.",
+    "release_date": "2022-09-07T12:12:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Ken Finnigan",
+            "email": "ken@kenfinnigan.me",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://smallrye.io",
+    "download_url": "https://repo1.maven.org/maven2/io/smallrye/smallrye-health-api/3.3.0/smallrye-health-api-3.3.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "9ced36be5f4a3b35debd665b3993fe71c519fb30",
+    "sha256": "6ed82c4150835064a3d6e47edd8c888f801e4ca07722ba5d624de981c21b381d",
+    "sha512": "6b3cc5ef5bdb4edf0d2a33aba7bf3fcab8d59d4a920db627b3e9b1804cf70d8cbf3962b34741f3b2b586665ed7eadaff6e7e7043ecf55c7ca36b5efe8d730621",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.smallrye/smallrye-health-api@3.3.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.eclipse.microprofile.health/microprofile-health-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.smallrye.common/smallrye-common-annotation",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.smallrye.reactive/mutiny",
+            "extracted_requirement": "${version.mutiny}",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/jakarta.enterprise/jakarta.enterprise.cdi-api",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/io.smallrye/smallrye-health-api@3.3.0?classifier=sources&uuid=7cdbfefc-d8a9-4e24-a2ef-c1cd9eccab70",
+    "datasource_id": null,
+    "purl": "pkg:maven/io.smallrye/smallrye-health-api@3.3.0?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

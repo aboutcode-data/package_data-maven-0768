@@ -1,0 +1,105 @@
+{
+    "type": "maven",
+    "namespace": "com.liferay",
+    "name": "com.liferay.gradle.plugins.testray",
+    "version": "1.0.16",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "6ef25837-330b-44f0-a54e-0f9d9c218364",
+            "packages": [
+                "pkg:maven/com.liferay/com.liferay.gradle.plugins.testray@1.0.16?uuid=ce56a2d4-826b-4ac6-8bbb-0405f1b09486",
+                "pkg:maven/com.liferay/com.liferay.gradle.plugins.testray@1.0.16?classifier=sources&uuid=8ec7792e-33bf-46fb-8949-9b9d8d142453"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Liferay Gradle Plugins Testray",
+    "release_date": null,
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Brian Wing Shun Chan",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.gradle.plugins.testray/1.0.16/com.liferay.gradle.plugins.testray-1.0.16-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "a78abc013fcd5c2bc09626b68132112f86d1bd8b",
+    "sha256": "93bc9647b50058be04e16335748a8dd7eda7b6a4aca9b4ce3a2ce7231e6eb1d0",
+    "sha512": "488555a11d9440733bdeb33a7912652a2398a973f874e28596d044f6dd4588da05e811777d2b1dd7a23b5bcc8bd0ddb0791dbfd7ef36a0b53975713493395cb8",
+    "bug_tracking_url": null,
+    "code_view_url": "http://github.com/liferay/liferay-portal",
+    "vcs_url": "git+https://github.com/liferay/liferay-portal.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "lgpl-2.1",
+    "declared_license_expression_spdx": "LGPL-2.1-only",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_85.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: LGPL 2.1",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_85.RULE",
+                    "license_expression": "lgpl-2.1"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_37.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 11,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_37.RULE",
+                    "license_expression": "lgpl-2.1"
+                }
+            ],
+            "identifier": "lgpl_2_1-6893cb1b-4cad-db8f-2133-a48bc107078b",
+            "license_expression": "lgpl-2.1"
+        }
+    ],
+    "other_license_expression": "lgpl-2.1-plus OR liferay-dxp-eula-2.0.0-2023-06",
+    "other_license_expression_spdx": "LGPL-2.1-or-later OR LicenseRef-Liferay-DXP-EULA-2.0.0-2023-06",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: LGPL 2.1\n  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.liferay/com.liferay.gradle.plugins.testray@1.0.16?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.liferay/com.liferay.gradle.util@1.0.48",
+            "extracted_requirement": "1.0.48",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/com.liferay/com.liferay.gradle.plugins.testray@1.0.16?classifier=sources&uuid=8ec7792e-33bf-46fb-8949-9b9d8d142453",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.liferay/com.liferay.gradle.plugins.testray@1.0.16?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

@@ -1,0 +1,88 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.camel",
+    "name": "camel-example-swagger-cdi",
+    "version": "2.17.7",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Camel :: Example :: Swagger :: CDI\nAn example using REST DSL and Swagger Java with CDI",
+    "release_date": "2017-05-14T09:41:24Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/apache/camel/camel-example-swagger-cdi/2.17.7/camel-example-swagger-cdi-2.17.7.jar",
+    "size": 18836,
+    "md5": null,
+    "sha1": "c59f02dcbd139f7cf28d68d569ff96d35f4044b7",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.camel/camel-example-swagger-cdi@2.17.7?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/javax.enterprise/cdi-api",
+            "extracted_requirement": "1.2",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.camel/camel-cdi",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.camel/camel-swagger-java",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.camel/camel-jackson",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.camel/camel-undertow",
+            "extracted_requirement": null,
+            "scope": "runtime",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.camel/camel-example-swagger-cdi@2.17.7?uuid=34928e02-167a-4704-b585-831af53cf61b",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.apache.camel/camel-example-swagger-cdi@2.17.7",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/camel/camel-example-swagger-cdi/2.17.7/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/camel/camel-example-swagger-cdi/2.17.7/camel-example-swagger-cdi-2.17.7.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/camel/camel-example-swagger-cdi/2.17.7/camel-example-swagger-cdi-2.17.7.pom",
+    "file_references": []
+}

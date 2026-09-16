@@ -1,0 +1,103 @@
+{
+    "type": "maven",
+    "namespace": "org.infinispan",
+    "name": "infinispan-query-dsl",
+    "version": "14.0.4.Final",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "ff718b69-0727-4b2a-9a65-66b1339d9705",
+            "packages": [
+                "pkg:maven/org.infinispan/infinispan-query-dsl@14.0.4.Final?uuid=31effe00-666c-4064-afd7-a6e0fb54d5ad",
+                "pkg:maven/org.infinispan/infinispan-query-dsl@14.0.4.Final?classifier=sources&uuid=acda391c-ec91-4863-b88e-e54d7c6295fc"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Infinispan Query DSL API\nInfinispan Query DSL API module",
+    "release_date": "2022-12-16T15:00:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "See http://www.infinispan.org for a complete list of contributors",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "JBoss, a division of Red Hat",
+            "email": null,
+            "url": "http://www.jboss.org"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.infinispan.org",
+    "download_url": "https://repo1.maven.org/maven2/org/infinispan/infinispan-query-dsl/14.0.4.Final/infinispan-query-dsl-14.0.4.Final-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "24243c9dd33bf345f406213993a1cdf985a95c69",
+    "sha256": "adb74a3d729fe8f158a169714887713bd99e39f7e4e854cbea7aae0df8a591f8",
+    "sha512": "8064c5402361bb0cbd26883536acf9ca05c82fcb8a543d68e7171f980a83a9cdf76cab0e4f42c05a074ef2b21e7db967f1ec4a4c053ac89df20bae388b0da19d",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.infinispan/infinispan-query-dsl@14.0.4.Final?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.jboss.logging/jboss-logging",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.infinispan/infinispan-commons-test",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.infinispan/infinispan-commons",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.infinispan/infinispan-query-dsl@14.0.4.Final?classifier=sources&uuid=acda391c-ec91-4863-b88e-e54d7c6295fc",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.infinispan/infinispan-query-dsl@14.0.4.Final?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

@@ -1,0 +1,80 @@
+{
+    "type": "maven",
+    "namespace": "org.opendaylight.netconf",
+    "name": "netconf-topology",
+    "version": "3.0.2",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "7b78fb0f-208a-45f8-ab30-15826f1c0737",
+            "packages": [
+                "pkg:maven/org.opendaylight.netconf/netconf-topology@3.0.2?uuid=50c1a68c-3d3f-4726-ae5c-3094c8dd1b83",
+                "pkg:maven/org.opendaylight.netconf/netconf-topology@3.0.2?classifier=sources&uuid=93950e33-2ae7-41c1-a709-5755f83d69a6"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "NETCONF topology APIs",
+    "release_date": "2022-04-25T08:04:00Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/opendaylight/netconf/netconf-topology/3.0.2/netconf-topology-3.0.2-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "64e1f5def5d011927388431eb2b3a64059ac3818",
+    "sha256": "37dec8a75da42cccd94164b3166bee6feba85bdb4a899da18869be32072460cc",
+    "sha512": "b0701c3f38d6870d5319149b2732b02efc6c5170e750cfb7defa5cba6c63b120a9b5f60d6414e92e607440382e8cf74629543ab14007d8bc084cc650feecbd4f",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "epl-1.0",
+    "declared_license_expression_spdx": "EPL-1.0",
+    "license_detections": [],
+    "other_license_expression": "epl-1.0",
+    "other_license_expression_spdx": "EPL-1.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.opendaylight.netconf/netconf-topology@3.0.2?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.opendaylight.aaa/aaa-encrypt-service",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.opendaylight.controller/threadpool-config-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.opendaylight.netconf/sal-netconf-connector",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.opendaylight.netconf/netconf-topology@3.0.2?classifier=sources&uuid=93950e33-2ae7-41c1-a709-5755f83d69a6",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.opendaylight.netconf/netconf-topology@3.0.2?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

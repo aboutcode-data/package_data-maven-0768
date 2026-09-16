@@ -1,0 +1,86 @@
+{
+    "type": "maven",
+    "namespace": "software.amazon.awssdk",
+    "name": "cloudwatch",
+    "version": "2.17.105",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "ad0900e3-6a70-49d6-b2f9-e1584e52feb3",
+            "packages": [
+                "pkg:maven/software.amazon.awssdk/cloudwatch@2.17.105?uuid=a1fdda28-fb72-4926-9156-f43834971e34",
+                "pkg:maven/software.amazon.awssdk/cloudwatch@2.17.105?classifier=sources&uuid=4f950894-b85f-4b3a-939f-570390132e99"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "AWS Java SDK :: Services :: Amazon CloudWatch\nThe AWS Java SDK for Amazon CloudWatch module holds the client classes that are used for communicating\n        with Amazon CloudWatch Service",
+    "release_date": "2022-01-05T20:32:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": null,
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://aws.amazon.com/sdkforjava",
+    "download_url": "https://repo1.maven.org/maven2/software/amazon/awssdk/cloudwatch/2.17.105/cloudwatch-2.17.105-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "bc70aa0b57300c54d1b99d35cb8c7ce74fc0b977",
+    "sha256": "3892bb31471c639147800cb8f82946aa8236bd640fdcd4f7ab04ad660686c537",
+    "sha512": "ba2ea5aa4fa36d0beffcb947fbadb1f92dcd73cc624b05f03961c406255061bb06191535d1e7b06ae1c491c885a205d6cc3eae15bb7d603cfc819b19d8c8a23f",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) Amazon.com, Inc. or its affiliates",
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/software.amazon.awssdk/cloudwatch@2.17.105?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/software.amazon.awssdk/aws-sdk-java-pom@2.17.105",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/software.amazon.awssdk/aws-sdk-java-pom@2.17.105"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/software.amazon.awssdk/aws-query-protocol",
+            "extracted_requirement": "${awsjavasdk.version}",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/software.amazon.awssdk/protocol-core",
+            "extracted_requirement": "${awsjavasdk.version}",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/software.amazon.awssdk/cloudwatch@2.17.105?classifier=sources&uuid=4f950894-b85f-4b3a-939f-570390132e99",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/software.amazon.awssdk/cloudwatch@2.17.105?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/software/amazon/awssdk/cloudwatch/2.17.105/",
+    "repository_download_url": "https://repo1.maven.org/maven2/software/amazon/awssdk/cloudwatch/2.17.105/cloudwatch-2.17.105-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/software/amazon/awssdk/cloudwatch/2.17.105/cloudwatch-2.17.105.pom",
+    "file_references": []
+}

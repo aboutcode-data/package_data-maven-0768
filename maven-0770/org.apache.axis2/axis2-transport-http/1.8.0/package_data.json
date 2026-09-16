@@ -1,0 +1,118 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.axis2",
+    "name": "axis2-transport-http",
+    "version": "1.8.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "81464ecb-417d-4345-bc8c-f281a15dcbd8",
+            "packages": [
+                "pkg:maven/org.apache.axis2/axis2-transport-http@1.8.0?uuid=ad6491d1-bca4-4673-a582-5849658a3737",
+                "pkg:maven/org.apache.axis2/axis2-transport-http@1.8.0?classifier=sources&uuid=85057d8f-74a5-45fb-96a2-6f69389e01ea"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Apache Axis2 - Transport - HTTP\nThis inclues all the available transports in Axis2",
+    "release_date": null,
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "https://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://axis.apache.org/axis2/java/core/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/axis2/axis2-transport-http/1.8.0/axis2-transport-http-1.8.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "6333fc0ddfe280993bd32690bf65c538c35849c0",
+    "sha256": "a6bed5c6a559da1cf30b5f6275761457bc3fc4642e44a3f844f1d8682ed13ef9",
+    "sha512": "3955afd6fe261c324c659fb84fe4665986f24bee7e48791da81a862ef0c18a004e4fff99e3aec11d9334e11c5601b6f8be01ac39265b8089049371d7229b69e6",
+    "bug_tracking_url": null,
+    "code_view_url": "http://svn.apache.org/viewvc/axis/axis2/java/core/trunk/modules/transport/http",
+    "vcs_url": "svn+http://svn.apache.org/repos/asf/axis/axis2/java/core/trunk/modules/transport/http",
+    "copyright": "Copyright (c) International Business Machines Corp., WSO2, Inc., salesforce.com, inc., BEA Systems",
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "cpl-1.0 AND apache-2.0 AND bsd-new AND (cddl-1.0 OR gpl-2.0 WITH classpath-exception-2.0) AND cddl-1.0 AND unknown-license-reference",
+    "other_license_expression_spdx": "CPL-1.0 AND Apache-2.0 AND BSD-3-Clause AND (CDDL-1.0 OR GPL-2.0-only WITH Classpath-exception-2.0) AND CDDL-1.0 AND LicenseRef-scancode-unknown-license-reference",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.axis2/axis2-transport-http@1.8.0?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@23",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@23"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.axis2/axis2-kernel@1.8.0",
+            "extracted_requirement": "1.8.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.httpcomponents/httpclient",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.xmlunit/xmlunit-legacy",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.axis2/axis2-transport-testkit@1.8.0",
+            "extracted_requirement": "1.8.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.ws.commons.axiom/axiom-truth",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.axis2/axis2-transport-http@1.8.0?classifier=sources&uuid=85057d8f-74a5-45fb-96a2-6f69389e01ea",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.apache.axis2/axis2-transport-http@1.8.0?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/axis2/axis2-transport-http/1.8.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/axis2/axis2-transport-http/1.8.0/axis2-transport-http-1.8.0-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/axis2/axis2-transport-http/1.8.0/axis2-transport-http-1.8.0.pom",
+    "file_references": []
+}

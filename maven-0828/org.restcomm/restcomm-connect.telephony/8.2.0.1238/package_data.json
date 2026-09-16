@@ -1,0 +1,224 @@
+{
+    "type": "maven",
+    "namespace": "org.restcomm",
+    "name": "restcomm-connect.telephony",
+    "version": "8.2.0.1238",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "restcomm-connect.telephony",
+    "release_date": "2017-05-22T15:55:50Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/restcomm/restcomm-connect.telephony/8.2.0.1238/restcomm-connect.telephony-8.2.0.1238.jar",
+    "size": 174849,
+    "md5": null,
+    "sha1": "54cb800734888a03e0663df325f063b7b4625076",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.restcomm/restcomm-connect.telephony@8.2.0.1238?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-log4j12",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.googlecode.libphonenumber/libphonenumber",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/commons-configuration/commons-configuration",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.scala-lang/scala-library",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.typesafe.akka/akka-actor_2.10",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.typesafe.akka/akka-slf4j_2.10",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.mail/mail",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.restcomm/restcomm-connect.extension.controller",
+            "extracted_requirement": "8.2.0.1238",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.restcomm/restcomm-connect.http",
+            "extracted_requirement": "8.2.0.1238",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/log4j/log4j",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.mobicents.servlet.sip/sip-servlets-spec",
+            "extracted_requirement": "${sipservletapi.version}",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.servlet/javax.servlet-api",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.restcomm/restcomm-connect.commons",
+            "extracted_requirement": "8.2.0.1238",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.restcomm/restcomm-connect.dao",
+            "extracted_requirement": "8.2.0.1238",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.restcomm/restcomm-connect.mscontrol.api",
+            "extracted_requirement": "8.2.0.1238",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.restcomm/restcomm-connect.sms",
+            "extracted_requirement": "8.2.0.1238",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.restcomm/restcomm-connect.telephony.api",
+            "extracted_requirement": "8.2.0.1238",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.restcomm/restcomm-connect.interpreter",
+            "extracted_requirement": "8.2.0.1238",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.restcomm/restcomm-connect.ussd",
+            "extracted_requirement": "8.2.0.1238",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.restcomm/restcomm-connect.monitoring.service",
+            "extracted_requirement": "8.2.0.1238",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.sip/jain-sip-ri",
+            "extracted_requirement": "${sip-ri.version}",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.restcomm/restcomm-connect.telephony@8.2.0.1238?uuid=78e37bed-b79d-4f7a-949e-bbf669aee893",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.restcomm/restcomm-connect.telephony@8.2.0.1238",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/restcomm/restcomm-connect.telephony/8.2.0.1238/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/restcomm/restcomm-connect.telephony/8.2.0.1238/restcomm-connect.telephony-8.2.0.1238.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/restcomm/restcomm-connect.telephony/8.2.0.1238/restcomm-connect.telephony-8.2.0.1238.pom",
+    "file_references": []
+}

@@ -1,0 +1,96 @@
+{
+    "type": "maven",
+    "namespace": "com.liferay",
+    "name": "com.liferay.login.web.api",
+    "version": "1.0.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "b0e99f49-eb07-4a87-9527-5704f7279cfb",
+            "packages": [
+                "pkg:maven/com.liferay/com.liferay.login.web.api@1.0.0?uuid=078d410c-83da-4fa4-952a-e90551005cb6",
+                "pkg:maven/com.liferay/com.liferay.login.web.api@1.0.0?classifier=sources&uuid=793f5af4-67fb-4f11-a624-58c1fdf57817"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Liferay Login Web API",
+    "release_date": "2020-02-29T05:38:16Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Brian Wing Shun Chan",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.login.web.api/1.0.0/com.liferay.login.web.api-1.0.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "fb40071d41a20eab6cd43de216e3f576622da9d0",
+    "sha256": "ee79c15b22014a694ede8de0fe8f1f5ead863ba2f0cf04f88ef60ec28b86cedf",
+    "sha512": "dce39da690a058d62638dc4f539f1751c62fa4df8385f51b5a4f6ab474750d8ac02bd8a1587440c41a0e33a04200ef6b99812ab4735306effed2bda0a1417a42",
+    "bug_tracking_url": null,
+    "code_view_url": "http://github.com/liferay/liferay-portal",
+    "vcs_url": "git+https://github.com/liferay/liferay-portal.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "lgpl-2.1",
+    "declared_license_expression_spdx": "LGPL-2.1-only",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_85.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: LGPL 2.1",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_85.RULE",
+                    "license_expression": "lgpl-2.1"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_37.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 11,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_37.RULE",
+                    "license_expression": "lgpl-2.1"
+                }
+            ],
+            "identifier": "lgpl_2_1-6893cb1b-4cad-db8f-2133-a48bc107078b",
+            "license_expression": "lgpl-2.1"
+        }
+    ],
+    "other_license_expression": "lgpl-2.1-plus",
+    "other_license_expression_spdx": "LGPL-2.1-or-later",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: LGPL 2.1\n  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.liferay/com.liferay.login.web.api@1.0.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [],
+    "package_uid": "pkg:maven/com.liferay/com.liferay.login.web.api@1.0.0?classifier=sources&uuid=793f5af4-67fb-4f11-a624-58c1fdf57817",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.liferay/com.liferay.login.web.api@1.0.0?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.login.web.api/1.0.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.login.web.api/1.0.0/com.liferay.login.web.api-1.0.0-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.login.web.api/1.0.0/com.liferay.login.web.api-1.0.0.pom",
+    "file_references": []
+}

@@ -1,0 +1,234 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.bcel",
+    "name": "bcel",
+    "version": "6.3.1",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "b599490b-8965-45b9-914f-b719db685619",
+            "packages": [
+                "pkg:maven/org.apache.bcel/bcel@6.3.1?uuid=0c496f5a-9c40-4d5a-b1a2-4d66b1cd5f34",
+                "pkg:maven/org.apache.bcel/bcel@6.3.1?classifier=sources&uuid=ee1a67d0-118b-489e-8b0c-4d1e65ee97d1"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Apache Commons BCEL\nApache Commons Bytecode Engineering Library",
+    "release_date": "2019-03-21T02:06:54Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Dave Brosius",
+            "email": "dbrosius at mebigfatguy.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Torsten Curdt",
+            "email": "tcurdt at apache.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Markus Dahm",
+            "email": "m.dahm at gmx.de",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Jason van Zyl",
+            "email": "jason at zenplex.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Gary Gregory",
+            "email": "ggregory@apache.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Enver Haase",
+            "email": "enver at convergence.de",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "David Dixon-Peugh",
+            "email": "dixonpeugh at yahoo.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Patrick Beard",
+            "email": "beard at netscape.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Conor MacNeill",
+            "email": "conor at cortexbusiness.com.au",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Costin Manolache",
+            "email": "cmanolache at yahoo.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Bill Pugh",
+            "email": "bill.pugh at gmail.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "First Hop Ltd / Torsten Rueger",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "J\u00c3\u00a9r\u00c3\u00b4me Leroux",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Mark Roberts",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Sam Yoon",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "http://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://commons.apache.org/proper/commons-bcel",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/bcel/bcel/6.3.1/bcel-6.3.1-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "06562bc2489546248448c5ee9f4118b5d9ff8d06",
+    "sha256": "808550464d28af7bfd1eafb96a01075f0c2d9c4bbbca46352fc66887180c595d",
+    "sha512": "75a548736f9a9ece49e994bdd6b2e26588ddc6ca4d45a04dc2ebe2058080aea95b15c2eadb88caf743d35aaf2025a49a085bd391b7099dc4b832fd479ffd816d",
+    "bug_tracking_url": "http://issues.apache.org/jira/browse/BCEL",
+    "code_view_url": "http://svn.apache.org/repos/asf/commons/proper/bcel/trunk",
+    "vcs_url": "svn+http://svn.apache.org/repos/asf/commons/proper/bcel/trunk",
+    "copyright": "Copyright (c) The Apache Software Foundation",
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_48.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: Apache License, Version 2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 5,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_48.RULE",
+                    "license_expression": "apache-2.0"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_42.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.apache.org/licenses/LICENSE-2.0.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 9,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_42.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-efc1b129-3bcc-a9c0-71ea-964bc53d5512",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": "warranty-disclaimer",
+    "other_license_expression_spdx": "LicenseRef-scancode-warranty-disclaimer",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Apache License, Version 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.bcel/bcel@6.3.1?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/junit/junit@4.12",
+            "extracted_requirement": "4.12",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/net.java.dev.jna/jna@4.5.0",
+            "extracted_requirement": "4.5.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/net.java.dev.jna/jna-platform@4.5.0",
+            "extracted_requirement": "4.5.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.commons/commons-lang3@3.8.1",
+            "extracted_requirement": "3.8.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.bcel/bcel@6.3.1?classifier=sources&uuid=ee1a67d0-118b-489e-8b0c-4d1e65ee97d1",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.apache.bcel/bcel@6.3.1?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/bcel/bcel/6.3.1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/bcel/bcel/6.3.1/bcel-6.3.1-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/bcel/bcel/6.3.1/bcel-6.3.1.pom",
+    "file_references": []
+}

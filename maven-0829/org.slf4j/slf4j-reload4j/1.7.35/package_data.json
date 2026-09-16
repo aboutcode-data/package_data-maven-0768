@@ -1,0 +1,95 @@
+{
+    "type": "maven",
+    "namespace": "org.slf4j",
+    "name": "slf4j-reload4j",
+    "version": "1.7.35",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "5a525453-54c0-4873-a009-8eb49320db9b",
+            "packages": [
+                "pkg:maven/org.slf4j/slf4j-reload4j@1.7.35?uuid=b9c9b030-787e-4b54-9885-db7391dfbfb0",
+                "pkg:maven/org.slf4j/slf4j-reload4j@1.7.35?classifier=sources&uuid=e4b16a5c-1e6e-4503-8457-39fca672b967"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "SLF4J Reload4j Binding",
+    "release_date": "2022-01-25T10:40:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Ceki Gulcu",
+            "email": "ceki@qos.ch",
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "QOS.ch",
+            "email": null,
+            "url": "http://www.qos.ch"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://reload4j.qos.ch",
+    "download_url": "https://repo1.maven.org/maven2/org/slf4j/slf4j-reload4j/1.7.35/slf4j-reload4j-1.7.35-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "51ee8645d01f88a99f9a46c9931992084914d80a",
+    "sha256": "a62d0618c20de9e2c9568ee41ccaaaf9ec3f9910595c5b749d03a6f69d459451",
+    "sha512": "1539db6fbf18e43d3e4ec35682b518f86c144bfeebc1bb94e89e60d3caba40456f75f350f78d943bf3c461462e5344db7bf6c5757d59e025e1e374b985dc3c38",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "mit",
+    "declared_license_expression_spdx": "MIT",
+    "license_detections": [],
+    "other_license_expression": "mit",
+    "other_license_expression_spdx": "MIT",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.slf4j/slf4j-reload4j@1.7.35?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/ch.qos.reload4j/reload4j",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-api@1.7.35",
+            "extracted_requirement": "1.7.35",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.slf4j/slf4j-reload4j@1.7.35?classifier=sources&uuid=e4b16a5c-1e6e-4503-8457-39fca672b967",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.slf4j/slf4j-reload4j@1.7.35?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

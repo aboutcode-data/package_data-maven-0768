@@ -1,0 +1,88 @@
+{
+    "type": "maven",
+    "namespace": "com.amazonaws",
+    "name": "aws-java-sdk-servicecatalog",
+    "version": "1.11.271",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "43de8bc9-b4d8-4446-9378-a042f0b08acd",
+            "packages": [
+                "pkg:maven/com.amazonaws/aws-java-sdk-servicecatalog@1.11.271?uuid=117f838d-73b7-4b53-b72e-bf3204006e11",
+                "pkg:maven/com.amazonaws/aws-java-sdk-servicecatalog@1.11.271?classifier=sources&uuid=70578461-66d4-4808-8047-a57d7afa45cb"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "AWS Java SDK for AWS Service Catalog\nThe AWS Java SDK for AWS Service Catalog module holds the client classes that are used for communicating with AWS Service Catalog",
+    "release_date": "2018-01-27T00:05:26Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": null,
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://aws.amazon.com/sdkforjava",
+    "download_url": "https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-servicecatalog/1.11.271/aws-java-sdk-servicecatalog-1.11.271-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "a759b3788f4e2ab7c09c7f9ceaae1fed2e8fb900",
+    "sha256": "432349523c8b38806af375d425fc969d79e02596b0465b3bb79db5feaad51cd3",
+    "sha512": "95bc8d37b5b3fa3c987f39df24111b313ac0534f1f738df97019d77d5b2df9df83fd6d80662b6f7abbfbc20e177d0005d3101fbb4fb9511c8d5cc9ca7516f35b",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.amazonaws/aws-java-sdk-servicecatalog@1.11.271?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.amazonaws/aws-java-sdk-core",
+            "extracted_requirement": "${awsjavasdk.version}",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.amazonaws/jmespath-java",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.amazonaws/aws-java-sdk-test-utils",
+            "extracted_requirement": "${awsjavasdk.version}",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/com.amazonaws/aws-java-sdk-servicecatalog@1.11.271?classifier=sources&uuid=70578461-66d4-4808-8047-a57d7afa45cb",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.amazonaws/aws-java-sdk-servicecatalog@1.11.271?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-servicecatalog/1.11.271/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-servicecatalog/1.11.271/aws-java-sdk-servicecatalog-1.11.271-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-servicecatalog/1.11.271/aws-java-sdk-servicecatalog-1.11.271.pom",
+    "file_references": []
+}

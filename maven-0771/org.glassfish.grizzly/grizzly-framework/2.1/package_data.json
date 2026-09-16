@@ -1,0 +1,108 @@
+{
+    "type": "maven",
+    "namespace": "org.glassfish.grizzly",
+    "name": "grizzly-framework",
+    "version": "2.1",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "16ce7a29-549c-4648-b2f9-d7f69fb9a69a",
+            "packages": [
+                "pkg:maven/org.glassfish.grizzly/grizzly-framework@2.1?uuid=349a7239-7453-4d33-b15f-36c89d77473f",
+                "pkg:maven/org.glassfish.grizzly/grizzly-framework@2.1?classifier=sources&uuid=64f56833-e246-4776-8c0b-58f55af1ed88"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "grizzly-framework",
+    "release_date": "2011-04-26T17:38:40Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Jeanfrancois Arcand",
+            "email": "jfarcand@java.net",
+            "url": "http://weblogs.java.net/blog/jfarcand/"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Oleksiy Stashok",
+            "email": "oleksiys@java.net",
+            "url": "http://blogs.sun.com/oleksiys/"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Ryan Lubke",
+            "email": "rlubke@java.net",
+            "url": "http://blogs.sun.com/rlubke"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Justin Lee",
+            "email": "justin.d.lee@oracle.com",
+            "url": "http://antwerkz.com"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Oracle Corpration",
+            "email": null,
+            "url": "http://www.oracle.com"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://grizzly.java.net",
+    "download_url": "https://repo1.maven.org/maven2/org/glassfish/grizzly/grizzly-framework/2.1/grizzly-framework-2.1-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "9f6c13c396f2c4ceaeb90c5f2d1fb58643391fa8",
+    "sha256": "e5a8d6ec0eb03cbb315924b2b2b64cfc29e42438900a70b91988d1c77bfe1f77",
+    "sha512": "fb738755195856494b428faa6b202aef60deaa386d1c4870bd9af87c9cf477102c9fc1e344c7bc5aaab5558d0c55562d424bf32595de1935b2da0c71fed363dd",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) The Dojo Foundation 17",
+    "holder": null,
+    "declared_license_expression": "unknown",
+    "declared_license_expression_spdx": "LicenseRef-scancode-unknown",
+    "license_detections": [],
+    "other_license_expression": "(cddl-1.1 OR gpl-2.0 WITH classpath-exception-2.0) AND (((cddl-1.1 OR gpl-2.0 WITH classpath-exception-2.0) AND mit) AND cc-pd) AND ((cddl-1.1 OR gpl-2.0 WITH classpath-exception-2.0) AND apache-2.0) AND ((cddl-1.1 OR gpl-2.0 WITH classpath-exception-2.0) AND w3c) AND bsd-new AND cc-pd",
+    "other_license_expression_spdx": "(CDDL-1.1 OR GPL-2.0-only WITH Classpath-exception-2.0) AND (((CDDL-1.1 OR GPL-2.0-only WITH Classpath-exception-2.0) AND MIT) AND CC-PDDC) AND ((CDDL-1.1 OR GPL-2.0-only WITH Classpath-exception-2.0) AND Apache-2.0) AND ((CDDL-1.1 OR GPL-2.0-only WITH Classpath-exception-2.0) AND W3C) AND BSD-3-Clause AND CC-PDDC",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.glassfish.grizzly/grizzly-framework@2.1?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.glassfish.gmbal/gmbal-api-only",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.glassfish.gmbal/gmbal",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.glassfish.grizzly/grizzly-framework@2.1?classifier=sources&uuid=64f56833-e246-4776-8c0b-58f55af1ed88",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.glassfish.grizzly/grizzly-framework@2.1?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/glassfish/grizzly/grizzly-framework/2.1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/glassfish/grizzly/grizzly-framework/2.1/grizzly-framework-2.1-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/glassfish/grizzly/grizzly-framework/2.1/grizzly-framework-2.1.pom",
+    "file_references": []
+}

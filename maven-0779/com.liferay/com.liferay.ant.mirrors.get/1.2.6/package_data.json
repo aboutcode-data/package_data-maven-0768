@@ -1,0 +1,96 @@
+{
+    "type": "maven",
+    "namespace": "com.liferay",
+    "name": "com.liferay.ant.mirrors.get",
+    "version": "1.2.6",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "93aff3d9-df8a-4705-bf6c-4aa87b5e8cd8",
+            "packages": [
+                "pkg:maven/com.liferay/com.liferay.ant.mirrors.get@1.2.6?uuid=1898b483-6a76-44d7-ac41-28a551205419",
+                "pkg:maven/com.liferay/com.liferay.ant.mirrors.get@1.2.6?classifier=sources&uuid=c6393075-7c8e-47c9-a26e-d23bc3009ba3"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Liferay Ant Mirrors Get",
+    "release_date": "2018-11-02T16:06:43Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Brian Wing Shun Chan",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.ant.mirrors.get/1.2.6/com.liferay.ant.mirrors.get-1.2.6-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "01019e8040bb92e0bb446f2ca31c92f8bab10842",
+    "sha256": "3f176c601177d6c777434f6fe2787d1be841f7ce69ce4e91c82585f3359bbfb0",
+    "sha512": "ee62ea51056e6c74472f578eeacc6a5ca35e6b5d3127dc2fed4b2d1a37ccaea1c67717f459f220d0ae078de11296dc12ce6013201b20f41ae3344f596bcc3033",
+    "bug_tracking_url": null,
+    "code_view_url": "http://github.com/liferay/liferay-portal",
+    "vcs_url": "git+https://github.com/liferay/liferay-portal.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "lgpl-2.1",
+    "declared_license_expression_spdx": "LGPL-2.1-only",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_85.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: LGPL 2.1",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_85.RULE",
+                    "license_expression": "lgpl-2.1"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_37.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 11,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_37.RULE",
+                    "license_expression": "lgpl-2.1"
+                }
+            ],
+            "identifier": "lgpl_2_1-6893cb1b-4cad-db8f-2133-a48bc107078b",
+            "license_expression": "lgpl-2.1"
+        }
+    ],
+    "other_license_expression": "lgpl-2.1-plus",
+    "other_license_expression_spdx": "LGPL-2.1-or-later",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: LGPL 2.1\n  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.liferay/com.liferay.ant.mirrors.get@1.2.6?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [],
+    "package_uid": "pkg:maven/com.liferay/com.liferay.ant.mirrors.get@1.2.6?classifier=sources&uuid=c6393075-7c8e-47c9-a26e-d23bc3009ba3",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.liferay/com.liferay.ant.mirrors.get@1.2.6?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.ant.mirrors.get/1.2.6/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.ant.mirrors.get/1.2.6/com.liferay.ant.mirrors.get-1.2.6-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.ant.mirrors.get/1.2.6/com.liferay.ant.mirrors.get-1.2.6.pom",
+    "file_references": []
+}

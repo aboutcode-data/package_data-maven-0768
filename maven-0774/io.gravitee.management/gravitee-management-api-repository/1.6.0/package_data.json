@@ -1,0 +1,80 @@
+{
+    "type": "maven",
+    "namespace": "io.gravitee.management",
+    "name": "gravitee-management-api-repository",
+    "version": "1.6.0",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Gravitee.io APIM - Management - Repository",
+    "release_date": "2017-05-17T04:34:59Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/io/gravitee/management/gravitee-management-api-repository/1.6.0/gravitee-management-api-repository-1.6.0.jar",
+    "size": 27438,
+    "md5": null,
+    "sha1": "1449da7487f0caf40e00a71086a748f7599c7e33",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.gravitee.management/gravitee-management-api-repository@1.6.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/io.gravitee.repository/gravitee-repository",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.gravitee.common/gravitee-common",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.gravitee.plugin/gravitee-plugin-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.transaction/javax.transaction-api",
+            "extracted_requirement": "1.2",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/io.gravitee.management/gravitee-management-api-repository@1.6.0?uuid=64ea655c-caf1-482c-a27a-add089894499",
+    "datasource_id": null,
+    "purl": "pkg:maven/io.gravitee.management/gravitee-management-api-repository@1.6.0",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/io/gravitee/management/gravitee-management-api-repository/1.6.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/io/gravitee/management/gravitee-management-api-repository/1.6.0/gravitee-management-api-repository-1.6.0.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/io/gravitee/management/gravitee-management-api-repository/1.6.0/gravitee-management-api-repository-1.6.0.pom",
+    "file_references": []
+}

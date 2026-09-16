@@ -1,0 +1,215 @@
+{
+    "type": "maven",
+    "namespace": "com.ibm.cos",
+    "name": "ibm-cos-java-sdk-core",
+    "version": "2.9.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "f24ad7e9-0533-4ab8-b61e-2ba9beb0859e",
+            "packages": [
+                "pkg:maven/com.ibm.cos/ibm-cos-java-sdk-core@2.9.0?uuid=56383d13-7ad4-461d-a654-2916c32a3ef8",
+                "pkg:maven/com.ibm.cos/ibm-cos-java-sdk-core@2.9.0?classifier=sources&uuid=8ac1285f-bacb-49ac-b255-baab963434c8",
+                "pkg:github/ibm/ibm-cos-sdk-java@2.9.0?uuid=8cf24a8a-c0c8-46d4-b8c0-fe297a6ba284"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "IBM COS SDK for Java - Core\nThe IBM COS SDK for Java - Core module holds the classes that are used by the individual service clients to interact with IBM Cloud Object Storage. Users need to depend on cos-java-sdk artifact for accessing individual client classes.",
+    "release_date": "2020-12-15T15:11:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Robert Veitch",
+            "email": "rveitch@us.ibm.com",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/ibm/ibm-cos-sdk-java",
+    "download_url": "https://repo1.maven.org/maven2/com/ibm/cos/ibm-cos-java-sdk-core/2.9.0/ibm-cos-java-sdk-core-2.9.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "d909255a0a570b2ce9142716c0bee7a7c9e81a93",
+    "sha256": "f954006bcf71bf3b66762c30ce54d98b99f784816a20d9d74b865c1b97cdc66f",
+    "sha512": "427fc255484af8886a65fba38149c641332ec814e9588a575aa9d0f7d36dd2a2389db9fb2c25db6fb26268631e0c33179c19eca45dbdae2812feb775d0152885",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0 AND (unknown-license-reference AND apache-2.0) AND (unknown-license-reference AND apache-2.0 AND mit)",
+    "other_license_expression_spdx": "Apache-2.0 AND (LicenseRef-scancode-unknown-license-reference AND Apache-2.0) AND (LicenseRef-scancode-unknown-license-reference AND Apache-2.0 AND MIT)",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.ibm.cos/ibm-cos-java-sdk-core@2.9.0?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/com.ibm.cos/ibm-cos-java-sdk-pom@2.9.0",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/com.ibm.cos/ibm-cos-java-sdk-pom@2.9.0"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/javax.xml.bind/jaxb-api@2.3.0",
+            "extracted_requirement": "2.3.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.sun.xml.bind/jaxb-core@2.3.0",
+            "extracted_requirement": "2.3.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.sun.xml.bind/jaxb-impl@2.3.0",
+            "extracted_requirement": "2.3.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/commons-logging/commons-logging",
+            "extracted_requirement": "${commons.logging.version}",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.httpcomponents/httpclient",
+            "extracted_requirement": "${httpcomponents.httpclient.version}",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/software.amazon.ion/ion-java",
+            "extracted_requirement": "${ion.java.version}",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind",
+            "extracted_requirement": "${jackson.databind.version}",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-cbor",
+            "extracted_requirement": "${jackson.cbor.version}",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/joda-time/joda-time",
+            "extracted_requirement": "${jodatime.version}",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": "${junit.version}",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.github.tomakehurst/wiremock",
+            "extracted_requirement": "${wiremock.version}",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/log4j/log4j",
+            "extracted_requirement": "${log4j.version}",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.hamcrest/hamcrest-all",
+            "extracted_requirement": "${hamcrest.all.version}",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.easymock/easymock",
+            "extracted_requirement": "${easymock.version}",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/commons-io/commons-io",
+            "extracted_requirement": "${commons.io.version}",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.mockito/mockito-all",
+            "extracted_requirement": "${mockito.all.version}",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/nl.jqno.equalsverifier/equalsverifier",
+            "extracted_requirement": "${equalsverifier.version}",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.unitils/unitils-core",
+            "extracted_requirement": "${unitils.version}",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/com.ibm.cos/ibm-cos-java-sdk-core@2.9.0?classifier=sources&uuid=8ac1285f-bacb-49ac-b255-baab963434c8",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/com.ibm.cos/ibm-cos-java-sdk-core@2.9.0?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/ibm/cos/ibm-cos-java-sdk-core/2.9.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/ibm/cos/ibm-cos-java-sdk-core/2.9.0/ibm-cos-java-sdk-core-2.9.0-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/ibm/cos/ibm-cos-java-sdk-core/2.9.0/ibm-cos-java-sdk-core-2.9.0.pom",
+    "file_references": []
+}

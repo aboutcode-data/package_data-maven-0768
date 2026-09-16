@@ -1,0 +1,96 @@
+{
+    "type": "maven",
+    "namespace": "com.liferay.portal",
+    "name": "com.liferay.portal.kernel",
+    "version": "2.9.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "7ac3f12a-0c57-45d4-b5f4-5244116e4fb3",
+            "packages": [
+                "pkg:maven/com.liferay.portal/com.liferay.portal.kernel@2.9.0?uuid=a20c6dc2-e4fc-4abc-8ad9-9eff66aa51ac",
+                "pkg:maven/com.liferay.portal/com.liferay.portal.kernel@2.9.0?classifier=sources&uuid=9e4005d5-0210-436a-a3f1-cd04633fb54e"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Liferay Portal Kernel\nContains interfaces for the portal services. Interfaces are only loaded by the global class loader and are shared by all plugins.",
+    "release_date": "2016-09-06T21:25:42Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Brian Wing Shun Chan",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/com/liferay/portal/com.liferay.portal.kernel/2.9.0/com.liferay.portal.kernel-2.9.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "019649467a0b63586d5c40744896dc30a1b3012b",
+    "sha256": "9880ca97b8c84a77b807a1711e8bcbf8bfec9e2c0e3efe5e29ed8ae40c9bc010",
+    "sha512": "f21ab60eef67904badb9774c39a6773f378fe2af0b7b85b1ad2b57dc80265d21de924a46b10694f668a543c759219bb56563ba0444d216eab5033e6aa17d0e64",
+    "bug_tracking_url": null,
+    "code_view_url": "http://github.com/liferay/liferay-portal",
+    "vcs_url": "git+https://github.com/liferay/liferay-portal.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "lgpl-2.1",
+    "declared_license_expression_spdx": "LGPL-2.1-only",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_85.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: LGPL 2.1",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_85.RULE",
+                    "license_expression": "lgpl-2.1"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_37.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 11,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_37.RULE",
+                    "license_expression": "lgpl-2.1"
+                }
+            ],
+            "identifier": "lgpl_2_1-6893cb1b-4cad-db8f-2133-a48bc107078b",
+            "license_expression": "lgpl-2.1"
+        }
+    ],
+    "other_license_expression": "lgpl-2.1-plus AND unknown-license-reference AND bsd-new",
+    "other_license_expression_spdx": "LGPL-2.1-or-later AND LicenseRef-scancode-unknown-license-reference AND BSD-3-Clause",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: LGPL 2.1\n  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.liferay.portal/com.liferay.portal.kernel@2.9.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [],
+    "package_uid": "pkg:maven/com.liferay.portal/com.liferay.portal.kernel@2.9.0?classifier=sources&uuid=9e4005d5-0210-436a-a3f1-cd04633fb54e",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.liferay.portal/com.liferay.portal.kernel@2.9.0?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/liferay/portal/com.liferay.portal.kernel/2.9.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/liferay/portal/com.liferay.portal.kernel/2.9.0/com.liferay.portal.kernel-2.9.0-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/liferay/portal/com.liferay.portal.kernel/2.9.0/com.liferay.portal.kernel-2.9.0.pom",
+    "file_references": []
+}

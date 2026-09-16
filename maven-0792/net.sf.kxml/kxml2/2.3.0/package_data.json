@@ -1,0 +1,112 @@
+{
+    "type": "maven",
+    "namespace": "net.sf.kxml",
+    "name": "kxml2",
+    "version": "2.3.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "d3edcbed-dfd2-4010-97ae-8a71740938d0",
+            "packages": [
+                "pkg:maven/net.sf.kxml/kxml2@2.3.0?uuid=2f9797d9-5a4a-4a85-83e0-3b8c7bdc044c",
+                "pkg:maven/net.sf.kxml/kxml2@2.3.0?classifier=sources&uuid=d3931595-08e0-4bef-a972-ae5a1ed9b241",
+                "pkg:github/kobjects/kxml2@master?uuid=2d90b5e9-50e6-4966-83a0-d581c735998a"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "kXML 2 is a small XML pull parser based on the common XML pull API\nkXML is a small XML pull parser, specially designed for constrained environments such as Applets, Personal Java or MIDP devices. In contrast to kXML 1, kXML 2 is based on the common XML pull API.",
+    "release_date": "2009-04-21T06:04:25Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Stefan Haustein, Oberhausen, Rhld., Germany",
+            "email": null,
+            "url": "http://kxml.sourceforge.net/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://kxml.sourceforge.net/",
+    "download_url": "https://repo1.maven.org/maven2/net/sf/kxml/kxml2/2.3.0/kxml2-2.3.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "309cd2cff7260e465792fda3dcbb063b730d8050",
+    "sha256": "85495366666158b58961e8911ced0f6f3bc92f1ebee865518b493fdb90760250",
+    "sha512": "2ed9300bdf0016c63b18d89f32c80045070116f62d3a95f7a26564ea24e6dc99873fbda61ecce621468f1304e88f54b1c6c82ac5cfdedcb2cc1c6b2c297ac7b4",
+    "bug_tracking_url": null,
+    "code_view_url": "http://kxml.cvs.sourceforge.net/viewvc/kxml/kxml2/",
+    "vcs_url": "http://kxml.cvs.sourceforge.net/viewvc/kxml/kxml2/",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "bsd-new AND public-domain AND cc-pd",
+    "declared_license_expression_spdx": "BSD-3-Clause AND LicenseRef-scancode-public-domain AND CC-PDDC",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 90.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/bsd-new_878.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: BSD style",
+                    "match_coverage": 100.0,
+                    "matched_length": 2,
+                    "rule_relevance": 90,
+                    "rule_identifier": "bsd-new_878.RULE",
+                    "license_expression": "bsd-new"
+                },
+                {
+                    "score": 70.0,
+                    "matcher": "2-aho",
+                    "end_line": 4,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/public-domain_bare_words.RULE",
+                    "start_line": 4,
+                    "matched_text": "- name: Public Domain",
+                    "match_coverage": 100.0,
+                    "matched_length": 2,
+                    "rule_relevance": 70,
+                    "rule_identifier": "public-domain_bare_words.RULE",
+                    "license_expression": "public-domain"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 5,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/cc-pd_1.RULE",
+                    "start_line": 5,
+                    "matched_text": "  url: http://creativecommons.org/licenses/publicdomain",
+                    "match_coverage": 100.0,
+                    "matched_length": 5,
+                    "rule_relevance": 100,
+                    "rule_identifier": "cc-pd_1.RULE",
+                    "license_expression": "cc-pd"
+                }
+            ],
+            "identifier": "bsd_new_and_public_domain_and_cc_pd-6b99cff8-562a-3cb9-f698-00527cc0d69f",
+            "license_expression": "bsd-new AND public-domain AND cc-pd"
+        }
+    ],
+    "other_license_expression": "mit",
+    "other_license_expression_spdx": "MIT",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: BSD style\n  url: http://kxml.cvs.sourceforge.net/viewvc/kxml/kxml2/license.txt?view=markup\n  comments: The license applies to the kXML2 classes (all classes below the org.kxml2 package).\n- name: Public Domain\n  url: http://creativecommons.org/licenses/publicdomain\n  comments: The license applies to the XmlPull API (all classes directly in the org.xmlpull.v1\n    package)\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/net.sf.kxml/kxml2@2.3.0?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [],
+    "package_uid": "pkg:maven/net.sf.kxml/kxml2@2.3.0?classifier=sources&uuid=d3931595-08e0-4bef-a972-ae5a1ed9b241",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/net.sf.kxml/kxml2@2.3.0?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/net/sf/kxml/kxml2/2.3.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/net/sf/kxml/kxml2/2.3.0/kxml2-2.3.0-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/net/sf/kxml/kxml2/2.3.0/kxml2-2.3.0.pom",
+    "file_references": []
+}

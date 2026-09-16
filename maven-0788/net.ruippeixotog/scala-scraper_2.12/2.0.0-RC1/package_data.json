@@ -1,0 +1,143 @@
+{
+    "type": "maven",
+    "namespace": "net.ruippeixotog",
+    "name": "scala-scraper_2.12",
+    "version": "2.0.0-RC1",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "scala-scraper",
+    "release_date": "2017-05-18T21:14:56Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Rui Gon\u00e7alves",
+            "email": null,
+            "url": "http://www.ruippeixotog.net"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "net.ruippeixotog",
+            "email": null,
+            "url": "https://github.com/ruippeixotog/scala-scraper"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/ruippeixotog/scala-scraper",
+    "download_url": "https://repo1.maven.org/maven2/net/ruippeixotog/scala-scraper_2.12/2.0.0-RC1/scala-scraper_2.12-2.0.0-RC1.jar",
+    "size": 267446,
+    "md5": null,
+    "sha1": "552620f9f6384de171baa59434c3496d7b6bb5bc",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "mit",
+    "declared_license_expression_spdx": "MIT",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "MIT License\nhttp://www.opensource.org/licenses/mit-license.php",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/net.ruippeixotog/scala-scraper_2.12@2.0.0-RC1?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.scala-lang/scala-library",
+            "extracted_requirement": "2.12.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.tpolecat/tut-core_2.12",
+            "extracted_requirement": "0.5.1",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.github.nscala-time/nscala-time_2.12",
+            "extracted_requirement": "2.16.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/net.sourceforge.htmlunit/htmlunit",
+            "extracted_requirement": "2.26",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jsoup/jsoup",
+            "extracted_requirement": "1.10.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.scalaz/scalaz-core_2.12",
+            "extracted_requirement": "7.2.12",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.http4s/http4s-blaze-server_2.12",
+            "extracted_requirement": "0.15.11a",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.http4s/http4s-dsl_2.12",
+            "extracted_requirement": "0.15.11a",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-nop",
+            "extracted_requirement": "1.7.25",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.specs2/specs2-core_2.12",
+            "extracted_requirement": "3.8.9",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/net.ruippeixotog/scala-scraper_2.12@2.0.0-RC1?uuid=6dc0d7a0-3d69-4a99-af92-97825628275d",
+    "datasource_id": null,
+    "purl": "pkg:maven/net.ruippeixotog/scala-scraper_2.12@2.0.0-RC1",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/net/ruippeixotog/scala-scraper_2.12/2.0.0-RC1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/net/ruippeixotog/scala-scraper_2.12/2.0.0-RC1/scala-scraper_2.12-2.0.0-RC1.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/net/ruippeixotog/scala-scraper_2.12/2.0.0-RC1/scala-scraper_2.12-2.0.0-RC1.pom",
+    "file_references": []
+}

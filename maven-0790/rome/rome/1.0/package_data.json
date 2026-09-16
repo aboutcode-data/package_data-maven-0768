@@ -1,0 +1,103 @@
+{
+    "type": "maven",
+    "namespace": "rome",
+    "name": "rome",
+    "version": "1.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "863b75e0-6ead-4942-b008-c09ce55abe32",
+            "packages": [
+                "pkg:maven/rome/rome@1.0?uuid=e506aac9-f3a1-4eb5-b705-acdacc074913",
+                "pkg:maven/rome/rome@1.0?classifier=sources&uuid=aaad45f4-3f73-4419-965f-139cfb09d402"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "ROME, RSS and atOM utilitiEs for Java\nAll Roads Lead to ROME. ROME is a set of Atom/RSS Java utilities that make it\n\t\teasy to work in Java with most syndication formats. Today it accepts all flavors of RSS\n\t\t(0.90, 0.91, 0.92, 0.93, 0.94, 1.0 and 2.0), Atom 0.3 and Atom 1.0 feeds. Rome includes\n\t\ta set of parsers and generators for the various flavors of feeds, as well as converters\n\t\tto convert from one format to another. The parsers can give you back Java objects that\n\t\tare either specific for the format you want to work with, or a generic normalized\n\t\tSyndFeed object that lets you work on with the data without bothering about the\n\t\tunderlying format.",
+    "release_date": "2010-05-20T00:47:33Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Alejandro Abdelnur",
+            "email": null,
+            "url": "http://blog.sun.com/roller/page/tucu/"
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Elaine Chien",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Patrick Chanezon",
+            "email": null,
+            "url": "http://www.chanezon.com/pat/weblog/"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Sun Microsystems",
+            "email": null,
+            "url": "http://java.sun.com/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://rome.dev.java.net/",
+    "download_url": "https://repo1.maven.org/maven2/rome/rome/1.0/rome-1.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "195e9a962672c32943ec8883e010b6a5ea568745",
+    "sha256": "cb4ea338775d7df7fc8237175eb6817d044170c4de9d691e60d4e87e923aad31",
+    "sha512": "56a81f1e278f87b1f863673123314804fc5b4b07175ab5096beba342b3e535cd44480f00630c4b9ebd819edff7d6aa664aa05db0c0945681dececf2c3e3fab96",
+    "bug_tracking_url": "https://rome.dev.java.net/servlets/ProjectIssues",
+    "code_view_url": "https://rome.dev.java.net/source/browse/rome/",
+    "vcs_url": "cvs+https://github.com/pserver:guest@cvs.dev.java.net:/cvs:rome",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/rome/rome@1.0?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/jdom/jdom@1.0",
+            "extracted_requirement": "1.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit@3.8.2",
+            "extracted_requirement": "3.8.2",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/rome/rome@1.0?classifier=sources&uuid=aaad45f4-3f73-4419-965f-139cfb09d402",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/rome/rome@1.0?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/rome/rome/1.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/rome/rome/1.0/rome-1.0-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/rome/rome/1.0/rome-1.0.pom",
+    "file_references": []
+}

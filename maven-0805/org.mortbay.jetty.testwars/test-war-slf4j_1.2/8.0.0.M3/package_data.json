@@ -1,0 +1,72 @@
+{
+    "type": "maven",
+    "namespace": "org.mortbay.jetty.testwars",
+    "name": "test-war-slf4j_1.2",
+    "version": "8.0.0.M3",
+    "qualifiers": "type=war",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Jetty :: Logging Test War :: Slf4J 1.2",
+    "release_date": "2011-05-31T01:28:38Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/mortbay/jetty/testwars/test-war-slf4j_1.2/8.0.0.M3/test-war-slf4j_1.2-8.0.0.M3.war",
+    "size": 20144,
+    "md5": null,
+    "sha1": "4a4fc89f42af011eb2c436d521347dc99b9b6487",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.mortbay.jetty.testwars/test-war-slf4j_1.2@8.0.0.M3?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-api",
+            "extracted_requirement": "1.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-simple",
+            "extracted_requirement": "1.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.servlet/servlet-api",
+            "extracted_requirement": "2.5",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.mortbay.jetty.testwars/test-war-slf4j_1.2@8.0.0.M3?type=war&uuid=5a8b0abe-5f52-4e91-8c9e-6cb82d44152a",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.mortbay.jetty.testwars/test-war-slf4j_1.2@8.0.0.M3?type=war",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/mortbay/jetty/testwars/test-war-slf4j_1.2/8.0.0.M3/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/mortbay/jetty/testwars/test-war-slf4j_1.2/8.0.0.M3/test-war-slf4j_1.2-8.0.0.M3.war",
+    "api_data_url": "https://repo1.maven.org/maven2/org/mortbay/jetty/testwars/test-war-slf4j_1.2/8.0.0.M3/test-war-slf4j_1.2-8.0.0.M3.pom",
+    "file_references": []
+}

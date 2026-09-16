@@ -1,0 +1,74 @@
+{
+    "type": "maven",
+    "namespace": "commons-logging",
+    "name": "commons-logging",
+    "version": "1.0.3",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Logging\nCommons Logging",
+    "release_date": "2005-11-22T18:09:38Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": "http://jakarta.apache.org/commons/logging/",
+    "download_url": "https://repo1.maven.org/maven2/commons-logging/commons-logging/1.0.3/commons-logging-1.0.3.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "760c711c71588bc273d3e56d196d720a7678cd93",
+    "sha256": "bcfa023daea8525d6db029ea82e8f58dbf1a06006db6526d9f984dbf215d8a75",
+    "sha512": "0ea5efb79865fd978c4075e381f35229ad938b2860eda8c506ee98c5615ecddffbea1173ea7a130dbfbadbbed8f9a425e5c19fa62b5a2b98144921a7992737b3",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-1.1",
+    "declared_license_expression_spdx": "Apache-1.1",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/commons-logging/commons-logging@1.0.3?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 5
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/log4j/log4j@1.2.6",
+            "extracted_requirement": "1.2.6",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/logkit/logkit@1.0.1",
+            "extracted_requirement": "1.0.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit@3.7",
+            "extracted_requirement": "3.7",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/commons-logging/commons-logging@1.0.3?uuid=e077c581-9b02-4767-9643-92c32c23bba2",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/commons-logging/commons-logging@1.0.3",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/commons-logging/commons-logging/1.0.3/",
+    "repository_download_url": "https://repo1.maven.org/maven2/commons-logging/commons-logging/1.0.3/commons-logging-1.0.3.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/commons-logging/commons-logging/1.0.3/commons-logging-1.0.3.pom",
+    "file_references": []
+}

@@ -1,0 +1,157 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.cxf",
+    "name": "cxf-tools-validator",
+    "version": "3.2.5",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "7abd392b-8ac1-4022-8d1a-a9b812577aeb",
+            "packages": [
+                "pkg:maven/org.apache.cxf/cxf-tools-validator@3.2.5?uuid=0198a101-6f96-4001-96c3-6bf0e9d37400",
+                "pkg:maven/org.apache.cxf/cxf-tools-validator@3.2.5?classifier=sources&uuid=afca1e3d-828b-4997-9c2c-aa70a5b453c0"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Apache CXF Command Line Tools Validator",
+    "release_date": "2018-06-18T20:19:15Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "The Apache CXF Team",
+            "email": "dev@cxf.apache.org",
+            "url": "http://cxf.apache.org"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "http://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://cxf.apache.org",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/cxf/cxf-tools-validator/3.2.5/cxf-tools-validator-3.2.5-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "99727e753bd91d412fc5125b636563e970d99170",
+    "sha256": "312d8f2fbbb5728db3561785cee5d6f04eab38f32bde00aa51cadd44d85cc441",
+    "sha512": "5014fd54f971e338c18b903be93f4972f95c7a297f844a442fce21d9a9833b9ab80a26c535024139c6fc66d7f3704e5c2297b1832275e87215eecbbd67eb6675",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) The Apache Software Foundation",
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "cpl-1.0 AND apache-2.0 AND bsd-new AND (cddl-1.1 OR gpl-2.0 WITH classpath-exception-2.0) AND mit",
+    "other_license_expression_spdx": "CPL-1.0 AND Apache-2.0 AND BSD-3-Clause AND (CDDL-1.1 OR GPL-2.0-only WITH Classpath-exception-2.0) AND MIT",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.cxf/cxf-tools-validator@3.2.5?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.apache.cxf/cxf@3.2.5",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.apache.cxf/cxf@3.2.5"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.cxf/cxf-tools-common@3.2.5",
+            "extracted_requirement": "3.2.5",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/wsdl4j/wsdl4j",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.sun.xml.bind/jaxb-xjc",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.sun.xml.bind/jaxb-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.sun.xml.bind/jaxb-impl",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.ws.xmlschema/xmlschema-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.cxf/cxf-core@3.2.5",
+            "extracted_requirement": "3.2.5",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.cxf/cxf-rt-bindings-soap@3.2.5",
+            "extracted_requirement": "3.2.5",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/%24%7Bcxf.asm.groupId%7D/%24%7Bcxf.asm.artifactId%7D",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.cxf/cxf-tools-validator@3.2.5?classifier=sources&uuid=afca1e3d-828b-4997-9c2c-aa70a5b453c0",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.apache.cxf/cxf-tools-validator@3.2.5?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/cxf/cxf-tools-validator/3.2.5/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/cxf/cxf-tools-validator/3.2.5/cxf-tools-validator-3.2.5-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/cxf/cxf-tools-validator/3.2.5/cxf-tools-validator-3.2.5.pom",
+    "file_references": []
+}

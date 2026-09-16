@@ -1,0 +1,177 @@
+{
+    "type": "maven",
+    "namespace": "org.junit.platform",
+    "name": "junit-platform-launcher",
+    "version": "1.9.1",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "e8e57a84-9f0f-4fa1-8c85-2226b3f306cc",
+            "packages": [
+                "pkg:maven/org.junit.platform/junit-platform-launcher@1.9.1?uuid=d0850a5b-20fa-4dd5-b0be-938e10f29c8c",
+                "pkg:maven/org.junit.platform/junit-platform-launcher@1.9.1?classifier=sources&uuid=a3d5efee-a9f8-48ab-b8c1-d279280ada20"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "JUnit Platform Launcher\nModule \"junit-platform-launcher\" of JUnit 5.",
+    "release_date": "2022-09-20T18:34:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Stefan Bechtold",
+            "email": "stefan.bechtold@me.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Johannes Link",
+            "email": "business@johanneslink.net",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Marc Philipp",
+            "email": "mail@marcphilipp.de",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Matthias Merdes",
+            "email": "matthias.merdes@heidelpay.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Sam Brannen",
+            "email": "sam@sambrannen.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Christian Stein",
+            "email": "sormuras@gmail.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Juliette de Rancourt",
+            "email": "derancourt.juliette@gmail.com",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://junit.org/junit5/",
+    "download_url": "https://repo1.maven.org/maven2/org/junit/platform/junit-platform-launcher/1.9.1/junit-platform-launcher-1.9.1-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "d5679a91eba86a856998e08b1f8bad0f1be1d722",
+    "sha256": "4c43f3e6507841c13bc105f0c2c4af146a33ddaa691f3973536e6bfaa424eed2",
+    "sha512": "b1b86f2589d49c8160f1f0c88319b576d707c1c5b76d87c81357c92bb738c4527a99daf25313822489cbf11d7055bf697b9aa450163bd2433d514fb2425c7387",
+    "bug_tracking_url": null,
+    "code_view_url": "https://github.com/junit-team/junit5",
+    "vcs_url": "git://github.com/junit-team/junit5.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "epl-1.0 AND epl-2.0",
+    "declared_license_expression_spdx": "EPL-1.0 AND EPL-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 98.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/epl_no-version.RULE",
+                    "start_line": 1,
+                    "matched_text": "Eclipse Public License v2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 98,
+                    "rule_identifier": "epl_no-version.RULE",
+                    "license_expression": "epl-1.0"
+                }
+            ],
+            "identifier": "epl_1_0-f87b11f7-1165-d9fd-5ab3-d065b420b554",
+            "license_expression": "epl-1.0"
+        },
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "1-hash",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/epl-2.0_19.RULE",
+                    "start_line": 1,
+                    "matched_text": "https://www.eclipse.org/legal/epl-v20.html",
+                    "match_coverage": 100.0,
+                    "matched_length": 8,
+                    "rule_relevance": 100,
+                    "rule_identifier": "epl-2.0_19.RULE",
+                    "license_expression": "epl-2.0"
+                }
+            ],
+            "identifier": "epl_2_0-e9e56374-e911-6884-e103-dab013d4ebb1",
+            "license_expression": "epl-2.0"
+        }
+    ],
+    "other_license_expression": "epl-2.0 AND (unknown-license-reference AND apache-2.0)",
+    "other_license_expression_spdx": "EPL-2.0 AND (LicenseRef-scancode-unknown-license-reference AND Apache-2.0)",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Eclipse Public License v2.0\n  url: https://www.eclipse.org/legal/epl-v20.html\n  comments:\n  distribution:\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.junit.platform/junit-platform-launcher@1.9.1?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.junit/junit-bom@5.9.1",
+            "extracted_requirement": "5.9.1",
+            "scope": "import",
+            "is_runtime": false,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.junit.platform/junit-platform-engine@1.9.1",
+            "extracted_requirement": "1.9.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apiguardian/apiguardian-api@1.1.2",
+            "extracted_requirement": "1.1.2",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.junit/junit-bom@5.9.1",
+            "extracted_requirement": "5.9.1",
+            "scope": "dependencymanagement",
+            "is_runtime": false,
+            "is_optional": false,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.junit.platform/junit-platform-launcher@1.9.1?classifier=sources&uuid=a3d5efee-a9f8-48ab-b8c1-d279280ada20",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.junit.platform/junit-platform-launcher@1.9.1?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

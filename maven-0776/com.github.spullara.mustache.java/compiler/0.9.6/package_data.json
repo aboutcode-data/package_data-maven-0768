@@ -1,0 +1,136 @@
+{
+    "type": "maven",
+    "namespace": "com.github.spullara.mustache.java",
+    "name": "compiler",
+    "version": "0.9.6",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "6b230b48-426c-41bf-9441-4493329e2aae",
+            "packages": [
+                "pkg:maven/com.github.spullara.mustache.java/compiler@0.9.6?uuid=2824c9ba-4cf5-4264-9a2c-fbc5cae8ed2d",
+                "pkg:maven/com.github.spullara.mustache.java/compiler@0.9.6?classifier=sources&uuid=08b38b95-1541-4bf3-a0cf-7e5b14499d69"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "compiler\nImplementation of mustache.js for Java",
+    "release_date": "2019-01-25T19:42:26Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Sam Pullara",
+            "email": "sam@sampullara.com",
+            "url": "http://www.javarants.com"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://github.com/spullara/mustache.java",
+    "download_url": "https://repo1.maven.org/maven2/com/github/spullara/mustache/java/compiler/0.9.6/compiler-0.9.6-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "a23ce3f24ae450f13f52aaa336bf836759f22331",
+    "sha256": "fb3cf89e4daa0aaa4e659aca12a8ddb0d7b605271285f3e108201e0a389b4c7a",
+    "sha512": "c32dd45850e8c8cef560f80d9642522a996878de6503c9a9585e6ab1f80301377b41766899d92f1b99cedd71b0165bea205677b460892a475fe657bda60fcb70",
+    "bug_tracking_url": null,
+    "code_view_url": "http://github.com/spullara/mustache.java",
+    "vcs_url": "git://github.com/spullara/mustache.java.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_1039.RULE",
+                    "from_file": null,
+                    "start_line": 1,
+                    "matched_text": "- name: Apache License 2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 5,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_1039.RULE",
+                    "license_expression": "apache-2.0",
+                    "spdx_license_expression": "Apache-2.0"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_25.RULE",
+                    "from_file": null,
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.apache.org/licenses/LICENSE-2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 8,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_25.RULE",
+                    "license_expression": "apache-2.0",
+                    "spdx_license_expression": "Apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-c705c0f5-4af6-3fee-216e-e973c6cf11ed",
+            "license_expression": "apache-2.0",
+            "license_expression_spdx": "Apache-2.0"
+        }
+    ],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Apache License 2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.github.spullara.mustache.java/compiler@0.9.6?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/junit/junit@4.11",
+            "extracted_requirement": "4.11",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind",
+            "extracted_requirement": "${jackson.version}",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-yaml",
+            "extracted_requirement": "${jackson.version}",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.guava/guava@20.0",
+            "extracted_requirement": "20.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/com.github.spullara.mustache.java/compiler@0.9.6?classifier=sources&uuid=08b38b95-1541-4bf3-a0cf-7e5b14499d69",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/com.github.spullara.mustache.java/compiler@0.9.6?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/github/spullara/mustache/java/compiler/0.9.6/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/github/spullara/mustache/java/compiler/0.9.6/compiler-0.9.6-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/github/spullara/mustache/java/compiler/0.9.6/compiler-0.9.6.pom",
+    "file_references": []
+}

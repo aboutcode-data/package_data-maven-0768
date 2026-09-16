@@ -1,0 +1,128 @@
+{
+    "type": "maven",
+    "namespace": "io.smallrye.reactive",
+    "name": "mutiny",
+    "version": "1.7.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "f96ca48c-02d4-4fd0-b3cf-864a8ce153a3",
+            "packages": [
+                "pkg:maven/io.smallrye.reactive/mutiny@1.7.0?uuid=f12054ff-0b48-402a-8fed-2a821370536f",
+                "pkg:maven/io.smallrye.reactive/mutiny@1.7.0?classifier=sources&uuid=e9afd9ab-c64d-4eff-b9f0-15b44343c313"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "SmallRye Mutiny - Core library\nIntuitive Event-Driven Reactive Programming Library for Java",
+    "release_date": "2022-08-04T08:47:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Ken Finnigan",
+            "email": "ken@kenfinnigan.me",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://smallrye.io",
+    "download_url": "https://repo1.maven.org/maven2/io/smallrye/reactive/mutiny/1.7.0/mutiny-1.7.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "7ed764b63f7e5ca8297f99258375f675ba0f27b3",
+    "sha256": "71d31eb364842e8d551f536a41ff6a75b614345c2624b56895131e70bb5efc52",
+    "sha512": "e1d74116afc4f603da93ba814d3c8d0018070d9323aa79c3efed9d696b8ff9eef7775069c7fc2e5c72c6a4e6ab7eab2dbf2f64ce6ba6760a06cfe5dd6a1fe042",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.smallrye.reactive/mutiny@1.7.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.reactivestreams/reactive-streams",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.smallrye.common/smallrye-common-annotation",
+            "extracted_requirement": "${smallrye-common-annotation.version}",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.reactivex.rxjava2/rxjava",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.smallrye.reactive/mutiny-test-utils",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.junit.jupiter/junit-jupiter-api",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.junit.jupiter/junit-jupiter-engine",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.junit.jupiter/junit-jupiter-params",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.awaitility/awaitility",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/io.smallrye.reactive/mutiny@1.7.0?classifier=sources&uuid=e9afd9ab-c64d-4eff-b9f0-15b44343c313",
+    "datasource_id": null,
+    "purl": "pkg:maven/io.smallrye.reactive/mutiny@1.7.0?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

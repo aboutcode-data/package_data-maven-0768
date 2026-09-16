@@ -1,0 +1,96 @@
+{
+    "type": "maven",
+    "namespace": "com.google.zxing",
+    "name": "javase",
+    "version": "3.4.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "ccf57788-ea3d-4c6e-8833-fd4f69c9232d",
+            "packages": [
+                "pkg:maven/com.google.zxing/javase@3.4.0?uuid=c8768cba-8f04-4264-9f93-38d1a97cced0",
+                "pkg:maven/com.google.zxing/javase@3.4.0?classifier=sources&uuid=53b700f1-2d07-465e-92aa-3908352257b7"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "ZXing Java SE extensions\nJava SE-specific extensions to core ZXing library",
+    "release_date": "2019-05-18T02:05:11Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "ZXing Authors",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/zxing/zxing",
+    "download_url": "https://repo1.maven.org/maven2/com/google/zxing/javase/3.4.0/javase-3.4.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "87ed064a4de3d4dce27d92f63d7ad3cc0e8aba6f",
+    "sha256": "f6ac40a042617a7e2870130419371dd5b19f4e891a37d9a2b4378d33c5dfd1ca",
+    "sha512": "baaa6defaa11d7e4f6ff03ba24f1dbdb1bd8b1a0b275495428c4b37d1dfbb69a7fb39bdf73c58e4ef9187a50c15239268c9ebcbcc67bf3ef513ba9b7480dd573",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) ZXing",
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.google.zxing/javase@3.4.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.google.zxing/core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.beust/jcommander@1.72",
+            "extracted_requirement": "1.72",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.github.jai-imageio/jai-imageio-core@1.4.0",
+            "extracted_requirement": "1.4.0",
+            "scope": "runtime",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/com.google.zxing/javase@3.4.0?classifier=sources&uuid=53b700f1-2d07-465e-92aa-3908352257b7",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.google.zxing/javase@3.4.0?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/google/zxing/javase/3.4.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/google/zxing/javase/3.4.0/javase-3.4.0-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/google/zxing/javase/3.4.0/javase-3.4.0.pom",
+    "file_references": []
+}

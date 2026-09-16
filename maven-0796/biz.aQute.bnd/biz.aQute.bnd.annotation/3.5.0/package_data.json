@@ -1,0 +1,116 @@
+{
+    "type": "maven",
+    "namespace": "biz.aQute.bnd",
+    "name": "biz.aQute.bnd.annotation",
+    "version": "3.5.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "e24456dd-7438-4cb9-ba01-9dda63da7f73",
+            "packages": [
+                "pkg:maven/biz.aQute.bnd/biz.aQute.bnd.annotation@3.5.0?uuid=2741caa2-90d7-43b1-9eb5-f289be3771a9",
+                "pkg:maven/biz.aQute.bnd/biz.aQute.bnd.annotation@3.5.0?classifier=sources&uuid=5bcfaab9-84cd-489c-b2b4-1e4a36a3e87f"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "bnd Annotations Library\nContains only the annotations for bnd.",
+    "release_date": "2017-10-02T01:07:30Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Peter Kriens",
+            "email": "Peter.Kriens@aQute.biz",
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Bndtools",
+            "email": null,
+            "url": "http://bndtools.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.aQute.biz/Code/Bnd",
+    "download_url": "https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.bnd.annotation/3.5.0/biz.aQute.bnd.annotation-3.5.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "bd486676eae78d9fbfb062b5340656e8e03ceee8",
+    "sha256": "e38bf4890c330a74c9ab414ee67c75ad2cfe3df7f37c3e3a726267daccba5a0b",
+    "sha512": "eaf960d8c4097e05d0d9cb76324df0abf74501390e71afe9b1a855f138a3c566f465e1c87093ae5a888a058d467d4c9ca51490543557979acafc2281daeec0fb",
+    "bug_tracking_url": null,
+    "code_view_url": "https://github.com/bndtools/bnd",
+    "vcs_url": "git+https://github.com/bndtools/bnd.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/spdx_license_id_apache-2.0_for_apache-2.0.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: Apache-2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "spdx_license_id_apache-2.0_for_apache-2.0.RULE",
+                    "license_expression": "apache-2.0"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_25.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.apache.org/licenses/LICENSE-2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 8,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_25.RULE",
+                    "license_expression": "apache-2.0"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 3,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/apache-2.0_48.RULE",
+                    "start_line": 3,
+                    "matched_text": "  comments: Apache License, Version 2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 5,
+                    "rule_relevance": 100,
+                    "rule_identifier": "apache-2.0_48.RULE",
+                    "license_expression": "apache-2.0"
+                }
+            ],
+            "identifier": "apache_2_0-1c3094b2-2789-f687-08a0-31200b3dd503",
+            "license_expression": "apache-2.0"
+        }
+    ],
+    "other_license_expression": "apache-2.0 AND bsd-new AND (bsd-simplified AND bsd-2-clause-views AND bsd-new) AND (cddl-1.0 AND cddl-1.1) AND cpl-1.0 AND (cpl-1.0 AND free-unknown) AND (gpl-1.0-plus AND unknown-license-reference AND gpl-2.0) AND gpl-3.0 AND mit AND mpl-2.0 AND unknown-license-reference AND (unknown-license-reference AND epl-1.0) AND (unknown-license-reference AND lgpl-2.1)",
+    "other_license_expression_spdx": "Apache-2.0 AND BSD-3-Clause AND (BSD-2-Clause AND BSD-2-Clause-Views AND BSD-3-Clause) AND (CDDL-1.0 AND CDDL-1.1) AND CPL-1.0 AND (CPL-1.0 AND LicenseRef-scancode-free-unknown) AND (GPL-1.0-or-later AND LicenseRef-scancode-unknown-license-reference AND GPL-2.0-only) AND GPL-3.0-only AND MIT AND MPL-2.0 AND LicenseRef-scancode-unknown-license-reference AND (LicenseRef-scancode-unknown-license-reference AND EPL-1.0) AND (LicenseRef-scancode-unknown-license-reference AND LGPL-2.1-only)",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Apache-2.0\n  url: http://www.apache.org/licenses/LICENSE-2.0\n  comments: Apache License, Version 2.0\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/biz.aQute.bnd/biz.aQute.bnd.annotation@3.5.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [],
+    "package_uid": "pkg:maven/biz.aQute.bnd/biz.aQute.bnd.annotation@3.5.0?classifier=sources&uuid=5bcfaab9-84cd-489c-b2b4-1e4a36a3e87f",
+    "datasource_id": null,
+    "purl": "pkg:maven/biz.aQute.bnd/biz.aQute.bnd.annotation@3.5.0?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.bnd.annotation/3.5.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.bnd.annotation/3.5.0/biz.aQute.bnd.annotation-3.5.0-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.bnd.annotation/3.5.0/biz.aQute.bnd.annotation-3.5.0.pom",
+    "file_references": []
+}

@@ -1,0 +1,160 @@
+{
+    "type": "maven",
+    "namespace": "org.kuali.student.web",
+    "name": "ks-rice",
+    "version": "1.2-M3",
+    "qualifiers": "type=war",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "KS Rice\nKuali Student Rice Standalone Server project for development",
+    "release_date": "2011-06-06T17:24:19Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/kuali/student/web/ks-rice/1.2-M3/ks-rice-1.2-M3.war",
+    "size": 56900012,
+    "md5": null,
+    "sha1": "e4f89c77a842bc0a22897f5f5198abd2227b717e",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.kuali.student.web/ks-rice@1.2-M3?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.kuali.rice/rice-web",
+            "extracted_requirement": "${kuali.rice.version}",
+            "scope": "runtime",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/tomcat/jasper-compiler",
+            "extracted_requirement": "5.5.15",
+            "scope": "runtime",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/tomcat/jasper-compiler-jdt",
+            "extracted_requirement": "5.5.15",
+            "scope": "runtime",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/tomcat/jasper-runtime",
+            "extracted_requirement": "5.5.15",
+            "scope": "runtime",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.eclipse.jdt/core",
+            "extracted_requirement": "3.1.1",
+            "scope": "runtime",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.kuali.student.admin/ks-admin",
+            "extracted_requirement": "1.2-M3",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.kuali.rice/rice-impl",
+            "extracted_requirement": "${kuali.rice.version}",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.kuali.student.lum/ks-lum-api",
+            "extracted_requirement": "1.2-M3",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.kuali.student.lum/ks-lum-rice",
+            "extracted_requirement": "1.2-M3",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.kuali.student.security/ks-standard-sec",
+            "extracted_requirement": "1.2-M3",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.kuali.student.common/ks-common-util",
+            "extracted_requirement": "1.2-M3",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.transaction/jta",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.easymock/easymock",
+            "extracted_requirement": "2.4",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.servlet/servlet-api",
+            "extracted_requirement": "2.5",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.kuali.student.web/ks-rice@1.2-M3?type=war&uuid=d82cdacd-3d90-465b-84f5-2b28b54c6105",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.kuali.student.web/ks-rice@1.2-M3?type=war",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/kuali/student/web/ks-rice/1.2-M3/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/kuali/student/web/ks-rice/1.2-M3/ks-rice-1.2-M3.war",
+    "api_data_url": "https://repo1.maven.org/maven2/org/kuali/student/web/ks-rice/1.2-M3/ks-rice-1.2-M3.pom",
+    "file_references": []
+}

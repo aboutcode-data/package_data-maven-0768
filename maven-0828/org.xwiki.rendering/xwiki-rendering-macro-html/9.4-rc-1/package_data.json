@@ -1,0 +1,72 @@
+{
+    "type": "maven",
+    "namespace": "org.xwiki.rendering",
+    "name": "xwiki-rendering-macro-html",
+    "version": "9.4-rc-1",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "XWiki Rendering - Macro - HTML\nAllows inserting HTML or XHTML in wiki pages",
+    "release_date": "2017-05-23T14:37:30Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/xwiki/rendering/xwiki-rendering-macro-html/9.4-rc-1/xwiki-rendering-macro-html-9.4-rc-1.jar",
+    "size": 24356,
+    "md5": null,
+    "sha1": "c38a0c837775a900af0a4aca95be4dbf4afeb828",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.xwiki.rendering/xwiki-rendering-macro-html@9.4-rc-1?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.xwiki.commons/xwiki-commons-xml",
+            "extracted_requirement": "${commons.version}",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.xwiki.rendering/xwiki-rendering-syntax-xhtml",
+            "extracted_requirement": "9.4-rc-1",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.xwiki.rendering/xwiki-rendering-macro-toc",
+            "extracted_requirement": "9.4-rc-1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.xwiki.rendering/xwiki-rendering-macro-html@9.4-rc-1?uuid=9f93daf4-ea22-4d7b-8619-a0464c0ac565",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.xwiki.rendering/xwiki-rendering-macro-html@9.4-rc-1",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/xwiki/rendering/xwiki-rendering-macro-html/9.4-rc-1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/xwiki/rendering/xwiki-rendering-macro-html/9.4-rc-1/xwiki-rendering-macro-html-9.4-rc-1.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/xwiki/rendering/xwiki-rendering-macro-html/9.4-rc-1/xwiki-rendering-macro-html-9.4-rc-1.pom",
+    "file_references": []
+}

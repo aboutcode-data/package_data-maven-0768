@@ -1,0 +1,84 @@
+{
+    "type": "maven",
+    "namespace": "com.google.code.javaparser",
+    "name": "javaparser",
+    "version": "1.0.11",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "39e0ab15-6346-4bcc-9e38-e22b14837624",
+            "packages": [
+                "pkg:maven/com.google.code.javaparser/javaparser@1.0.11?uuid=afa80fb4-5fad-4401-b0c7-086a4982985a",
+                "pkg:maven/com.google.code.javaparser/javaparser@1.0.11?classifier=sources&uuid=cac145b2-db5f-470f-9071-985d36e01c37"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "javaparser\nThis package contains a Java 1.7 Parser with AST generation and visitor support. \n\t\tThe AST records the source code structure, javadoc and comments. Soon will be \n\t\tpossible change the AST nodes or create new ones to modify source code like refactoring.\n\t\tThis parser is based on Sreenivasa Viswanadha Java 1.5 parser.",
+    "release_date": "2014-02-02T20:39:50Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "J\u00c3\u00balio Vilmar Gesser",
+            "email": "jgesser@gmail.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Hendy Irawan",
+            "email": "hendy@soluvas.com",
+            "url": "http://www.HendyIrawan.com/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://code.google.com/p/javaparser/",
+    "download_url": "https://repo1.maven.org/maven2/com/google/code/javaparser/javaparser/1.0.11/javaparser-1.0.11-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "9aa991baa9a694b18447fdeed56341ea3bfcd1ae",
+    "sha256": "10ec02371a55d6742e38d9c1897d4d81dc0e4de5c5eb6ac6e606a393edbfaea6",
+    "sha512": "63e2f3c6a2f1855b8d8291fce6fa74f4682234810db9abdb7fb8cd963075cd8f479d73007e004f860b61089b6372b63f9e07a6f00cb289d56b0fda5f4cfeeff4",
+    "bug_tracking_url": "https://github.com/matozoid/javaparser/issues",
+    "code_view_url": "https://github.com/before/javaparser.git",
+    "vcs_url": "git://github.com/before/javaparser.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": "lgpl-3.0-plus",
+    "other_license_expression_spdx": "LGPL-3.0-or-later",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.google.code.javaparser/javaparser@1.0.11?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.sonatype.oss/oss-parent@7"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/junit/junit@4.11",
+            "extracted_requirement": "4.11",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/com.google.code.javaparser/javaparser@1.0.11?classifier=sources&uuid=cac145b2-db5f-470f-9071-985d36e01c37",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/com.google.code.javaparser/javaparser@1.0.11?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/google/code/javaparser/javaparser/1.0.11/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/google/code/javaparser/javaparser/1.0.11/javaparser-1.0.11-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/google/code/javaparser/javaparser/1.0.11/javaparser-1.0.11.pom",
+    "file_references": []
+}

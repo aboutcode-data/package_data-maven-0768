@@ -1,0 +1,143 @@
+{
+    "type": "maven",
+    "namespace": "io.netty",
+    "name": "netty-transport-native-epoll",
+    "version": "4.1.68.Final",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "904237da-3568-42c7-beba-261c552e2c5e",
+            "packages": [
+                "pkg:maven/io.netty/netty-transport-native-epoll@4.1.68.Final?uuid=7be40166-2d9d-4902-a97d-f84de21ab2e8",
+                "pkg:maven/io.netty/netty-transport-native-epoll@4.1.68.Final?classifier=sources&uuid=8bf48d72-d8e0-4bd7-ae21-fda4e0c1eef4"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Netty/Transport/Native/Epoll",
+    "release_date": "2021-09-09T13:27:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "The Netty Project Contributors",
+            "email": "netty@googlegroups.com",
+            "url": "https://netty.io/"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Netty Project",
+            "email": null,
+            "url": "https://netty.io/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://netty.io/",
+    "download_url": "https://repo1.maven.org/maven2/io/netty/netty-transport-native-epoll/4.1.68.Final/netty-transport-native-epoll-4.1.68.Final-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "45c09c1ebce2fa7c4cd282e6c8ffae63f80910d1",
+    "sha256": "cb5839dee84d357979a49daa94bafc3ca96e8d59b1e06949016e76a54dd8e52a",
+    "sha512": "982c9138e99dc05deb696af2e578d5c1f89956ae76fbc55d6905f7361a52d71b82054f6a5ce189ee0286444a8f4fae73d31fbc1760f4028e4ab7e09525ec775c",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) The Netty Project",
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.netty/netty-transport-native-epoll@4.1.68.Final?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "merge_ancestors: pkg:maven/org.sonatype.oss/oss-parent@9 data not added to package: ancestor package namespace is not contained in pkg:maven/io.netty/netty-transport-native-epoll@4.1.68.Final namespace",
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/io.netty/netty-parent@4.1.68.Final",
+            "Field `homepage_url` has been updated using values obtained from the parent POM pkg:maven/io.netty/netty-parent@4.1.68.Final",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/io.netty/netty-parent@4.1.68.Final"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/io.netty/netty-common@4.1.68.Final",
+            "extracted_requirement": "4.1.68.Final",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.netty/netty-buffer@4.1.68.Final",
+            "extracted_requirement": "4.1.68.Final",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.netty/netty-transport@4.1.68.Final",
+            "extracted_requirement": "4.1.68.Final",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.netty/netty-transport-native-unix-common@4.1.68.Final",
+            "extracted_requirement": "4.1.68.Final",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.netty/netty-testsuite@4.1.68.Final",
+            "extracted_requirement": "4.1.68.Final",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.netty/netty-transport-native-unix-common-tests@4.1.68.Final",
+            "extracted_requirement": "4.1.68.Final",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/io.netty/%24%7Btcnative.artifactId%7D",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.github.artsok/rerunner-jupiter",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/io.netty/netty-transport-native-epoll@4.1.68.Final?classifier=sources&uuid=8bf48d72-d8e0-4bd7-ae21-fda4e0c1eef4",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/io.netty/netty-transport-native-epoll@4.1.68.Final?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/io/netty/netty-transport-native-epoll/4.1.68.Final/",
+    "repository_download_url": "https://repo1.maven.org/maven2/io/netty/netty-transport-native-epoll/4.1.68.Final/netty-transport-native-epoll-4.1.68.Final-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/io/netty/netty-transport-native-epoll/4.1.68.Final/netty-transport-native-epoll-4.1.68.Final.pom",
+    "file_references": []
+}

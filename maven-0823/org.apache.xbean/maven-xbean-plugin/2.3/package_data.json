@@ -1,0 +1,120 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.xbean",
+    "name": "maven-xbean-plugin",
+    "version": "2.3",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Maven XBean Plugin",
+    "release_date": "2006-05-05T07:30:50Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/apache/xbean/maven-xbean-plugin/2.3/maven-xbean-plugin-2.3.jar",
+    "size": 11792,
+    "md5": null,
+    "sha1": "4497a9355613595d0cdc1c6c5c6ac5a713658eca",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.xbean/maven-xbean-plugin@2.3?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.maven/maven-project",
+            "extracted_requirement": "2.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.codehaus.plexus/plexus-archiver",
+            "extracted_requirement": "1.0-alpha-5",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.maven/maven-archiver",
+            "extracted_requirement": "2.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.maven/maven-plugin-api",
+            "extracted_requirement": "2.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/ant/ant",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.xbean/xbean-spring",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/qdox/qdox",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.codehaus.plexus/plexus-utils",
+            "extracted_requirement": "1.1",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.maven/maven-artifact",
+            "extracted_requirement": "2.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.xbean/maven-xbean-plugin@2.3?uuid=61b19409-a3ed-48e6-9d5d-a4669235971b",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.apache.xbean/maven-xbean-plugin@2.3",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/xbean/maven-xbean-plugin/2.3/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/xbean/maven-xbean-plugin/2.3/maven-xbean-plugin-2.3.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/xbean/maven-xbean-plugin/2.3/maven-xbean-plugin-2.3.pom",
+    "file_references": []
+}

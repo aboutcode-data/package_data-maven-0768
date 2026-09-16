@@ -1,0 +1,127 @@
+{
+    "type": "maven",
+    "namespace": "org.ops4j.pax.exam",
+    "name": "pax-exam-container-default",
+    "version": "1.2.3",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "b6b518f1-75c5-45c7-923d-5b17496f3d5b",
+            "packages": [
+                "pkg:maven/org.ops4j.pax.exam/pax-exam-container-default@1.2.3?uuid=43cfc3bd-a4a1-4dec-9f09-11eedd77aa23",
+                "pkg:maven/org.ops4j.pax.exam/pax-exam-container-default@1.2.3?classifier=sources&uuid=d4de3aee-1bef-42d2-8b62-1f8c699bc09d"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "OPS4J Pax Exam - Default Container (Pax Runner)",
+    "release_date": "2010-12-31T13:08:13Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Johan Lindquist",
+            "email": "johan (at) kawoo.co.uk",
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "OPS4J - Open Participation Software for Java",
+            "email": null,
+            "url": "http://www.ops4j.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.ops4j.org",
+    "download_url": "https://repo1.maven.org/maven2/org/ops4j/pax/exam/pax-exam-container-default/1.2.3/pax-exam-container-default-1.2.3-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "84cd0da3c883be58d2ddec2c17c8cd9dea65b510",
+    "sha256": "e8fb1532b4faca13febc980f342ac282fd9a7d116bc34c70781269f5ddcf5ab1",
+    "sha512": "e9625764f8cbf0d36b702a7d17a6d2dd8e6ce54101ff12cefdefbf35afaff66b21ac5870fbe8c02ab0bc1d192250c78af3587f8dbf3b5a2bf0555ebefef0974e",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.ops4j.pax.exam/pax-exam-container-default@1.2.3?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.ops4j.pax.exam/pax-exam@1.2.3",
+            "extracted_requirement": "1.2.3",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.ops4j.pax.exam/pax-exam-spi@1.2.3",
+            "extracted_requirement": "1.2.3",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.ops4j.pax.exam/pax-exam-container-rbc-client@1.2.3",
+            "extracted_requirement": "1.2.3",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.ops4j.base/ops4j-base-lang",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.ops4j.base/ops4j-base-net",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.ops4j.pax.runner/pax-runner-no-jcl",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/commons-logging/commons-logging",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.ops4j.pax.exam/pax-exam-container-default@1.2.3?classifier=sources&uuid=d4de3aee-1bef-42d2-8b62-1f8c699bc09d",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.ops4j.pax.exam/pax-exam-container-default@1.2.3?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/ops4j/pax/exam/pax-exam-container-default/1.2.3/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/ops4j/pax/exam/pax-exam-container-default/1.2.3/pax-exam-container-default-1.2.3-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/ops4j/pax/exam/pax-exam-container-default/1.2.3/pax-exam-container-default-1.2.3.pom",
+    "file_references": []
+}

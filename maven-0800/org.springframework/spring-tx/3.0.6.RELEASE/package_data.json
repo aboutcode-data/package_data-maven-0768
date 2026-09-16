@@ -1,0 +1,176 @@
+{
+    "type": "maven",
+    "namespace": "org.springframework",
+    "name": "spring-tx",
+    "version": "3.0.6.RELEASE",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "c076e0fe-98d5-4a86-a77b-f7c7d8e30670",
+            "packages": [
+                "pkg:maven/org.springframework/spring-tx@3.0.6.RELEASE?uuid=5a799caa-8751-492d-8689-0afbcfa99bf2",
+                "pkg:maven/org.springframework/spring-tx@3.0.6.RELEASE?classifier=sources&uuid=ef7f9e96-16f7-484b-a5d4-ac51eb07ef84"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": null,
+    "release_date": "2011-08-19T13:56:42Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/springframework/spring-tx/3.0.6.RELEASE/spring-tx-3.0.6.RELEASE-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "a8ec3a9dccd78cc9b46a6c16fed33b32bfb5aa51",
+    "sha256": "cbd6e7acf395a62008906786b232b337255a71cf677e217419a0fcbcb6f78fcb",
+    "sha512": "358c0d5999058bfcf124c4d5f532c7d18e7ebdd01e4124288c1321e341d672df956cd9786f5fa4e692128d398150d53d42a5a3d7db91e1433ae64dfba3c620fa",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.springframework/spring-tx@3.0.6.RELEASE?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.ibm.websphere/com.springsource.com.ibm.websphere.uow@6.0.2.17",
+            "extracted_requirement": "6.0.2.17",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.apache.geronimo.specs/geronimo-jta_1.1_spec@1.1",
+            "extracted_requirement": "1.1",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/javax.ejb/ejb-api@3.0",
+            "extracted_requirement": "3.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/javax.resource/connector-api@1.5",
+            "extracted_requirement": "1.5",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/aopalliance/aopalliance@1.0",
+            "extracted_requirement": "1.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-aop@3.0.6.RELEASE",
+            "extracted_requirement": "3.0.6.RELEASE",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-beans@3.0.6.RELEASE",
+            "extracted_requirement": "3.0.6.RELEASE",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-context@3.0.6.RELEASE",
+            "extracted_requirement": "3.0.6.RELEASE",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-core@3.0.6.RELEASE",
+            "extracted_requirement": "3.0.6.RELEASE",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.aspectj/aspectjweaver",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.easymock/easymock",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.easymock/easymockclassextension@2.3",
+            "extracted_requirement": "2.3",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/javax.persistence/persistence-api@1.0",
+            "extracted_requirement": "1.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/cglib/cglib-nodep@2.2",
+            "extracted_requirement": "2.2",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.springframework/spring-tx@3.0.6.RELEASE?classifier=sources&uuid=ef7f9e96-16f7-484b-a5d4-ac51eb07ef84",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.springframework/spring-tx@3.0.6.RELEASE?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/springframework/spring-tx/3.0.6.RELEASE/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/springframework/spring-tx/3.0.6.RELEASE/spring-tx-3.0.6.RELEASE-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/springframework/spring-tx/3.0.6.RELEASE/spring-tx-3.0.6.RELEASE.pom",
+    "file_references": []
+}

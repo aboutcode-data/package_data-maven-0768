@@ -1,0 +1,120 @@
+{
+    "type": "maven",
+    "namespace": "com.google.guava",
+    "name": "guava-gwt",
+    "version": "22.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "e68617e8-d7e8-4cb0-9a9b-eb32077ee9b0",
+            "packages": [
+                "pkg:maven/com.google.guava/guava-gwt@22.0?uuid=fc121b74-ccbd-475b-bd83-c6bf9c790750",
+                "pkg:maven/com.google.guava/guava-gwt@22.0?classifier=sources&uuid=9433160f-900e-4007-8996-8b797c8db1d6"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Guava GWT compatible libs\nGuava is a suite of core and expanded libraries that include\n    utility classes, google's collections, io classes, and much\n    much more.\n\n    This project includes GWT-friendly sources.",
+    "release_date": "2017-05-22T18:57:29Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Kevin Bourrillion",
+            "email": "kevinb@google.com",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://nexus.sonatype.org/oss-repository-hosting.html",
+    "download_url": "https://repo1.maven.org/maven2/com/google/guava/guava-gwt/22.0/guava-gwt-22.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "2a7c1004dfe7f74b0a0b9c6f6db5893187c8c4fc",
+    "sha256": "0c1b6a5fc089f3433fbb93ff791968e9950bc4e425d8fc2ffdc3aa1d6f34fe60",
+    "sha512": "808b375a6ed2ac7b6c10a289d64ed30636f50ccd1092979b8b40be39a9dd95107d2a5fd5882673716f49021376f7446977f82b6283ba32e75064d388bab30498",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0 AND cc0-1.0 AND public-domain",
+    "other_license_expression_spdx": "Apache-2.0 AND CC0-1.0 AND LicenseRef-scancode-public-domain",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.google.guava/guava-gwt@22.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.google.guava/guava@22.0",
+            "extracted_requirement": "22.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.google.guava/guava-testlib@22.0",
+            "extracted_requirement": "22.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.google.guava/guava-tests@22.0",
+            "extracted_requirement": "22.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.google.truth/truth",
+            "extracted_requirement": "${truth.version}",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.truth.extensions/truth-java8-extension",
+            "extracted_requirement": "${truth.version}",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.gwt/gwt-dev@2.8.0",
+            "extracted_requirement": "2.8.0",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/com.google.gwt/gwt-user@2.8.0",
+            "extracted_requirement": "2.8.0",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/com.google.guava/guava-gwt@22.0?classifier=sources&uuid=9433160f-900e-4007-8996-8b797c8db1d6",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.google.guava/guava-gwt@22.0?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/google/guava/guava-gwt/22.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/google/guava/guava-gwt/22.0/guava-gwt-22.0-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/google/guava/guava-gwt/22.0/guava-gwt-22.0.pom",
+    "file_references": []
+}

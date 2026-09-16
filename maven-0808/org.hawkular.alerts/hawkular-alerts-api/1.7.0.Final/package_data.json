@@ -1,0 +1,80 @@
+{
+    "type": "maven",
+    "namespace": "org.hawkular.alerts",
+    "name": "hawkular-alerts-api",
+    "version": "1.7.0.Final",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Hawkular Alerting: Api",
+    "release_date": "2017-05-24T18:06:26Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/hawkular/alerts/hawkular-alerts-api/1.7.0.Final/hawkular-alerts-api-1.7.0.Final.jar",
+    "size": 211585,
+    "md5": null,
+    "sha1": "16732a1ed884891f4fc3dba7f86c19d569527eaa",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.hawkular.alerts/hawkular-alerts-api@1.7.0.Final?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-core",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.swagger/swagger-annotations",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.swagger/swagger-core",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.hawkular.alerts/hawkular-alerts-api@1.7.0.Final?uuid=884b3fda-df1b-4643-b795-887384f96750",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.hawkular.alerts/hawkular-alerts-api@1.7.0.Final",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/hawkular/alerts/hawkular-alerts-api/1.7.0.Final/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/hawkular/alerts/hawkular-alerts-api/1.7.0.Final/hawkular-alerts-api-1.7.0.Final.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/hawkular/alerts/hawkular-alerts-api/1.7.0.Final/hawkular-alerts-api-1.7.0.Final.pom",
+    "file_references": []
+}

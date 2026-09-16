@@ -1,0 +1,132 @@
+{
+    "type": "maven",
+    "namespace": "org.http4s",
+    "name": "http4s-server_2.10",
+    "version": "0.8.5",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "http4s-server\nServer bindings for http4s",
+    "release_date": "2015-08-27T00:46:15Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Ross A. Baker",
+            "email": "ross@rossabaker.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Ivan Porto Carrero",
+            "email": "ivan@flanders.co.nz",
+            "url": "http://flanders.co.nz"
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Bryce L. Anderson",
+            "email": "bryce.anderson22@gmail.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Andr\u00e9 Rou\u00e9l",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "org.http4s",
+            "email": null,
+            "url": "https://github.com/http4s/http4s"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/http4s/http4s",
+    "download_url": "https://repo1.maven.org/maven2/org/http4s/http4s-server_2.10/0.8.5/http4s-server_2.10-0.8.5.jar",
+    "size": 308612,
+    "md5": null,
+    "sha1": "07b58e5647e043b27ce73093893b96367f16a04b",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0 AND apache-2.0 AND unknown",
+    "declared_license_expression_spdx": "Apache-2.0 AND Apache-2.0 AND LicenseRef-scancode-unknown",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "Apache License, Version 2.0\nhttp://www.apache.org/licenses/LICENSE-2.0.txt",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.http4s/http4s-server_2.10@0.8.5?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.scala-lang/scala-library",
+            "extracted_requirement": "2.10.5",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.http4s/http4s-core_2.10",
+            "extracted_requirement": "0.8.5",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.dropwizard.metrics/metrics-core",
+            "extracted_requirement": "3.1.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.storm-enroute/scalameter_2.10",
+            "extracted_requirement": "0.6",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.scalaz/scalaz-scalacheck-binding_2.10",
+            "extracted_requirement": "7.1.2",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.typelevel/scalaz-specs2_2.10",
+            "extracted_requirement": "0.3.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.http4s/http4s-server_2.10@0.8.5?uuid=0eb315d0-d0a0-4119-935e-7647a613a0ba",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.http4s/http4s-server_2.10@0.8.5",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/http4s/http4s-server_2.10/0.8.5/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/http4s/http4s-server_2.10/0.8.5/http4s-server_2.10-0.8.5.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/http4s/http4s-server_2.10/0.8.5/http4s-server_2.10-0.8.5.pom",
+    "file_references": []
+}

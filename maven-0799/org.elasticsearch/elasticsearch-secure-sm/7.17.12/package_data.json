@@ -1,0 +1,124 @@
+{
+    "type": "maven",
+    "namespace": "org.elasticsearch",
+    "name": "elasticsearch-secure-sm",
+    "version": "7.17.12",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "52e097a2-2c77-4e58-b234-0d4ff6563817",
+            "packages": [
+                "pkg:maven/org.elasticsearch/elasticsearch-secure-sm@7.17.12?uuid=b77dd100-279e-465c-ae37-109ff98addf9",
+                "pkg:maven/org.elasticsearch/elasticsearch-secure-sm@7.17.12?classifier=sources&uuid=4b477cbd-f6b2-47b8-8745-31627c162c8a"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "elasticsearch-secure-sm\nElasticsearch subproject :libs:elasticsearch-secure-sm",
+    "release_date": "2023-07-25T13:20:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Elastic",
+            "email": null,
+            "url": "https://www.elastic.co"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/elastic/elasticsearch.git",
+    "download_url": "https://repo1.maven.org/maven2/org/elasticsearch/elasticsearch-secure-sm/7.17.12/elasticsearch-secure-sm-7.17.12-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "26b455a3135ba03727993afba41290e88e652b0d",
+    "sha256": "1bee9b2acd8b0dea02a522140d040cef76cf95dd58fe8f0cb47d73091df7afab",
+    "sha512": "9bcce5af6eaf73434662a52b2fab3b49c300a6218a266ccd14714985a96ed12d72b4fa937c05f8e073eb8c9fe71aa25b50225d4407485d1a7fae3abde5c2ffe0",
+    "bug_tracking_url": null,
+    "code_view_url": "https://github.com/elastic/elasticsearch.git",
+    "vcs_url": "https://github.com/elastic/elasticsearch.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "elastic-license-v2 AND mongodb-sspl-1.0",
+    "declared_license_expression_spdx": "Elastic-2.0 AND SSPL-1.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/elastic-license-v2_3.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: Elastic License 2.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 4,
+                    "rule_relevance": 100,
+                    "rule_identifier": "elastic-license-v2_3.RULE",
+                    "license_expression": "elastic-license-v2"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/elastic-license-v2_2.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: https://raw.githubusercontent.com/elastic/elasticsearch/v7.17.12/licenses/ELASTIC-LICENSE-2.0.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 6,
+                    "rule_relevance": 100,
+                    "rule_identifier": "elastic-license-v2_2.RULE",
+                    "license_expression": "elastic-license-v2"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 3,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/mongodb-sspl-1.0_13.RULE",
+                    "start_line": 3,
+                    "matched_text": "- name: Server Side Public License, v 1",
+                    "match_coverage": 100.0,
+                    "matched_length": 6,
+                    "rule_relevance": 100,
+                    "rule_identifier": "mongodb-sspl-1.0_13.RULE",
+                    "license_expression": "mongodb-sspl-1.0"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 4,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/mongodb-sspl-1.0_7.RULE",
+                    "start_line": 4,
+                    "matched_text": "  url: https://www.mongodb.com/licensing/server-side-public-license",
+                    "match_coverage": 100.0,
+                    "matched_length": 8,
+                    "rule_relevance": 100,
+                    "rule_identifier": "mongodb-sspl-1.0_7.RULE",
+                    "license_expression": "mongodb-sspl-1.0"
+                }
+            ],
+            "identifier": "elastic_license_v2_and_mongodb_sspl_1_0-1ef52e23-8928-8379-5e32-b1c571383a6a",
+            "license_expression": "elastic-license-v2 AND mongodb-sspl-1.0"
+        }
+    ],
+    "other_license_expression": "(elastic-license-v2 OR mongodb-sspl-1.0) AND apache-2.0 AND elastic-license-v2 AND mongodb-sspl-1.0",
+    "other_license_expression_spdx": "(Elastic-2.0 OR SSPL-1.0) AND Apache-2.0 AND Elastic-2.0 AND SSPL-1.0",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Elastic License 2.0\n  url: https://raw.githubusercontent.com/elastic/elasticsearch/v7.17.12/licenses/ELASTIC-LICENSE-2.0.txt\n- name: Server Side Public License, v 1\n  url: https://www.mongodb.com/licensing/server-side-public-license\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.elasticsearch/elasticsearch-secure-sm@7.17.12?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [],
+    "package_uid": "pkg:maven/org.elasticsearch/elasticsearch-secure-sm@7.17.12?classifier=sources&uuid=4b477cbd-f6b2-47b8-8745-31627c162c8a",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.elasticsearch/elasticsearch-secure-sm@7.17.12?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/elasticsearch/elasticsearch-secure-sm/7.17.12/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/elasticsearch/elasticsearch-secure-sm/7.17.12/elasticsearch-secure-sm-7.17.12-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/elasticsearch/elasticsearch-secure-sm/7.17.12/elasticsearch-secure-sm-7.17.12.pom",
+    "file_references": []
+}

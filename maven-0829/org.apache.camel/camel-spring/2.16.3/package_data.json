@@ -1,0 +1,279 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.camel",
+    "name": "camel-spring",
+    "version": "2.16.3",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "e95dc53a-c242-45eb-9008-11fb5d7887d9",
+            "packages": [
+                "pkg:maven/org.apache.camel/camel-spring@2.16.3?uuid=474012c5-b545-4dfc-8554-bc781ddd8b4e",
+                "pkg:maven/org.apache.camel/camel-spring@2.16.3?classifier=sources&uuid=c60400da-416c-45e8-99d8-64e7bfb4d293"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Camel :: Spring\nCamel Spring support",
+    "release_date": "2016-04-03T13:51:05Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "http://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.apache.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/apache/camel/camel-spring/2.16.3/camel-spring-2.16.3-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "56c1a3762474e55ec403c303a169ab220c8406db",
+    "sha256": "31748c7a309d516ad28833e3988bc56ae0d75542f3edff8e9e70d7fac06bae7c",
+    "sha512": "7010002bdc1815361570f4a3c6d4f463f2c15fdb1b99082d0f44cfe9fe1031fe592f723462cc786e9f12d259cbe2d398910e5b6a3187ee992cf37068d6cebf88",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "public-domain AND (cddl-1.1 OR gpl-2.0 WITH classpath-exception-2.0) AND mit AND apache-2.0",
+    "other_license_expression_spdx": "LicenseRef-scancode-public-domain AND (CDDL-1.1 OR GPL-2.0-only WITH Classpath-exception-2.0) AND MIT AND Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.camel/camel-spring@2.16.3?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@14",
+            "Field `homepage_url` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@14",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@14"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.camel/camel-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-aop",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-context",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-beans",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-expression",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-tx",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.springframework.osgi/spring-osgi-core",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.camel/camel-core-xml",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.camel/camel-core-osgi",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.osgi/org.osgi.core",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.osgi/org.osgi.compendium",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-test",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.annotation/jsr250-api",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.camel/camel-core",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-jdbc",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.derby/derby",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-log4j12",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/xmlunit/xmlunit",
+            "extracted_requirement": "${xmlunit-version}",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.aspectj/aspectjrt",
+            "extracted_requirement": "${aspectj-version}",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.aspectj/aspectjweaver",
+            "extracted_requirement": "${aspectj-version}",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/cglib/cglib",
+            "extracted_requirement": "${cglib-version}",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/asm/asm",
+            "extracted_requirement": "${asm-version}",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.springframework.osgi/spring-osgi-mock",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.codehaus.woodstox/woodstox-core-asl",
+            "extracted_requirement": "${woodstox-version}",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.camel/camel-spring@2.16.3?classifier=sources&uuid=c60400da-416c-45e8-99d8-64e7bfb4d293",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.apache.camel/camel-spring@2.16.3?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/camel/camel-spring/2.16.3/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/camel/camel-spring/2.16.3/camel-spring-2.16.3-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/camel/camel-spring/2.16.3/camel-spring-2.16.3.pom",
+    "file_references": []
+}

@@ -1,0 +1,128 @@
+{
+    "type": "maven",
+    "namespace": "net.nemerosa.ontrack",
+    "name": "ontrack-dsl",
+    "version": "2.30.4",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "ontrack-dsl\nDSL for Ontrack.",
+    "release_date": "2017-05-18T11:39:58Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Damien Coraboeuf",
+            "email": "damien.coraboeuf@gmail.com",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://nemerosa.github.io/ontrack",
+    "download_url": "https://repo1.maven.org/maven2/net/nemerosa/ontrack/ontrack-dsl/2.30.4/ontrack-dsl-2.30.4.jar",
+    "size": 293158,
+    "md5": null,
+    "sha1": "cd6d9931f095e6a56b645d12b141f302222adf5e",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "mit AND unknown",
+    "declared_license_expression_spdx": "MIT AND LicenseRef-scancode-unknown",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "The MIT License (MIT)\nhttp://opensource.org/licenses/MIT",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/net.nemerosa.ontrack/ontrack-dsl@2.30.4?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.springframework.boot/spring-boot-dependencies",
+            "extracted_requirement": "1.5.2.RELEASE",
+            "scope": "import",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.codehaus.groovy/groovy-all",
+            "extracted_requirement": null,
+            "scope": "runtime",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-api",
+            "extracted_requirement": null,
+            "scope": "runtime",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.httpcomponents/httpclient",
+            "extracted_requirement": null,
+            "scope": "runtime",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.httpcomponents/httpcore",
+            "extracted_requirement": null,
+            "scope": "runtime",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.httpcomponents/httpmime",
+            "extracted_requirement": null,
+            "scope": "runtime",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/commons-logging/commons-logging",
+            "extracted_requirement": "1.2",
+            "scope": "runtime",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/net.jodah/failsafe",
+            "extracted_requirement": "0.9.2",
+            "scope": "runtime",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind",
+            "extracted_requirement": null,
+            "scope": "runtime",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/net.nemerosa.ontrack/ontrack-dsl@2.30.4?uuid=2f8a4338-a865-4982-98a6-0ebf528d43df",
+    "datasource_id": null,
+    "purl": "pkg:maven/net.nemerosa.ontrack/ontrack-dsl@2.30.4",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/net/nemerosa/ontrack/ontrack-dsl/2.30.4/",
+    "repository_download_url": "https://repo1.maven.org/maven2/net/nemerosa/ontrack/ontrack-dsl/2.30.4/ontrack-dsl-2.30.4.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/net/nemerosa/ontrack/ontrack-dsl/2.30.4/ontrack-dsl-2.30.4.pom",
+    "file_references": []
+}

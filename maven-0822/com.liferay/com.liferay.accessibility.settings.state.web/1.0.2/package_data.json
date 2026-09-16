@@ -1,0 +1,96 @@
+{
+    "type": "maven",
+    "namespace": "com.liferay",
+    "name": "com.liferay.accessibility.settings.state.web",
+    "version": "1.0.2",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "b37d1084-a89b-4f47-87d9-3e59d0be966c",
+            "packages": [
+                "pkg:maven/com.liferay/com.liferay.accessibility.settings.state.web@1.0.2?uuid=6dda102d-31cb-43c4-a6e2-522b68a5e5d1",
+                "pkg:maven/com.liferay/com.liferay.accessibility.settings.state.web@1.0.2?classifier=sources&uuid=8c083723-7270-4d75-a4fc-f554784e1154"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Liferay Accessibility Settings State Web",
+    "release_date": "2023-07-30T22:25:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Brian Wing Shun Chan",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.accessibility.settings.state.web/1.0.2/com.liferay.accessibility.settings.state.web-1.0.2-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "401b454718af162ecec74617baca182c085ef18e",
+    "sha256": "6e3c5b65ebd458bdec7b5b287c352e1f84328bb48d0fb3a2d45b2e52f4533737",
+    "sha512": "e73b45548f5f13722a09001e393f67225b6aa7569a515964b5dff48e1ffa3ef499123b9dc97e306a1dcfaf721c1e2fc896f1d7591b7e17b325d001b3b1c29dc3",
+    "bug_tracking_url": null,
+    "code_view_url": "http://github.com/liferay/liferay-portal",
+    "vcs_url": "git+https://github.com/liferay/liferay-portal.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "lgpl-2.1",
+    "declared_license_expression_spdx": "LGPL-2.1-only",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_85.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: LGPL 2.1",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_85.RULE",
+                    "license_expression": "lgpl-2.1"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_37.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 11,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_37.RULE",
+                    "license_expression": "lgpl-2.1"
+                }
+            ],
+            "identifier": "lgpl_2_1-6893cb1b-4cad-db8f-2133-a48bc107078b",
+            "license_expression": "lgpl-2.1"
+        }
+    ],
+    "other_license_expression": "lgpl-2.1-plus OR unknown-spdx",
+    "other_license_expression_spdx": "LGPL-2.1-or-later OR LicenseRef-scancode-unknown-spdx",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: LGPL 2.1\n  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.liferay/com.liferay.accessibility.settings.state.web@1.0.2?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [],
+    "package_uid": "pkg:maven/com.liferay/com.liferay.accessibility.settings.state.web@1.0.2?classifier=sources&uuid=8c083723-7270-4d75-a4fc-f554784e1154",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.liferay/com.liferay.accessibility.settings.state.web@1.0.2?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

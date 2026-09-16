@@ -1,0 +1,103 @@
+{
+    "type": "maven",
+    "namespace": "com.outworkers",
+    "name": "util-play_2.10",
+    "version": "0.34.0",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "play",
+    "release_date": "2017-05-19T12:51:45Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Flavian Alexandru",
+            "email": null,
+            "url": "http://github.com/alexflav23"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "com.outworkers",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/outworkers/util",
+    "download_url": "https://repo1.maven.org/maven2/com/outworkers/util-play_2.10/0.34.0/util-play_2.10-0.34.0.jar",
+    "size": 31056,
+    "md5": null,
+    "sha1": "8e5b76c7899389282e1a1270b321447944e0e4a1",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "unknown",
+    "declared_license_expression_spdx": "LicenseRef-scancode-unknown",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "Outworkers License\nhttps://github.com/outworkers/util/blob/develop/LICENSE.txt",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.outworkers/util-play_2.10@0.34.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.scala-lang/scala-library",
+            "extracted_requirement": "2.10.6",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.outworkers/util-domain_2.10",
+            "extracted_requirement": "0.34.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.outworkers/util-parsers-cats_2.10",
+            "extracted_requirement": "0.34.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.typesafe.play/play-ws_2.10",
+            "extracted_requirement": "2.4.8",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.outworkers/util-testing_2.10",
+            "extracted_requirement": "0.34.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/com.outworkers/util-play_2.10@0.34.0?uuid=f5db3e93-faf4-4ca2-be21-6d3f16567c6e",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.outworkers/util-play_2.10@0.34.0",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/outworkers/util-play_2.10/0.34.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/outworkers/util-play_2.10/0.34.0/util-play_2.10-0.34.0.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/outworkers/util-play_2.10/0.34.0/util-play_2.10-0.34.0.pom",
+    "file_references": []
+}

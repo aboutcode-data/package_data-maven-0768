@@ -1,0 +1,135 @@
+{
+    "type": "maven",
+    "namespace": "org.grails",
+    "name": "grails-plugin-databinding",
+    "version": "2.3.9",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Grails\nGrails Web Application Framework",
+    "release_date": "2014-05-22T06:45:37Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Jeff Brown",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Graeme Rocher",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://grails.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/grails/grails-plugin-databinding/2.3.9/grails-plugin-databinding-2.3.9.jar",
+    "size": 23061,
+    "md5": null,
+    "sha1": "157f1aac29dd97c112709aaebf3d5c88715d6aab",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "The Apache Software License, Version 2.0\nhttp://www.apache.org/licenses/LICENSE-2.0.txt",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.grails/grails-plugin-databinding@2.3.9?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.spockframework/spock-core",
+            "extracted_requirement": "0.7-groovy-2.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.objenesis/objenesis",
+            "extracted_requirement": "1.2",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": "4.11",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/cglib/cglib",
+            "extracted_requirement": "2.2.2",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/jcl-over-slf4j",
+            "extracted_requirement": "1.7.5",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-api",
+            "extracted_requirement": "1.7.5",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.codehaus.groovy/groovy-all",
+            "extracted_requirement": "2.1.9",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.grails/grails-core",
+            "extracted_requirement": "2.3.9",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.grails/grails-web",
+            "extracted_requirement": "2.3.9",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.grails/grails-plugin-databinding@2.3.9?uuid=fb4cef8b-e5dd-40bb-ba73-f349585d49a2",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.grails/grails-plugin-databinding@2.3.9",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/grails/grails-plugin-databinding/2.3.9/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/grails/grails-plugin-databinding/2.3.9/grails-plugin-databinding-2.3.9.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/grails/grails-plugin-databinding/2.3.9/grails-plugin-databinding-2.3.9.pom",
+    "file_references": []
+}

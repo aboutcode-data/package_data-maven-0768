@@ -1,0 +1,143 @@
+{
+    "type": "maven",
+    "namespace": "org.bitbucket.inkytonik.kiama",
+    "name": "kiama_2.12",
+    "version": "2.1.0-RC1",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "kiama",
+    "release_date": "2017-05-21T02:12:26Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Tony Sloane",
+            "email": null,
+            "url": "https://bitbucket.org/inkytonik"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "org.bitbucket.inkytonik.kiama",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://bitbucket.org/inkytonik/kiama",
+    "download_url": "https://repo1.maven.org/maven2/org/bitbucket/inkytonik/kiama/kiama_2.12/2.1.0-RC1/kiama_2.12-2.1.0-RC1.jar",
+    "size": 650528,
+    "md5": null,
+    "sha1": "736901f73cee928fa77f6811e12952c8a13539ed",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "mpl-2.0 AND unknown",
+    "declared_license_expression_spdx": "MPL-2.0 AND LicenseRef-scancode-unknown",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "Mozilla Public License, v. 2.0\nhttp://mozilla.org/MPL/2.0/",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.bitbucket.inkytonik.kiama/kiama_2.12@2.1.0-RC1?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.scala-lang/scala-library",
+            "extracted_requirement": "2.12.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.code.findbugs/jsr305",
+            "extracted_requirement": "3.0.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.google.guava/guava",
+            "extracted_requirement": "21.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.bitbucket.inkytonik.dsinfo/dsinfo_2.12",
+            "extracted_requirement": "0.4.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.bitbucket.inkytonik.dsprofile/dsprofile_2.12",
+            "extracted_requirement": "0.4.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.rogach/scallop_2.12",
+            "extracted_requirement": "2.1.1",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.scala-lang/scala-reflect",
+            "extracted_requirement": "2.12.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/jline/jline",
+            "extracted_requirement": "2.14.3",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.scalacheck/scalacheck_2.12",
+            "extracted_requirement": "1.13.5",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.scalatest/scalatest_2.12",
+            "extracted_requirement": "3.0.3",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.bitbucket.inkytonik.kiama/kiama_2.12@2.1.0-RC1?uuid=30da7f7e-4a03-4297-b95f-bf6ff10d4bb9",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.bitbucket.inkytonik.kiama/kiama_2.12@2.1.0-RC1",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/bitbucket/inkytonik/kiama/kiama_2.12/2.1.0-RC1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/bitbucket/inkytonik/kiama/kiama_2.12/2.1.0-RC1/kiama_2.12-2.1.0-RC1.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/bitbucket/inkytonik/kiama/kiama_2.12/2.1.0-RC1/kiama_2.12-2.1.0-RC1.pom",
+    "file_references": []
+}

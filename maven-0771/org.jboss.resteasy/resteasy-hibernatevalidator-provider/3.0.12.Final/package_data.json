@@ -1,0 +1,160 @@
+{
+    "type": "maven",
+    "namespace": "org.jboss.resteasy",
+    "name": "resteasy-hibernatevalidator-provider",
+    "version": "3.0.12.Final",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Resteasy Hibernate Validator Provider",
+    "release_date": "2015-08-19T02:07:00Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": "http://maven.apache.org",
+    "download_url": "https://repo1.maven.org/maven2/org/jboss/resteasy/resteasy-hibernatevalidator-provider/3.0.12.Final/resteasy-hibernatevalidator-provider-3.0.12.Final.jar",
+    "size": 30576,
+    "md5": null,
+    "sha1": "c0ef9996df71ca92aab4f523d517c76575756254",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.jboss.resteasy/resteasy-hibernatevalidator-provider@3.0.12.Final?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.jboss.resteasy/resteasy-jaxrs",
+            "extracted_requirement": "3.0.12.Final",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.resteasy/resteasy-cdi",
+            "extracted_requirement": "3.0.12.Final",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.resteasy/resteasy-jaxb-provider",
+            "extracted_requirement": "3.0.12.Final",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.resteasy/resteasy-jackson2-provider",
+            "extracted_requirement": "3.0.12.Final",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.spec.javax.ejb/jboss-ejb-api_3.1_spec",
+            "extracted_requirement": "1.0.1.Final",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.enterprise/cdi-api",
+            "extracted_requirement": "1.0-SP4",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.resteasy/tjws",
+            "extracted_requirement": "3.0.12.Final",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.hibernate/hibernate-validator",
+            "extracted_requirement": "4.3.1.Final",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.weld.se/weld-se",
+            "extracted_requirement": "2.1.0.Final",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.spec.javax.servlet/jboss-servlet-api_3.1_spec",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-simple",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.jboss.resteasy/resteasy-undertow",
+            "extracted_requirement": "3.0.12.Final",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.undertow/undertow-servlet",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.jboss.resteasy/resteasy-hibernatevalidator-provider@3.0.12.Final?uuid=2765f0c7-7754-409f-bf0b-8d29d88d8c54",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.jboss.resteasy/resteasy-hibernatevalidator-provider@3.0.12.Final",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/jboss/resteasy/resteasy-hibernatevalidator-provider/3.0.12.Final/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/jboss/resteasy/resteasy-hibernatevalidator-provider/3.0.12.Final/resteasy-hibernatevalidator-provider-3.0.12.Final.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/jboss/resteasy/resteasy-hibernatevalidator-provider/3.0.12.Final/resteasy-hibernatevalidator-provider-3.0.12.Final.pom",
+    "file_references": []
+}

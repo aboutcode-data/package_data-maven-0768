@@ -1,0 +1,80 @@
+{
+    "type": "maven",
+    "namespace": "com.github.zuinnote",
+    "name": "hadoopoffice-fileformat",
+    "version": "1.0.3",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "HadoopOffice\nHadoopOfficelibrary to load/write office documents using Big Data technologies, such as Hadoop/Hive/Spark",
+    "release_date": "2017-05-19T19:59:35Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "J\u00f6rn Franke",
+            "email": "jornfranke@gmail.com",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/ZuInnoTe/hadoopoffice",
+    "download_url": "https://repo1.maven.org/maven2/com/github/zuinnote/hadoopoffice-fileformat/1.0.3/hadoopoffice-fileformat-1.0.3.jar",
+    "size": 66110,
+    "md5": null,
+    "sha1": "dba036a42a26575198fe75dc396b488a42625602",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0 AND unknown",
+    "declared_license_expression_spdx": "Apache-2.0 AND LicenseRef-scancode-unknown",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "The Apache License, Version 2.0\nhttp://www.apache.org/licenses/LICENSE-2.0.txt",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.github.zuinnote/hadoopoffice-fileformat@1.0.3?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.poi/poi",
+            "extracted_requirement": "3.16",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.poi/poi-ooxml",
+            "extracted_requirement": "3.16",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": "4.12",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/com.github.zuinnote/hadoopoffice-fileformat@1.0.3?uuid=75c4a13b-d8d8-4dd2-9d86-85818335bbb9",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.github.zuinnote/hadoopoffice-fileformat@1.0.3",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/github/zuinnote/hadoopoffice-fileformat/1.0.3/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/github/zuinnote/hadoopoffice-fileformat/1.0.3/hadoopoffice-fileformat-1.0.3.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/github/zuinnote/hadoopoffice-fileformat/1.0.3/hadoopoffice-fileformat-1.0.3.pom",
+    "file_references": []
+}

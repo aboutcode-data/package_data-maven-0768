@@ -1,0 +1,103 @@
+{
+    "type": "maven",
+    "namespace": "com.twitter",
+    "name": "jsr166e",
+    "version": "1.0.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "c3247e1a-f168-45f4-afb0-ec2aea8957ec",
+            "packages": [
+                "pkg:maven/com.twitter/jsr166e@1.0.0?uuid=5426e7bb-d40c-4ea7-acb9-1812345d6301",
+                "pkg:maven/com.twitter/jsr166e@1.0.0?classifier=sources&uuid=45f9ad44-7729-4d4e-a49f-0cd3acd3bbec"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "JSR166e",
+    "release_date": "2013-04-19T22:02:48Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Steve Gury",
+            "email": "stevegury@twitter.com",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://github.com/twitter/jsr166e",
+    "download_url": "https://repo1.maven.org/maven2/com/twitter/jsr166e/1.0.0/jsr166e-1.0.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "62b26cda935e24ae49c2dcd47d4dc5aeabeb410e",
+    "sha256": "dd948ceda75453c0776c40d0a430c006c5b4f398963312f1e5d36ed5b2743181",
+    "sha512": "cf94efd6213b6c7b6feaea6911296ef1ff1774b38cacbc7af8daf46193e093a8b688cab096e2669b4878359d37137d638da4e2f44e8291ab0a90b63385ccae67",
+    "bug_tracking_url": null,
+    "code_view_url": "https://github.com/scm:git:git@github.com:twitter/jsr166e.git",
+    "vcs_url": "git+https://github.com/twitter/jsr166e.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "cc0-1.0",
+    "declared_license_expression_spdx": "CC0-1.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/cc0-1.0_61.RULE",
+                    "from_file": null,
+                    "start_line": 1,
+                    "matched_text": "- name: CC0 1.0 Universal",
+                    "match_coverage": 100.0,
+                    "matched_length": 4,
+                    "rule_relevance": 100,
+                    "rule_identifier": "cc0-1.0_61.RULE",
+                    "license_expression": "cc0-1.0",
+                    "license_expression_spdx": "CC0-1.0"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/cc0-1.0_3.RULE",
+                    "from_file": null,
+                    "start_line": 2,
+                    "matched_text": "  url: http://creativecommons.org/publicdomain/zero/1.0/",
+                    "match_coverage": 100.0,
+                    "matched_length": 7,
+                    "rule_relevance": 100,
+                    "rule_identifier": "cc0-1.0_3.RULE",
+                    "license_expression": "cc0-1.0",
+                    "license_expression_spdx": "CC0-1.0"
+                }
+            ],
+            "identifier": "cc0_1_0-cdd6c866-cfd1-1d00-7980-5b3488b69449",
+            "license_expression": "cc0-1.0",
+            "license_expression_spdx": "CC0-1.0"
+        }
+    ],
+    "other_license_expression": "cc0-1.0",
+    "other_license_expression_spdx": "CC0-1.0",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: CC0 1.0 Universal\n  url: http://creativecommons.org/publicdomain/zero/1.0/\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.twitter/jsr166e@1.0.0?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [],
+    "package_uid": "pkg:maven/com.twitter/jsr166e@1.0.0?classifier=sources&uuid=45f9ad44-7729-4d4e-a49f-0cd3acd3bbec",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/com.twitter/jsr166e@1.0.0?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/twitter/jsr166e/1.0.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/twitter/jsr166e/1.0.0/jsr166e-1.0.0-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/twitter/jsr166e/1.0.0/jsr166e-1.0.0.pom",
+    "file_references": []
+}

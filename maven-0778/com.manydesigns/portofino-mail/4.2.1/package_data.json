@@ -1,0 +1,96 @@
+{
+    "type": "maven",
+    "namespace": "com.manydesigns",
+    "name": "portofino-mail",
+    "version": "4.2.1",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": null,
+    "release_date": "2015-12-11T10:22:21Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": "http://www.manydesigns.com/",
+    "download_url": "https://repo1.maven.org/maven2/com/manydesigns/portofino-mail/4.2.1/portofino-mail-4.2.1.jar",
+    "size": 42222,
+    "md5": null,
+    "sha1": "d33197fa7c4770c212121c4a92f00cf0c786a0c5",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.manydesigns/portofino-mail@4.2.1?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.manydesigns/elements",
+            "extracted_requirement": "4.2.1",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.commons/commons-email",
+            "extracted_requirement": "${commons.email.version}",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.manydesigns/portofino-base",
+            "extracted_requirement": "4.2.1",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.servlet/javax.servlet-api",
+            "extracted_requirement": "${servlet.api.version}",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.mail/mail",
+            "extracted_requirement": "${javax.mail.version}",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.quartz-scheduler/quartz",
+            "extracted_requirement": "${quartz.version}",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/com.manydesigns/portofino-mail@4.2.1?uuid=2409ca12-b026-4b37-a342-bff294c1c016",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.manydesigns/portofino-mail@4.2.1",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/manydesigns/portofino-mail/4.2.1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/manydesigns/portofino-mail/4.2.1/portofino-mail-4.2.1.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/manydesigns/portofino-mail/4.2.1/portofino-mail-4.2.1.pom",
+    "file_references": []
+}

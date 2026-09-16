@@ -1,0 +1,103 @@
+{
+    "type": "maven",
+    "namespace": "io.iteratee",
+    "name": "iteratee-twitter_2.12",
+    "version": "0.12.0",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "twitter",
+    "release_date": "2017-05-26T11:40:55Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Travis Brown",
+            "email": null,
+            "url": "https://twitter.com/travisbrown"
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "io.iteratee",
+            "email": null,
+            "url": "https://github.com/travisbrown/iteratee"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/travisbrown/iteratee",
+    "download_url": "https://repo1.maven.org/maven2/io/iteratee/iteratee-twitter_2.12/0.12.0/iteratee-twitter_2.12-0.12.0.jar",
+    "size": 34293,
+    "md5": null,
+    "sha1": "9fcf8d940749bdf502b60306bf6d2fd29a410a06",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0 AND apache-2.0 AND unknown",
+    "declared_license_expression_spdx": "Apache-2.0 AND Apache-2.0 AND LicenseRef-scancode-unknown",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "Apache 2.0\nhttp://www.apache.org/licenses/LICENSE-2.0",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.iteratee/iteratee-twitter_2.12@0.12.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.scala-lang/scala-library",
+            "extracted_requirement": "2.12.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.iteratee/iteratee-core_2.12",
+            "extracted_requirement": "0.12.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.iteratee/iteratee-files_2.12",
+            "extracted_requirement": "0.12.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.catbird/catbird-util_2.12",
+            "extracted_requirement": "0.14.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.iteratee/iteratee-tests_2.12",
+            "extracted_requirement": "0.12.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/io.iteratee/iteratee-twitter_2.12@0.12.0?uuid=de33a450-64a9-4fd0-9d91-a63299f7b71b",
+    "datasource_id": null,
+    "purl": "pkg:maven/io.iteratee/iteratee-twitter_2.12@0.12.0",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/io/iteratee/iteratee-twitter_2.12/0.12.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/io/iteratee/iteratee-twitter_2.12/0.12.0/iteratee-twitter_2.12-0.12.0.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/io/iteratee/iteratee-twitter_2.12/0.12.0/iteratee-twitter_2.12-0.12.0.pom",
+    "file_references": []
+}

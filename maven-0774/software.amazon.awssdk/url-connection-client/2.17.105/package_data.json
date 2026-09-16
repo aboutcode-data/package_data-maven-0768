@@ -1,0 +1,159 @@
+{
+    "type": "maven",
+    "namespace": "software.amazon.awssdk",
+    "name": "url-connection-client",
+    "version": "2.17.105",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "8aacbe99-996a-4dd7-9a6a-ffdaf51696b1",
+            "packages": [
+                "pkg:maven/software.amazon.awssdk/url-connection-client@2.17.105?uuid=afe6b707-587f-48ed-99d4-78d960225cff",
+                "pkg:maven/software.amazon.awssdk/url-connection-client@2.17.105?classifier=sources&uuid=92cb25ef-074f-4a9d-b8cf-c66ff6af8598"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "AWS Java SDK :: HTTP Clients :: URL Connection",
+    "release_date": "2022-01-05T20:31:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": null,
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://aws.amazon.com/sdkforjava",
+    "download_url": "https://repo1.maven.org/maven2/software/amazon/awssdk/url-connection-client/2.17.105/url-connection-client-2.17.105-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "729fd0fd49461e7eca8243088a0375565f7b437c",
+    "sha256": "64fe1b38de2a3702823e3033db571e2193ebf6273c7076fb54351b4b4973f67c",
+    "sha512": "5461c8a58dd71bcd39c1ef1adec965e560e196823dd0af8faaac3b6ce61c9e79f757b8baf59602f001c354b764a0dbfc8be00e9f4063f11237ba0bc43cf453a8",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) Amazon.com, Inc. or its affiliates",
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/software.amazon.awssdk/url-connection-client@2.17.105?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/software.amazon.awssdk/aws-sdk-java-pom@2.17.105",
+            "Field `homepage_url` has been updated using values obtained from the parent POM pkg:maven/software.amazon.awssdk/aws-sdk-java-pom@2.17.105",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/software.amazon.awssdk/aws-sdk-java-pom@2.17.105"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/software.amazon.awssdk/utils",
+            "extracted_requirement": "${awsjavasdk.version}",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/software.amazon.awssdk/annotations",
+            "extracted_requirement": "${awsjavasdk.version}",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/software.amazon.awssdk/http-client-spi",
+            "extracted_requirement": "${awsjavasdk.version}",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/software.amazon.awssdk/http-client-tests",
+            "extracted_requirement": "${awsjavasdk.version}",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.junit.jupiter/junit-jupiter",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.junit.vintage/junit-vintage-engine",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/software.amazon.awssdk/s3",
+            "extracted_requirement": "${awsjavasdk.version}",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/software.amazon.awssdk/service-test-utils",
+            "extracted_requirement": "${awsjavasdk.version}",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.assertj/assertj-core",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/software.amazon.awssdk/sdk-core",
+            "extracted_requirement": "${awsjavasdk.version}",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/software.amazon.awssdk/regions",
+            "extracted_requirement": "${awsjavasdk.version}",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/software.amazon.awssdk/url-connection-client@2.17.105?classifier=sources&uuid=92cb25ef-074f-4a9d-b8cf-c66ff6af8598",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/software.amazon.awssdk/url-connection-client@2.17.105?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/software/amazon/awssdk/url-connection-client/2.17.105/",
+    "repository_download_url": "https://repo1.maven.org/maven2/software/amazon/awssdk/url-connection-client/2.17.105/url-connection-client-2.17.105-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/software/amazon/awssdk/url-connection-client/2.17.105/url-connection-client-2.17.105.pom",
+    "file_references": []
+}

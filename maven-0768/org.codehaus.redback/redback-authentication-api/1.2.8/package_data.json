@@ -1,0 +1,72 @@
+{
+    "type": "maven",
+    "namespace": "org.codehaus.redback",
+    "name": "redback-authentication-api",
+    "version": "1.2.8",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Redback :: Authentication API",
+    "release_date": "2011-05-11T09:51:00Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/codehaus/redback/redback-authentication-api/1.2.8/redback-authentication-api-1.2.8.jar",
+    "size": 12421,
+    "md5": null,
+    "sha1": "fb93d4ddd88fc95a7ab1d78f32f9137504b7a9c5",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.codehaus.redback/redback-authentication-api@1.2.8?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.codehaus.redback/redback-policy",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-context-support",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.annotation/jsr250-api",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.codehaus.redback/redback-authentication-api@1.2.8?uuid=f57fa734-e875-48bf-b118-bb21f19bab74",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.codehaus.redback/redback-authentication-api@1.2.8",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/codehaus/redback/redback-authentication-api/1.2.8/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/codehaus/redback/redback-authentication-api/1.2.8/redback-authentication-api-1.2.8.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/codehaus/redback/redback-authentication-api/1.2.8/redback-authentication-api-1.2.8.pom",
+    "file_references": []
+}

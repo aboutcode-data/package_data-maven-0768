@@ -1,0 +1,184 @@
+{
+    "type": "maven",
+    "namespace": "org.eclipse.jetty.websocket",
+    "name": "websocket-api",
+    "version": "9.3.10.v20160621",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "ddc45a32-6bb4-4dc2-a699-e9e7dc96650a",
+            "packages": [
+                "pkg:maven/org.eclipse.jetty.websocket/websocket-api@9.3.10.v20160621?uuid=29be35ff-aa83-47c9-a1df-f82ec3578d67",
+                "pkg:maven/org.eclipse.jetty.websocket/websocket-api@9.3.10.v20160621?classifier=sources&uuid=8c907ed4-0f6e-4513-8ad4-d1ad07cf2f97"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Jetty :: Websocket :: API",
+    "release_date": "2016-06-21T14:15:43Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Greg Wilkins",
+            "email": "gregw@webtide.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Jan Bartel",
+            "email": "janb@webtide.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Simone Bordet",
+            "email": "simone.bordet@gmail.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Jesse McConnell",
+            "email": "jesse.mcconnell@gmail.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "David Jencks",
+            "email": "david_jencks@yahoo.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Joakim Erdfelt",
+            "email": "joakim.erdfelt@gmail.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Thomas Becker",
+            "email": "thomas.becker00@googlemail.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Hugues Malphettes",
+            "email": "hlmalphettes@gmail.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Michael Gorovoy",
+            "email": "mgorovoy@gmail.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Athena Yao",
+            "email": "yao.athena@gmail.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "David Yu",
+            "email": "david.yu.ftw@gmail.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Nik Gonzalez",
+            "email": "ngonzalez@exist.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "James Strachan",
+            "email": "jstrachan@apache.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Tim Vernum",
+            "email": "tim@adjective.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Jeanfrancois Arcand",
+            "email": "jfarcand@apache.org",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Jules Gosnell",
+            "email": "jules@apache.org",
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "Webtide",
+            "email": null,
+            "url": "http://webtide.com"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.eclipse.org/jetty",
+    "download_url": "https://repo1.maven.org/maven2/org/eclipse/jetty/websocket/websocket-api/9.3.10.v20160621/websocket-api-9.3.10.v20160621-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "461998c5eb6fd186d01ba0fe93e7ad5209272784",
+    "sha256": "869871331ffb836a6331cbcd8e7f62940bf8e695227a08aed026dd9e6819b955",
+    "sha512": "a6d020560f150d5f2dca8f7b3c6ff0d1d50719b7d24402e309789fda20bb043185fe1f6cf0dcf99e705ef3034fda9fcaa57ab8885cd930dc6bde932843c4db22",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0 AND epl-1.0",
+    "declared_license_expression_spdx": "Apache-2.0 AND EPL-1.0",
+    "license_detections": [],
+    "other_license_expression": "(epl-1.0 OR apache-2.0) AND ((epl-1.0 OR apache-2.0) AND epl-1.0 AND apache-2.0) AND other-permissive",
+    "other_license_expression_spdx": "(EPL-1.0 OR Apache-2.0) AND ((EPL-1.0 OR Apache-2.0) AND EPL-1.0 AND Apache-2.0) AND LicenseRef-scancode-other-permissive",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.eclipse.jetty.websocket/websocket-api@9.3.10.v20160621?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.eclipse.jetty.toolchain/jetty-test-helper",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.eclipse.jetty.websocket/websocket-api@9.3.10.v20160621?classifier=sources&uuid=8c907ed4-0f6e-4513-8ad4-d1ad07cf2f97",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.eclipse.jetty.websocket/websocket-api@9.3.10.v20160621?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/eclipse/jetty/websocket/websocket-api/9.3.10.v20160621/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/eclipse/jetty/websocket/websocket-api/9.3.10.v20160621/websocket-api-9.3.10.v20160621-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/eclipse/jetty/websocket/websocket-api/9.3.10.v20160621/websocket-api-9.3.10.v20160621.pom",
+    "file_references": []
+}

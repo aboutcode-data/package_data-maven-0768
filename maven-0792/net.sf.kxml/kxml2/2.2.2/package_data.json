@@ -1,0 +1,114 @@
+{
+    "type": "maven",
+    "namespace": "net.sf.kxml",
+    "name": "kxml2",
+    "version": "2.2.2",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "kXML 2\nkXML2 is a small XmlPull parser aimed at J2ME/MIDP devices, e.g. mobile phones.",
+    "release_date": "2007-03-19T23:47:05Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Stefan Haustein",
+            "email": "sh@kobjects.org",
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "kObjects.org",
+            "email": null,
+            "url": "http://kobjects.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://kxml.sourceforge.net/kxml2",
+    "download_url": "https://repo1.maven.org/maven2/net/sf/kxml/kxml2/2.2.2/kxml2-2.2.2.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "a36b83b7591ad9ccb7d3d11dc32b97f6497cf22b",
+    "sha256": "d50c8f9241925cc22fe06a0ef0c23d79f19138243aaa1350df98752f92399784",
+    "sha512": "677da1e46c399bd62874d7efed5766f49cd86ba7126da7b101b9c1e50f96d95e36ca602ed7f321fa9ecf6a63851dc8a275b7d7d7ec16249ad3e511d730435985",
+    "bug_tracking_url": "http://sourceforge.net/tracker/?atid=109157&group_id=9157&func=browse",
+    "code_view_url": "http://cvs.sourceforge.net/viewcvs.py/kxml/kxml2/",
+    "vcs_url": "cvs+pserver:anonymous@cvs.sourceforge.net:/cvsroot/kxml:kxml2",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "bsd-new",
+    "declared_license_expression_spdx": "BSD-3-Clause",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 99.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/bsd-new_145.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: The BSD License",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 99,
+                    "rule_identifier": "bsd-new_145.RULE",
+                    "license_expression": "bsd-new"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/bsd-new_335.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.opensource.org/licenses/bsd-license.html",
+                    "match_coverage": 100.0,
+                    "matched_length": 8,
+                    "rule_relevance": 100,
+                    "rule_identifier": "bsd-new_335.RULE",
+                    "license_expression": "bsd-new"
+                }
+            ],
+            "identifier": "bsd_new-8c2f4fde-df38-c900-d576-b1ac6e730243",
+            "license_expression": "bsd-new"
+        }
+    ],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: The BSD License\n  url: http://www.opensource.org/licenses/bsd-license.html\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/net.sf.kxml/kxml2@2.2.2?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 5
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/xmlpull/xmlpull@1.1.3.1",
+            "extracted_requirement": "1.1.3.1",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit@3.8.2",
+            "extracted_requirement": "3.8.2",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/net.sf.kxml/kxml2@2.2.2?uuid=70adcf31-9aa6-4159-8462-e0e33b8be8d0",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/net.sf.kxml/kxml2@2.2.2",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/net/sf/kxml/kxml2/2.2.2/",
+    "repository_download_url": "https://repo1.maven.org/maven2/net/sf/kxml/kxml2/2.2.2/kxml2-2.2.2.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/net/sf/kxml/kxml2/2.2.2/kxml2-2.2.2.pom",
+    "file_references": []
+}

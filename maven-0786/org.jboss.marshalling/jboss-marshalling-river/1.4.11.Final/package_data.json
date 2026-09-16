@@ -1,0 +1,86 @@
+{
+    "type": "maven",
+    "namespace": "org.jboss.marshalling",
+    "name": "jboss-marshalling-river",
+    "version": "1.4.11.Final",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "465aeab7-2fe2-4c31-a735-326bcf820186",
+            "packages": [
+                "pkg:maven/org.jboss.marshalling/jboss-marshalling-river@1.4.11.Final?uuid=ea1adda7-e593-4c02-8714-f4b8c006fe4b",
+                "pkg:maven/org.jboss.marshalling/jboss-marshalling-river@1.4.11.Final?classifier=sources&uuid=be6e2eab-fcca-4edc-8d95-5dbeb7f17232"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "JBoss Marshalling River\nJBoss Marshalling River Implementation",
+    "release_date": "2016-06-10T16:52:48Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "JBoss.org Community",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "JBoss by Red Hat",
+            "email": null,
+            "url": "http://www.jboss.org"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.jboss.org",
+    "download_url": "https://repo1.maven.org/maven2/org/jboss/marshalling/jboss-marshalling-river/1.4.11.Final/jboss-marshalling-river-1.4.11.Final-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "e2e9454dee74d6df0d3e4eeb740a2e2eea55ab23",
+    "sha256": "b8dd04ca1fb86de8d92cd294485c28f6c6a04280fe0315b4cc50605c764b3aa4",
+    "sha512": "b4ebf03b0fc5d53f9a0252550f962e73a876f9d12b21a7f5af488e319c308a427df5460e5643ea2e521066b2dabee9ca7a767337bf5cdf079a468356302b85e0",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "public-domain AND cc0-1.0",
+    "declared_license_expression_spdx": "LicenseRef-scancode-public-domain AND CC0-1.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.jboss.marshalling/jboss-marshalling-river@1.4.11.Final?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.jboss/jboss-parent@11",
+            "Field `homepage_url` has been updated using values obtained from the parent POM pkg:maven/org.jboss/jboss-parent@11",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.jboss/jboss-parent@11"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.jboss.marshalling/jboss-marshalling",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.jboss.marshalling/jboss-marshalling-river@1.4.11.Final?classifier=sources&uuid=be6e2eab-fcca-4edc-8d95-5dbeb7f17232",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.jboss.marshalling/jboss-marshalling-river@1.4.11.Final?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/jboss/marshalling/jboss-marshalling-river/1.4.11.Final/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/jboss/marshalling/jboss-marshalling-river/1.4.11.Final/jboss-marshalling-river-1.4.11.Final-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/jboss/marshalling/jboss-marshalling-river/1.4.11.Final/jboss-marshalling-river-1.4.11.Final.pom",
+    "file_references": []
+}

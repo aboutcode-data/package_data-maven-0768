@@ -1,0 +1,103 @@
+{
+    "type": "maven",
+    "namespace": "org.jboss.arquillian.container",
+    "name": "arquillian-container-test-spi",
+    "version": "1.1.6.Final",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "39f04edc-159d-4776-aad5-7d68121af146",
+            "packages": [
+                "pkg:maven/org.jboss.arquillian.container/arquillian-container-test-spi@1.1.6.Final?uuid=64155e65-bd75-4b84-9288-44f911815356",
+                "pkg:maven/org.jboss.arquillian.container/arquillian-container-test-spi@1.1.6.Final?classifier=sources&uuid=e79f767b-7ac8-4dd1-bab1-78b0f51204bb"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Arquillian Container Test SPI\nIntegration with the Test extention for the container extension.",
+    "release_date": "2015-01-25T22:13:24Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "JBoss.org Community",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "JBoss by Red Hat",
+            "email": null,
+            "url": "http://www.jboss.org"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.jboss.org",
+    "download_url": "https://repo1.maven.org/maven2/org/jboss/arquillian/container/arquillian-container-test-spi/1.1.6.Final/arquillian-container-test-spi-1.1.6.Final-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "164a9b0fb0c1404d3028060b54fc232dda6a10dc",
+    "sha256": "c79c6e4681dbb7b7a933671905fd2ede90c9e9374135b9503d51b69fd2a536f6",
+    "sha512": "5872b714e0207230240235c968e5ca6a7d92f1892d237c80226803e22f4f9208a2013f589ef73bfa0c69b4496441055b68ea5d12d3169aaf1e388d37a8e1b28f",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "public-domain AND cc0-1.0",
+    "declared_license_expression_spdx": "LicenseRef-scancode-public-domain AND CC0-1.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.jboss.arquillian.container/arquillian-container-test-spi@1.1.6.Final?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.jboss.arquillian.container/arquillian-container-spi@1.1.6.Final",
+            "extracted_requirement": "1.1.6.Final",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.jboss.arquillian.test/arquillian-test-spi@1.1.6.Final",
+            "extracted_requirement": "1.1.6.Final",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.jboss.arquillian.container/arquillian-container-test-api@1.1.6.Final",
+            "extracted_requirement": "1.1.6.Final",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.jboss.arquillian.container/arquillian-container-test-spi@1.1.6.Final?classifier=sources&uuid=e79f767b-7ac8-4dd1-bab1-78b0f51204bb",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.jboss.arquillian.container/arquillian-container-test-spi@1.1.6.Final?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/jboss/arquillian/container/arquillian-container-test-spi/1.1.6.Final/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/jboss/arquillian/container/arquillian-container-test-spi/1.1.6.Final/arquillian-container-test-spi-1.1.6.Final-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/jboss/arquillian/container/arquillian-container-test-spi/1.1.6.Final/arquillian-container-test-spi-1.1.6.Final.pom",
+    "file_references": []
+}

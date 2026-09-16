@@ -1,0 +1,96 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.camel",
+    "name": "apt",
+    "version": "2.18.4",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Camel :: Annotation Processor\nProcesses Camel endpoint source code",
+    "release_date": "2017-05-20T19:04:29Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/apache/camel/apt/2.18.4/apt-2.18.4.jar",
+    "size": 84102,
+    "md5": null,
+    "sha1": "683155c8d2992afec52a70c1a415431bd904638f",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.camel/apt@2.18.4?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.camel/spi-annotations",
+            "extracted_requirement": "2.18.4",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.logging.log4j/log4j-api",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.logging.log4j/log4j-core",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.logging.log4j/log4j-slf4j-impl",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-log4j12",
+            "extracted_requirement": null,
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.camel/apt@2.18.4?uuid=14eb32d2-4ff6-44ca-91c4-2f6626dcddc2",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.apache.camel/apt@2.18.4",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/camel/apt/2.18.4/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/camel/apt/2.18.4/apt-2.18.4.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/camel/apt/2.18.4/apt-2.18.4.pom",
+    "file_references": []
+}

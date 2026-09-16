@@ -1,0 +1,72 @@
+{
+    "type": "maven",
+    "namespace": "org.picketlink.idm.integration",
+    "name": "picketlink-idm-jboss5",
+    "version": "1.1.7.GA",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "PicketLink IDM Integration JBoss5\nPicketLink IDM JBoss5",
+    "release_date": "2010-11-25T22:29:29Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/picketlink/idm/integration/picketlink-idm-jboss5/1.1.7.GA/picketlink-idm-jboss5-1.1.7.GA.jar",
+    "size": 12444,
+    "md5": null,
+    "sha1": "ae9213157eaae9b733b7ff2e8ecddcce62b6b3c9",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.picketlink.idm.integration/picketlink-idm-jboss5@1.1.7.GA?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.picketlink.idm/picketlink-idm-core",
+            "extracted_requirement": "1.1.7.GA",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.picketlink.idm/picketlink-idm-hibernate",
+            "extracted_requirement": "1.1.7.GA",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.picketlink.idm/picketlink-idm-ldap",
+            "extracted_requirement": "1.1.7.GA",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.picketlink.idm.integration/picketlink-idm-jboss5@1.1.7.GA?uuid=de3a22fc-6c4d-438f-a0d5-0de18a97ba6d",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.picketlink.idm.integration/picketlink-idm-jboss5@1.1.7.GA",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/picketlink/idm/integration/picketlink-idm-jboss5/1.1.7.GA/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/picketlink/idm/integration/picketlink-idm-jboss5/1.1.7.GA/picketlink-idm-jboss5-1.1.7.GA.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/picketlink/idm/integration/picketlink-idm-jboss5/1.1.7.GA/picketlink-idm-jboss5-1.1.7.GA.pom",
+    "file_references": []
+}

@@ -1,0 +1,72 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.wicket",
+    "name": "wicket-spring",
+    "version": "8.0.0-M6",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Wicket Spring Integration\nIntegration project to use Spring injection in your Wicket applications. See the wicket-spring-examples for integration patterns.",
+    "release_date": "2017-05-14T13:25:10Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/apache/wicket/wicket-spring/8.0.0-M6/wicket-spring-8.0.0-M6.jar",
+    "size": 31139,
+    "md5": null,
+    "sha1": "39f19c0b5e4640885f9954f978a172e2df9b2df1",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.wicket/wicket-spring@8.0.0-M6?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.springframework/spring-web",
+            "extracted_requirement": null,
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.wicket/wicket-core",
+            "extracted_requirement": "8.0.0-M6",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.wicket/wicket-ioc",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.wicket/wicket-spring@8.0.0-M6?uuid=6fec9313-c303-4c25-8ed9-279a0b935793",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.apache.wicket/wicket-spring@8.0.0-M6",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/wicket/wicket-spring/8.0.0-M6/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/wicket/wicket-spring/8.0.0-M6/wicket-spring-8.0.0-M6.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/wicket/wicket-spring/8.0.0-M6/wicket-spring-8.0.0-M6.pom",
+    "file_references": []
+}

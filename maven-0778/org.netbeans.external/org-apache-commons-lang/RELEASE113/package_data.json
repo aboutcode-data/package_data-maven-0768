@@ -1,0 +1,70 @@
+{
+    "type": "maven",
+    "namespace": "org.netbeans.external",
+    "name": "org-apache-commons-lang",
+    "version": "RELEASE113",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "bdd0b6c7-3c3a-4ca9-9171-d50a1f0ee9b0",
+            "packages": [
+                "pkg:maven/org.netbeans.external/org-apache-commons-lang@RELEASE113?uuid=4e6279e7-9439-42e1-8ccf-188e239da9ec",
+                "pkg:maven/org.netbeans.external/org-apache-commons-lang@RELEASE113?classifier=sources&uuid=79e30290-69e0-4545-b114-86806b864d33"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": null,
+    "release_date": "2020-02-21T16:31:16Z",
+    "parties": [
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "The Apache Software Foundation",
+            "email": null,
+            "url": "https://www.apache.org/"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://www.apache.org/",
+    "download_url": "https://repo1.maven.org/maven2/org/netbeans/external/org-apache-commons-lang/RELEASE113/org-apache-commons-lang-RELEASE113-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "6101b32fcf8a8e1d15efda1f88a4aac19d3c726b",
+    "sha256": "64e65da6cc77cad4a7c35ff00534ae9bed7543c13d995941c12538d3171d4e34",
+    "sha512": "314d6015adc954d5159b894d1e2ae8220cb78bc061425e8f79406dd2ac972d6ce84df6a0c63945774abe76e5961f27820a8eff7892a712b3252c622b8e6f19a2",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) Sun Microsystems",
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": "apache-2.0",
+    "other_license_expression_spdx": "Apache-2.0",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.netbeans.external/org-apache-commons-lang@RELEASE113?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@21",
+            "Field `homepage_url` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@21",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.apache/apache@21"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [],
+    "package_uid": "pkg:maven/org.netbeans.external/org-apache-commons-lang@RELEASE113?classifier=sources&uuid=79e30290-69e0-4545-b114-86806b864d33",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.netbeans.external/org-apache-commons-lang@RELEASE113?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/netbeans/external/org-apache-commons-lang/RELEASE113/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/netbeans/external/org-apache-commons-lang/RELEASE113/org-apache-commons-lang-RELEASE113-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/netbeans/external/org-apache-commons-lang/RELEASE113/org-apache-commons-lang-RELEASE113.pom",
+    "file_references": []
+}

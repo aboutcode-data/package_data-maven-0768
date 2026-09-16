@@ -1,0 +1,151 @@
+{
+    "type": "maven",
+    "namespace": "org.geneontology",
+    "name": "arachne_2.11",
+    "version": "0.0.5",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "arachne",
+    "release_date": "2017-05-19T18:25:48Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Jim Balhoff",
+            "email": "jim@balhoff.org",
+            "url": null
+        },
+        {
+            "type": "organization",
+            "role": "owner",
+            "name": "org.geneontology",
+            "email": null,
+            "url": "https://github.com/balhoff/arachne"
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/balhoff/arachne",
+    "download_url": "https://repo1.maven.org/maven2/org/geneontology/arachne_2.11/0.0.5/arachne_2.11-0.0.5.jar",
+    "size": 197719,
+    "md5": null,
+    "sha1": "696586399b02c3ff607745b94ce8e39314740c00",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "(bsd-new OR gpl-2.0) AND unknown",
+    "declared_license_expression_spdx": "(BSD-3-Clause OR GPL-2.0-only) AND LicenseRef-scancode-unknown",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "BSD-3-Clause\nhttps://opensource.org/licenses/BSD-3-Clause",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.geneontology/arachne_2.11@0.0.5?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.scala-lang/scala-library",
+            "extracted_requirement": "2.11.8",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.scalaz/scalaz-core_2.11",
+            "extracted_requirement": "7.2.1",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.jena/apache-jena-libs",
+            "extracted_requirement": "3.2.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.geneontology/owl-to-rules_2.11",
+            "extracted_requirement": "0.3",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/net.sourceforge.owlapi/owlapi-distribution",
+            "extracted_requirement": "4.2.8",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.backuity.clist/clist-core_2.11",
+            "extracted_requirement": "3.2.2",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.typesafe.scala-logging/scala-logging_2.11",
+            "extracted_requirement": "3.4.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.backuity.clist/clist-macros_2.11",
+            "extracted_requirement": "3.2.2",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/ch.qos.logback/logback-classic",
+            "extracted_requirement": "1.1.7",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.codehaus.groovy/groovy-all",
+            "extracted_requirement": "2.4.6",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.scalatest/scalatest_2.11",
+            "extracted_requirement": "3.0.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.geneontology/arachne_2.11@0.0.5?uuid=0f6933c5-b821-4f3b-999d-25635bd7b027",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.geneontology/arachne_2.11@0.0.5",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/geneontology/arachne_2.11/0.0.5/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/geneontology/arachne_2.11/0.0.5/arachne_2.11-0.0.5.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/geneontology/arachne_2.11/0.0.5/arachne_2.11-0.0.5.pom",
+    "file_references": []
+}

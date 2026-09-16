@@ -1,0 +1,112 @@
+{
+    "type": "maven",
+    "namespace": "io.zipkin.aws",
+    "name": "zipkin-sender-kinesis",
+    "version": "0.3.2",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Zipkin Sender: AWS Kinesis",
+    "release_date": "2017-05-18T16:50:59Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/io/zipkin/aws/zipkin-sender-kinesis/0.3.2/zipkin-sender-kinesis-0.3.2.jar",
+    "size": 10355,
+    "md5": null,
+    "sha1": "91af9b8839c03e12bb82898a08d2e3d6c6899ed0",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/io.zipkin.aws/zipkin-sender-kinesis@0.3.2?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/io.zipkin.reporter/zipkin-reporter",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.amazonaws/aws-java-sdk-kinesis",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/io.zipkin.aws/zipkin-aws-junit",
+            "extracted_requirement": "0.3.2",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.squareup.okhttp3/mockwebserver",
+            "extracted_requirement": "3.7.0",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.logging.log4j/log4j-core",
+            "extracted_requirement": "2.8.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.logging.log4j/log4j-jul",
+            "extracted_requirement": "2.8.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.logging.log4j/log4j-slf4j-impl",
+            "extracted_requirement": "2.8.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.logging.log4j/log4j-1.2-api",
+            "extracted_requirement": "2.8.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/io.zipkin.aws/zipkin-sender-kinesis@0.3.2?uuid=9af1c794-c433-4a5b-a7dd-ba544c179a35",
+    "datasource_id": null,
+    "purl": "pkg:maven/io.zipkin.aws/zipkin-sender-kinesis@0.3.2",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/io/zipkin/aws/zipkin-sender-kinesis/0.3.2/",
+    "repository_download_url": "https://repo1.maven.org/maven2/io/zipkin/aws/zipkin-sender-kinesis/0.3.2/zipkin-sender-kinesis-0.3.2.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/io/zipkin/aws/zipkin-sender-kinesis/0.3.2/zipkin-sender-kinesis-0.3.2.pom",
+    "file_references": []
+}

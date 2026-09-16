@@ -1,0 +1,86 @@
+{
+    "type": "maven",
+    "namespace": "software.amazon.awssdk",
+    "name": "third-party-jackson-core",
+    "version": "2.17.105",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "b16efbd5-a9eb-4f71-acc6-183dcfed818a",
+            "packages": [
+                "pkg:maven/software.amazon.awssdk/third-party-jackson-core@2.17.105?uuid=6ee63477-a838-4086-afa8-2b14c2a79615",
+                "pkg:maven/software.amazon.awssdk/third-party-jackson-core@2.17.105?classifier=sources&uuid=b328c847-2b55-426b-998f-d321ab2211e9"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "AWS Java SDK :: Third Party :: Jackson-core",
+    "release_date": "2022-01-05T20:32:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": null,
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://aws.amazon.com/sdkforjava",
+    "download_url": "https://repo1.maven.org/maven2/software/amazon/awssdk/third-party-jackson-core/2.17.105/third-party-jackson-core-2.17.105-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "ea81ae62c75e603037935f45ab967ca35f1be311",
+    "sha256": "f34f89629d8ff8a682772ba7f1a6f88827ec97c52f405b0d63206869ddad58dc",
+    "sha512": "aae58063dd49d0b454072c0ecca12e4951df597366be477f1ad1fcbdc259598540cfbb250ffb934e5e0cf4d04d4227f101c27cd70aa7fd25ab5e8df04bf93196",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": "Copyright (c) Amazon.com, Inc. or its affiliates",
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/software.amazon.awssdk/third-party-jackson-core@2.17.105?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/software.amazon.awssdk/aws-sdk-java-pom@2.17.105",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/software.amazon.awssdk/aws-sdk-java-pom@2.17.105"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/software.amazon.awssdk/bom-internal@2.17.105",
+            "extracted_requirement": "2.17.105",
+            "scope": "import",
+            "is_runtime": false,
+            "is_optional": false,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/software.amazon.awssdk/bom-internal@2.17.105",
+            "extracted_requirement": "2.17.105",
+            "scope": "dependencymanagement",
+            "is_runtime": false,
+            "is_optional": false,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/software.amazon.awssdk/third-party-jackson-core@2.17.105?classifier=sources&uuid=b328c847-2b55-426b-998f-d321ab2211e9",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/software.amazon.awssdk/third-party-jackson-core@2.17.105?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/software/amazon/awssdk/third-party-jackson-core/2.17.105/",
+    "repository_download_url": "https://repo1.maven.org/maven2/software/amazon/awssdk/third-party-jackson-core/2.17.105/third-party-jackson-core-2.17.105-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/software/amazon/awssdk/third-party-jackson-core/2.17.105/third-party-jackson-core-2.17.105.pom",
+    "file_references": []
+}

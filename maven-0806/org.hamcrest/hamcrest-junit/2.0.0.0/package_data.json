@@ -1,0 +1,122 @@
+{
+    "type": "maven",
+    "namespace": "org.hamcrest",
+    "name": "hamcrest-junit",
+    "version": "2.0.0.0",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "eea4b9d0-c158-4eef-a30f-e625eaf7ac4e",
+            "packages": [
+                "pkg:maven/org.hamcrest/hamcrest-junit@2.0.0.0?uuid=ff588844-3995-41f9-a089-9a2fd4e164fd",
+                "pkg:maven/org.hamcrest/hamcrest-junit@2.0.0.0?classifier=sources&uuid=9519f604-3fb7-48fc-be58-13163ae189a5"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Hamcrest JUnit\nClasses to use Hamcrest matchers within JUnit tests",
+    "release_date": "2015-02-12T00:08:59Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Nat Pryce",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Steve Freeman",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "https://github.com/hamcrest/hamcrest-junit",
+    "download_url": "https://repo1.maven.org/maven2/org/hamcrest/hamcrest-junit/2.0.0.0/hamcrest-junit-2.0.0.0-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "3a86dcdd3aa6650b71d0258a5e86cb3ed25207ff",
+    "sha256": "ae630bc658f816ca92cc536b7b4fc971602dfb9ae2711e3066aacc4676176533",
+    "sha512": "051d8b3c9d4ffd1e7f3763c4bb5fda4bad50d47fceff77861038fa028753292ff75f9eee1ae369d9ebf50dd6b3727024b371318dfe1f9f8de8f8adbbdd4b510c",
+    "bug_tracking_url": null,
+    "code_view_url": "https://github.com/hamcrest/hamcrest-junit",
+    "vcs_url": "git@github.com:hamcrest/hamcrest-junit.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "epl-1.0",
+    "declared_license_expression_spdx": "EPL-1.0",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/epl-1.0_4.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: Eclipse Public License - v 1.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 6,
+                    "rule_relevance": 100,
+                    "rule_identifier": "epl-1.0_4.RULE",
+                    "license_expression": "epl-1.0"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/epl-1.0_36.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://opensource.org/licenses/EPL-1.0",
+                    "match_coverage": 100.0,
+                    "matched_length": 7,
+                    "rule_relevance": 100,
+                    "rule_identifier": "epl-1.0_36.RULE",
+                    "license_expression": "epl-1.0"
+                }
+            ],
+            "identifier": "epl_1_0-fa8686c8-520e-f0d8-49ec-56b97024b8c5",
+            "license_expression": "epl-1.0"
+        }
+    ],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: Eclipse Public License - v 1.0\n  url: http://opensource.org/licenses/EPL-1.0\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.hamcrest/hamcrest-junit@2.0.0.0?classifier=sources"
+    ],
+    "extra_data": {
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/junit/junit@4.12",
+            "extracted_requirement": "4.12",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        },
+        {
+            "purl": "pkg:maven/org.hamcrest/java-hamcrest@2.0.0.0",
+            "extracted_requirement": "2.0.0.0",
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/org.hamcrest/hamcrest-junit@2.0.0.0?classifier=sources&uuid=9519f604-3fb7-48fc-be58-13163ae189a5",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/org.hamcrest/hamcrest-junit@2.0.0.0?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/hamcrest/hamcrest-junit/2.0.0.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/hamcrest/hamcrest-junit/2.0.0.0/hamcrest-junit-2.0.0.0-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/hamcrest/hamcrest-junit/2.0.0.0/hamcrest-junit-2.0.0.0.pom",
+    "file_references": []
+}

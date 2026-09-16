@@ -1,0 +1,125 @@
+{
+    "type": "maven",
+    "namespace": "com.twelvemonkeys.common",
+    "name": "common-image",
+    "version": "3.3.2",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "eb5cdc81-4a7d-444c-8c5f-d23dc2e6b452",
+            "packages": [
+                "pkg:maven/com.twelvemonkeys.common/common-image@3.3.2?uuid=9c47cfb9-e822-4e0a-a2c7-f5957507e40e",
+                "pkg:maven/com.twelvemonkeys.common/common-image@3.3.2?classifier=sources&uuid=1870a07f-877f-4982-825a-84fd07317dab"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "TwelveMonkeys :: Common :: Image\nThe TwelveMonkeys Common Image support",
+    "release_date": "2017-02-02T20:36:55Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Harald Kuhr",
+            "email": "harald.kuhr@gmail.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Erlend Hamnaberg",
+            "email": "erlend@hamnaberg.net",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Oliver Schmidtmer",
+            "email": "mail@trek7891.de",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Jason Palmer",
+            "email": "jpalmer@itemmaster.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "contributor",
+            "name": "Hermann Kroll",
+            "email": "dev.hkroll@gmail.com",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://nexus.sonatype.org/oss-repository-hosting.html",
+    "download_url": "https://repo1.maven.org/maven2/com/twelvemonkeys/common/common-image/3.3.2/common-image-3.3.2-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "e6fb35a9825421ec5a634af328e22546992d536d",
+    "sha256": "de6999e90c5f6338fdb0785556ee72ae344779ad542f23ef863ccf1b647ff59a",
+    "sha512": "48712c41a065ce9ab4753d8ff25c6008115486bd2216a3c47c12349e30f09e8b1efbb867e00144c10918b1edab433d01dfeb7bb59838163000dd7a78c63f6f78",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "bsd-new",
+    "declared_license_expression_spdx": "BSD-3-Clause",
+    "license_detections": [],
+    "other_license_expression": "bsd-new AND apache-1.1 AND (apache-2.0 AND apache-1.1) AND public-domain",
+    "other_license_expression_spdx": "BSD-3-Clause AND Apache-1.1 AND (Apache-2.0 AND Apache-1.1) AND LicenseRef-scancode-public-domain",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.twelvemonkeys.common/common-image@3.3.2?classifier=sources"
+    ],
+    "extra_data": {
+        "history": [
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/org.sonatype.oss/oss-parent@9",
+            "Field `homepage_url` has been updated using values obtained from the parent POM pkg:maven/org.sonatype.oss/oss-parent@9",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/org.sonatype.oss/oss-parent@9",
+            "Field `declared_license_expression` has been updated using values obtained from the parent POM pkg:maven/com.twelvemonkeys/twelvemonkeys@3.3.2",
+            "Field `parties` has been updated using values obtained from the parent POM pkg:maven/com.twelvemonkeys/twelvemonkeys@3.3.2"
+        ],
+        "package_content": 4
+    },
+    "dependencies": [
+        {
+            "purl": "pkg:maven/com.twelvemonkeys.common/common-lang",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/com.twelvemonkeys.common/common-io",
+            "extracted_requirement": null,
+            "scope": "compile",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/jmagick/jmagick@6.2.4",
+            "extracted_requirement": "6.2.4",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": true,
+            "is_pinned": true
+        }
+    ],
+    "package_uid": "pkg:maven/com.twelvemonkeys.common/common-image@3.3.2?classifier=sources&uuid=1870a07f-877f-4982-825a-84fd07317dab",
+    "datasource_id": "maven_pom",
+    "purl": "pkg:maven/com.twelvemonkeys.common/common-image@3.3.2?classifier=sources",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/com/twelvemonkeys/common/common-image/3.3.2/",
+    "repository_download_url": "https://repo1.maven.org/maven2/com/twelvemonkeys/common/common-image/3.3.2/common-image-3.3.2-sources.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/com/twelvemonkeys/common/common-image/3.3.2/common-image-3.3.2.pom",
+    "file_references": []
+}

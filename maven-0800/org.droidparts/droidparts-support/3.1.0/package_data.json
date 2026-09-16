@@ -1,0 +1,64 @@
+{
+    "type": "maven",
+    "namespace": "org.droidparts",
+    "name": "droidparts-support",
+    "version": "3.1.0",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "DroidParts\nA carefully crafted Android framework",
+    "release_date": "2017-05-25T09:50:58Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Alex Yanchenko",
+            "email": "alex@yanchenko.com",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://droidparts.org",
+    "download_url": "https://repo1.maven.org/maven2/org/droidparts/droidparts-support/3.1.0/droidparts-support-3.1.0.jar",
+    "size": 16098,
+    "md5": null,
+    "sha1": "ccfa7bd3e4987693d4c302039d5e8a67fc17879d",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0 AND unknown",
+    "declared_license_expression_spdx": "Apache-2.0 AND LicenseRef-scancode-unknown",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "The Apache License, Version 2.0\nhttp://www.apache.org/licenses/LICENSE-2.0.txt",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.droidparts/droidparts-support@3.1.0?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.droidparts/droidparts",
+            "extracted_requirement": "3.1.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.droidparts/droidparts-support@3.1.0?uuid=6c8d89b7-6532-43ff-8141-f0dca51be14f",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.droidparts/droidparts-support@3.1.0",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/droidparts/droidparts-support/3.1.0/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/droidparts/droidparts-support/3.1.0/droidparts-support-3.1.0.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/droidparts/droidparts-support/3.1.0/droidparts-support-3.1.0.pom",
+    "file_references": []
+}

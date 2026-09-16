@@ -1,0 +1,80 @@
+{
+    "type": "maven",
+    "namespace": "org.immutables",
+    "name": "trees",
+    "version": "2.5.1",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "org.immutables.trees\nStuff related to immutable object trees, including parboiled as and transformers.",
+    "release_date": "2017-05-21T03:14:17Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/immutables/trees/2.5.1/trees-2.5.1.jar",
+    "size": 16065,
+    "md5": null,
+    "sha1": "78161b80aa186f006100650a4b21bb87c975a5ee",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.immutables/trees@2.5.1?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.immutables/value",
+            "extracted_requirement": "2.5.1",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.parboiled/parboiled-java",
+            "extracted_requirement": "1.1.7",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.immutables.dependency/utility",
+            "extracted_requirement": "2.5.1",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.immutables/testing",
+            "extracted_requirement": "2.5.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.immutables/trees@2.5.1?uuid=a5661403-868a-4bec-90fe-0d998e10185c",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.immutables/trees@2.5.1",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/immutables/trees/2.5.1/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/immutables/trees/2.5.1/trees-2.5.1.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/immutables/trees/2.5.1/trees-2.5.1.pom",
+    "file_references": []
+}

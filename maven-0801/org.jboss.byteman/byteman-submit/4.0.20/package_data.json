@@ -1,0 +1,70 @@
+{
+    "type": "maven",
+    "namespace": "org.jboss.byteman",
+    "name": "byteman-submit",
+    "version": "4.0.20",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "05da18bb-f7af-4d1c-a868-5fcec0d869c7",
+            "packages": [
+                "pkg:maven/org.jboss.byteman/byteman-submit@4.0.20?uuid=5283111f-86c1-4367-9c8b-53619016f380",
+                "pkg:maven/org.jboss.byteman/byteman-submit@4.0.20?classifier=sources&uuid=7fcdc98f-7205-4fad-8b4b-4c957ba9ccea"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "byteman-submit\nThe Byteman install jar contains classes whcih canbe used to install an agent into the\n        current JVM or into a remote JVM",
+    "release_date": "2022-10-12T09:08:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Andrew Dinn",
+            "email": "adinn@redhat.com",
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Kabir Khan",
+            "email": "kabir.khan@jboss.com",
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://www.jboss.org/byteman",
+    "download_url": "https://repo1.maven.org/maven2/org/jboss/byteman/byteman-submit/4.0.20/byteman-submit-4.0.20-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "2ae1cf2e89c9203ec02d4323ee1d4a3c4217ea56",
+    "sha256": "4e1031f70d5b4a87f86c2c64d514f34318d5e20a34935dd68d9d138f5b1d7e22",
+    "sha512": "ca24fa62131029fad0e620dbfa2566a5777831ade3d05e9f2e6d2ccf293595b5d3b55d871322083f002994c49d180a8863fd05f315a91a2bd192e75adb9e74c4",
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "lgpl-2.1",
+    "declared_license_expression_spdx": "LGPL-2.1-only",
+    "license_detections": [],
+    "other_license_expression": "lgpl-2.1-plus",
+    "other_license_expression_spdx": "LGPL-2.1-or-later",
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.jboss.byteman/byteman-submit@4.0.20?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [],
+    "package_uid": "pkg:maven/org.jboss.byteman/byteman-submit@4.0.20?classifier=sources&uuid=7fcdc98f-7205-4fad-8b4b-4c957ba9ccea",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.jboss.byteman/byteman-submit@4.0.20?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

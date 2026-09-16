@@ -1,0 +1,96 @@
+{
+    "type": "maven",
+    "namespace": "com.liferay",
+    "name": "com.liferay.frontend.data.set.views.web",
+    "version": "1.0.2",
+    "qualifiers": "classifier=sources",
+    "subpath": "",
+    "package_sets": [
+        {
+            "uuid": "7295cef8-aaa1-40f3-be0f-939958f79c6d",
+            "packages": [
+                "pkg:maven/com.liferay/com.liferay.frontend.data.set.views.web@1.0.2?uuid=aae95c35-3af1-406a-851e-5c5c1eecbce2",
+                "pkg:maven/com.liferay/com.liferay.frontend.data.set.views.web@1.0.2?classifier=sources&uuid=bd71b4b8-358c-4b29-b85d-a70a880b0d0d"
+            ]
+        }
+    ],
+    "package_content": "source_archive",
+    "primary_language": "Java",
+    "description": "Liferay Frontend Data Set Views Web",
+    "release_date": "2023-08-10T02:53:00Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developer",
+            "name": "Brian Wing Shun Chan",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/com/liferay/com.liferay.frontend.data.set.views.web/1.0.2/com.liferay.frontend.data.set.views.web-1.0.2-sources.jar",
+    "size": null,
+    "md5": null,
+    "sha1": "962c09bfd5ec668f02031744b21b9b638fc2ba83",
+    "sha256": "6d7754b5ae8a3b9b35a96f649926266b15fb6bfca9d779f8b8f3f8752ec746bd",
+    "sha512": "a1aba88ceedc2fbc477cdd62b161291f2a14f7a4fb1ccfdcd7974dc64d6a30fac5533deb4c516046a1ae764d088c99246f6e2bc0b1374b0c94f0050a71a86d4b",
+    "bug_tracking_url": null,
+    "code_view_url": "http://github.com/liferay/liferay-portal",
+    "vcs_url": "git+https://github.com/liferay/liferay-portal.git",
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "lgpl-2.1",
+    "declared_license_expression_spdx": "LGPL-2.1-only",
+    "license_detections": [
+        {
+            "matches": [
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 1,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_85.RULE",
+                    "start_line": 1,
+                    "matched_text": "- name: LGPL 2.1",
+                    "match_coverage": 100.0,
+                    "matched_length": 3,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_85.RULE",
+                    "license_expression": "lgpl-2.1"
+                },
+                {
+                    "score": 100.0,
+                    "matcher": "2-aho",
+                    "end_line": 2,
+                    "rule_url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/rules/lgpl-2.1_37.RULE",
+                    "start_line": 2,
+                    "matched_text": "  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt",
+                    "match_coverage": 100.0,
+                    "matched_length": 11,
+                    "rule_relevance": 100,
+                    "rule_identifier": "lgpl-2.1_37.RULE",
+                    "license_expression": "lgpl-2.1"
+                }
+            ],
+            "identifier": "lgpl_2_1-6893cb1b-4cad-db8f-2133-a48bc107078b",
+            "license_expression": "lgpl-2.1"
+        }
+    ],
+    "other_license_expression": "lgpl-2.1-plus OR unknown-spdx",
+    "other_license_expression_spdx": "LGPL-2.1-or-later OR LicenseRef-scancode-unknown-spdx",
+    "other_license_detections": [],
+    "extracted_license_statement": "- name: LGPL 2.1\n  url: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt\n",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/com.liferay/com.liferay.frontend.data.set.views.web@1.0.2?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [],
+    "package_uid": "pkg:maven/com.liferay/com.liferay.frontend.data.set.views.web@1.0.2?classifier=sources&uuid=bd71b4b8-358c-4b29-b85d-a70a880b0d0d",
+    "datasource_id": null,
+    "purl": "pkg:maven/com.liferay/com.liferay.frontend.data.set.views.web@1.0.2?classifier=sources",
+    "repository_homepage_url": null,
+    "repository_download_url": null,
+    "api_data_url": null,
+    "file_references": []
+}

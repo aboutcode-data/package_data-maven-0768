@@ -1,0 +1,135 @@
+{
+    "type": "maven",
+    "namespace": "net.lshift.diffa",
+    "name": "participant-support",
+    "version": "1.2",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "LShift Diffa Participant Support\nDiffa Participant Support provides tools for implementing Diffa participants in Java (and other JVM languages)",
+    "release_date": "2012-01-13T17:29:33Z",
+    "parties": [
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Paul Jones",
+            "email": null,
+            "url": null
+        },
+        {
+            "type": "person",
+            "role": "developper",
+            "name": "Ben Hood",
+            "email": null,
+            "url": null
+        }
+    ],
+    "keywords": [],
+    "homepage_url": "http://github.com/lshift/diffa",
+    "download_url": "https://repo1.maven.org/maven2/net/lshift/diffa/participant-support/1.2/participant-support-1.2.jar",
+    "size": 46205,
+    "md5": null,
+    "sha1": "589a9bee8a2e4295d3470bda1b054ae6178220c2",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": "apache-2.0",
+    "declared_license_expression_spdx": "Apache-2.0",
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": "The Apache Software License, Version 2.0\nhttp://www.apache.org/licenses/LICENSE-2.0.txt",
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/net.lshift.diffa/participant-support@1.2?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/joda-time/joda-time",
+            "extracted_requirement": "2.0",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.codehaus.jackson/jackson-mapper-asl",
+            "extracted_requirement": "1.7.1",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-api",
+            "extracted_requirement": "1.6.1",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/commons-codec/commons-codec",
+            "extracted_requirement": "1.4",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/javax.servlet/servlet-api",
+            "extracted_requirement": "2.5",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-web",
+            "extracted_requirement": "3.0.0.RELEASE",
+            "scope": "provided",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/junit/junit",
+            "extracted_requirement": "4.10",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.springframework/spring-test",
+            "extracted_requirement": "3.0.0.RELEASE",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.slf4j/slf4j-simple",
+            "extracted_requirement": "1.6.1",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/net.lshift.diffa/participant-support@1.2?uuid=050f33e6-f937-435c-a84e-412a5d2ae927",
+    "datasource_id": null,
+    "purl": "pkg:maven/net.lshift.diffa/participant-support@1.2",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/net/lshift/diffa/participant-support/1.2/",
+    "repository_download_url": "https://repo1.maven.org/maven2/net/lshift/diffa/participant-support/1.2/participant-support-1.2.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/net/lshift/diffa/participant-support/1.2/participant-support-1.2.pom",
+    "file_references": []
+}

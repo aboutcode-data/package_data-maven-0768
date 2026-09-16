@@ -1,0 +1,120 @@
+{
+    "type": "maven",
+    "namespace": "org.apache.tuscany.sca",
+    "name": "tuscany-implementation-java-xml",
+    "version": "1.4",
+    "qualifiers": "",
+    "subpath": "",
+    "package_sets": [],
+    "package_content": "binary",
+    "primary_language": "Java",
+    "description": "Apache Tuscany SCA Java Implementation XML Model",
+    "release_date": "2009-01-08T14:08:36Z",
+    "parties": [],
+    "keywords": [],
+    "homepage_url": null,
+    "download_url": "https://repo1.maven.org/maven2/org/apache/tuscany/sca/tuscany-implementation-java-xml/1.4/tuscany-implementation-java-xml-1.4.jar",
+    "size": 15807,
+    "md5": null,
+    "sha1": "1322fdb517214ad823b35de1bd20aed3ece41080",
+    "sha256": null,
+    "sha512": null,
+    "bug_tracking_url": null,
+    "code_view_url": null,
+    "vcs_url": null,
+    "copyright": null,
+    "holder": null,
+    "declared_license_expression": null,
+    "declared_license_expression_spdx": null,
+    "license_detections": [],
+    "other_license_expression": null,
+    "other_license_expression_spdx": null,
+    "other_license_detections": [],
+    "extracted_license_statement": null,
+    "notice_text": null,
+    "source_packages": [
+        "pkg:maven/org.apache.tuscany.sca/tuscany-implementation-java-xml@1.4?classifier=sources"
+    ],
+    "extra_data": {},
+    "dependencies": [
+        {
+            "purl": "pkg:maven/org.apache.tuscany.sca/tuscany-assembly-xml",
+            "extracted_requirement": "1.4",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.tuscany.sca/tuscany-interface-java-xml",
+            "extracted_requirement": "1.4",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.tuscany.sca/tuscany-implementation-java",
+            "extracted_requirement": "1.4",
+            "scope": "compile",
+            "is_runtime": true,
+            "is_optional": false,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.tuscany.sca/tuscany-contribution-impl",
+            "extracted_requirement": "1.4",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.tuscany.sca/tuscany-definitions",
+            "extracted_requirement": "1.4",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.tuscany.sca/tuscany-policy-xml",
+            "extracted_requirement": "1.4",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.tuscany.sca/tuscany-policy-xml-ws",
+            "extracted_requirement": "1.4",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.tuscany.sca/tuscany-definitions-xml",
+            "extracted_requirement": "1.4",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        },
+        {
+            "purl": "pkg:maven/org.apache.tuscany.sca/tuscany-binding-sca",
+            "extracted_requirement": "1.4",
+            "scope": "test",
+            "is_runtime": false,
+            "is_optional": true,
+            "is_pinned": false
+        }
+    ],
+    "package_uid": "pkg:maven/org.apache.tuscany.sca/tuscany-implementation-java-xml@1.4?uuid=85341de3-ebb2-4d06-9b5a-6e4068fa298d",
+    "datasource_id": null,
+    "purl": "pkg:maven/org.apache.tuscany.sca/tuscany-implementation-java-xml@1.4",
+    "repository_homepage_url": "https://repo1.maven.org/maven2/org/apache/tuscany/sca/tuscany-implementation-java-xml/1.4/",
+    "repository_download_url": "https://repo1.maven.org/maven2/org/apache/tuscany/sca/tuscany-implementation-java-xml/1.4/tuscany-implementation-java-xml-1.4.jar",
+    "api_data_url": "https://repo1.maven.org/maven2/org/apache/tuscany/sca/tuscany-implementation-java-xml/1.4/tuscany-implementation-java-xml-1.4.pom",
+    "file_references": []
+}
